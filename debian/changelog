@@ -1,0 +1,319 @@
+kpmcore (21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 17 Aug 2021 12:38:22 +0900
+
+kpmcore (21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Add myself to uploaders.
+  * Drop upstream patch.
+  * Bump so-level in accordance with upstream.
+  * Update symbols.
+  * Add missing breaks/replaces.
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 26 Apr 2021 08:33:25 +0900
+
+kpmcore (20.12.3-2) unstable; urgency=medium
+
+  * Backport upstream fix so that S.M.A.R.T. information display always works
+    whatever the disk state.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 22 Mar 2021 11:36:09 +0100
+
+kpmcore (20.12.3-1) unstable; urgency=medium
+
+  * New upstream release (20.12.3).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 08 Mar 2021 23:23:00 +0100
+
+kpmcore (20.12.2-4) unstable; urgency=medium
+
+  * Team upload.
+  * Drop unused build dependencies: libatasmart-dev, libkf5auth-dev,
+    libparted-dev, libqca-qt5-2-dev, and util-linux
+    - drop also the libatasmart-dev dependency in libkpmcore-dev
+    - drop also the libqca-qt5-2-plugins dependency in libkpmcore10
+  * Enable the build on any architecture (not only Linux ones), as it builds
+    fine now.
+  * Update symbols files from the logs of buildds.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 12 Feb 2021 22:15:58 +0100
+
+kpmcore (20.12.2-3) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols files from the logs of buildds.
+  * debian/copyright: use spaces rather than tabs to start continuation lines.
+  * Explicitly add the gettext build dependency.
+  * Add the missing libkpmcore10 dependency in libkpmcore-dev.
+  * Remove the old libkpmcore5, and libkpmcore6 breaks/replaces, as they
+    existed only in versions between Stretch and Buster.
+  * Do not ship kpmcore._policy_.mo files, as they are helper translations for
+    .policy files.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 12 Feb 2021 12:49:57 +0100
+
+kpmcore (20.12.2-2) unstable; urgency=medium
+
+  * Update symbols file for armel and risvc64 specificities.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 12 Feb 2021 09:50:47 +0100
+
+kpmcore (20.12.2-1) unstable; urgency=medium
+
+  * Update upstream GPG signing key.
+  * New upstream release (20.12.2).
+  * Git ignore generated debian/files.
+  * Add min versions to build dependencies according to the upstream build
+    system.
+  * Drop explicit call to dh_missing --fail-missing, it’s now the default with
+    debhelper-compat 13.
+  * Add symbols file.
+  * Drop breaks/replaces older than 2 stable releases.
+  * Add upstream metadata.
+  * Move maintainer and repos from extras to kde now that the app is part of
+    official KDE apps releases.
+  * Update project homepage.
+  * Add salsa-ci.yml pipeline file.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 08 Feb 2021 13:39:08 +0100
+
+kpmcore (20.12.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 12 Jan 2021 16:58:01 +0200
+
+kpmcore (20.12.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update watch file (kpmcore is now part of kde release service)
+  * Remove patches, now integrated upstream
+  * Update standards version to 4.5.1
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 22 Dec 2020 14:30:08 +0200
+
+kpmcore (4.2.0-2) unstable; urgency=medium
+
+  * Remove explicit dependency polkit-qt1 added in error
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 19 Oct 2020 11:35:48 +0200
+
+kpmcore (4.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump debhelper-compat to 13
+  * Add build-dep: libpolkit-qt5-1-dev
+  * Add binary-dep: polkit-qt1
+  * Add upstream signing key
+  * Add patch to provide local ecm functions
+  * Bump soname version to kpmcore10
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 16 Oct 2020 22:15:39 +0200
+
+kpmcore (4.1.0-2) unstable; urgency=medium
+
+  * Fix libkpmcore dependency
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 20 Feb 2020 10:51:08 +0200
+
+kpmcore (4.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.5.0
+  * Declare Rules-Requires-Root
+  * Update copyright years
+  * Bump soname version to kpmcore9
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 10 Feb 2020 09:18:41 +0200
+
+kpmcore (4.0.1-2) unstable; urgency=medium
+
+  [ Alf Gaida ]
+  * libqca-qt5-2-plugins is a dependency for libkpmcore8, not a build-dependency
+  * Added missed override_dh_missing
+  * Install missed directories to libkpmcore8
+    (Closes: #942522, #942528)
+  * Removed FindLIBPARTED.cmake from d/copyright - file isn't provided anymore
+
+  [ Jonathan Carter ]
+  * Upload to unstable
+
+ -- Alf Gaida <agaida@siduction.org>  Thu, 17 Oct 2019 17:30:09 +0200
+
+kpmcore (4.0.1-1) unstable; urgency=medium
+
+  * New upstream version
+  * Update standards version to 4.4.1
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 14 Oct 2019 09:04:09 +0000
+
+kpmcore (4.0.0-1~exp2) experimental; urgency=medium
+
+  * Override dh_autotest (dbus possibly can't work in chroot)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 23 Sep 2019 20:53:30 +0200
+
+kpmcore (4.0.0-1~exp1) experimental; urgency=medium
+
+  [ Jonathan Carter ]
+  * New upstream release
+  * Update standards version to 4.4.0
+  * Upgrade to debhelper-compat (=12)
+  * Remove luks1 patch (applied upstream)
+
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Add libqca-qt5-2-dev as a build dependency, required by the build system.
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 08 Jul 2019 09:08:30 +0000
+
+kpmcore (3.3.0-5) unstable; urgency=medium
+
+  * Use luks1 format only
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 06 Apr 2019 12:40:05 +0200
+
+kpmcore (3.3.0-4) unstable; urgency=medium
+
+  * Version bump (no changes)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 27 Nov 2018 09:54:56 +0200
+
+kpmcore (3.3.0-3) unstable; urgency=medium
+
+  * Remove build-dependencies that are no longed needed
+    - libkf5service-dev
+    - libkf5iconthemes-dev
+    - libkf5kio-de
+  * Add upstream signing key
+  * Add new required dependencies
+    - libqca-qt5-2-plugins
+  * Update standards version to 4.2.0
+  * Update Vcs to salsa.debian.org
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 09 Feb 2018 13:34:01 +0200
+
+kpmcore (3.3.0-2) unstable; urgency=medium
+
+  * Depend libkpmcore-dev on correct libkpmcore (Closes: #887874)
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 25 Jan 2018 14:23:36 +0200
+
+kpmcore (3.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.1.3
+    - Update to secure URI in debian/watch
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 08 Jan 2018 14:14:23 +0200
+
+kpmcore (3.2.1-3) unstable; urgency=medium
+
+  * Revert target architectures to linux-any
+    (Closes: #881497, #881031)
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 13 Nov 2017 09:29:00 +0200
+
+kpmcore (3.2.1-2) unstable; urgency=medium
+
+  * Update symbols file
+  * Remove builds for alpha, powerpcspe and m68k
+    (kde dependencies has never been available since inception
+     of this package)
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 04 Nov 2017 14:45:13 +0200
+
+kpmcore (3.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 03 Nov 2017 20:00:36 +0200
+
+kpmcore (3.2.0-2) unstable; urgency=medium
+
+  * Use versioned build-dep for libblkid-dev (Closes: #879025)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 25 Oct 2017 09:03:19 +0200
+
+kpmcore (3.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.1.1
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 06 Oct 2017 15:52:21 +0200
+
+kpmcore (3.1.2-2) unstable; urgency=medium
+
+  * Add corresponding breaks field for the replace field (Closes: #870435)
+  * Update maintainer email address
+  * Update standards version to 4.1.0.0
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 29 Aug 2017 09:45:05 +0200
+
+kpmcore (3.1.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Set standards version to 4.0.0
+  * Set architecture to linux-any
+  * Upload to unstable
+
+ -- Jonathan Carter <jcarter@linux.com>  Wed, 05 Jul 2017 15:52:07 +0200
+
+kpmcore (3.0.3-1) experimental; urgency=medium
+
+  * New upstream release
+  * Migrate from gitlab.com to git.debian.org
+  * Update debian/copyright
+
+ -- Jonathan Carter <jcarter@linux.com>  Wed, 22 Mar 2017 11:51:02 +0200
+
+kpmcore (3.0.2-2) unstable; urgency=medium
+
+  * Update symbols files (Fix FTBFS on i386)
+
+ -- Jonathan Carter <jcarter@linux.com>  Tue, 10 Jan 2017 18:49:36 +0200
+
+kpmcore (3.0.2-1) unstable; urgency=medium
+
+  [ Jonathan Carter ]
+  * New upstream release (Closes: #850788)
+
+  [ Scott Kitterman ]
+  * Update debian/copyright
+
+ -- Jonathan Carter <jcarter@linux.com>  Tue, 10 Jan 2017 09:50:02 +0200
+
+kpmcore (3.0.0-1) unstable; urgency=medium
+
+  [ Jonathan Carter ]
+  * New upstream release
+  * Remove unneeded dependency: libkf5kdelibs4support-dev
+  * Update watch file to use download.kde.org
+  * Make libkpmcore4-dev depend on libkpmcore4 (Closes: #847565)
+
+  [ Andrius Štikonas ]
+  * Update dependencies to match CMakeLists.txt
+
+  [ Scott Kitterman ]
+  * Update debian/copyright
+
+ -- Jonathan Carter <jcarter@linux.com>  Sun, 18 Dec 2016 10:30:42 +0200
+
+kpmcore (2.2.1-2) unstable; urgency=medium
+
+  * Upgrade compat to 10
+  * Update architectures to any
+  * Remove unneeded Replaces field
+  * Add copyright entry
+
+ -- Jonathan Carter <jcarter@linux.com>  Fri, 11 Nov 2016 16:18:58 +0200
+
+kpmcore (2.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: 810063)
+
+ -- Jonathan Carter <jcarter@linux.com>  Sat, 10 Sep 2016 19:46:04 +0200

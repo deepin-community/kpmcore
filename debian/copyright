@@ -1,0 +1,78 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kpmcore
+Source: https://invent.kde.org/system/kpmcore
+
+Files: *
+Copyright: 2013-2020 Andrius Štikonas <andrius@stikonas.eu>
+           2008-2012 Volker Lanz <vl@fidra.de>
+           2015-2016 Teo Mrnjavac <teo@kde.org>
+           2016 Chantara Tith <tith.chantara@gmail.com>
+License: GPL-3+
+
+Files: po/uk/kpmcore.po
+Copyright: 2015-2017, Yuri Chornoivan <yurchor@ukr.net>
+License: LGPL-2.1+
+
+Files: po/ca@valencia/kpmcore.po
+Copyright: 2009, 2010, Manuel Tortosa Moreno <manutortosa@gmail.com>
+           2009-2016, Josep Ma. Ferrer <txemaq@gmail.com>
+           2012-2017, Antoni Bella Pérez <antonibella5@yahoo.com>
+License: LGPL-2.1+
+
+Files: po/bg/kpmcore.po
+Copyright: 2009, Valeriy Voutov <valeriy.voutov@gmail.com>
+           2009-2011, Yasen Pramatarov <yasen@lindeas.com>
+           2009, сен Праматаров <yasen@lindeas.com>
+License: GPL-3+
+
+Files: po/ca/kpmcore.po
+Copyright: 2009, 2010, Manuel Tortosa Moreno <manutortosa@gmail.com>
+           2009-2016, Josep Ma. Ferrer <txemaq@gmail.com>
+           2012-2017, Antoni Bella Pérez <antonibella5@yahoo.com>
+License: LGPL-2.1+
+
+License: LGPL-2.1+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published by the
+ Free Software Foundation; version 2.1 of the License, or (at
+ your option) any later version.
+ .
+ On Debian systems, the complete text of version 2.1 of the GNU Lesser
+ General Public License can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems the full text of the GNU General Public License
+ version 3 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
+
+Files: debian/*
+Copyright: 2016-2020 Jonathan Carter <jcc@debian.org>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

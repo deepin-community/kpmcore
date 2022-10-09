@@ -1,0 +1,3 @@
+usr/include/kpmcore
+usr/lib/*/cmake/KPMcore
+usr/lib/*/libkpmcore.so

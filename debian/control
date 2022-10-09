@@ -1,0 +1,52 @@
+Source: kpmcore
+Section: libs
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Jonathan Carter <jcc@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.1~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.73~),
+               gettext,
+               libblkid-dev (>= 2.33.2),
+               libkf5coreaddons-dev (>= 5.73~),
+               libkf5i18n-dev (>= 5.73~),
+               libkf5widgetsaddons-dev (>= 5.73~),
+               libpolkit-qt5-1-dev,
+               pkg-config,
+               pkg-kde-tools,
+               qtbase5-dev (>= 5.14.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://invent.kde.org/system/kpmcore
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kpmcore
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kpmcore.git
+
+Package: libkpmcore11
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Replaces: libkpmcore10, libkpmcore4, libkpmcore7, libkpmcore8, libkpmcore9
+Breaks: libkpmcore10, libkpmcore4, libkpmcore7, libkpmcore8, libkpmcore9
+Description: KDE Partition Manager Core
+ KDE Parition Partition Manager Core (KPM core) allows
+ software to re-use common partitioning GUI tasks.
+ .
+ It is used in the generic system installer called Calamares
+ and may be used in more interfaces in the future. Right now it
+ is unlikely to be useful installed on its own.
+
+Package: libkpmcore-dev
+Section: libdevel
+Architecture: any
+Depends: libkpmcore11 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Replaces: libkpmcore4-dev
+Description: KDE Partition Manager Core development files
+ KDE Parition Partition Manager Core (KPM core) allows
+ software to re-use common partitioning GUI tasks.
+ .
+ It is used in the generic system installer called Calamares
+ and may be used in more interfaces in the future. Right now it
+ is unlikely to be useful installed on its own.
+ .
+ This package contains development files for kpmcore.
