@@ -1,3 +1,9 @@
+kpmcore (21.08.0.1-deepin1) unstable; urgency=medium
+
+  * Fix build on RISC-V
+
+ -- Clansty <i@gao4.pw>  Mon, 28 Nov 2022 14:44:52 +0800
+
 kpmcore (21.08.0-1) unstable; urgency=medium
 
   [ Norbert Preining ]

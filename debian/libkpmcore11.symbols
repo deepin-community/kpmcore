@@ -1395,8 +1395,8 @@ libkpmcore.so.11 libkpmcore11 #MINVER#
  (arch=armel riscv64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 20.12.2
  (arch=alpha amd64 arm64 armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el s390x sh4 sparc64)_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 20.12.2
  (arch=armel armhf)_ZTISt19_Sp_make_shared_tag@Base 20.12.2
- (arch=armel riscv64)_ZTISt23_Sp_counted_ptr_inplaceI11SmartStatusSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 20.12.2
  (arch=alpha amd64 arm64 armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el s390x sh4 sparc64)_ZTISt23_Sp_counted_ptr_inplaceI11SmartStatusSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 20.12.2
+ _ZTISt23_Sp_counted_ptr_inplaceI11SmartStatusSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 21.08.0-1
  _ZTS10DiskDevice@Base 20.12.2
  _ZTS10FileSystem@Base 20.12.2
  _ZTS10PartWidget@Base 20.12.2
@@ -1473,8 +1473,8 @@ libkpmcore.so.11 libkpmcore11 #MINVER#
  (arch=armel riscv64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE1EE@Base 20.12.2
  (arch=alpha amd64 arm64 armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el s390x sh4 sparc64)_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 20.12.2
  _ZTSSt19_Sp_make_shared_tag@Base 20.12.2
- (arch=armel riscv64)_ZTSSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 20.12.2
  (arch=alpha amd64 arm64 armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el s390x sh4 sparc64)_ZTSSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 20.12.2
+ _ZTSSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 21.08.0-1
  _ZTV10DiskDevice@Base 20.12.2
  _ZTV10FileSystem@Base 20.12.2
  _ZTV10PartWidget@Base 20.12.2
@@ -1545,8 +1545,8 @@ libkpmcore.so.11 libkpmcore11 #MINVER#
  _ZTVN2FS8reiserfsE@Base 20.12.2
  _ZTVN2FS9bitlockerE@Base 20.12.2
  _ZTVN2FS9linuxswapE@Base 20.12.2
- (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIS0_ELN9__gnu_cxx12_Lock_policyE1EE@Base 20.12.2
  (arch=alpha amd64 arm64 armhf hppa hurd-i386 i386 ia64 m68k mips64el mipsel powerpc ppc64 ppc64el s390x sh4 sparc64)_ZTVSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 20.12.2
+ _ZTVSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 21.08.0-1
  _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 20.12.2
  _ZZZN10KAboutDataC4ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_Ed_NKUlvE_clEvE15qstring_literal@Base 20.12.2
  _ZZZNK12NewOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 20.12.2
