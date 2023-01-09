@@ -1,3 +1,9 @@
+kpmcore (21.08.0-1deepin1) unstable; urgency=medium
+
+  * Update symbols for RISC-V GCC 12
+
+ -- Clansty <i@gao4.pw>  Mon, 09 Jan 2023 07:39:08 +0000
+
 kpmcore (21.08.0-1) unstable; urgency=medium
 
   [ Norbert Preining ]
