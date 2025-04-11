@@ -1,22 +1,22 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # wantoyo <wantoyo@yahoo.com>, 2014.
-# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019, 2020.
+# Wantoyo <wantoyek@gmail.com>, 2017, 2018, 2019, 2020, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2019-09-01 09:04+0700\n"
-"Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
-"Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
+"PO-Revision-Date: 2022-08-26 23:44+0700\n"
+"Last-Translator: Wantoyèk <wantoyek@gmail.com>\n"
+"Language-Team: https://t.me/Localizations_KDE_Indonesia\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.12.1\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -31,7 +31,7 @@ msgstr "wantoyo@yahoo.com"
 #: core/device.cpp:33
 #, kde-format
 msgid "Unknown Device"
-msgstr "Perangkat Tidak Diketahui"
+msgstr "Peranti Tidak Diketahui"
 
 #: core/device.cpp:82
 #, kde-kuit-format
@@ -156,7 +156,7 @@ msgstr "Mengubah label lagi untuk partisi yang sama: Membuang operasi lawas."
 msgctxt "@info:status"
 msgid "Creating new partition table, discarding previous operation on device."
 msgstr ""
-"Menciptakan tabel partisi baru, membuang operasi sebelumnya pada perangkat."
+"Menciptakan tabel partisi baru, membuang operasi sebelumnya pada peranti."
 
 #: core/operationstack.cpp:395
 #, kde-kuit-format
@@ -1557,193 +1557,193 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "Mengeset label untuk partisi <filename>%1</filename> ke %2"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "tidak diketahui"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "extended"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "tidak terformat"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks2"
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat12"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr "linux_raid_member"
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, fuzzy, kde-kuit-format
 #| msgctxt "@title:menu"
 #| msgid "Lock"
@@ -1751,25 +1751,25 @@ msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr "Kunci"
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr ""
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr ""
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "Kait"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1815,13 +1815,13 @@ msgstr ""
 "Mengubah ukuran sistem file JFS pada partisi <filename>%1</filename>, gagal: "
 "Inisial kait, gagal."
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr "Aktifkan swap"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1899,7 +1899,7 @@ msgstr ""
 "Mengubah-ukuran sistem file NILFS2 pada partisi <filename>%1</filename>, "
 "gagal: Inisial kait, gagal."
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1909,7 +1909,7 @@ msgstr ""
 "Memperbarui sektor boot untuk sistem file NTFS pada partisi <filename>%1</"
 "filename>."
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1919,7 +1919,7 @@ msgstr ""
 "Tidak bisa menulis sektor awal baru untuk partisi <filename>%1</filename> "
 "ketika mencoba memperbarui sektor boot NTFS."
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1993,6 +1993,14 @@ msgstr ""
 "Cadangkan sistem file pada partisi <filename>%1</filename> ke <filename>%2</"
 "filename>"
 
+#: jobs/changepermissionsjob.cpp:43
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "Set label untuk partisi <filename>%1</filename> ke \"%2\""
+
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
@@ -2038,8 +2046,8 @@ msgid ""
 "Closing device. This may take a while, especially on slow devices like "
 "Memory Sticks."
 msgstr ""
-"Menutup perangkat. Mungkin ini memakan beberapa waktu, terutama pada "
-"perangkat lambat seperti Memory Sticks."
+"Menutup peranti. Mungkin ini memakan beberapa waktu, terutama pada peranti "
+"lambat seperti Memory Sticks."
 
 #: jobs/copyfilesystemjob.cpp:88
 #, kde-kuit-format
@@ -2068,8 +2076,8 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "system type for partition <filename>%2</filename>."
 msgstr ""
-"Tidak bisa membuka tabel partisi pada perangkat <filename>%1</filename> "
-"untuk mengeset tipe sistem untuk partisi <filename>%2</filename>."
+"Tidak bisa membuka tabel partisi pada peranti <filename>%1</filename> untuk "
+"mengeset tipe sistem untuk partisi <filename>%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:70
 #, kde-kuit-format
@@ -2078,7 +2086,7 @@ msgid ""
 "Could not open device <filename>%1</filename> to set the system type for "
 "partition <filename>%2</filename>."
 msgstr ""
-"Tidak bisa membuka perangkat <filename>%1</filename> untuk mengeset tipe "
+"Tidak bisa membuka peranti <filename>%1</filename> untuk mengeset tipe "
 "sistem untuk partisi <filename>%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:84
@@ -2098,7 +2106,7 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
-"Gagal menambahkan partisi <filename>%1</filename> untuk perangkat <filename>"
+"Gagal menambahkan partisi <filename>%1</filename> untuk peranti <filename>"
 "%2</filename>."
 
 #: jobs/createpartitionjob.cpp:74
@@ -2108,8 +2116,8 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to create "
 "new partition <filename>%2</filename>."
 msgstr ""
-"Tidak bisa membuka tabel partisi pada perangkat <filename>%1</filename> "
-"untuk menciptakan partisi <filename>%2</filename> baru."
+"Tidak bisa membuka tabel partisi pada peranti <filename>%1</filename> untuk "
+"menciptakan partisi <filename>%2</filename> baru."
 
 #: jobs/createpartitionjob.cpp:76
 #, kde-kuit-format
@@ -2118,8 +2126,8 @@ msgid ""
 "Could not open device <filename>%1</filename> to create new partition "
 "<filename>%2</filename>."
 msgstr ""
-"Tidak bisa membuka perangkat <filename>%1</filename> untuk menciptakan "
-"partisi <filename>%2</filename> baru."
+"Tidak bisa membuka peranti <filename>%1</filename> untuk menciptakan partisi "
+"<filename>%2</filename> baru."
 
 #: jobs/createpartitionjob.cpp:94
 #, kde-kuit-format
@@ -2131,7 +2139,7 @@ msgstr "Ciptakan partisi <filename>%1</filename> baru"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
-msgstr "Ciptakan partisi baru pada perangkat <filename>%1</filename>"
+msgstr "Ciptakan partisi baru pada peranti <filename>%1</filename>"
 
 #: jobs/createpartitiontablejob.cpp:49
 #, kde-kuit-format
@@ -2140,14 +2148,14 @@ msgid ""
 "Creating partition table failed: Could not open device <filename>%1</"
 "filename>."
 msgstr ""
-"Menciptakan tabel partisi, gagal: Tidak dapat membuka perangkat <filename>"
-"%1</filename>."
+"Menciptakan tabel partisi, gagal: Tidak dapat membuka peranti <filename>%1</"
+"filename>."
 
 #: jobs/createpartitiontablejob.cpp:61
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition table on device <filename>%1</filename>"
-msgstr "Ciptakan tabel partisi baru pada perangkat <filename>%1</filename>"
+msgstr "Ciptakan tabel partisi baru pada peranti <filename>%1</filename>"
 
 #: jobs/createvolumegroupjob.cpp:49
 #, kde-kuit-format
@@ -2191,8 +2199,8 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
 "file system on <filename>%2</filename>."
 msgstr ""
-"Tidak bisa membuka tabel partisi pada perangkat <filename>%1</filename> "
-"untuk menghapus sistem file pada <filename>%2</filename>."
+"Tidak bisa membuka tabel partisi pada peranti <filename>%1</filename> untuk "
+"menghapus sistem file pada <filename>%2</filename>."
 
 #: jobs/deletefilesystemjob.cpp:83
 #, kde-kuit-format
@@ -2202,7 +2210,7 @@ msgid ""
 "filename>: Failed to open device <filename>%2</filename>."
 msgstr ""
 "Tidak dapat menghapus tandatangan sistem file untuk partisi <filename>%1</"
-"filename>: Gagal membuka perangkat <filename>%2</filename>."
+"filename>: Gagal membuka peranti <filename>%2</filename>."
 
 #: jobs/deletefilesystemjob.cpp:93
 #, kde-kuit-format
@@ -2223,8 +2231,8 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
 "partition <filename>%2</filename>."
 msgstr ""
-"Tidak bisa membuka tabel partisi pada perangkat <filename>%1</filename> "
-"untuk menghapus partisi <filename>%2</filename>."
+"Tidak bisa membuka tabel partisi pada peranti <filename>%1</filename> untuk "
+"menghapus partisi <filename>%2</filename>."
 
 #: jobs/deletepartitionjob.cpp:67
 #, kde-kuit-format
@@ -2232,7 +2240,7 @@ msgctxt "@info:progress"
 msgid ""
 "Deleting partition failed: Could not open device <filename>%1</filename>."
 msgstr ""
-"Menghapus partisi, gagal: Tidak dapat membuka perangkat <filename>%1</"
+"Menghapus partisi, gagal: Tidak dapat membuka peranti <filename>%1</"
 "filename>."
 
 #: jobs/deletepartitionjob.cpp:80
@@ -2266,14 +2274,14 @@ msgstr "Perpulihan ke: Bita pertama: %1, bita terakhir: %2."
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to rollback copying."
 msgstr ""
-"Tidak bisa membuka perangkat <filename>%1</filename> untuk perpulihan "
+"Tidak bisa membuka peranti <filename>%1</filename> untuk perpulihan "
 "penyalinan."
 
 #: jobs/job.cpp:86
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback failed: Source or target are not devices."
-msgstr "Perpulihan, gagal: Sumber atau sasaran bukanlah perangkat."
+msgstr "Perpulihan, gagal: Sumber atau sasaran bukanlah peranti."
 
 #: jobs/job.cpp:106
 #, kde-kuit-format
@@ -2336,7 +2344,7 @@ msgstr ""
 #, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
-msgstr "Mengeluarkan perangkat. Mungkin ini memakan beberapa detik."
+msgstr "Mengeluarkan peranti. Mungkin ini memakan beberapa detik."
 
 #: jobs/movefilesystemjob.cpp:79
 #, kde-kuit-format
@@ -2533,8 +2541,8 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set "
 "partition flags for partition <filename>%2</filename>."
 msgstr ""
-"Tidak dapat membuka tabel partisi pada perangkat <filename>%1</filename> "
-"untuk mengeset bendera partisi terhadap partisi <filename>%2</filename>."
+"Tidak dapat membuka tabel partisi pada peranti <filename>%1</filename> untuk "
+"mengeset bendera partisi terhadap partisi <filename>%2</filename>."
 
 #: jobs/setpartflagsjob.cpp:76
 #, kde-kuit-format
@@ -2543,7 +2551,7 @@ msgid ""
 "Could not open device <filename>%1</filename> to set partition flags for "
 "partition <filename>%2</filename>."
 msgstr ""
-"Tidak dapat membuka perangkat <filename>%1</filename> untuk mengeset bendera "
+"Tidak dapat membuka peranti <filename>%1</filename> untuk mengeset bendera "
 "partisi terhadap partisi <filename>%2</filename>."
 
 #: jobs/setpartflagsjob.cpp:89
@@ -2565,7 +2573,7 @@ msgid ""
 "Could not open device <filename>%1</filename> while trying to resize/move "
 "partition <filename>%2</filename>."
 msgstr ""
-"Tidak dapat membuka perangkat <filename>%1</filename> selagi mencoba untuk "
+"Tidak dapat membuka peranti <filename>%1</filename> selagi mencoba untuk "
 "mengubah-ukuran/memindah partisi <filename>%2</filename>."
 
 #: jobs/setpartgeometryjob.cpp:81
@@ -2860,7 +2868,7 @@ msgstr ""
 "Penyalinan partisi <filename>%1</filename> (%2, %3) ke ruang tak-teralokasi "
 "(bermulai di %4) pada <filename>%5</filename> dan menumbuhkannya ke %6"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
@@ -2897,7 +2905,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "Penghapusan partisi <filename>%1</filename> (%2, %3)"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
@@ -3187,7 +3195,7 @@ msgstr "Set bendera untuk partisi <filename>%1</filename> ke \"%2\""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr "Ditemukan Perangkat Lunak Perangkat RAID: %1"
+msgstr "Ditemukan Peranti Lunak Peranti RAID: %1"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:249
 #, kde-kuit-format
@@ -3211,7 +3219,7 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
-"Gagal menambahkan partisi <filename>%1</filename> ke perangkat <filename>%2</"
+"Gagal menambahkan partisi <filename>%1</filename> ke peranti <filename>%2</"
 "filename>."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:114
@@ -3239,7 +3247,7 @@ msgid ""
 "Could not determine file system of partition at sector %1 on device "
 "<filename>%2</filename>."
 msgstr ""
-"Tidak dapat menentukan sistem file partisi di sektor %1 pada perangkat "
+"Tidak dapat menentukan sistem file partisi di sektor %1 pada peranti "
 "<filename>%2</filename>."
 
 #: util/capacity.cpp:100
@@ -3305,93 +3313,101 @@ msgid "(unknown unit)"
 msgstr "(unit takdiketahui)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "Perintah: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
+#: util/externalcommandhelper.cpp:82
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr "Tidak dapat membuka perangkat <filename>%1</filename> untuk pembacaan."
+msgstr "Tidak dapat membuka peranti <filename>%1</filename> untuk pembacaan."
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
 #, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr ""
-"Tidak dapat menjangka posisi %1 pada perangkat <filename>%2</filename>."
+msgstr "Tidak dapat menjangka posisi %1 pada peranti <filename>%2</filename>."
 
-#: util/externalcommandhelper.cpp:91
+#: util/externalcommandhelper.cpp:96
 #, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr "Tidak dapat membaca dari perangkat <filename>%1</filename>."
+msgstr "Tidak dapat membaca dari peranti <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:110
+#: util/externalcommandhelper.cpp:114
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr "Tidak dapat membuka perangkat <filename>%1</filename> untuk penulisan."
+msgstr "Tidak dapat membuka peranti <filename>%1</filename> untuk penulisan."
 
-#: util/externalcommandhelper.cpp:120
+#: util/externalcommandhelper.cpp:125
 #, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr "Tidak dapat menulis ke perangkat <filename>%1</filename>."
+msgstr "Tidak dapat menulis ke peranti <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:145
+#: util/externalcommandhelper.cpp:151
 #, fuzzy, kde-kuit-format
 #| msgid "Could not open device <filename>%1</filename> for writing."
 msgid "Could not open file <filename>%1</filename> for writing."
 msgstr "Tidak dapat membuka perangkat <filename>%1</filename> untuk penulisan."
 
-#: util/externalcommandhelper.cpp:150
+#: util/externalcommandhelper.cpp:156
 #, fuzzy, kde-kuit-format
 #| msgid "Could not write to device <filename>%1</filename>."
 msgid "Could not write to file <filename>%1</filename>."
 msgstr "Tidak dapat menulis ke perangkat <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:216
-#, kde-kuit-format
+#: util/externalcommandhelper.cpp:237
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
 msgstr "Menyalin %1 blok (%2 byte) dari %3 ke %4, tujuan: %5."
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
 msgstr "kiri"
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
 msgstr "kanan"
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr "Menyalin %1 MiB/detik, diperkirakan waktu tinggal: %2"
 
-#: util/externalcommandhelper.cpp:251
-#, kde-kuit-format
+#: util/externalcommandhelper.cpp:274
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid "Copying remainder of block size %1 from %2 to %3."
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
 msgstr "Menyalin sisa ukuran blok %1 dari %2 ke %3."
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
 msgstr[0] "1 byte"
 msgstr[1] "%1 byte"
 
-#: util/externalcommandhelper.cpp:265
-#, kde-kuit-format
+#: util/externalcommandhelper.cpp:288
+#, fuzzy, kde-kuit-format
+#| msgctxt ""
+#| "@info:progress argument 2 is a string such as 7 bytes (localized "
+#| "accordingly)"
+#| msgid "Copying 1 block (%2) finished."
+#| msgid_plural "Copying %1 blocks (%2) finished."
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] "Penyalinan 1 blok (%2) terselesaikan."
 msgstr[1] "Penyalinan %1 blok (%2) terselesaikan."
 
@@ -3412,7 +3428,7 @@ msgstr "Pustaka untuk pengelolaan partisi"
 #| msgctxt "@info:credit"
 #| msgid "&copy; 2008-2018 KPMcore developers"
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
+msgid "&copy; 2008-2022 KPMcore developers"
 msgstr "&copy; 2008-2018 Developer KPMcore"
 
 #: util/helpers.cpp:56

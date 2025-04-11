@@ -3,31 +3,29 @@ Section: libs
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Aurélien COUDERC <coucouf@debian.org>,
-           Jonathan Carter <jcc@debian.org>,
-           Norbert Preining <norbert@preining.info>,
-Build-Depends: cmake (>= 3.1~),
+Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.73~),
+               extra-cmake-modules (>= 5.90~),
                gettext,
                libblkid-dev (>= 2.33.2),
-               libkf5coreaddons-dev (>= 5.73~),
-               libkf5i18n-dev (>= 5.73~),
-               libkf5widgetsaddons-dev (>= 5.73~),
+               libkf5coreaddons-dev (>= 5.90~),
+               libkf5i18n-dev (>= 5.90~),
+               libkf5widgetsaddons-dev (>= 5.90~),
                libpolkit-qt5-1-dev,
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev (>= 5.14.0~),
-Standards-Version: 4.5.1
+               qtbase5-dev (>= 5.15.2~),
+Standards-Version: 4.6.2
 Rules-Requires-Root: no
 Homepage: https://invent.kde.org/system/kpmcore
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kpmcore
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kpmcore.git
 
-Package: libkpmcore11
+Package: libkpmcore12
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkpmcore10, libkpmcore4, libkpmcore7, libkpmcore8, libkpmcore9
-Breaks: libkpmcore10, libkpmcore4, libkpmcore7, libkpmcore8, libkpmcore9
+Depends: ${misc:Depends}, ${shlibs:Depends},
+Replaces: libkmpcore11, libkpmcore10, libkpmcore9,
+Breaks: libkpmcore10, libkpmcore11, libkpmcore9,
 Description: KDE Partition Manager Core
  KDE Parition Partition Manager Core (KPM core) allows
  software to re-use common partitioning GUI tasks.
@@ -39,8 +37,8 @@ Description: KDE Partition Manager Core
 Package: libkpmcore-dev
 Section: libdevel
 Architecture: any
-Depends: libkpmcore11 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkpmcore4-dev
+Depends: libkpmcore12 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends},
+Multi-Arch: same
 Description: KDE Partition Manager Core development files
  KDE Parition Partition Manager Core (KPM core) allows
  software to re-use common partitioning GUI tasks.

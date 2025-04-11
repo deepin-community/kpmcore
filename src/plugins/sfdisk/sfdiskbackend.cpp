@@ -47,7 +47,7 @@
 #include <KLocalizedString>
 #include <KPluginFactory>
 
-K_PLUGIN_FACTORY_WITH_JSON(SfdiskBackendFactory, "pmsfdiskbackendplugin.json", registerPlugin<SfdiskBackend>();)
+K_PLUGIN_CLASS_WITH_JSON(SfdiskBackend, "pmsfdiskbackendplugin.json")
 
 SfdiskBackend::SfdiskBackend(QObject*, const QList<QVariant>&) :
     CoreBackend()
@@ -451,7 +451,8 @@ bool SfdiskBackend::updateDevicePartitionTable(Device &d, const QJsonObject &jso
         // Read the maximum number of GPT partitions
         qint32 maxEntries;
         QByteArray gptHeader;
-        CopySourceDevice source(d, 512, 1023);
+        qint64 sectorSize = d.logicalSize();
+        CopySourceDevice source(d, sectorSize, sectorSize * 2 - 1);
 
         ExternalCommand readCmd;
         gptHeader = readCmd.readData(source);

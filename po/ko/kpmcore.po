@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
-# Shinjo Park <kde@peremen.name>, 2016, 2017, 2018, 2019, 2020, 2021.
+# Shinjo Park <kde@peremen.name>, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2021-05-16 21:58+0200\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
+"PO-Revision-Date: 2022-05-15 22:36+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
 "Language: ko\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 20.12.3\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -1518,217 +1518,217 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "파티션 <filename>%1</filename>의 레이블을 %2(으)로 설정하는 중"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "알 수 없음"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "확장됨"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "포맷되지 않음"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks2"
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat12"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr "linux_raid_member"
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr "BitLocker"
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr "apfs"
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr "minix"
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "마운트"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1774,13 +1774,13 @@ msgstr ""
 "파티션 <filename>%1</filename>에 있는 JFS 파일 시스템의 크기를 조정할 수 없"
 "음: 첫 마운트가 실패했습니다."
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr "스왑 영역 활성화"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1860,7 +1860,7 @@ msgstr ""
 "파티션 <filename>%1</filename>에 있는 NILFS2 파일 시스템의 크기를 조정할 수 "
 "없음: 첫 마운트가 실패했습니다."
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1868,7 +1868,7 @@ msgid ""
 "filename>."
 msgstr "파티션 <filename>%1</filename>의 NTFS 부트 섹터를 업데이트합니다."
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1878,7 +1878,7 @@ msgstr ""
 "NTFS 부트 섹터를 업데이트하는 중 파티션 <filename>%1</filename>의 새 시작 섹"
 "터를 기록할 수 없습니다."
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1949,6 +1949,12 @@ msgstr ""
 "파티션 <filename>%1</filename>의 파일 시스템을 <filename>%2</filename>(으)로 "
 "백업"
 
+#: jobs/changepermissionsjob.cpp:43
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "<filename>%1</filename>의 권한을 %2(으)로 설정"
+
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
@@ -2016,8 +2022,8 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "system type for partition <filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 시스템 형식을 설정하려고 장치 <filename>%1</"
-"filename>의 파티션 테이블을 열 수 없습니다."
+"파티션 <filename>%2</filename>의 시스템 형식을 설정할 수 있도록 장치 "
+"<filename>%1</filename>의 파티션 테이블을 열 수 없습니다."
 
 #: jobs/createfilesystemjob.cpp:70
 #, kde-kuit-format
@@ -2026,8 +2032,8 @@ msgid ""
 "Could not open device <filename>%1</filename> to set the system type for "
 "partition <filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 시스템 형식을 설정하려고 장치 <filename>%1</"
-"filename>을(를) 열 수 없습니다."
+"파티션 <filename>%2</filename>의 시스템 형식을 설정할 수 있도록 장치 "
+"<filename>%1</filename>을(를) 열 수 없습니다."
 
 #: jobs/createfilesystemjob.cpp:84
 #, kde-kuit-format
@@ -2525,7 +2531,7 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "attributes for the partition <filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 속성을 설정하려고 장치 <filename>%1</"
+"파티션 <filename>%2</filename>의 속성을 설정할 수 있도록 장치 <filename>%1</"
 "filename>의 파티션 테이블을 열 수 없습니다."
 
 #: jobs/setpartitionattributesjob.cpp:63
@@ -2535,7 +2541,7 @@ msgid ""
 "Could not open device <filename>%1</filename> to set the attributes for "
 "partition <filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 속성을 설정하려고 장치 <filename>%1</"
+"파티션 <filename>%2</filename>의 속성을 설정할 수 있도록 장치 <filename>%1</"
 "filename>을(를) 열 수 없습니다."
 
 #: jobs/setpartitionattributesjob.cpp:74
@@ -2567,7 +2573,7 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "name for the partition <filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 이름을 설정하려고 장치 <filename>%1</"
+"파티션 <filename>%2</filename>의 이름을 설정할 수 있도록 장치 <filename>%1</"
 "filename>의 파티션 테이블을 열 수 없습니다."
 
 #: jobs/setpartitionlabeljob.cpp:63
@@ -2577,7 +2583,7 @@ msgid ""
 "Could not open device <filename>%1</filename> to set the name for partition "
 "<filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 이름을 설정하려고 장치 <filename>%1</"
+"파티션 <filename>%2</filename>의 이름을 설정할 수 있도록 장치 <filename>%1</"
 "filename>을(를) 열 수 없습니다."
 
 #: jobs/setpartitionlabeljob.cpp:74
@@ -2609,7 +2615,7 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "UUID for the partition <filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 UUID를 설정하려고 장치 <filename>%1</"
+"파티션 <filename>%2</filename>의 UUID를 설정할 수 있도록 장치 <filename>%1</"
 "filename>의 파티션 테이블을 열 수 없습니다."
 
 #: jobs/setpartitionuuidjob.cpp:63
@@ -2619,7 +2625,7 @@ msgid ""
 "Could not open device <filename>%1</filename> to set the UUID for partition "
 "<filename>%2</filename>."
 msgstr ""
-"파티션 <filename>%2</filename>의 UUID를 설정하려고 장치 <filename>%1</"
+"파티션 <filename>%2</filename>의 UUID를 설정할 수 있도록 장치 <filename>%1</"
 "filename>을(를) 열 수 없습니다."
 
 #: jobs/setpartitionuuidjob.cpp:74
@@ -2736,7 +2742,7 @@ msgstr ""
 "파티션 <filename>%1</filename>(%2, %3)을(를) <filename>%5</filename>의 할당되"
 "지 않은 공간(%4에서 시작)에 복사한 다음 %6(으)로 확대"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
@@ -2772,7 +2778,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "파티션 <filename>%1</filename> 삭제(%2, %3)"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
@@ -2923,8 +2929,8 @@ msgid ""
 "Resize/move failed: Could not resize file system to shrink partition "
 "<filename>%1</filename>."
 msgstr ""
-"크기 조정/이동 실패: 파티션 <filename>%1</filename>의 크기를 축소하려고 파일 "
-"시스템의 크기를 축소할 수 없습니다."
+"크기 조정/이동 실패: 파티션 <filename>%1</filename>의 크기를 축소할 수 있도"
+"록 파일 시스템의 크기를 축소할 수 없습니다."
 
 #: ops/resizeoperation.cpp:263
 #, kde-kuit-format
@@ -3168,90 +3174,90 @@ msgid "(unknown unit)"
 msgstr "(알 수 없는 단위)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "명령: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
+#: util/externalcommandhelper.cpp:82
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
 msgstr "장치 <filename>%1</filename>에서 읽으려고 열 수 없습니다."
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
 #, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
 msgstr "장치 <filename>%2</filename>의 %1 위치로 이동할 수 없습니다."
 
-#: util/externalcommandhelper.cpp:91
+#: util/externalcommandhelper.cpp:96
 #, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
 msgstr "장치 <filename>%1</filename>에서 읽을 수 없습니다."
 
-#: util/externalcommandhelper.cpp:110
+#: util/externalcommandhelper.cpp:114
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
 msgstr "장치 <filename>%1</filename>에 쓰려고 열 수 없습니다."
 
-#: util/externalcommandhelper.cpp:120
+#: util/externalcommandhelper.cpp:125
 #, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
 msgstr "장치 <filename>%1</filename>에 쓸 수 없습니다."
 
-#: util/externalcommandhelper.cpp:145
+#: util/externalcommandhelper.cpp:151
 #, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
 msgstr "파일 <filename>%1</filename>에 쓰려고 열 수 없습니다."
 
-#: util/externalcommandhelper.cpp:150
+#: util/externalcommandhelper.cpp:156
 #, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
 msgstr "파일 <filename>%1</filename>에 쓸 수 없습니다."
 
-#: util/externalcommandhelper.cpp:216
+#: util/externalcommandhelper.cpp:237
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr "%1블록(%2바이트)을 %3에서 %4(으)로 복사 중, 방향: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
+msgstr "%1조각(%2바이트)을 %3에서 %4(으)로 복사 중, 방향: %5."
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
 msgstr "왼쪽"
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
 msgstr "오른쪽"
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr "%1MiB/초로 복사 중, 예상된 남은 시간: %2"
 
-#: util/externalcommandhelper.cpp:251
+#: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
-msgstr "블록 크기 %1의 나머지를 %2에서 %3(으)로 복사합니다."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
+msgstr "조각 크기 %1의 나머지를 %2에서 %3(으)로 복사합니다."
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
 msgstr[0] "%1바이트"
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
-msgstr[0] "%1블록(%2)을 복사했습니다."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
+msgstr[0] "%1조각(%2)을 복사했습니다."
 
 #: util/helpers.cpp:49
 #, kde-kuit-format
@@ -3268,8 +3274,8 @@ msgstr "파티션 관리 라이브러리"
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
-msgstr "&copy; 2008-2020 KPMcore developers"
+msgid "&copy; 2008-2022 KPMcore developers"
+msgstr "&copy; 2008-2022 KPMcore developers"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format

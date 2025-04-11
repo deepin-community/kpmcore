@@ -9,6 +9,7 @@
 #define KPMCORE_EXTERNALCOMMAND_WHITELIST_H
 
 #include <unordered_set>
+#include "util/externalcommand_trustedprefixes.h"
 
 const std::unordered_set<QString> allowedCommands {
 // TODO no root needed
@@ -18,6 +19,7 @@ QStringLiteral("udevadm"),
 //Core programs
 QStringLiteral("blockdev"),
 QStringLiteral("blkid"),
+QStringLiteral("chmod"),
 QStringLiteral("partx"),
 QStringLiteral("sfdisk"),
 QStringLiteral("wipefs"),
@@ -74,6 +76,7 @@ QStringLiteral("nilfs-resize"),
 QStringLiteral("ntfsresize"),
 QStringLiteral("mkfs.ntfs"),
 QStringLiteral("ntfsclone"),
+QStringLiteral("ntfsinfo"),
 QStringLiteral("ntfslabel"),
 QStringLiteral("fsck.ocfs2"),
 QStringLiteral("mkfs.ocfs2"),

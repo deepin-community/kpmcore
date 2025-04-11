@@ -160,7 +160,7 @@ bool ExternalCommand::copyBlocks(const CopySource& source, CopyTarget& target)
     connect(interface, &OrgKdeKpmcoreExternalcommandInterface::progress, this, &ExternalCommand::progress);
     connect(interface, &OrgKdeKpmcoreExternalcommandInterface::report, this, &ExternalCommand::reportSignal);
 
-    QDBusPendingCall pcall = interface->CopyBlocks(source.path(), source.firstByte(), source.length(),
+    QDBusPendingCall pcall = interface->CopyFileData(source.path(), source.firstByte(), source.length(),
                                                    target.path(), target.firstByte(), blockSize);
 
     QDBusPendingCallWatcher *watcher = new QDBusPendingCallWatcher(pcall, this);
@@ -193,7 +193,9 @@ QByteArray ExternalCommand::readData(const CopySourceDevice& source)
     if (!interface)
         return {};
 
-    QDBusPendingCall pcall = interface->ReadData(source.path(), source.firstByte(), source.length());
+    // Helper is restricted not to resolve symlinks
+    QFileInfo sourceInfo(source.path());
+    QDBusPendingCall pcall = interface->ReadData(sourceInfo.canonicalFilePath(), source.firstByte(), source.length());
 
     QDBusPendingCallWatcher *watcher = new QDBusPendingCallWatcher(pcall, this);
 
@@ -231,13 +233,13 @@ bool ExternalCommand::writeData(Report& commandReport, const QByteArray& buffer,
     return waitForDbusReply(pcall);
 }
 
-bool ExternalCommand::createFile(const QByteArray& fileContents, const QString& filePath)
+bool ExternalCommand::writeFstab(const QByteArray& fileContents)
 {
     auto interface = helperInterface();
     if (!interface)
         return false;
 
-    QDBusPendingCall pcall = interface->CreateFile(filePath, fileContents);
+    QDBusPendingCall pcall = interface->WriteFstab(fileContents);
     return waitForDbusReply(pcall);
 }
 

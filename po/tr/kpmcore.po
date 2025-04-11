@@ -6,30 +6,31 @@
 # obsoleteman <tulliana@gmail.com>, 2008-2010,2012.
 # Volkan Gezer <volkangezer@gmail.com>, 2013-2014, 2015.
 # Kaan Ozdincer <kaanozdincer@gmail.com>, 2014.
+# Emir SARI <emir_sari@icloud.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: extragear-sysadmin-kde4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2017-10-23 09:02+0000\n"
-"Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
+"PO-Revision-Date: 2022-12-11 20:13+0300\n"
+"Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Serdar Soytetir, Volkan Gezer"
+msgstr "Serdar Soytetir, Volkan Gezer, Emir SARI"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "tulliana@gmail.com, volkangezer@gmail.com"
+msgstr "tulliana@gmail.com, volkangezer@gmail.com, emir_sari@icloud.com"
 
 #: core/device.cpp:33
 #, kde-format
@@ -46,7 +47,7 @@ msgstr "%1 – %2 (%3)"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "An error occurred while running lvdisplay."
-msgstr ""
+msgstr "lvdisplay çalışırken bir hata oluştu."
 
 #: core/operationstack.cpp:101
 #, kde-kuit-format
@@ -98,8 +99,8 @@ msgid ""
 "Checking file systems is automatically done when creating them: No new "
 "operation required."
 msgstr ""
-"Dosya sistemleri oluşturulduğunda otomatik olarak kontrol ediliyor: Yeni "
-"işlem yapmak gerekmiyor."
+"Dosya sistemleri oluşturulduğunda otomatik olarak denetleniyor: Yeni işlem "
+"yapmak gerekmiyor."
 
 #: core/operationstack.cpp:233
 #, kde-kuit-format
@@ -210,8 +211,8 @@ msgid ""
 "Partition <filename>%1</filename> is not properly aligned (first sector: %2, "
 "modulo: %3)."
 msgstr ""
-"<filename>%1</filename> disk bölümü doğru bir şekilde yerleştirilmemiş (ilk "
-"dilim: %2, bölme işleminden kalan: %3)."
+"<filename>%1</filename> disk bölümü, düzgünce hizalanmamış (ilk sektör: %2, "
+"modül: %3)."
 
 #: core/partitionalignment.cpp:83
 #, kde-kuit-format
@@ -220,8 +221,8 @@ msgid ""
 "Partition <filename>%1</filename> is not properly aligned (last sector: %2, "
 "modulo: %3)."
 msgstr ""
-"<filename>%1</filename> disk bölümü doğru bir şekilde yerleştirilmemiş (son "
-"dilim: %2, bölme işleminden kalan: %3)."
+"<filename>%1</filename> disk bölümü, düzgünce hizalanmamış (son sektör: %2, "
+"modül: %3)."
 
 #: core/partitionrole.cpp:17
 #, kde-kuit-format
@@ -269,19 +270,19 @@ msgstr "hiçbiri"
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "boot"
-msgstr "boot"
+msgstr "önyükleme"
 
 #: core/partitiontable.cpp:182
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "root"
-msgstr "root"
+msgstr "kök"
 
 #: core/partitiontable.cpp:184
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "swap"
-msgstr "swap"
+msgstr "takas"
 
 #: core/partitiontable.cpp:186
 #, kde-kuit-format
@@ -353,7 +354,7 @@ msgstr "diag"
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "legacy-boot"
-msgstr "legacy-boot"
+msgstr "eski-önyükleme"
 
 #: core/partitiontable.cpp:210
 #, kde-kuit-format
@@ -377,19 +378,19 @@ msgstr "bilinmeyen"
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level]"
 msgid " [RAID %1]"
-msgstr ""
+msgstr " [RAID %1]"
 
 #: core/raid/softwareraid.cpp:95
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Recovering]"
 msgid " [RAID %1 - Recovering]"
-msgstr ""
+msgstr " [RAID %1 - Kurtarılıyor]"
 
 #: core/raid/softwareraid.cpp:97
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Resyncing]"
 msgid " [RAID %1 - Resyncing]"
-msgstr ""
+msgstr " [RAID %1 - Yeniden Eşzamanlanıyor]"
 
 #: core/smartattribute.cpp:45
 #, kde-kuit-format
@@ -426,8 +427,8 @@ msgstr "N/A"
 msgctxt "@item:intable"
 msgid "%1 sector"
 msgid_plural "%1 sectors"
-msgstr[0] "%1 dilim"
-msgstr[1] "%1 dilim"
+msgstr[0] "%1 sektör"
+msgstr[1] "%1 sektör"
 
 #: core/smartattribute.cpp:101
 #, kde-format
@@ -476,7 +477,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Start/Stop Count"
-msgstr "Başlama/Bitme Sayısı"
+msgstr "Başlangıç/Bitiş Sayısı"
 
 #: core/smartattribute.cpp:104
 #, kde-format
@@ -705,6 +706,12 @@ msgid ""
 "or 11 if the capacitor has been tested in an excessive temperature "
 "condition, otherwise 100."
 msgstr ""
+"Son sınama sonucu, en büyük değerinde doymuş. Bayt 0-1: [25, 5000000] "
+"aralığında kapağı boşaltmak için mikrosaniye olarak son sınama sonucu, daha "
+"düşük, belirli hata kodunu gösterir. Bayt 2-3: Son sınamadan bu yana "
+"dakikalar. Bayt 4-5: Ömür boyu test sayısı. Normalleştirilmiş değer, sınama "
+"hatasında 1'e veya kapasitör aşırı sıcaklık koşulunda sınanmışsa 11'e, aksi "
+"takdirde 100'e ayarlanır."
 
 #: core/smartattribute.cpp:120
 #, kde-format
@@ -781,7 +788,7 @@ msgstr "Western Digital ve Samsung özniteliği."
 #, kde-format
 msgctxt "SMART attr name"
 msgid "End-to-End Error"
-msgstr "Uçtan-Uca Hata"
+msgstr "Uçtan Uca Hata"
 
 #: core/smartattribute.cpp:128
 #, kde-format
@@ -938,7 +945,7 @@ msgid ""
 "Count of remap operations. The raw value of this attribute shows the total "
 "number of attempts to transfer data from reallocated sectors to a spare area."
 msgstr ""
-"Tekrar eşleme işlemleri sayısı. Bu özniteliğin ham değeri yeniden ayrılan "
+"Yeniden eşleme işlemleri sayısı. Bu özniteliğin ham değeri yeniden ayrılan "
 "sektörlerden yedek bir alana veri aktarmak için girişimlerin toplam sayısını "
 "gösterir."
 
@@ -1102,7 +1109,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Offline Seek Performance"
-msgstr "Çevirim Dışı Arama Performansı"
+msgstr "Çevrimdışı Arama Performansı"
 
 #: core/smartattribute.cpp:153
 #, kde-format
@@ -1464,7 +1471,7 @@ msgstr "Kullanım hatası"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Self test in progress"
-msgstr "Kendi kendine test devam ediyor"
+msgstr "Öz sınama sürüyor"
 
 #: core/smartstatus.cpp:114
 #, kde-kuit-format
@@ -1488,7 +1495,7 @@ msgstr "Geçmişte, tasarım parametrelerinin dışında kullanılmış."
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has some bad sectors."
-msgstr "Kötü/hatalı dilimler var."
+msgstr "Hatalı sektörler var."
 
 #: core/smartstatus.cpp:132
 #, kde-kuit-format
@@ -1500,7 +1507,7 @@ msgstr "Şu anda tasarım parametrelerinin dışında kullanılıyor."
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has many bad sectors."
-msgstr "Çok fazla kötü/hatalı dilim var."
+msgstr "Çok fazla hatalı sektör var."
 
 #: core/smartstatus.cpp:139
 #, kde-kuit-format
@@ -1536,7 +1543,7 @@ msgid ""
 "Unmount failed.</warning>"
 msgstr ""
 "<warning><filename>%1</filename> üzerindeki Btrfs dosya sisteminin yeniden "
-"boyutlandırılması: Bölümü ayırma işlemi başarısız oldu.</warning>"
+"boyutlandırılması: Bölüm bağlantısı kesme işlemi başarısız oldu.</warning>"
 
 #: fs/btrfs.cpp:189
 #, kde-kuit-format
@@ -1554,225 +1561,221 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "<filename>%1</filename> disk bölümünün etiketi %2 olarak ayarlanıyor"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "bilinmeyen"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "uzatılmış"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
-msgstr "linuxswap"
+msgstr "linux-takas"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "biçimlendirilmemiş"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:469
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item filesystem name"
-#| msgid "luks"
+#: fs/filesystem.cpp:532
+#, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
-msgstr "luks"
+msgstr "luks2"
 
-#: fs/filesystem.cpp:470
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item filesystem name"
-#| msgid "fat16"
+#: fs/filesystem.cpp:533
+#, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
-msgstr "fat16"
+msgstr "fat12"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
-msgstr ""
+msgstr "linux_raid_member"
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
-msgstr ""
+msgstr "BitLocker"
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
-msgstr ""
+msgstr "apfs"
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
-msgstr ""
+msgstr "minix"
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "Bağla"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
-msgstr "Ayır"
+msgstr "Bağlantıyı Kes"
 
 #: fs/jfs.cpp:155
 #, kde-kuit-format
@@ -1802,7 +1805,7 @@ msgid ""
 "Unmount failed.</warning>"
 msgstr ""
 "<warning><filename>%1</filename> üzerindeki JFS dosya sisteminin yeniden "
-"boyutlandırılması: Bölümü ayırma işlemi başarısız oldu.</warning>"
+"boyutlandırılması: Bölüm bağlantısı kesme işlemi başarısız oldu.</warning>"
 
 #: fs/jfs.cpp:176
 #, kde-kuit-format
@@ -1814,13 +1817,13 @@ msgstr ""
 "<filename>%1</filename> disk bölümü üzerindeki JFS dosya sistemi yeniden "
 "boyutlandırılamadı: İlk bağlama işlemi başarısız oldu."
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr "Takas alanını etkinleştir"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1830,18 +1833,18 @@ msgstr "Takas alanını devre dışı bırak"
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unlock"
-msgstr ""
+msgstr "Kilidi Aç"
 
 #: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Lock"
-msgstr ""
+msgstr "Kilitle"
 
 #: fs/luks.cpp:252
 #, kde-format
 msgid "Enter passphrase for %1:"
-msgstr "%1 için parola metni girin:"
+msgstr "%1 için parolayı girin:"
 
 #: fs/luks.cpp:495 fs/luks.cpp:505 fs/luks2.cpp:88 fs/luks2.cpp:105
 #, kde-kuit-format
@@ -1888,8 +1891,8 @@ msgid ""
 "Unmount failed.</warning>"
 msgstr ""
 "<warning><filename>%1</filename> disk bölümü üzerindeki NILFS2 dosya "
-"sisteminin yeniden boyutlandırılması: Bölümü ayırma işlemi başarısız oldu.</"
-"warning>"
+"sisteminin yeniden boyutlandırılması: Bölümün bağantısını kesme işlemi "
+"başarısız oldu.</warning>"
 
 #: fs/nilfs2.cpp:158
 #, kde-kuit-format
@@ -1901,33 +1904,34 @@ msgstr ""
 "<filename>%1</filename> disk bölümü üzerindeki NILFS2 dosya sistemi yeniden "
 "boyutlandırılamadı: İlk bağlama işlemi başarısız oldu."
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updating boot sector for NTFS file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"<filename>%1</filename> disk bölümü için NTFS açılış dilimi güncelleniyor."
+"<filename>%1</filename> disk bölümünde NTFS dosya sistemi önyükleme sektörü "
+"güncelleme desteklenmiyor."
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not write new start sector to partition <filename>%1</filename> when "
 "trying to update the NTFS boot sector."
 msgstr ""
-"NTFS açılış diliminı güncellenmeye çalışılırken <filename>%1</filename> disk "
-"bölümü üzerine yeni başlangıç dilimi yazılamadı."
+"NTFS önyükleme sektörünü güncellemeye çalışılırken <filename>%1</filename> "
+"disk bölümü üzerine yeni başlangıç sektörü yazılamadı."
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updated NTFS boot sector for partition <filename>%1</filename> successfully."
 msgstr ""
-"<filename>%1</filename> disk bölümü için NTFS açılış dilimi başarılı bir "
-"şekilde güncellendi."
+"<filename>%1</filename> disk bölümü için NTFS önyükleme sektörü başarıyla "
+"güncellendi."
 
 #: fs/xfs.cpp:159
 #, kde-kuit-format
@@ -1957,7 +1961,8 @@ msgid ""
 "failed: Unmount failed.</warning>"
 msgstr ""
 "<warning><filename>%1</filename> üzerindeki XFS dosya sisteminin yeniden "
-"boyutlandırılması: Bölümü ayırma işlemi başarısız oldu.</warning>"
+"boyutlandırılması: Bölümün bağlantısını kesme işlemi başarısız oldu.</"
+"warning>"
 
 #: fs/xfs.cpp:180
 #, kde-kuit-format
@@ -1995,11 +2000,17 @@ msgstr ""
 "<filename>%1</filename> disk bölümü üzerindeki dosya sistemini <filename>%2</"
 "filename> birimine yedekle"
 
+#: jobs/changepermissionsjob.cpp:43
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "İzinleri değiştir: <filename>%1</filename>, %2 olarak"
+
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
-msgstr "<filename>%1</filename> Disk bölümü üzerindeki dosya sistemini denetle"
+msgstr "<filename>%1</filename> disk bölümü üzerindeki dosya sistemini denetle"
 
 #: jobs/copyfilesystemjob.cpp:48
 #, kde-kuit-format
@@ -2009,7 +2020,7 @@ msgid ""
 "filename> is smaller than the file system on source partition <filename>%2</"
 "filename>."
 msgstr ""
-"Dosya sistemi kopyalanamıyor: <filename>%1</filename> Hedef disk bölümü  "
+"Dosya sistemi kopyalanamıyor: <filename>%1</filename> hedef disk bölümü  "
 "üzerindeki dosya sistemi <filename>%2</filename> kaynak disk bölümü "
 "üzerindekinden daha küçük."
 
@@ -2245,20 +2256,16 @@ msgid "Source and target for copying do not overlap: Rollback is not required."
 msgstr "Kopyalamak için kaynak ve hedef eşleşmiyor: Geri alma gerekmiyor."
 
 #: jobs/job.cpp:69
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Rollback from: First sector: %1, last sector: %2."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback from: First byte: %1, last byte: %2."
-msgstr "Şuradan geri al: İlk dilim: %1, son dilim: %2."
+msgstr "Şuradan geri sar: İlk bayt: %1, son bayt: %2."
 
 #: jobs/job.cpp:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Rollback to: First sector: %1, last sector: %2."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback to: First byte: %1, last byte: %2."
-msgstr "Şuraya geri al: İlk dilim: %1, son dilim: %2."
+msgstr "Şuraya geri sar: İlk bayt: %1, son bayt: %2."
 
 #: jobs/job.cpp:74 jobs/job.cpp:80
 #, kde-kuit-format
@@ -2341,7 +2348,7 @@ msgstr "Aygıt kapatılıyor. Bu işlem birkaç saniye sürebilir."
 msgctxt "@info:progress"
 msgid "Move the file system on partition <filename>%1</filename> to sector %2"
 msgstr ""
-"<filename>%1</filename> disk bölümündeki dosya sistemini %2 dilimine taşı"
+"<filename>%1</filename> disk bölümündeki dosya sistemini %2 sektörüne taşı"
 
 #: jobs/movephysicalvolumejob.cpp:57
 #, kde-kuit-format
@@ -2367,17 +2374,17 @@ msgid_plural ""
 "The file system on partition <filename>%2</filename> already has the "
 "requested length of %1 sectors."
 msgstr[0] ""
-"<filename>%2</filename> disk bölümü üzerindeki dosya sistemi zaten istenen "
-"%1 dilime sahip."
+"<filename>%2</filename> disk bölümü üzerindeki dosya sistemi zaten istenen 1 "
+"uzunluklu sektöre iye."
 msgstr[1] ""
-"<filename>%2</filename> birim üzerindeki dosya sistemi zaten istenen %1 "
-"dilimlere sahip."
+"<filename>%2</filename> disk bölümü üzerindeki dosya sistemi zaten istenen "
+"%1 uzunluklu sektöre iye."
 
 #: jobs/resizefilesystemjob.cpp:69
 #, kde-format
 msgctxt "@info:progress"
 msgid "Resizing file system from %1 to %2 sectors."
-msgstr "Dosya sistemi %1 dilimden %2 dilimine yeniden boyutlandırılıyor."
+msgstr "Dosya sistemi %1 sektörden %2 sektöre yeniden boyutlandırılıyor."
 
 #: jobs/resizefilesystemjob.cpp:76
 #, kde-kuit-format
@@ -2440,10 +2447,11 @@ msgid "Resize file system on partition <filename>%2</filename> to 1 sector"
 msgid_plural ""
 "Resize file system on partition <filename>%2</filename> to %1 sectors"
 msgstr[0] ""
-"<filename>%2</filename> disk bölümü üzerindeki dosya sistemini %1 dilime "
+"<filename>%2</filename> disk bölümü üzerindeki dosya sistemini 1 sektöre "
 "yeniden boyutlandır"
 msgstr[1] ""
-"<filename>%2</filename> üzerindeki dosya sistemini %1 dilimlerine boyutlandır"
+"<filename>%2</filename> disk bölümü üzerindeki dosya sistemini %1 sektöre "
+"yeniden boyutlandır"
 
 #: jobs/resizevolumegroupjob.cpp:59
 #, kde-kuit-format
@@ -2458,8 +2466,8 @@ msgstr[1] "%2 LVM Fiziksel Hacimleri %3 üzerine ekleniyor."
 msgctxt "@info/plain"
 msgid "Removing LVM Physical Volume %2 from %3."
 msgid_plural "Removing LVM Physical Volumes %2 from %3."
-msgstr[0] "%2 LVM Fiziksel Hacim %3 üzerinden çıkartılıyor."
-msgstr[1] "%2 LVM Fiziksel Hacimleri %3 üzerinden çıkartılıyor."
+msgstr[0] "%2 LVM Fiziksel Hacim %3 üzerinden çıkarılıyor."
+msgstr[1] "%2 LVM Fiziksel Hacimleri %3 üzerinden çıkarılıyor."
 
 #: jobs/resizevolumegroupjob.cpp:64
 #, kde-kuit-format
@@ -2496,8 +2504,8 @@ msgid ""
 "File system on partition <filename>%1</filename> does not support setting "
 "labels. Job ignored."
 msgstr ""
-"<filename>%1</filename> disk bölümü üzerindeki dosya sistemi etiket ayarlama "
-"işlemini desteklemiyor. Görev yoksayıldı."
+"<filename>%1</filename> disk bölümünün bölüm tablosu, etiket ayarlamayı "
+"desteklemiyor. İş yok sayıldı."
 
 #: jobs/setfilesystemlabeljob.cpp:81
 #, kde-kuit-format
@@ -2578,182 +2586,135 @@ msgid ""
 "Set geometry of partition <filename>%1</filename>: Start sector: %2, length: "
 "%3"
 msgstr ""
-"<filename>%1</filename> disk bölümünün geometrisini ayarla: Başlama dilimi: "
-"%2, uzunluğu: %3"
+"<filename>%1</filename> disk bölümünün geometrisini ayarla: Başlangıç "
+"sektörü: %2, uzunluğu: %3"
 
 #: jobs/setpartitionattributesjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting attributes. Job ignored."
 msgstr ""
-"<filename>%1</filename> disk bölümü üzerindeki dosya sistemi etiket ayarlama "
-"işlemini desteklemiyor. Görev yoksayıldı."
+"<filename>%1</filename> disk bölümünün bölüm tablosu, öznitelik ayarlamayı "
+"desteklemiyor. İş yok sayıldı."
 
 #: jobs/setpartitionattributesjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
-msgstr "<filename>%1</filename> yeni disk bölümü oluşturulamadı."
+msgstr "<filename>%1</filename> disk bölümü için öznitelikler ayarlanamadı."
 
 #: jobs/setpartitionattributesjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "attributes for the partition <filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> aygıtı üzerindeki bölümleme tablosu <filename>%2</"
-"filename> disk bölümünün türünü ayarlamak için açılamadı."
+"<filename>%1</filename> aygıtındaki disk bölümü tablosu, <filename>%2</"
+"filename> disk bölümünün özniteliklerini ayarlamak için açılamadı."
 
 #: jobs/setpartitionattributesjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the attributes for "
 "partition <filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> aygıtı <filename>%2</filename> bölümünün sistem "
-"türünü ayarlamak için açılamadı."
+"<filename>%1</filename> aygıtı, <filename>%2</filename> bölümünün "
+"özniteliklerini ayarlamak için açılamadı."
 
 #: jobs/setpartitionattributesjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
-msgstr "<filename>%1</filename> disk bölümünün etiketini \"%2\" olarak ayarla"
+msgstr ""
+"<filename>%1</filename> disk bölümündeki öznitelikleri \"%2\" olarak ayarla"
 
 #: jobs/setpartitionlabeljob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting names. Job ignored."
 msgstr ""
-"<filename>%1</filename> disk bölümü üzerindeki dosya sistemi etiket ayarlama "
-"işlemini desteklemiyor. Görev yoksayıldı."
+"<filename>%1</filename> disk bölümünün bölüm tablosu, ad ayarlamayı "
+"desteklemiyor. İş yok sayıldı."
 
 #: jobs/setpartitionlabeljob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr "<filename>%1</filename> yeni disk bölümü oluşturulamadı."
+msgstr "<filename>%1</filename> disk bölümü için adı ayarlanamadı."
 
 #: jobs/setpartitionlabeljob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "name for the partition <filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> aygıtı üzerindeki bölümleme tablosu <filename>%2</"
-"filename> disk bölümünün türünü ayarlamak için açılamadı."
+"<filename>%1</filename> aygıtı üzerindeki disk bölümü tablosu <filename>%2</"
+"filename>, disk bölümünün adını ayarlamak için açılamadı."
 
 #: jobs/setpartitionlabeljob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the name for partition "
 "<filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> aygıtı <filename>%2</filename> bölümünün sistem "
-"türünü ayarlamak için açılamadı."
+"<filename>%1</filename> aygıtı, <filename>%2</filename> disk bölümünün adını "
+"ayarlamak için açılamadı."
 
 #: jobs/setpartitionlabeljob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
-msgstr "<filename>%1</filename> disk bölümünün etiketini \"%2\" olarak ayarla"
+msgstr "<filename>%1</filename> disk bölümündeki etiketi \"%2\" olarak ayarla"
 
 #: jobs/setpartitionuuidjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting UUIDs. Job ignored."
 msgstr ""
-"<filename>%1</filename> disk bölümü üzerindeki dosya sistemi etiket ayarlama "
-"işlemini desteklemiyor. Görev yoksayıldı."
+"<filename>%1</filename> disk bölümünün bölüm tablosu, UUID ayarlamayı "
+"desteklemiyor. İş yok sayıldı."
 
 #: jobs/setpartitionuuidjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr "<filename>%1</filename> yeni disk bölümü oluşturulamadı."
+msgstr "<filename>%1</filename> disk bölümü için UUID ayarlanamadı."
 
 #: jobs/setpartitionuuidjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "UUID for the partition <filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> aygıtı üzerindeki bölümleme tablosu <filename>%2</"
-"filename> disk bölümünün türünü ayarlamak için açılamadı."
+"<filename>%1</filename> aygıtı üzerindeki disk bölümü tablosu, <filename>%2</"
+"filename> disk bölümünün UUID'sini ayarlamak için açılamadı."
 
 #: jobs/setpartitionuuidjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the UUID for partition "
 "<filename>%2</filename>."
 msgstr ""
-"<filename>%1</filename> aygıtı <filename>%2</filename> bölümünün sistem "
-"türünü ayarlamak için açılamadı."
+"<filename>%1</filename> aygıtı, <filename>%2</filename> disk bölümünün "
+"UUID'sini ayarlamak için açılamadı."
 
 #: jobs/setpartitionuuidjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
-msgstr "<filename>%1</filename> disk bölümünün etiketini \"%2\" olarak ayarla"
+msgstr "<filename>%1</filename> disk bölümündeki UUID'yi \"%2\" olarak ayarla"
 
 #: jobs/shredfilesystemjob.cpp:61
 #, kde-kuit-format
@@ -2868,7 +2829,7 @@ msgstr ""
 "üzerindeki (%4 konumundan başlayan) ayrılmamış alana kopyala ve %6 boyutuna "
 "büyüt"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
@@ -2883,12 +2844,10 @@ msgstr ""
 "<filename>%2</filename> üzerinde yeni bir disk bölümü (tip: %1) oluştur"
 
 #: ops/createvolumegroupoperation.cpp:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create a new LVM volume group."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new LVM volume group named '%1'."
-msgstr "Yeni bir LVM hacim grubu oluştur."
+msgstr "'%1' adlı yeni bir LVM hacim grubu oluştur."
 
 #: ops/deactivatevolumegroupoperation.cpp:35
 #, kde-kuit-format
@@ -2908,7 +2867,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "<filename>%1</filename> (%2, %3) disk bölümünü sil"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
@@ -3201,20 +3160,16 @@ msgstr ""
 "<filename>%1</filename> disk bölümünün bayraklarını \"%2\" olarak ayarla"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:219
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Device found: %1"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr "Bulunan aygıt: %1"
+msgstr "Yazılım RAID Aygıtı bulundu: %1"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:249
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Device found: %1"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
-msgstr "Bulunan aygıt: %1"
+msgstr "Aygıt bulundu: %1"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:65
 #, kde-kuit-format
@@ -3260,7 +3215,7 @@ msgid ""
 "Could not determine file system of partition at sector %1 on device "
 "<filename>%2</filename>."
 msgstr ""
-"<filename>%2</filename> aygıtının %1 dilimindeki disk bölümünün dosya "
+"<filename>%2</filename> aygıtının %1 sektöründeki disk bölümünün dosya "
 "sistemi anlaşılamadı."
 
 #: util/capacity.cpp:100
@@ -3326,113 +3281,92 @@ msgid "(unknown unit)"
 msgstr "(bilinmeyen birim)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "Komut: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#: util/externalcommandhelper.cpp:82
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr "Geri alma kopyalanması için <filename>%1</filename> aygıtı açılamadı."
+msgstr "<filename>%1</filename> aygıtı, okuma için açılamadı."
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
+#, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr "<filename>%1</filename> aygıtına erişilemedi"
+msgstr "<filename>%2</filename> aygıtındaki %1 konumuna gidilemedi."
 
-#: util/externalcommandhelper.cpp:91
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:96
+#, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr "<filename>%1</filename> aygıtına erişilemedi"
+msgstr "<filename>%1</filename> aygıtından okunamadı."
 
-#: util/externalcommandhelper.cpp:110
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#: util/externalcommandhelper.cpp:114
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr "Geri alma kopyalanması için <filename>%1</filename> aygıtı açılamadı."
+msgstr "<filename>%1</filename> aygıtı, yazma için açılamadı."
 
-#: util/externalcommandhelper.cpp:120
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:125
+#, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr "<filename>%1</filename> aygıtına erişilemedi"
+msgstr "<filename>%1</filename> aygıtına yazılamadı."
 
-#: util/externalcommandhelper.cpp:145
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#: util/externalcommandhelper.cpp:151
+#, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr "Geri alma kopyalanması için <filename>%1</filename> aygıtı açılamadı."
+msgstr "<filename>%1</filename> aygıtı, yazma için açılamadı."
 
-#: util/externalcommandhelper.cpp:150
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:156
+#, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr "<filename>%1</filename> aygıtına erişilemedi"
+msgstr "<filename>%1</filename> dosyasına yazılamadı."
 
-#: util/externalcommandhelper.cpp:216
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Copying %1 blocks (%2 sectors) from %3 to %4, direction: %5."
+#: util/externalcommandhelper.cpp:237
+#, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr "%1 blok (%2 dilim) %3 konumundan %4 konumuna kopyalanıyor, yön: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
+msgstr "%1 parça (%2 bayt) %3 konumundan %4 konumuna kopyalanıyor, yön: %5."
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
-msgstr ""
+msgstr "sol"
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
-msgstr ""
+msgstr "sağ"
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
-msgstr "%1 MiB/sn ile kopyalanıyor, tahmini kalan süre: %2"
+msgstr "%1 MiB/sn ile kopyalanıyor, kalan tahmini süre: %2"
 
-#: util/externalcommandhelper.cpp:251
+#: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
-msgstr "%2 biriminden %3 birimine kopyalanıyor, kalan blok boyutu %1."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
+msgstr "%2 konumundan %3 konumuna kalan parça boyutu %1 kopyalanıyor."
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 bayt"
+msgstr[1] "%1 bayt"
 
-#: util/externalcommandhelper.cpp:265
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:progress argument 2 is a string such as 7 sectors (localized "
-#| "accordingly)"
-#| msgid "Copying 1 block (%2) finished."
-#| msgid_plural "Copying %1 blocks (%2) finished."
+#: util/externalcommandhelper.cpp:288
+#, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
-msgstr[0] "1 blok (%2) kopyalama işlemi tamamlandı."
-msgstr[1] "%1 blok (%2) kopyalama işlemi tamamlandı."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
+msgstr[0] "1 parça (%2) kopyalama tamamlandı."
+msgstr[1] "%1 parça (%2) kopyalama tamamlandı."
 
 #: util/helpers.cpp:49
 #, kde-kuit-format
@@ -3444,15 +3378,13 @@ msgstr "<application>KPMcore</application>"
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Library for managing partitions"
-msgstr "Disk bölümlerinin yönetmek için kütüphane"
+msgstr "Disk bölümlerinin yönetmek için kitaplık"
 
 #: util/helpers.cpp:51
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:credit"
-#| msgid "&copy; 2008-2017 KPMcore developers"
+#, kde-kuit-format
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
-msgstr "&copy; 2008-2017 KPMcore geliştiricileri"
+msgid "&copy; 2008-2022 KPMcore developers"
+msgstr "&copy; 2008-2022 KPMcore geliştiricileri"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -3476,7 +3408,7 @@ msgstr "Andrius Štikonas"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr "Projeyi yürüten"
+msgstr "Projeyi sürdüren"
 
 #: util/helpers.cpp:58
 #, kde-kuit-format
@@ -3530,27 +3462,25 @@ msgstr "Calamares geliştiricisi"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Caio Jordão Carvalho"
-msgstr ""
+msgstr "Caio Jordão Carvalho"
 
 #: util/helpers.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Save SMART Report"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Improved SMART support"
-msgstr "SMART Raporunu Kaydet"
+msgstr "İyileştirilmiş SMART desteği"
 
 #: util/helpers.cpp:63
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: util/helpers.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port from KAuth to Polkit"
-msgstr ""
+msgstr "KAuth'tan Polkit'e geçiş"
 
 #: util/htmlreport.cpp:51 util/htmlreport.cpp:58
 #, kde-format
@@ -3581,2206 +3511,3 @@ msgstr "KDE Frameworks sürümü:"
 #, kde-format
 msgid "Machine:"
 msgstr "Makine:"
-
-#, fuzzy
-#~| msgctxt "@action:button"
-#~| msgid "Run without administrative privileges"
-#~ msgctxt "@info:status"
-#~ msgid "Could not obtain administrator privileges."
-#~ msgstr "Yönetici yetkileri olmadan çalıştır"
-
-#~ msgctxt "@item partition flag"
-#~ msgid "esp"
-#~ msgstr "esp"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Decrypt"
-#~ msgstr "Şifrelemeyi Aç"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Deactivate"
-#~ msgstr "Devre dışı bırak"
-
-#~ msgctxt "@info:status"
-#~ msgid "LibParted Exception: %1"
-#~ msgstr "LibParted İstisnası: %1"
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Creating partition table failed: Could not retrieve partition table type "
-#~ "\"%1\" for <filename>%2</filename>."
-#~ msgstr ""
-#~ "Birim tablosu oluşturma başarısız oldu: <filename>%2</filename> için "
-#~ "\"%1\" birim tablo türü alınamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Creating partition table failed: Could not open backend device <filename>"
-#~ "%1</filename>."
-#~ msgstr ""
-#~ "Disk bölümlendirme tablosu oluşturulamadı: <filename>%1</filename> arka "
-#~ "uç aygıtı açılamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Creating partition table failed: Could not create a new partition table "
-#~ "in the backend for device <filename>%1</filename>."
-#~ msgstr ""
-#~ "Disk bölümlendirme tablosu oluşturulamadı: <filename>%1</filename> arka "
-#~ "uç aygıtı üzerinde yeni disk bölümü oluşturulamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Failed to create a new partition: could not get geometry for constraint."
-#~ msgstr "Yeni bir birim oluşturulamadı: sınır için geometri alınamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Deleting partition failed: Partition to delete (<filename>%1</filename>) "
-#~ "not found on disk."
-#~ msgstr ""
-#~ "Disk bölümü silinemedi: Silinecek disk bölümü (<filename>%1</filename>) "
-#~ "diskte bulunamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not get constraint for partition <filename>%1</filename> while "
-#~ "trying to resize/move it."
-#~ msgstr ""
-#~ "Yeniden boyutlandırılırken/taşınırken <filename>%1</filename> disk "
-#~ "bölümünün sınırları alınamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not get geometry for partition <filename>%1</filename> while trying "
-#~ "to resize/move it."
-#~ msgstr ""
-#~ "Yeniden boyutlandırılırken/taşınırken <filename>%1</filename> disk "
-#~ "bölümünün geometrisi alınamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not open partition <filename>%1</filename> while trying to resize/"
-#~ "move it."
-#~ msgstr ""
-#~ "Yeniden boyutlandırılırken/taşınırken <filename>%1</filename> disk bölümü "
-#~ "açılamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not delete file system on partition <filename>%1</filename>: Failed "
-#~ "to get partition."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümü üzerindeki dosya sistemi silinemedi: "
-#~ "disk bölümü alınamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid "Could not resize file system on partition <filename>%1</filename>."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümü üzerindeki dosya sistemi yeniden "
-#~ "boyutlandırılamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not get geometry for resized partition <filename>%1</filename> "
-#~ "while trying to resize the file system."
-#~ msgstr ""
-#~ "Dosya sistemi boyutlandırılmaya çalışılırken boyutlandırılmış <filename>"
-#~ "%1</filename> disk bölümü için geometri alınamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not update the system type for partition <filename>%1</filename>."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümü üzerindeki dosya sisteminin türü "
-#~ "güncellenemedi."
-
-#~ msgctxt "@info:progress"
-#~ msgid "No file system defined."
-#~ msgstr "Dosya sistemi tanımlanmamıştır."
-
-#~ msgctxt "@info:progress"
-#~ msgid "No partition found at sector %1."
-#~ msgstr "%1 sektöründe disk bölümü bulunamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not find partition <filename>%1</filename> on device <filename>%2</"
-#~ "filename> to set partition flags."
-#~ msgstr ""
-#~ "Birim bayrakları ayarlamak üzere <filename>%2</filename> aygıtı üzerinde "
-#~ "<filename>%1</filename> disk bölümü bulunamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid "The flag \"%1\" is not available on the partition's partition table."
-#~ msgstr ""
-#~ "Bu disk bölümünün disk bölümlendirme tablosunda \"%1\" bayrağı "
-#~ "kullanılamaz."
-
-#~ msgctxt "@info:status"
-#~ msgid "(Command timeout while starting)"
-#~ msgstr "(Komut başlatılırken zaman aşımına uğradı)"
-
-#~ msgctxt "@info:status"
-#~ msgid "(Command timeout while running)"
-#~ msgstr "(Komut çalıştırılırken zaman aşımına uğradı)"
-
-#~ msgctxt "@info:status"
-#~ msgid "(Command is printing too much output)"
-#~ msgstr "(Komut çok fazla çıktı yazdırıyor)"
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not open partition <filename>%1</filename> for writing when trying "
-#~ "to update the NTFS boot sector."
-#~ msgstr ""
-#~ "NTFS açılış dilimini güncellemek için <filename>%1</filename> disk bölümü "
-#~ "açılamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "Could not seek to position 0x1c on partition <filename>%1</filename> when "
-#~ "trying to update the NTFS boot sector."
-#~ msgstr ""
-#~ "NTFS açılış dilimi güncellenmeye çalışılırken <filename>%1</filename> "
-#~ "disk bölümü üzerinde 0x1c konumu bulunamadı."
-
-#~ msgctxt "@info:progress"
-#~ msgid ""
-#~ "The logical sector sizes in the source and target for copying are not the "
-#~ "same. This is currently unsupported."
-#~ msgstr ""
-#~ "Kopyalama için kullanılacak kaynak ve hedefteki mantıksal sektör sayıları "
-#~ "eşit değil. Bu işlem şimdilik desteklenmiyor."
-
-#~ msgid "1 sector"
-#~ msgid_plural "%1 sectors"
-#~ msgstr[0] "1 dilim"
-#~ msgstr[1] "%1 dilim"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Columns"
-#~ msgstr "Sütunlar"
-
-#, fuzzy
-#~| msgctxt "@info/plain"
-#~| msgid ""
-#~| "Warning: Maximizing file system on target partition <filename>%1</"
-#~| "filename> to the size of the partition failed."
-#~ msgctxt "@info:status"
-#~ msgid ""
-#~ "Warning: Maximizing file system on target partition <filename>%1</"
-#~ "filename> to the size of the partition failed."
-#~ msgstr ""
-#~ "Uyarı: Hedef disk birimi <filename>%1</filename> üzerindeki dosya "
-#~ "sistemini disk bölümü boyutuna büyütme başarısız."
-
-#~ msgctxt "@info/plain status (success, error, warning...) of operation"
-#~ msgid "%1: %2"
-#~ msgstr "%1: %2"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "Byte"
-#~ msgid_plural "Bytes"
-#~ msgstr[0] "Bayt"
-#~ msgstr[1] "Bayt"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "KiB"
-#~ msgstr "KB"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "MiB"
-#~ msgstr "MB"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "GiB"
-#~ msgstr "GB"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "TiB"
-#~ msgstr "TB"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "PiB"
-#~ msgstr "PB"
-
-#~ msgctxt "@info/plain unit"
-#~ msgid "EiB"
-#~ msgstr "EB"
-
-#, fuzzy
-#~| msgctxt "@info/plain"
-#~| msgid "Check file system on partition <filename>%1</filename>"
-#~ msgctxt "@info/plain"
-#~ msgid "Resizing encrypted file system on partition <filename>%1</filename>."
-#~ msgstr ""
-#~ "Disk bölümü <filename>%1</filename> üzerindeki dosya sistemini denetle"
-
-#~ msgctxt "@title:window"
-#~ msgid "Decrypt LUKS partition on <filename>%1</filename>"
-#~ msgstr "<filename>%1</filename> üzerindeki LUKS disk bölümü şifresini çöz"
-
-#~ msgctxt "@action:button"
-#~ msgid "&Decrypt"
-#~ msgstr "&Şifrelemeyi Aç"
-
-#~ msgid "&Name:"
-#~ msgstr "&İsim:"
-
-#~ msgid "&Passphrase:"
-#~ msgstr "&Parola ifadesi:"
-
-#, fuzzy
-#~| msgctxt "@info/plain"
-#~| msgid ""
-#~| "Could not open partition <filename>%1</filename> for writing when trying "
-#~| "to update the NTFS boot sector."
-#~ msgctxt "@info/plain"
-#~ msgid ""
-#~ "Could not open partition <filename>%1</filename> for writing when trying "
-#~ "to update the NTFS serial number."
-#~ msgstr ""
-#~ "NTFS açılış dilimini yazmak için <filename>%1</filename> disk bölümü "
-#~ "açılamadı."
-
-#, fuzzy
-#~| msgctxt "@info/plain"
-#~| msgid ""
-#~| "Could not seek to position 0x1c on partition <filename>%1</filename> "
-#~| "when trying to update the NTFS boot sector."
-#~ msgctxt "@info/plain"
-#~ msgid ""
-#~ "Could not seek to position 0x48 on partition <filename>%1</filename> when "
-#~ "trying to update the NTFS serial number."
-#~ msgstr ""
-#~ "NTFS açılış dilimi güncellenmeye çalışılırken <filename>%1</filename> "
-#~ "disk bölümü üzerinde  0x1c konumu bulunamadı."
-
-#, fuzzy
-#~| msgctxt "@info/plain"
-#~| msgid "Could not resize file system on partition <filename>%1</filename>."
-#~ msgctxt "@info/plain"
-#~ msgid ""
-#~ "Could not write new NTFS serial number to partition <filename>%1</"
-#~ "filename>."
-#~ msgstr ""
-#~ "<filename>%1</filename> üzerindeki dosya sistemi yeniden "
-#~ "boyutlandırılamadı."
-
-#, fuzzy
-#~| msgctxt "@info/plain"
-#~| msgid ""
-#~| "Updated NTFS boot sector for partition <filename>%1</filename> "
-#~| "successfully."
-#~ msgctxt "@info/plain"
-#~ msgid ""
-#~ "Updated NTFS serial number for partition <filename>%1</filename> "
-#~ "successfully."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümü için NTFS açılış dilimi başarılı bir "
-#~ "şekilde güncellendi."
-
-#~ msgctxt "@label"
-#~ msgid "Is this the first time KDE Partition Manager is being run?"
-#~ msgstr "KDE Disk Bölümü Yöneticisi'ni ilk çalıştırmanız mı?"
-
-#~ msgctxt "@label"
-#~ msgid "Hide log messages below"
-#~ msgstr "Aşağıdaki günlük iletilerini gizle"
-
-#~ msgctxt "@label"
-#~ msgid "Partition sector alignment"
-#~ msgstr "Disk bölümü dilim yerleşimi"
-
-#~ msgctxt "@label"
-#~ msgid "Use cylinder based alignment (Windows XP compatible)"
-#~ msgstr "Silindir tabanlı hizalama kullan (Windows XP uyumlu)"
-
-#~ msgctxt "@label"
-#~ msgid "Align partitions per default"
-#~ msgstr "Öntanımlılar için birimleri hizala"
-
-#~ msgctxt "@label"
-#~ msgid "Allow applying operations without administrator privileges"
-#~ msgstr "Yönetici yetkileri olmadan işlemleri uygulamaya izin ver"
-
-#~ msgctxt "@label"
-#~ msgid "File system colors"
-#~ msgstr "Dosya sistemi renkleri"
-
-#~ msgctxt "@label"
-#~ msgid "Show the application's menu bar"
-#~ msgstr "Uygulamanın menü çubuğunu göster"
-
-#~ msgctxt "@label"
-#~ msgid "Backend plugin"
-#~ msgstr "Arka uç eklentisi"
-
-#~ msgctxt "@label"
-#~ msgid "Preferred unit:"
-#~ msgstr "Tercih edilen birim:"
-
-#~ msgctxt "@title:tab general application settings"
-#~ msgid "General"
-#~ msgstr "Genel"
-
-#~ msgid "General Settings"
-#~ msgstr "Genel Ayarlar"
-
-#~ msgctxt "@title:tab"
-#~ msgid "File System Colors"
-#~ msgstr "Dosya Sistemi Renkleri"
-
-#~ msgid "File System Color Settings"
-#~ msgstr "Dosya Sistemi Renk Ayarları"
-
-#~ msgctxt "@title:tab advanced application settings"
-#~ msgid "Advanced"
-#~ msgstr "Gelişmiş"
-
-#~ msgid "Advanced Settings"
-#~ msgstr "Gelişmiş Ayarlar"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Do you really want to change the backend?</para><para><warning>This "
-#~ "will also rescan devices and thus clear the list of pending operations.</"
-#~ "warning></para>"
-#~ msgstr ""
-#~ "<para>Arka ucu gerçekten değiştirmek istiyor musunuz?</"
-#~ "para><para><warning>Bu ayrıca aygıtları yeniden tarayacak ve dolayısıyla "
-#~ "bekleyen işlemler listesini temizleyecek.</warning></para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Change Backend?"
-#~ msgstr "Gerçekten Arka Uç Değiştirilsin mi?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Change the Backend"
-#~ msgstr "Arka Ucu Değiştir"
-
-#~ msgctxt "@action:button"
-#~ msgid "Do Not Change the Backend"
-#~ msgstr "Arka Ucu Değiştirme"
-
-#~ msgid "Permissions"
-#~ msgstr "İzinler"
-
-#~ msgid "Allow applying operations without administrator privileges"
-#~ msgstr "Yönetici yetkileri olmadan işlemleri uygulamaya izin ver"
-
-#~ msgid "Backend"
-#~ msgstr "Arka Uç"
-
-#~ msgid "Active backend:"
-#~ msgstr "Etkin arka uç:"
-
-#~ msgid "Units"
-#~ msgstr "Birimler"
-
-#~ msgid "Preferred unit:"
-#~ msgstr "Tercih edilen birim:"
-
-#~ msgid "File Systems"
-#~ msgstr "Dosya Sistemleri"
-
-#~ msgid "luks:"
-#~ msgstr "luks:"
-
-#~ msgid "ntfs:"
-#~ msgstr "ntfs:"
-
-#~ msgid "ext2:"
-#~ msgstr "ext2:"
-
-#~ msgid "ext3:"
-#~ msgstr "ext3:"
-
-#~ msgid "ext4:"
-#~ msgstr "ext4:"
-
-#~ msgid "btrfs:"
-#~ msgstr "btrfs:"
-
-#~ msgid "linuxswap:"
-#~ msgstr "linuxswap:"
-
-#~ msgid "fat16:"
-#~ msgstr "fat16:"
-
-#~ msgid "fat32:"
-#~ msgstr "fat32:"
-
-#~ msgid "zfs:"
-#~ msgstr "zfs:"
-
-#~ msgid "reiserfs:"
-#~ msgstr "reiserfs:"
-
-#~ msgid "reiser4:"
-#~ msgstr "reiser4:"
-
-#~ msgid "hpfs:"
-#~ msgstr "hpfs:"
-
-#~ msgid "jfs"
-#~ msgstr "jfs"
-
-#~ msgid "hfs:"
-#~ msgstr "hfs:"
-
-#~ msgid "hfsplus:"
-#~ msgstr "hfsplus:"
-
-#~ msgid "ufs:"
-#~ msgstr "ufs:"
-
-#~ msgid "xfs:"
-#~ msgstr "xfs:"
-
-#~ msgid "ocfs2:"
-#~ msgstr "ocfs2:"
-
-#~ msgid "extended:"
-#~ msgstr "uzatılmış:"
-
-#~ msgid "unformatted:"
-#~ msgstr "biçimlendirilmemiş:"
-
-#~ msgid "unknown:"
-#~ msgstr "bilinmeyen:"
-
-#~ msgid "exfat:"
-#~ msgstr "exfat:"
-
-#~ msgid "nilfs2:"
-#~ msgstr "nilfs2:"
-
-#~ msgid "lvm2 pv:"
-#~ msgstr "lvm2 pv:"
-
-#~ msgid "Partition Alignment"
-#~ msgstr "Bölüm Yerleşimi"
-
-#~ msgid "Use cylinder based alignment (Windows XP compatible)"
-#~ msgstr "Silindir tabanlı hizalama kullan (Windows XP uyumlu)"
-
-#~ msgid "Sector alignment:"
-#~ msgstr "Dilim (sector) yerleşimi:"
-
-#~ msgid " sectors"
-#~ msgstr " dilim"
-
-#~ msgid "Align partitions per default"
-#~ msgstr "Öntanımlılar için birimleri hizala"
-
-#~ msgid "Logging"
-#~ msgstr "Günlük Tutma"
-
-#~ msgid "Hide messages below:"
-#~ msgstr "Aşağıdaki iletileri gizle:"
-
-#~ msgid "Debug"
-#~ msgstr "Hata Ayıklama"
-
-#~ msgid "Information"
-#~ msgstr "Bilgi"
-
-#~ msgid "Warning"
-#~ msgstr "Uyarı"
-
-#~ msgid "Error"
-#~ msgstr "Hata"
-
-#~ msgid "Default file system:"
-#~ msgstr "Öntanımlı dosya sistemi:"
-
-#~ msgid "Shredding"
-#~ msgstr "Bölme"
-
-#~ msgid "Overwrite with:"
-#~ msgstr "Şununla üzerine yaz:"
-
-#~ msgid "Random data"
-#~ msgstr "Rastgele veri"
-
-#~ msgid "Zeros"
-#~ msgstr "Sıfırlar"
-
-#~ msgid "Save"
-#~ msgstr "Kaydet"
-
-#~ msgid "Open in External Browser"
-#~ msgstr "Harici Tarayıcıda Aç"
-
-#~ msgid "&Details"
-#~ msgstr "&Ayrıntılar"
-
-#~ msgctxt "@info:progress"
-#~ msgid "Setting up..."
-#~ msgstr "Ayarlanıyor..."
-
-#~ msgctxt "@info:progress"
-#~ msgid "Waiting for operation to finish..."
-#~ msgstr "İşlemin bitmesi bekleniyor..."
-
-#~ msgctxt "@info"
-#~ msgid "Do you really want to cancel?"
-#~ msgstr "Gerçekten iptal etmek istiyor musunuz?"
-
-#~ msgctxt "@title:window"
-#~ msgid "Cancel Running Operations"
-#~ msgstr "Devam Eden İşlemleri İptal Et"
-
-#~ msgctxt "@action:button"
-#~ msgid "Yes, Cancel Operations"
-#~ msgstr "Evet, İşlemleri İptal Et"
-
-#~ msgctxt "@info:progress"
-#~ msgid "All operations successfully finished."
-#~ msgstr "Tüm işlemler başarıyla tamamlandı."
-
-#~ msgctxt "@info:progress"
-#~ msgid "Operations cancelled."
-#~ msgstr "İşlemler iptal edildi."
-
-#~ msgctxt "@info:progress"
-#~ msgid "There were errors while applying operations. Aborted."
-#~ msgstr "İşlemler uygulanırken bazı hatalar oluştu. İptal edildi."
-
-#~ msgctxt "@info:progress"
-#~ msgid "[%1/%2] - %3: %4"
-#~ msgstr "[%1/%2] - %3: %4"
-
-#~ msgctxt "@info:progress"
-#~ msgid "Total Time: %1"
-#~ msgstr "Toplam Süre: %1"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Could not create temporary file when trying to save to <filename>%1</"
-#~ "filename>."
-#~ msgstr ""
-#~ "<filename>%1</filename> dosyasını yazmak için geçici dosya oluşturulamadı."
-
-#~ msgctxt "@title:window"
-#~ msgid "Could Not Save Report."
-#~ msgstr "Rapor Kaydedilemedi."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The configured external browser could not be run. Please check your "
-#~ "settings."
-#~ msgstr ""
-#~ "Yapılandırılmış olan dış tarayıcı çalıştırılamadı. Lütfen ayarlarınızı "
-#~ "kontrol edin."
-
-#~ msgctxt "@title:window"
-#~ msgid "Could Not Launch Browser."
-#~ msgstr "Tarayıcı Başlatılamadı."
-
-#~ msgctxt "@info"
-#~ msgid "Could not create temporary file <filename>%1</filename> for writing."
-#~ msgstr "Yazmak için <filename>%1</filename> geçici dosyası oluşturulamadı."
-
-#~ msgid "Operations and Jobs"
-#~ msgstr "İşlemler ve görevler"
-
-#~ msgid "Time Elapsed"
-#~ msgstr "Geçen Süre"
-
-#~ msgid "Total Time: 00:00:00"
-#~ msgstr "Toplam Süre: 00:00:00"
-
-#~ msgid "Operation: %p%"
-#~ msgstr "İşlem: %p%"
-
-#~ msgid "Status"
-#~ msgstr "Durum"
-
-#~ msgid "Total: %p%"
-#~ msgstr "Toplam: %p%"
-
-#~ msgctxt "@title:window"
-#~ msgid "Create a New Partition Table on <filename>%1</filename>"
-#~ msgstr ""
-#~ "<filename>%1</filename> üzerinde yeni bir disk bölümlendirme tablosu "
-#~ "oluşturulamadı"
-
-#~ msgid "Create &New Partition Table"
-#~ msgstr "&Yeni Disk Bölümlendirme Tablosu Oluştur"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Do you really want to create an MS-Dos partition table on <filename>"
-#~ "%1</filename>?</para><para>This device has more than 2^32 sectors. That "
-#~ "is the most the MS-Dos partition table type supports, so you will not be "
-#~ "able to use the whole device.</para>"
-#~ msgstr ""
-#~ "<para>Gerçekten <filename>%1</filename> üzerinde bir MS-Dos bölümleme "
-#~ "tablosu oluşturmak istiyor musunuz?</para><para>Bu aygıt üzerinde "
-#~ "2^32'den fazla sektör var. Bu MS-Dos bölümleme tablosu türünün desteğinin "
-#~ "üst sınırı olduğundan bütün aygıtı kullanamayacaksınız.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Create MS-Dos Partition Table Type?"
-#~ msgstr "Gerçekten MS-Dos Disk Bölümlendirme Tablosu Oluşturulsun mu?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Create MS-Dos Type"
-#~ msgstr "MS-Dos Türü Oluştur"
-
-#~ msgid "Choose the type of partition table you want to create:"
-#~ msgstr "Oluşturmak istediğiniz disk bölümlendirme tablosunun türünü seçin:"
-
-#~ msgid "GPT"
-#~ msgstr "GPT"
-
-#~ msgid "MS-Dos"
-#~ msgstr "MS-Dos"
-
-#~ msgid "(icon)"
-#~ msgstr "(simge)"
-
-#~ msgid "<b>Warning:</b> This will destroy all data on the device!"
-#~ msgstr "<b>Uyarı:</b> Bu işlem, aygıt üzerindeki tüm verileri yok eder!"
-
-#~ msgctxt "@label device"
-#~ msgid "%1 (read only)"
-#~ msgstr "%1 (salt okunur)"
-
-#~ msgctxt "@label"
-#~ msgid "1 Sector"
-#~ msgid_plural "%1 Sectors"
-#~ msgstr[0] "1 Dilim"
-#~ msgstr[1] "%1 Dilim"
-
-#~ msgctxt "@label SMART disk status"
-#~ msgid "good"
-#~ msgstr "iyi"
-
-#~ msgctxt "@label SMART disk status"
-#~ msgid "BAD"
-#~ msgstr "KÖTÜ"
-
-#~ msgctxt "@label"
-#~ msgid "(unknown)"
-#~ msgstr "(bilinmeyen)"
-
-#~ msgid "Partition table:"
-#~ msgstr "Disk bölümü tablosu:"
-
-#~ msgid "Cylinder alignment"
-#~ msgstr "Silindir yerleşimi"
-
-#~ msgid "Sector based alignment"
-#~ msgstr "Dilim (sector) tabanlı yerleşim"
-
-#~ msgid "Capacity:"
-#~ msgstr "Kapasite:"
-
-#~ msgid "Total sectors:"
-#~ msgstr "Toplam dilim sayısı:"
-
-#~ msgid "Cylinders/Heads/Sectors:"
-#~ msgstr "Silindirler/Kafalar/Dilimler:"
-
-#~ msgid "Logical sector size:"
-#~ msgstr "Mantıksal dilim boyutu:"
-
-#~ msgid "Physical sector size:"
-#~ msgstr "Fiziksel dilim boyutu:"
-
-#~ msgid "Cylinder size:"
-#~ msgstr "Silindir boyutu:"
-
-#~ msgid "Primaries/Max:"
-#~ msgstr "Birinciller/Azami:"
-
-#~ msgid "SMART status:"
-#~ msgstr "SMART durumu:"
-
-#~ msgid "More..."
-#~ msgstr "Daha Fazla..."
-
-#~ msgctxt "@title:window"
-#~ msgid "Edit additional mount options"
-#~ msgstr "Ek bağlanma noktalarını düzenle"
-
-#~ msgid "Edit Mount Options"
-#~ msgstr "Bağlanma Noktalarını Düzenle"
-
-#~ msgid "Edit the mount options for this file system:"
-#~ msgstr "Bu dosya sistemi için bağlama seçeneklerini girin:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Edit mount point for <filename>%1</filename>"
-#~ msgstr "<filename>%1</filename> için bağlanma noktasını düzenle"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Are you sure you want to save the changes you made to the system "
-#~ "table file <filename>/etc/fstab</filename>?</para><para><warning>This "
-#~ "will overwrite the existing file on your hard drive now. This <strong>can "
-#~ "not be undone</strong>.</warning></para>"
-#~ msgstr ""
-#~ "<para>Yaptığınız değişikliklerin sistem tablo <filename>/etc/fstab</"
-#~ "filename> dosyasına yazılmasını istediğinizden emin misiniz?</"
-#~ "para><para><warning>Bu sabit diskinizdeki mevcut dosyanın üzerine "
-#~ "yazacaktır. Bu işlem <strong>geri alınamaz</strong>.</warning></para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really save changes?"
-#~ msgstr "Değişiklikler kaydedilsin mi?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Save changes"
-#~ msgstr "Değişiklikleri kaydet"
-
-#~ msgctxt "@info"
-#~ msgid "Could not open mount point file <filename>%1</filename>."
-#~ msgstr "<filename>%1</filename> bağlanma noktası dosyası açılamadı."
-
-#~ msgctxt "@title:window"
-#~ msgid "Error while reading mount points"
-#~ msgstr "Bağlanma noktaları okunamadı"
-
-#~ msgctxt "@info"
-#~ msgid "Could not save mount points to file <filename>%1</filename>."
-#~ msgstr "<filename>%1</filename> bağlanma noktası dosyası kaydedilemedi."
-
-#~ msgctxt "@title:window"
-#~ msgid "Error While Saving Mount Points"
-#~ msgstr "Bağlanma Noktası Kaydedilemedi"
-
-#~ msgid "Path:"
-#~ msgstr "Yol:"
-
-#~ msgid "Select..."
-#~ msgstr "Seç..."
-
-#~ msgid "Type:"
-#~ msgstr "Tür:"
-
-#~ msgid "Options:"
-#~ msgstr "Seçenekler:"
-
-#~ msgid "Read-only"
-#~ msgstr "Salt-okunur"
-
-#~ msgid "Users can mount and unmount"
-#~ msgstr "Kullanıcılar bağlayıp çözebilirler"
-
-#~ msgid "No automatic mount"
-#~ msgstr "Otomatik bağlamayı kullanma"
-
-#~ msgid "No update of file access times"
-#~ msgstr "Dosya erişim zamanlarının güncellemesi yok"
-
-#~ msgid "Synchronous access"
-#~ msgstr "Eş zamanlı erişim"
-
-#~ msgid "No update of directory access times"
-#~ msgstr "Dizin erişim zamanlarının güncellemesi yok"
-
-#~ msgid "No binary execution"
-#~ msgstr "İkilik dosya çalıştırması yok"
-
-#~ msgid "Update access times relative to modification"
-#~ msgstr "Düzenlemeyle bağlı olarak erişim zamanlarını güncelle"
-
-#~ msgid "Dump Frequency:"
-#~ msgstr "Döküm Sıklığı:"
-
-#~ msgid "Pass Number:"
-#~ msgstr "Geçiş Numarası:"
-
-#~ msgid "Device Node"
-#~ msgstr "Aygıt Düğümü"
-
-#~ msgid "UUID"
-#~ msgstr "UUID"
-
-#~ msgid "Label"
-#~ msgstr "Etiket"
-
-#~ msgid "Identify by:"
-#~ msgstr "Buna göre tanımla:"
-
-#~ msgctxt "@title:window"
-#~ msgid "File System Support"
-#~ msgstr "Dosya Sistemi Desteği"
-
-#~ msgid ""
-#~ "This table shows which file systems are supported and which specific "
-#~ "operations can be performed on them.\n"
-#~ "Some file systems need external tools to be installed for them to be "
-#~ "supported. But not all operations can be performed on all file systems, "
-#~ "even if all required tools are installed. Please see the documentation "
-#~ "for details. "
-#~ msgstr ""
-#~ "Bu tablo hangi dosya sistemlerinin desteklendiğini ve bu dosya "
-#~ "sistemlerinin üzerinde hangi işlemlerin yapılabileceğini gösterir.\n"
-#~ "Bazı dosya sistemlerinin desteklenebilmesi için bazı dış araçların "
-#~ "kurulması gerekir. Ama tüm gerekli araçlar kurulmuş olsa bile tüm dosya "
-#~ "sistemlerinde tüm işlemler yapılamaz. Ayrıntılar için lütfen uygulamanın "
-#~ "belgelerine bakın."
-
-#~ msgid "File System"
-#~ msgstr "Dosya Sistemi"
-
-#~ msgid "Create"
-#~ msgstr "Oluştur"
-
-#~ msgid "Grow"
-#~ msgstr "Büyüt"
-
-#~ msgid "Shrink"
-#~ msgstr "Küçült"
-
-#~ msgid "Move"
-#~ msgstr "Taşı"
-
-#~ msgid "Copy"
-#~ msgstr "Kopyala"
-
-#~ msgid "Check"
-#~ msgstr "Denetle"
-
-#~ msgid "Read Label"
-#~ msgstr "Etiketi Oku"
-
-#~ msgid "Write Label"
-#~ msgstr "Etiket Yaz"
-
-#~ msgid "Read Usage"
-#~ msgstr "Kullanım Bilgilerini Oku"
-
-#~ msgid "Backup"
-#~ msgstr "Yedekle"
-
-#~ msgid "Restore"
-#~ msgstr "Geri Yükle"
-
-#~ msgid "Support Tools"
-#~ msgstr "Destek Araçları"
-
-#~ msgctxt "@action:button"
-#~ msgid "Rescan Support"
-#~ msgstr "Yeniden Tarama Desteği"
-
-#~ msgctxt "@title:window"
-#~ msgid "Information"
-#~ msgstr "Bilgiler"
-
-#~ msgctxt "@title:window"
-#~ msgid "Partition Information"
-#~ msgstr "Disk Bölümü Bilgileri"
-
-#~ msgctxt "@label partition"
-#~ msgid "File system:"
-#~ msgstr "Dosya sistemi:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Capacity:"
-#~ msgstr "Kapasite:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Cipher name:"
-#~ msgstr "Şifre adı:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Cipher mode:"
-#~ msgstr "Şifre kipi:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Hash:"
-#~ msgstr "Özet:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Key size:"
-#~ msgstr "Anahtar boyutu:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Payload offset:"
-#~ msgstr "Yük iptali:"
-
-#~ msgctxt "@label partition"
-#~ msgid "First sector:"
-#~ msgstr "İlk sektör:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Last sector:"
-#~ msgstr "Son sektör:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Number of sectors:"
-#~ msgstr "Sektör sayısı:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Available:"
-#~ msgstr "Kullanılabilir:"
-
-#~ msgctxt "@label partition"
-#~ msgid "Used:"
-#~ msgstr "Kullanılan:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Device Information"
-#~ msgstr "Aygıt Bilgileri"
-
-#~ msgctxt "@label device"
-#~ msgid "Path:"
-#~ msgstr "Yol:"
-
-#~ msgctxt "@label device"
-#~ msgid "Type:"
-#~ msgstr "Tür:"
-
-#~ msgctxt "@label device"
-#~ msgid "Capacity:"
-#~ msgstr "Kapasite:"
-
-#~ msgctxt "@label device"
-#~ msgid "Total sectors:"
-#~ msgstr "Toplam dilim sayısı:"
-
-#~ msgctxt "@label device"
-#~ msgid "Heads:"
-#~ msgstr "Kafalar:"
-
-#~ msgctxt "@label device"
-#~ msgid "Cylinders:"
-#~ msgstr "Silindirler:"
-
-#~ msgctxt "@label device"
-#~ msgid "Sectors:"
-#~ msgstr "Dilimler:"
-
-#~ msgctxt "@label device"
-#~ msgid "Logical sector size:"
-#~ msgstr "Mantıksal sektör boyutu:"
-
-#~ msgctxt "@label device"
-#~ msgid "Physical sector size:"
-#~ msgstr "Fiziksel sektör boyutu:"
-
-#~ msgctxt "@label device"
-#~ msgid "Cylinder size:"
-#~ msgstr "Silindir boyutu:"
-
-#~ msgctxt "@label device"
-#~ msgid "Primaries/Max:"
-#~ msgstr "Birinciller/Azami:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Insert a partition"
-#~ msgstr "Bir disk bölümü ekle"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Do you really want to quit the application?</para><para>There is "
-#~ "still an operation pending.</para>"
-#~ msgid_plural ""
-#~ "<para>Do you really want to quit the application?</para><para>There are "
-#~ "still %1 operations pending.</para>"
-#~ msgstr[0] ""
-#~ "<para>Bu uygulamadan gerçekten çıkmak istiyor musunuz?</"
-#~ "para><para>Uygulanmayı bekleyen %1 işlem var.</para>"
-#~ msgstr[1] ""
-#~ "<para>Bu uygulamadan gerçekten çıkmak istiyor musunuz?</"
-#~ "para><para>Uygulanmayı bekleyen %1 işlem var.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Discard Pending Operations and Quit?"
-#~ msgstr "Bekleyen İşlemleri İptal Edip Uygulamadan Çıkmak İstiyor musunuz?"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Undo"
-#~ msgstr "Geri Al"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Undo the last operation"
-#~ msgstr "Son işlemi geri al"
-
-#~ msgctxt "@info:status"
-#~ msgid "Remove the last operation from the list."
-#~ msgstr "Son işlemi listeden kaldır."
-
-#~ msgctxt "@action:inmenu clear the list of operations"
-#~ msgid "Clear"
-#~ msgstr "Temizle"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Clear all operations"
-#~ msgstr "Tüm işlemleri temizle"
-
-#~ msgctxt "@info:status"
-#~ msgid "Empty the list of pending operations."
-#~ msgstr "Bekleyen işlemler listesini temizle."
-
-#~ msgctxt "@action:inmenu apply all operations"
-#~ msgid "Apply"
-#~ msgstr "Uygula"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Apply all operations"
-#~ msgstr "Tüm işlemleri uygula"
-
-#~ msgctxt "@info:status"
-#~ msgid "Apply the pending operations in the list."
-#~ msgstr "Listedeki tüm işlemleri uygula."
-
-#~ msgctxt "@action:inmenu refresh list of devices"
-#~ msgid "Refresh Devices"
-#~ msgstr "Aygıtları Yenile"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Refresh all devices"
-#~ msgstr "Tüm aygıtları yenile"
-
-#~ msgctxt "@info:status"
-#~ msgid "Renew the devices list."
-#~ msgstr "Aygıt listesini yenile."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "New Partition Table"
-#~ msgstr "Yeni Disk Bölümlendirme Tablosu"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Create a new partition table"
-#~ msgstr "Yeni disk bölümlendirme tablosu oluştur"
-
-#~ msgctxt "@info:status"
-#~ msgid "Create a new and empty partition table on a device."
-#~ msgstr "Bir aygıt üzerinde boş bir disk bölümlendirme tablosu oluştur."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Export Partition Table"
-#~ msgstr "Bölüm Tablosunu Dışarıya Aktar"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Export a partition table"
-#~ msgstr "Bir bölümleme tablosunu dışarıya aktar"
-
-#~ msgctxt "@info:status"
-#~ msgid "Export the device's partition table to a text file."
-#~ msgstr "Disk bölümlendirme tablosunu bir metin dosyasına aktar."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Import Partition Table"
-#~ msgstr "Disk Bölümlendirme Tablosunu İçeriye Aktar"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Import a partition table"
-#~ msgstr "Bir disk bölümlendirme tablosunu içeriye aktar"
-
-#~ msgctxt "@info:status"
-#~ msgid "Import a partition table from a text file."
-#~ msgstr ""
-#~ "Bir disk bölümlendirme tablosunu bir metin dosyasından içeriye aktar."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "SMART Status"
-#~ msgstr "SMART Durumu"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Show SMART status"
-#~ msgstr "SMART Durumunu Göster"
-
-#~ msgctxt "@info:status"
-#~ msgid "Show the device's SMART status if supported"
-#~ msgstr "Eğer destekleniyorsa aygıtın SMART durumunu göster"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Properties"
-#~ msgstr "Özellikler"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Show device properties dialog"
-#~ msgstr "Aygıt özellikleri penceresini göster"
-
-#~ msgctxt "@info:status"
-#~ msgid "View and modify device properties"
-#~ msgstr "Aygıt özelliklerini görüntüle ve düzenle"
-
-#~ msgctxt "@action:inmenu create a new partition"
-#~ msgid "New"
-#~ msgstr "Yeni"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "New partition"
-#~ msgstr "Yeni disk bölümü"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Resize/Move"
-#~ msgstr "Yeniden Boyutlandır/Taşı"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Resize or move partition"
-#~ msgstr "Disk bölümünü yeniden boyutlandır ya da taşı"
-
-#~ msgctxt "@info:status"
-#~ msgid "Shrink, grow or move an existing partition."
-#~ msgstr "Varolan bir disk bölümünü büyüt, küçült ya da taşı."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Delete"
-#~ msgstr "Sil"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Delete partition"
-#~ msgstr "Disk bölümünü sil"
-
-#~ msgctxt "@info:status"
-#~ msgid "Delete a partition."
-#~ msgstr "Bir disk bölümünü sil."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Shred"
-#~ msgstr "Daha Fazla Parçaya Böl"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Shred partition"
-#~ msgstr "Disk bölümünü daha fazla parçaya böl"
-
-#~ msgctxt "@info:status"
-#~ msgid "Shred a partition so that its contents cannot be restored."
-#~ msgstr ""
-#~ "Disk bölümünü daha fazla parçaya böl, disk bölümünün içindekiler geri "
-#~ "alınamaz."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Copy"
-#~ msgstr "Kopyala"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Copy partition"
-#~ msgstr "Disk bölümünü kopyala"
-
-#~ msgctxt "@info:status"
-#~ msgid "Copy an existing partition."
-#~ msgstr "Varolan bir disk bölümünü kopyala."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Paste"
-#~ msgstr "Yapıştır"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Paste partition"
-#~ msgstr "Disk bölümünü yapıştır"
-
-#~ msgctxt "@info:status"
-#~ msgid "Paste a copied partition."
-#~ msgstr "Bir disk bölümünü yapıştır."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Edit Mount Point"
-#~ msgstr "Bağlanma Noktasını Düzenle"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Edit mount point"
-#~ msgstr "Bağlanma noktasını düzenle"
-
-#~ msgctxt "@info:status"
-#~ msgid "Edit a partition's mount point and options."
-#~ msgstr "Disk bölümünün bağlanma noktasını ve seçeneklerini düzenle."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Mount"
-#~ msgstr "Bağla"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Mount or unmount partition"
-#~ msgstr "Diski bağla ya da ayır"
-
-#~ msgctxt "@info:status"
-#~ msgid "Mount or unmount a partition."
-#~ msgstr "Bir diski bağla ya da ayır."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Check"
-#~ msgstr "Denetle"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Check partition"
-#~ msgstr "Disk bölümünü denetle"
-
-#~ msgctxt "@info:status"
-#~ msgid "Check a filesystem on a partition for errors."
-#~ msgstr "Bir disk bölümünün hatalarını denetle."
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Show partition properties dialog"
-#~ msgstr "Disk bölümü özellikleri penceresini göster"
-
-#~ msgctxt "@info:status"
-#~ msgid "View and modify partition properties (label, partition flags, etc.)"
-#~ msgstr ""
-#~ "Disk bölümünün özelliklerini göster ve düzenle (disk bölümünün etiketi, "
-#~ "bayrakları vs.)"
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Backup"
-#~ msgstr "Yedekle"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Backup partition"
-#~ msgstr "Disk bölümünü yedekle"
-
-#~ msgctxt "@info:status"
-#~ msgid "Backup a partition to an image file."
-#~ msgstr "Bir disk bölümünü bir kalıp dosyasına yedekle."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Restore"
-#~ msgstr "Geri Yükle"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Restore partition"
-#~ msgstr "Bir disk bölümünü geri yükle"
-
-#~ msgctxt "@info:status"
-#~ msgid "Restore a partition from an image file."
-#~ msgstr "Disk bölümünü bir kalıp dosyasından geri yükle."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "File System Support"
-#~ msgstr "Dosya Sistemi Desteği"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "View file system support information"
-#~ msgstr "Dosya sistemi desteğine ilişkin bilgileri göster"
-
-#~ msgctxt "@info:status"
-#~ msgid "Show information about supported file systems."
-#~ msgstr "Desteklenen dosya sistemlerine ilişkin bilgileri göster."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Clear Log"
-#~ msgstr "Günlüğü Kaydını Temizle"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Clear the log output"
-#~ msgstr "Günlük kaydı çıktısını temizle"
-
-#~ msgctxt "@info:status"
-#~ msgid "Clear the log output panel."
-#~ msgstr "Günlük kaydı çıktı panelini temizle."
-
-#~ msgctxt "@action:inmenu"
-#~ msgid "Save Log"
-#~ msgstr "Günlüğü Kaydet"
-
-#~ msgctxt "@info:tooltip"
-#~ msgid "Save the log output"
-#~ msgstr "Günlük kayıtlarını kaydet"
-
-#~ msgctxt "@info:status"
-#~ msgid "Save the log output to a file."
-#~ msgstr "Günlük kayıtlarını bir dosyaya kaydet."
-
-#~ msgctxt "@info:status"
-#~ msgid "One pending operation"
-#~ msgid_plural "%1 pending operations"
-#~ msgstr[0] "Bir bekleyen işlem var"
-#~ msgstr[1] "%1 bekleyen işlem var"
-
-#~ msgctxt "@info/plain"
-#~ msgid "Using backend plugin: %1 (%2)"
-#~ msgstr "Kullanılan arka uç eklentisi: %1 (%2)"
-
-#~ msgctxt "@info/plain"
-#~ msgid "Scanning devices..."
-#~ msgstr "Aygıtlar taranıyor..."
-
-#~ msgctxt "@info/plain"
-#~ msgid "Scan finished."
-#~ msgstr "Tarama işlemi bitti."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Do you really want to rescan the devices?</para><para><warning>This "
-#~ "will also clear the list of pending operations.</warning></para>"
-#~ msgstr ""
-#~ "<para>Gerçekten aygıtları yeniden taramak istiyor musunuz?</"
-#~ "para><para><warning>Bu, bekleyen işlemleri de temizleyecektir.</warning></"
-#~ "para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Rescan the Devices?"
-#~ msgstr "Gerçekten Aygıtlar Yeniden Taransın mı?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Rescan Devices"
-#~ msgstr "Aygıtları Yeniden Tara"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Do you really want to apply the pending operations listed below?</"
-#~ "para><para><warning>This will permanently modify your disks.</warning></"
-#~ "para>"
-#~ msgstr ""
-#~ "<para>Aşağıda listelenen işlemleri gerçekten uygulamak istiyor musunuz?</"
-#~ "para><para><warning>Bu işlem disklerinizi kalıcı olarak düzenleyecektir.</"
-#~ "warning></para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Apply Pending Operations?"
-#~ msgstr "Bekleyen İşlemler Uygulansın mı?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Apply Pending Operations"
-#~ msgstr "Bekleyen İşlemleri Uygula"
-
-#~ msgctxt "@info/plain"
-#~ msgid "Applying operations..."
-#~ msgstr "İşlemler uygulanıyor..."
-
-#~ msgctxt "@info/plain"
-#~ msgid "Undoing operation: %1"
-#~ msgstr "İşlem geri alınıyor: %1"
-
-#~ msgctxt "@info"
-#~ msgid "Do you really want to clear the list of pending operations?"
-#~ msgstr "Bekleyen işlemler listesini gerçekten temizlemek istiyor musunuz?"
-
-#~ msgctxt "@title:window"
-#~ msgid "Clear Pending Operations?"
-#~ msgstr "Bekleyen İşlemler Temizlensin mi?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Clear Pending Operations"
-#~ msgstr "Bekleyen İşlemleri Temizle"
-
-#~ msgctxt "@info/plain"
-#~ msgid "Clearing the list of pending operations."
-#~ msgstr "Bekleyen işlemler listesi temizleniyor."
-
-#~ msgctxt "@info"
-#~ msgid "Could not open input file <filename>%1</filename> for import: %2"
-#~ msgstr ""
-#~ "İçeriye aktarılacak <filename>%1</filename> girdi dosyası açılamadı: %2"
-
-#~ msgctxt "@title:window"
-#~ msgid "Error Importing Partition Table"
-#~ msgstr "Disk Bölümlendirme Tablosu İçeriye Aktarılamadı"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Could not open temporary file <filename>%1</filename> while trying to "
-#~ "import from <filename>%2</filename>."
-#~ msgstr ""
-#~ "<filename>%2</filename> biriminden içe aktarılmaya çalışılan <filename>"
-#~ "%1</filename> geçici dosyası açılamadı."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The import file <filename>%1</filename> does not contain a valid "
-#~ "partition table."
-#~ msgstr ""
-#~ "İçeriye aktarılcak <filename>%1</filename> dosyası geçerli bir "
-#~ "bölümlendirme tablosu içermiyor."
-
-#~ msgctxt "@title:window"
-#~ msgid "Error While Importing Partition Table"
-#~ msgstr "Disk Bölümlendirme Tablosu İçeriye Aktarılamadı"
-
-#~ msgctxt "@info"
-#~ msgid "Found more than one partition table type in import file (line %1)."
-#~ msgstr ""
-#~ "İçe aktarma dosyasında birden fazla bölümleme tablosu türü bulundu (satır "
-#~ "%1)."
-
-#~ msgctxt "@info"
-#~ msgid "Partition table type \"%1\" is unknown (line %2)."
-#~ msgstr "Bölümleme tablosu türü \"%1\" bilinmiyor (satır %2)."
-
-#~ msgctxt "@info"
-#~ msgid "Partition table type \"%1\" is not supported for import (line %2)."
-#~ msgstr ""
-#~ "Bölümleme tablosu türü \"%1\" içe aktarmak için desteklenmiyor (satır %2)."
-
-#~ msgctxt "@info"
-#~ msgid "Found partition but no partition table type (line %1)."
-#~ msgstr "Bölümleme tablosu türü olmayan bölüm bulundu (satır %1)."
-
-#~ msgctxt "@info the partition is NOT a device path, just a number"
-#~ msgid "Partition %1 would be outside the device's boundaries (line %2)."
-#~ msgstr "%1 bölümü aygıtın sınırlarının dışında olacaktır (satır %2)."
-
-#~ msgctxt "@info"
-#~ msgid "Partition %1 has end before start sector (line %2)."
-#~ msgstr "%1 bölümü başlangıç sektöründen önce sonlanıyor (satır %2)."
-
-#~ msgctxt "@info the partition is NOT a device path, just a number"
-#~ msgid "Unrecognized partition role \"%1\" for partition %2 (line %3)."
-#~ msgstr "%2 (satır %3) için bilinmeyen disk bölümü rolü \"%1\"."
-
-#~ msgctxt "@info the partition is NOT a device path, just a number"
-#~ msgid ""
-#~ "No parent partition or partition table found for partition %1 (line %2)."
-#~ msgstr ""
-#~ "%1 (satır %2) disk bölümü için üst disk bölümü ya da disk bölümlendirme "
-#~ "tablosu yok."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The partition table type \"%1\" does not support extended partitions, but "
-#~ "one was found (line %2)."
-#~ msgstr ""
-#~ "\"%1\" bölümleme tablosu türü uzatılmış bölümleri desteklememesine rağmen "
-#~ "bir tane bulundu (satır %2)."
-
-#~ msgctxt "@info the partition is NOT a device path, just a number"
-#~ msgid "Could not create file system \"%1\" for partition %2 (line %3)."
-#~ msgstr "%2 (satır %3) için \"%1\" dosya sistemi oluşturulamadı."
-
-#~ msgctxt "@info/plain"
-#~ msgid "Could not parse line %1 from import file. Ignoring it."
-#~ msgstr "İçe aktarılan dosyada satır %1 ayrıştırılamadı. Atlanıyor."
-
-#~ msgctxt "@title:window"
-#~ msgid "Error Exporting Partition Table"
-#~ msgstr "Disk Bölümlendirme Tablosu Dışarıya Aktarılamadı"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>No support tools were found for file systems currently present on "
-#~ "hard disks in this computer:</para><table style='margin-top:12px'><tr><td "
-#~ "style='font-weight:bold;padding-right:12px;white-space:"
-#~ "nowrap;'>Partition</td><td style='font-weight:bold;padding-right:12px;"
-#~ "white-space:nowrap;'>File System</td><td style='font-weight:bold;padding-"
-#~ "right:12px;white-space:nowrap;'>Support Tools</td><td style='font-weight:"
-#~ "bold;padding-right:12px;white-space:nowrap;'>URL</td></tr>%1</"
-#~ "table><para>As long as the support tools for these file systems are not "
-#~ "installed you will not be able to modify them.</para><para>You should "
-#~ "find packages with these support tools in your distribution's package "
-#~ "manager.</para>"
-#~ msgstr ""
-#~ "<para>Bu bilgisayarın sabit diski üzerinde bulunan dosya sistemleri için "
-#~ "hiç destek aracı bulunmuyor:</para><table style='margin-top:12px'><tr><td "
-#~ "style='font-weight:bold;padding-right:12px;white-space:nowrap;'>Disk "
-#~ "Bölümü</td><td style='font-weight:bold;padding-right:12px;white-space:"
-#~ "nowrap;'>Dosya Sistemi</td><td style='font-weight:bold;padding-right:12px;"
-#~ "white-space:nowrap;'>Destek Araçları</td><td style='font-weight:bold;"
-#~ "padding-right:12px;white-space:nowrap;'>URL</td></tr>%1</table><para>Bu "
-#~ "dosya sistemleri için destek araçları kurmadığınız sürece onları "
-#~ "düzenlemeniz mümkün olmayacak.</para><para>Dağıtımınızın paket "
-#~ "yöneticisinde bu destek araçları için paketler bulabilirsiniz.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Missing File System Support Packages"
-#~ msgstr "Dosya Sistemi Desteği için Eksik Paket Var"
-
-#~ msgctxt "@title:window"
-#~ msgid "KDE Partition Manager"
-#~ msgstr "KDE Disk Bölümü Yöneticisi"
-
-#~ msgctxt "@title:window"
-#~ msgid "Devices"
-#~ msgstr "Aygıtlar"
-
-#~ msgctxt "@title:window"
-#~ msgid "Pending Operations"
-#~ msgstr "Bekleyen işlemler"
-
-#~ msgctxt "@title:window"
-#~ msgid "Log Output"
-#~ msgstr "Günlük Kaydı Çıktısı"
-
-#~ msgctxt "@title:window"
-#~ msgid "Create a new partition"
-#~ msgstr "Yeni bir disk bölümü oluştur"
-
-#~ msgctxt "@title:menu turn on and off edit toolbar"
-#~ msgid "Edit Toolbar"
-#~ msgstr "Düzenleme Araç Çubuğu"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Partition Toolbar"
-#~ msgstr "Disk Bölümü Araç Çubuğu"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Device Toolbar"
-#~ msgstr "Aygıt Araç Çubuğu"
-
-#~ msgctxt "@title:menu"
-#~ msgid "View"
-#~ msgstr "Görünüm"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Device"
-#~ msgstr "Aygıt"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Select Current Device"
-#~ msgstr "Şimdiki Aygıtı Seç"
-
-#~ msgctxt "@title:menu"
-#~ msgid "Partition"
-#~ msgstr "Disk Bölümü"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The file system on partition <filename>%1</filename> could not be mounted."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümünün üzerindeki dosya sistemi "
-#~ "bağlanamadı."
-
-#~ msgctxt "@title:window"
-#~ msgid "Could Not Mount File System."
-#~ msgstr "Dosya Sistemi Bağlanamadı."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The file system on partition <filename>%1</filename> could not be "
-#~ "unmounted."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümünün üzerindeki dosya sistemi "
-#~ "ayrılamadı."
-
-#~ msgctxt "@title:window"
-#~ msgid "Could Not Unmount File System."
-#~ msgstr "Dosya Sistemi Ayrılamadı."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>There is already one primary partition on this device. This is the "
-#~ "maximum number its partition table type can handle.</para><para>You "
-#~ "cannot create, paste or restore a primary partition on it before you "
-#~ "delete an existing one.</para>"
-#~ msgid_plural ""
-#~ "<para>There are already %1 primary partitions on this device. This is the "
-#~ "maximum number its partition table type can handle.</para><para>You "
-#~ "cannot create, paste or restore a primary partition on it before you "
-#~ "delete an existing one.</para>"
-#~ msgstr[0] ""
-#~ "<para>Bu aygıt üzerinde zaten %1 birincil disk bölümü var. Bu, disk "
-#~ "bölümü tablosunun bulundurabileceği en fazla sayıdır.</para><para>Varolan "
-#~ "bir birincil disk bölümünü silmeden yeni bir birincil disk bölümü "
-#~ "oluşturamazsınız, yapıştıramazsınız veya geri yükleyemezsiniz.</para>"
-#~ msgstr[1] ""
-#~ "<para>Bu aygıt üzerinde zaten %1 birincil disk bölümü var. Bu, disk "
-#~ "bölümü tablosunun bulundurabileceği en fazla sayıdır.</para><para>Varolan "
-#~ "bir birincil disk bölümünü silmeden yeni bir birincil disk bölümü "
-#~ "oluşturamazsınız, yapıştıramazsınız veya geri yükleyemezsiniz.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Too Many Primary Partitions."
-#~ msgstr "Çok Fazla Sayıda Birincil Bölüm."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>The partition <filename>%1</filename> cannot currently be deleted "
-#~ "because one or more partitions with higher logical numbers are still "
-#~ "mounted.</para><para>Please unmount all partitions with higher logical "
-#~ "numbers than %2 first.</para>"
-#~ msgstr ""
-#~ "<para><filename>%1</filename> disk bölümü şu anda silinemez. Çünkü bu "
-#~ "disk bölümünün mantıksal numarasından daha büyük mantıksal numaraya sahip "
-#~ "bir ya da daha fazla disk bölümü bağlı durumda.</para><para>Lütfen önce "
-#~ "mantıksal numarası %2 sayısından büyük olan disk bölümlerini ayırın.</"
-#~ "para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Cannot Delete Partition."
-#~ msgstr "Disk Bölümü Silinemiyor."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Do you really want to delete the partition that is currently in the "
-#~ "clipboard? It will no longer be available for pasting after it has been "
-#~ "deleted."
-#~ msgstr ""
-#~ "Panodaki disk bölümünü gerçekten silmek istiyor musunuz? Bu disk bölümü "
-#~ "silindikten sonra artık yapıştırılamayacak."
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Delete Partition in the Clipboard?"
-#~ msgstr "Panodaki Disk Bölümü Gerçekten Silinsin mi?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Delete It"
-#~ msgstr "Ögeyi Sil"
-
-#~ msgctxt "@info/plain"
-#~ msgid ""
-#~ "Partition <filename>%1</filename> has the same position and size after "
-#~ "resize/move. Ignoring operation."
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümü yeniden boyutlandırma/taşıma "
-#~ "işleminden sonra da aynı boyutta ve konumda. İşlem yoksayılıyor."
-
-#~ msgctxt "@info/plain"
-#~ msgid "Partition <filename>%1</filename> has been copied to the clipboard."
-#~ msgstr "<filename>%1</filename> disk bölümü panoya kopyalandı."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para><warning>You are about to lose all data on partition <filename>%1</"
-#~ "filename>.</warning></para><para>Overwriting one partition with another "
-#~ "(or with an image file) will destroy all data on this target partition.</"
-#~ "para><para>If you continue now and apply the resulting operation in the "
-#~ "main window, all data currently stored on <filename>%1</filename> will "
-#~ "unrecoverably be overwritten.</para>"
-#~ msgstr ""
-#~ "<para><warning><filename>%1</filename> disk bölümü üzerindeki tüm "
-#~ "verileri kaybetmek üzeresiniz.</warning></para><para>Bir disk bölümünün "
-#~ "üzerine diğer disk bölümünü (veya görüntü dosyasını) yazmak o bölümün tüm "
-#~ "içeriğini silecektir.</para><para> Eğer şimdi devam eder ve ana "
-#~ "pencereden işlemi uygularsanız <filename>%1</filename> üzerindeki tüm "
-#~ "veriler silinecek ve bu işlemin geri dönüşü olmayacak.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Overwrite Existing Partition?"
-#~ msgstr "Varolan Disk Bölümünün Üzerine Yazılsın mı?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Overwrite Partition"
-#~ msgstr "Disk Bölümünün Üzerine Yaz"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>The selected partition is not large enough to hold the source "
-#~ "partition or the backup file.</para><para>Pick another target or resize "
-#~ "this partition so it is as large as the source.</para>"
-#~ msgstr ""
-#~ "<para>Seçilen bölüm, kaynak bölüm veya yedek dosyasını tutacak kadar "
-#~ "yeterince geniş değil.</para><para>Farklı bir hedef seçin veya bu bölümü "
-#~ "kaynak kadar büyütmek üzere boyutlandırın.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Target Not Large Enough"
-#~ msgstr "Hedef Yeterince Büyük Değil"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>It is not possible to create the target partition large enough to "
-#~ "hold the source.</para><para>This may happen if not all partitions on a "
-#~ "device are correctly aligned or when copying a primary partition into an "
-#~ "extended partition.</para>"
-#~ msgstr ""
-#~ "<para>Bu kaynağı tutacak kadar büyük hedef disk bölümü oluşturmak mümkün "
-#~ "değildir.</para><para>Bu aygıt üzerindeki tüm disk bölümleri doğru "
-#~ "hizalanmadığında veya bir birincil bölüm uzatılmış bölüme kopyalanırken "
-#~ "oluşabilir.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Cannot Create Target Partition."
-#~ msgstr "Hedef Disk Bölümü Oluşturulamıyor."
-
-#~ msgctxt "@info"
-#~ msgid "Do you want to overwrite the existing file <filename>%1</filename>?"
-#~ msgstr ""
-#~ "Varolan <filename>%1</filename> dosyasının üzerine gerçekten yazmak "
-#~ "istiyor musunuz?"
-
-#~ msgctxt "@title:window"
-#~ msgid "Overwrite Existing File?"
-#~ msgstr "Varolan Dosyanın Üzerine Yazılsın mı?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Overwrite File"
-#~ msgstr "Dosyanın Üzerine Yaz"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "The file system in the image file <filename>%1</filename> is too large to "
-#~ "be restored to the selected partition."
-#~ msgstr ""
-#~ "<filename>%1</filename> kalıp dosyası içerisindeki dosya sistemi seçilen "
-#~ "disk bölümüne yerleştirilmek için çok büyük."
-
-#~ msgctxt "@title:window"
-#~ msgid "Not Enough Space to Restore File System."
-#~ msgstr "Dosya Sistemini Geri Yüklemek İçin Yeterli Disk Alanı Yok."
-
-#~ msgid "Partition"
-#~ msgstr "Disk Bölümü"
-
-#~ msgid "Type"
-#~ msgstr "Tür"
-
-#~ msgid "Mount Point"
-#~ msgstr "Bağlanma Noktası"
-
-#~ msgid "Size"
-#~ msgstr "Boyut"
-
-#~ msgid "Used"
-#~ msgstr "Kullanılan"
-
-#~ msgid "Available"
-#~ msgstr "Kullanılabilir"
-
-#~ msgid "First Sector"
-#~ msgstr "İlk Dilim"
-
-#~ msgid "Last Sector"
-#~ msgstr "Son Dilim"
-
-#~ msgid "Number of Sectors"
-#~ msgstr "Dilim Sayısı"
-
-#~ msgid "Flags"
-#~ msgstr "Bayraklar"
-
-#~ msgctxt "@title:window"
-#~ msgid "Partition properties: <filename>%1</filename>"
-#~ msgstr "Disk bölümünün özellikleri: <filename>%1</filename>"
-
-#~ msgctxt "@item mountpoint"
-#~ msgid "(none found)"
-#~ msgstr "(bulunamadı)"
-
-#~ msgctxt "@label partition state"
-#~ msgid "idle"
-#~ msgstr "boşta"
-
-#~ msgctxt "@label partition state"
-#~ msgid "At least one logical partition is mounted."
-#~ msgstr "En az bir mantıksal disk bölümü bağlanır."
-
-#~ msgctxt "@label partition state"
-#~ msgid "mounted"
-#~ msgstr "bağlı"
-
-#~ msgctxt "@item uuid"
-#~ msgid "(none)"
-#~ msgstr "(hiçbiri)"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para><warning>You are about to lose all data on partition <filename>%1</"
-#~ "filename>.</warning></para><para>Changing the file system on a partition "
-#~ "already on disk will erase all its contents. If you continue now and "
-#~ "apply the resulting operation in the main window, all data on <filename>"
-#~ "%1</filename> will unrecoverably be lost.</para>"
-#~ msgstr ""
-#~ "<para><warning><filename>%1</filename> disk bölümü üzerindeki tüm "
-#~ "verileri kaybetmek üzeresiniz.</warning></para><para>Bir disk bölümünün "
-#~ "dosya sistemini değiştirmek o bölümün tüm içeriğini siler. Eğer şimdi "
-#~ "devam eder ve ana pencereden işlemi uygularsanız <filename>%1</filename> "
-#~ "üzerindeki tüm veriler silinecek ve bu işlemin geri dönüşü olmayacaktır.</"
-#~ "para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Recreate <filename>%1</filename> with File System %2?"
-#~ msgstr ""
-#~ "<filename>%1</filename> disk bölümü %2 Dosya Sistemi ile Yeniden "
-#~ "Oluşturulsun mu?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Change the File System"
-#~ msgstr "Dosya Sistemini Değiştir"
-
-#~ msgctxt "@action:button"
-#~ msgid "Do Not Change the File System"
-#~ msgstr "Dosya Sistemini Değiştirme"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para><warning>You are about to lose all data on partition <filename>%1</"
-#~ "filename>.</warning></para><para>Recreating a file system will erase all "
-#~ "its contents. If you continue now and apply the resulting operation in "
-#~ "the main window, all data on <filesystem>%1</filesystem> will "
-#~ "unrecoverably be lost.</para>"
-#~ msgstr ""
-#~ "<para><warning><filename>%1</filename> disk bölümü üzerindeki tüm "
-#~ "verileri kaybetmek üzeresiniz.</warning></para><para>Bir disk bölümünün "
-#~ "dosya sistemini yeniden oluşturmak o bölümün tüm içeriğini siler. Eğer "
-#~ "şimdi devam eder ve ana pencereden işlemi uygularsanız <filename>%1</"
-#~ "filename> üzerindeki tüm veriler silinecek ve bu işlemin geri dönüşü "
-#~ "olmayacaktır.</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Really Recreate File System on <filename>%1</filename>?"
-#~ msgstr ""
-#~ "<filename>%1</filename> Bölümünün Dosya Sistemi Yeniden Oluşturulsun mu?"
-
-#~ msgctxt "@action:button"
-#~ msgid "Recreate the File System"
-#~ msgstr "Dosya Sistemini Yeniden Oluştur"
-
-#~ msgctxt "@action:button"
-#~ msgid "Do Not Recreate the File System"
-#~ msgstr "Dosya Sistemini Yeniden Oluşturma"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "File system:"
-#~ msgstr "Dosya sistemi:"
-
-#~ msgctxt "@label"
-#~ msgid "Label:"
-#~ msgstr "Etiket:"
-
-#~ msgctxt "@label"
-#~ msgid "This file system does not support setting a label."
-#~ msgstr "Dosya sistemi etiket ayarlama işlemini desteklemiyor."
-
-#~ msgctxt "@action:button"
-#~ msgid "Recreate existing file system"
-#~ msgstr "Varolan dosya sistemini yeniden oluştur"
-
-#~ msgctxt "@label"
-#~ msgid "Mount point:"
-#~ msgstr "Bağlanma noktası:"
-
-#~ msgctxt "@label"
-#~ msgid "Partition type:"
-#~ msgstr "Disk bölümü türü:"
-
-#~ msgctxt "@label"
-#~ msgid "Status:"
-#~ msgstr "Durum:"
-
-#~ msgctxt "@label"
-#~ msgid "UUID:"
-#~ msgstr "Kullanıcı Kimliği:"
-
-#~ msgctxt "@label"
-#~ msgid "Size:"
-#~ msgstr "Boyut:"
-
-#~ msgctxt "@label partition capacity available"
-#~ msgid "Available:"
-#~ msgstr "Kullanılabilir:"
-
-#~ msgctxt "@label partition capacity used"
-#~ msgid "Used:"
-#~ msgstr "Kullanılan:"
-
-#~ msgctxt "@label"
-#~ msgid "First sector:"
-#~ msgstr "İlk dilim (sector):"
-
-#~ msgctxt "@label"
-#~ msgid "Last sector:"
-#~ msgstr "Son dilim (sector):"
-
-#~ msgctxt "@label"
-#~ msgid "Number of sectors:"
-#~ msgstr "Dilim sayısı:"
-
-#~ msgctxt "@label"
-#~ msgid "Flags:"
-#~ msgstr "Bayraklar:"
-
-#~ msgctxt "@info"
-#~ msgid "Please select a device."
-#~ msgstr "Lüften bir aygıt seçin."
-
-#~ msgctxt "@info"
-#~ msgid "No valid partition table was found on this device."
-#~ msgstr ""
-#~ "Bu aygıt üzerinde geçerli bir disk bölümlendirme tablosu bulunamadı."
-
-#~ msgctxt "@title:window"
-#~ msgid "Resize/move partition: <filename>%1</filename>"
-#~ msgstr "Disk bölümünü yeniden boyutlandır/taşı: <filename>%1</filename>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Scanning devices..."
-#~ msgstr "Aygıtlar taranıyor..."
-
-#~ msgctxt "@label"
-#~ msgid "Scanning..."
-#~ msgstr "Taranıyor..."
-
-#~ msgctxt "@label"
-#~ msgid "Scanning device: <filename>%1</filename>"
-#~ msgstr "Aygıt taranıyor: <filename>%1</filename>"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "First sector:"
-#~ msgstr "İlk dilim (sector):"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "Last sector:"
-#~ msgstr "Son dilim (sector):"
-
-#~ msgid "Align partition"
-#~ msgstr "Disk bölümünü yerleştir"
-
-#~ msgctxt "@item:button advanced settings button"
-#~ msgid "Advanced"
-#~ msgstr "Gelişmiş"
-
-#~ msgid "&Advanced"
-#~ msgstr "&Gelişmiş"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "Partition &type:"
-#~ msgstr "Disk bölümü &türü:"
-
-#~ msgid "Primar&y"
-#~ msgstr "&Birincil"
-
-#~ msgid "E&xtended"
-#~ msgstr "&Uzatılmış"
-
-#~ msgid "&Logical"
-#~ msgstr "&Mantıksal"
-
-#~ msgctxt "@label"
-#~ msgid "Minimum size:"
-#~ msgstr "En küçük boyut:"
-
-#~ msgctxt "@label"
-#~ msgid "Maximum size:"
-#~ msgstr "En büyük boyut:"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "Free space before:"
-#~ msgstr "Öncesinde bırakılacak boş alan:"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "Si&ze:"
-#~ msgstr "Bo&yut:"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "Free space after:"
-#~ msgstr "Sonrasında bırakılacak boş alan:"
-
-#~ msgctxt "@title:window"
-#~ msgid "SMART Properties: <filename>%1</filename>"
-#~ msgstr "SMART Özellikleri: <filename>%1</filename>"
-
-#~ msgctxt "@label SMART number of bad sectors"
-#~ msgid "none"
-#~ msgstr "hiçbiri"
-
-#~ msgctxt "@item:intable"
-#~ msgid "Pre-Failure"
-#~ msgstr "Başarısızlık Öncesi"
-
-#~ msgctxt "@item:intable"
-#~ msgid "Old-Age"
-#~ msgstr "Yaşlılık"
-
-#~ msgctxt "@item:intable"
-#~ msgid "Online"
-#~ msgstr "Çevrimiçi"
-
-#~ msgctxt "@item:intable"
-#~ msgid "Offline"
-#~ msgstr "Çevrimdışı"
-
-#~ msgid "Model:"
-#~ msgstr "Model:"
-
-#~ msgid "Serial number:"
-#~ msgstr "Seri numarası:"
-
-#~ msgid "Firmware revision:"
-#~ msgstr "Firmware sürümü:"
-
-#~ msgid "Temperature:"
-#~ msgstr "Sıcaklık:"
-
-#~ msgid "Bad sectors:"
-#~ msgstr "Kötü dilimler:"
-
-#~ msgid "Powered on for:"
-#~ msgstr "Açılma nedeni:"
-
-#~ msgid "Power cycles:"
-#~ msgstr "Güç döngüleri:"
-
-#~ msgid "Self tests:"
-#~ msgstr "Kendi kendine yapılan testler:"
-
-#~ msgid "Overall assessment:"
-#~ msgstr "Tüm değerlendirme:"
-
-#~ msgctxt "@title:window"
-#~ msgid "Could Not Save SMART Report."
-#~ msgstr "SMART Raporu kaydedilemedi."
-
-#~ msgid "Id"
-#~ msgstr "Kimlik"
-
-#~ msgid "Attribute"
-#~ msgstr "Öznitelik"
-
-#~ msgid "Failure Type"
-#~ msgstr "Hata Türü"
-
-#~ msgid "Update Type"
-#~ msgstr "Güncelleme Türü"
-
-#~ msgid "Worst"
-#~ msgstr "En Kötü"
-
-#~ msgid "Current"
-#~ msgstr "Şimdiki"
-
-#~ msgid "Threshold"
-#~ msgstr "Eşik"
-
-#~ msgid "Raw"
-#~ msgstr "Ham"
-
-#~ msgid "Assessment"
-#~ msgstr "Değerlendirme"
-
-#~ msgid "Value"
-#~ msgstr "Değer"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Could not create temporary output file to save <filename>%1</filename>."
-#~ msgstr ""
-#~ "<filename>%1</filename> ögesini yazmak için geçici çıktı dosyası "
-#~ "oluşturulamadı."
-
-#~ msgctxt "@title:window"
-#~ msgid "Error Saving Log File"
-#~ msgstr "Günlük Dosyası Kaydedilemedi"
-
-#~ msgctxt ""
-#~ "@title:column Severity of a log entry / log level. Text must be very "
-#~ "short."
-#~ msgid "Sev."
-#~ msgstr "Önem"
-
-#~ msgid "Severity"
-#~ msgstr "Önem"
-
-#~ msgctxt "@title:column a time stamp of a log entry"
-#~ msgid "Time"
-#~ msgstr "Süre"
-
-#~ msgctxt "@title:column the text message of a log entry"
-#~ msgid "Message"
-#~ msgstr "İleti"
-
-#~ msgctxt "@title"
-#~ msgid "<application>KDE Partition Manager</application>"
-#~ msgstr "<application>KDE Disk Bölümü Yöneticisi</application>"
-
-#~ msgctxt "@title"
-#~ msgid "Manage your disks, partitions and file systems"
-#~ msgstr "Disklerinizi, disk bölümlerinizi ve dosya sistemlerinizi yönetin"
-
-#~ msgctxt "@info:credit"
-#~ msgid ""
-#~ "© 2008-2013 Volker Lanz\n"
-#~ "© 2012-2015 Andrius Štikonas"
-#~ msgstr ""
-#~ "© 2008-2013 Volker Lanz\n"
-#~ "© 2012-2015 Andrius Štikonas"
-
-#~ msgid "Hugo Pereira Da Costa"
-#~ msgstr "Hugo Pereira Da Costa"
-
-#~ msgctxt "@info:credit"
-#~ msgid "Partition Widget Design"
-#~ msgstr "Disk Bölümü Parçacığının Tasarımı"
-
-#~ msgctxt "@info:shell"
-#~ msgid "Do not try to gain super user privileges"
-#~ msgstr "Yetkili kullanıcı haklarını almayı deneme"
-
-#~ msgctxt "@info:shell"
-#~ msgid "Show advanced tab in configuration dialog"
-#~ msgstr "Yapılandırma penceresinde gelişmiş sekmesini göster"
-
-#~ msgctxt "@info:shell"
-#~ msgid "Device(s) to manage"
-#~ msgstr "Yönetilecek aygıtlar"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para><warning>You do not have administrative privileges.</warning></"
-#~ "para><para>It is possible to run <application>%1</application> without "
-#~ "these privileges. You will, however, <emphasis>not</emphasis> be allowed "
-#~ "to apply operations.</para><para>Do you want to continue running "
-#~ "<application>%1</application>?</para>"
-#~ msgstr ""
-#~ "<para><warning>Yönetici yetkileriniz yok.</warning></"
-#~ "para><para><application>%1</application> uygulamasını yönetici "
-#~ "yetkileriniz olmadan da çalıştırabilirsiniz. Ancak seçtiğiniz işlemleri "
-#~ "<emphasis>uygulayamayacaksınız</emphasis>. </para><para><application>%1</"
-#~ "application> uygulamasını çalıştırmaya devam etmek istiyor musunuz?</para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "No administrative privileges"
-#~ msgstr "Yönetici yetkileri yok"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>The configured backend plugin \"%1\" could not be loaded.</"
-#~ "para><para>Loading the default backend plugin \"%2\" instead.</para>"
-#~ msgstr ""
-#~ "<para>Yapılandırılmış \"%1\" arka uç eklentisi yüklenemedi.</"
-#~ "para><para>Onun yerine öntanımlı \"%2\" arka uç eklentisi yükleniyor.</"
-#~ "para>"
-
-#~ msgctxt "@title:window"
-#~ msgid "Error: Could Not Load Backend Plugin"
-#~ msgstr "Hata: Arka Uç Eklentisi Yüklenemedi"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>Neither the configured (\"%1\") nor the default (\"%2\") backend "
-#~ "plugin could be loaded.</para><para>Please check your installation.</para>"
-#~ msgstr ""
-#~ "<para>Ne yapılandırılmış (\"%1\") ne de öntanımlı (\"%2\") arka uç "
-#~ "eklentileri yüklenemedi.</para><para>Lütfen kurulumunuzu kontrol edin.</"
-#~ "para>"
-
-#~ msgctxt "@label:listbox"
-#~ msgid "Size:"
-#~ msgstr "Boyut:"
-
-#~ msgctxt "@info:credit"
-#~ msgid "Developer"
-#~ msgstr "Geliştirici"
-
-#~ msgctxt "@title"
-#~ msgid "Dummy Backend Plugin"
-#~ msgstr "Sahte Arka Uç Eklentisi"
-
-#~ msgid "KDE Partition Manager dummy backend."
-#~ msgstr "KDE Disk Bölümü Yöneticisi sahte arka ucu."
-
-#~ msgid "Copyright 2010 Volker Lanz"
-#~ msgstr "Copyright 2010 Volker Lanz"
-
-#~ msgctxt "@title"
-#~ msgid "LibParted Backend Plugin"
-#~ msgstr "LibParted Arka Uç Eklentisi"
-
-#~ msgid "KDE Partition Manager backend for libparted."
-#~ msgstr "KDE Disk Bölümü Yöneticisi libparted arka ucu."
-
-#~ msgid "Copyright 2008,2009,2010 Volker Lanz"
-#~ msgstr "Telif hakları 2008,2009,2010 Volker Lanz"
-
-#~ msgctxt "@item/plain filesystem name"
-#~ msgid "unknown"
-#~ msgstr "bilinmeyen"
-
-#~ msgctxt "@item/plain filesystem name"
-#~ msgid "extended"
-#~ msgstr "uzatılmış"
-
-#~ msgctxt "@item/plain filesystem name"
-#~ msgid "jfs"
-#~ msgstr "jfs"
-
-#~ msgctxt "@info/plain"
-#~ msgid "Create file system %1 on partition <filename>%2</filename>"
-#~ msgstr ""
-#~ "Disk bölümü <filename>%2</filename> üzerinde %1 dosya sistemi oluştur"
-
-#~ msgctxt "@info:credit"
-#~ msgid "(c) 2008, 2009, 2010, 2011 Volker Lanz"
-#~ msgstr "(c) 2008, 2009, 2010, 2011 Volker Lanz"
-
-#~ msgctxt "@title:window"
-#~ msgid "Error: No Usable Devices Found"
-#~ msgstr "Hata: Kullanılabilir Bir Aygıt Bulunamadı"

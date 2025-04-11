@@ -1,36 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the kpmcore package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# enolp <enolp@softastur.org>, 2018, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kpmcore\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2020-11-07 22:52+0100\n"
-"Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian <alministradores@softastur.org>\n"
-"Language: ast\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
+"PO-Revision-Date: 2023-02-08 11:55+0100\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <kde-i18n-doc@kde.org>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 20.08.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Softastur"
+msgstr "Temuri Doghonadze"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "alministradores@softastur.org"
+msgstr "Temuri.doghonadze@gmail.com"
 
 #: core/device.cpp:33
 #, kde-format
 msgid "Unknown Device"
-msgstr ""
+msgstr "უცნობი მოწყობილობა"
 
 #: core/device.cpp:82
 #, kde-kuit-format
@@ -42,7 +43,7 @@ msgstr "%1 – %2 (%3)"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "An error occurred while running lvdisplay."
-msgstr "Asocedió un fallu mentanto s'executaba lvdisplay."
+msgstr "შეცდომა lvdisplay-ის გაშვებისას."
 
 #: core/operationstack.cpp:101
 #, kde-kuit-format
@@ -51,6 +52,7 @@ msgid ""
 "Deleting a partition just created: Undoing the operation to create the "
 "partition."
 msgstr ""
+"ახლახანს შექმნილი დანაყოფის წაშლა: ოპერაციის გაუქმება დანაყოფის შესაქმნელად."
 
 #: core/operationstack.cpp:119
 #, kde-kuit-format
@@ -59,24 +61,27 @@ msgid ""
 "Resizing a partition just created: Updating start and end in existing "
 "operation."
 msgstr ""
+"ახლახანს შექმნილი დანაყოფის ზომის შეცვლა: არსებულ ოპერაციაში დასაწყისის და "
+"დასასრულის განახლება."
 
 #: core/operationstack.cpp:139
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Copying a new partition: Creating a new partition instead."
-msgstr ""
+msgstr "ახალი დანაყოფის კოპირება: ახალი დანაყოფის შექმნა."
 
 #: core/operationstack.cpp:156
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing label for a new partition: No new operation required."
-msgstr ""
+msgstr "ახალი დანაყოფის ჭდის შეცვლა: ახალი ოპერაცია საჭირო არაა."
 
 #: core/operationstack.cpp:169
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing file system for a new partition: No new operation required."
 msgstr ""
+"ფაილური სისტემის ახალი დანაყოფისთვის ცვლილება: ახალი ოპერაცია საჭირო არაა."
 
 #: core/operationstack.cpp:186
 #, kde-kuit-format
@@ -85,12 +90,14 @@ msgid ""
 "Checking file systems is automatically done when creating them: No new "
 "operation required."
 msgstr ""
+"ფაილური სისტემები ავტომატურად მოწმდება, როცა იქმნება. დამატებითი ოპერაცია "
+"საჭირო არაა."
 
 #: core/operationstack.cpp:233
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting a partition just copied: Removing the copy."
-msgstr ""
+msgstr "კოპირებული დანაყოფის წაშლა. ასლის წაშლა."
 
 #: core/operationstack.cpp:238
 #, kde-kuit-format
@@ -99,6 +106,8 @@ msgid ""
 "Deleting a partition just copied over an existing partition: Removing the "
 "copy and deleting the existing partition."
 msgstr ""
+"არსებულ დანაყოფზე კოპირებული დანაყოფის წაშლა: ასლი და არსებული დანაყოფი "
+"წაიშლება.."
 
 #: core/operationstack.cpp:251
 #, kde-kuit-format
@@ -112,7 +121,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting a partition just restored: Removing the restore operation."
-msgstr ""
+msgstr "აღდგენილი დანაყოფის წაშლა: აღდგენის ოპერაციის მოცილება."
 
 #: core/operationstack.cpp:285
 #, kde-kuit-format
@@ -126,55 +135,56 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing flags again for the same partition: Removing old operation."
-msgstr ""
+msgstr "იგივე დანაყოფის ალმების შეცვლა: ძველი ოპერაციის მოცილება."
 
 #: core/operationstack.cpp:349
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing label again for the same partition: Removing old operation."
-msgstr ""
+msgstr "იგივე დანაყოფის ჭდის შეცვლა: ძველი ოპერაციის მოცილება."
 
 #: core/operationstack.cpp:375
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating new partition table, discarding previous operation on device."
 msgstr ""
+"ახალი დანაყოფების ცხრილის შექმნა. მოწყობილობაზე წინა ოპერაციის მოცილება."
 
 #: core/operationstack.cpp:395
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing Volume Group, nothing to do."
-msgstr ""
+msgstr "ტომების ჯგუფის ზომის შესაცვლელად არაფერია საჭირო."
 
 #: core/operationstack.cpp:440
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Add operation: %1"
-msgstr ""
+msgstr "ოპერაციის დამატება: %1"
 
 #: core/partition.cpp:159
 #, kde-kuit-format
 msgctxt "@item partition name"
 msgid "unallocated"
-msgstr "ensin asignar"
+msgstr "გამოუყოფელი"
 
 #: core/partition.cpp:162
 #, kde-kuit-format
 msgctxt "@item partition name"
 msgid "New Partition"
-msgstr "Partición nueva"
+msgstr "ახალი დანაყოფი"
 
 #: core/partition.cpp:165
 #, kde-kuit-format
 msgctxt "@item partition name"
 msgid "Restored Partition"
-msgstr ""
+msgstr "აღდგენილი დანაყოფი"
 
 #: core/partition.cpp:168
 #, kde-kuit-format
 msgctxt "@item partition name"
 msgid "Copy of %1"
-msgstr ""
+msgstr "%1-ის ასლი"
 
 #: core/partitionalignment.cpp:80
 #, kde-kuit-format
@@ -196,25 +206,25 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "unallocated"
-msgstr ""
+msgstr "გამოუყოფელი"
 
 #: core/partitionrole.cpp:20
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "logical"
-msgstr ""
+msgstr "ლოგიკური"
 
 #: core/partitionrole.cpp:23
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "extended"
-msgstr ""
+msgstr "გაფართოებული თვისებები"
 
 #: core/partitionrole.cpp:26
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "primary"
-msgstr ""
+msgstr "ძირითადი"
 
 #: core/partitionrole.cpp:29
 #, kde-kuit-format
@@ -226,19 +236,19 @@ msgstr "LUKS"
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "LVM logical volume"
-msgstr ""
+msgstr "LVM -ის ლოგიკური ტომი"
 
 #: core/partitionrole.cpp:34
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "none"
-msgstr ""
+msgstr "არცერთი"
 
 #: core/partitiontable.cpp:180
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "boot"
-msgstr "boot"
+msgstr "ჩატვირთვა"
 
 #: core/partitiontable.cpp:182
 #, kde-kuit-format
@@ -256,7 +266,7 @@ msgstr "swap"
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "hidden"
-msgstr "hidden"
+msgstr "დამალული"
 
 #: core/partitiontable.cpp:188
 #, kde-kuit-format
@@ -340,7 +350,7 @@ msgstr "irst"
 #, kde-kuit-format
 msgctxt "@item partition table name"
 msgid "unknown"
-msgstr ""
+msgstr "უცნობი"
 
 #: core/raid/softwareraid.cpp:93
 #, kde-kuit-format
@@ -352,71 +362,71 @@ msgstr " [RAID %1]"
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Recovering]"
 msgid " [RAID %1 - Recovering]"
-msgstr ""
+msgstr " [RAID %1 - აღდგენა]"
 
 #: core/raid/softwareraid.cpp:97
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Resyncing]"
 msgid " [RAID %1 - Resyncing]"
-msgstr ""
+msgstr " [RAID %1 - რესინქრონიზაცია]"
 
 #: core/smartattribute.cpp:45
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "failing"
-msgstr ""
+msgstr "შეცდომებიანი"
 
 #: core/smartattribute.cpp:48
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "has failed"
-msgstr "falló"
+msgstr "ავარიულად გაჩერდა"
 
 #: core/smartattribute.cpp:51
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "warning"
-msgstr ""
+msgstr "გაფრთხილება"
 
 #: core/smartattribute.cpp:54
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "good"
-msgstr ""
+msgstr "კარგი"
 
 #: core/smartattribute.cpp:58 core/smartattribute.cpp:85
 #, kde-kuit-format
 msgctxt "@item:intable not applicable"
 msgid "N/A"
-msgstr "N/D"
+msgstr "N/A"
 
 #: core/smartattribute.cpp:72
 #, kde-kuit-format
 msgctxt "@item:intable"
 msgid "%1 sector"
 msgid_plural "%1 sectors"
-msgstr[0] "%1 seutor"
-msgstr[1] "%1 seutores"
+msgstr[0] "%1 სექტორი"
+msgstr[1] "%1 სექტორი"
 
 #: core/smartattribute.cpp:101
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Read Error Rate"
-msgstr "Tasa de fallos de llectura"
+msgstr "კითხვის შეცდომების სიჩქარე"
 
 #: core/smartattribute.cpp:101
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Rate of hardware read errors while reading data from the disk surface."
 msgstr ""
-"La tasa de fallos de llectura del hardware mentanto se lleen los datos de la "
-"superficie del discu."
+"აპარატურული წაკითხვის შეცდომების სიჩქარე დისკის ზედაპირიდან მონაცემების "
+"წაკითხვისას."
 
 #: core/smartattribute.cpp:102
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Throughput Performance"
-msgstr ""
+msgstr "გამტარუნარიანობის წარმადობა"
 
 #: core/smartattribute.cpp:102
 #, kde-format
@@ -431,7 +441,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin-Up Time"
-msgstr ""
+msgstr "ჩართვისას, ნომინალურ წარმადობამდე მისვლის დრო"
 
 #: core/smartattribute.cpp:103
 #, kde-format
@@ -443,19 +453,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Start/Stop Count"
-msgstr ""
+msgstr "გაშვების/შეჩერების რაოდენობა"
 
 #: core/smartattribute.cpp:104
 #, kde-format
 msgctxt "SMART attr description"
 msgid "A tally of spindle start/stop cycles."
-msgstr ""
+msgstr "შპინდელის გაშვება/გაჩერების ციკლების სრული რაოდენობა."
 
 #: core/smartattribute.cpp:105
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Reallocated Sectors Count"
-msgstr ""
+msgstr "გადაადგილებული სექტორების რაოდენობა"
 
 #: core/smartattribute.cpp:105
 #, kde-format
@@ -470,7 +480,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Read Channel Margin"
-msgstr ""
+msgstr "არხის ზღვარის წაკითხვა"
 
 #: core/smartattribute.cpp:106
 #, kde-format
@@ -484,7 +494,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Seek Error Rate"
-msgstr ""
+msgstr "გადახვევის შეცდომების სიხშირე"
 
 #: core/smartattribute.cpp:107
 #, kde-format
@@ -498,7 +508,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Seek Time Performance"
-msgstr ""
+msgstr "გადახვევის დროის წარმადობა"
 
 #: core/smartattribute.cpp:108
 #, kde-format
@@ -513,19 +523,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Hours"
-msgstr "Hores de prendíu"
+msgstr "ჩართულობის საათები"
 
 #: core/smartattribute.cpp:109
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of hours in power-on state."
-msgstr "El númberu d'hores nel estáu de prendíu."
+msgstr "ჩართული მდგომარეობის ხანგრძლივობა, საათებში."
 
 #: core/smartattribute.cpp:110
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin Retry Count"
-msgstr ""
+msgstr "დაქოქვის თავიდან ცდა"
 
 #: core/smartattribute.cpp:110
 #, kde-format
@@ -540,7 +550,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Recalibration Retries"
-msgstr "Reintentos de calibración"
+msgstr "რეკალიბრაციის ცდების რაოდენობა"
 
 #: core/smartattribute.cpp:111
 #, kde-format
@@ -550,27 +560,24 @@ msgid ""
 "increase of this attribute value is a sign of problems in the hard disk "
 "mechanical subsystem."
 msgstr ""
-"El númberu de recalibraciones solicitaes si'l primer intentu nun tuvo ésitu. "
-"Un aumentu d'esti valor ye seña de problemes nel sosistema mecánicu del "
-"discu duru"
 
 #: core/smartattribute.cpp:112
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power Cycle Count"
-msgstr "Númberu de ciclos de prendíu"
+msgstr "ჩართვების რაოდენობა"
 
 #: core/smartattribute.cpp:112
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of full hard disk power on/off cycles."
-msgstr "El númberu de ciclos completos de prendíu/apagáu del discu duru."
+msgstr ""
 
 #: core/smartattribute.cpp:113 core/smartattribute.cpp:145
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft Read Error Rate"
-msgstr ""
+msgstr "რბილი წაკითხვის შეცდომების სიხშირე"
 
 #: core/smartattribute.cpp:113
 #, kde-format
@@ -582,7 +589,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Available Reserved Space"
-msgstr ""
+msgstr "SSD-ის ხელმისაწვდომი რეზერვირებული სივრცე"
 
 #: core/smartattribute.cpp:114
 #, kde-format
@@ -594,7 +601,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count"
-msgstr ""
+msgstr "SSD-ის პროგრამის შეცდომის რაოდენობა"
 
 #: core/smartattribute.cpp:115 core/smartattribute.cpp:125
 #, kde-format
@@ -607,7 +614,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count"
-msgstr ""
+msgstr "SSD-ის წაშლის შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:116
 #, kde-format
@@ -619,7 +626,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Leveling Count"
-msgstr ""
+msgstr "SSD-ის ცვეთის სწორება"
 
 #: core/smartattribute.cpp:117
 #, kde-format
@@ -631,7 +638,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unexpected power loss count"
-msgstr ""
+msgstr "SSD-ის კვების მოულოდნელი კარგვების რაოდენობა"
 
 #: core/smartattribute.cpp:118
 #, kde-format
@@ -646,7 +653,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Power Loss Protection Failure"
-msgstr ""
+msgstr "SSD-ის კვების კარგვისგან დაცვის შეცდომა"
 
 #: core/smartattribute.cpp:119
 #, kde-format
@@ -664,19 +671,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count (chip)"
-msgstr ""
+msgstr "SSD-ის წაშლის შეცდომის რაოდენობა (ჩიპი)"
 
 #: core/smartattribute.cpp:120
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase command failures."
-msgstr ""
+msgstr "ფლეშ-მეხსიერების წაშლის ბრძანების შეცდომების რაოდენობა."
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Range Delta"
-msgstr ""
+msgstr "SSD-ის ცვეთის დიაპაზონის სხვაობა"
 
 #: core/smartattribute.cpp:121
 #, kde-format
@@ -688,26 +695,26 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Used Reserved Block Count Total"
-msgstr ""
+msgstr "SSD-ის გამოყენებული დარეზერვებული ბლოკების რაოდენობა"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #: core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" Samsung attribute."
-msgstr ""
+msgstr "Samsung-ის ატრიბუტი \"მალე-გაფუჭდება\"."
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unused Reserved Block Count Total"
-msgstr ""
+msgstr "SSD-ის გამოუყენებელი დარეზერვებული ბლოკების რაოდენობა"
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" HP attribute."
-msgstr ""
+msgstr "HP-ის ატრიბუტი \"მალე-გაფუჭდება\"."
 
 #: core/smartattribute.cpp:125
 #, kde-format
@@ -719,19 +726,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SATA Downshift Error Count"
-msgstr ""
+msgstr "SATA-ის შემანელებელი შეცდომები"
 
 #: core/smartattribute.cpp:127
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital and Samsung attribute."
-msgstr "Atributu de Western Digital y Samsung."
+msgstr "Western Digital-ის და Samsung-ის ატრიბუტი."
 
 #: core/smartattribute.cpp:128
 #, kde-format
 msgctxt "SMART attr name"
 msgid "End-to-End Error"
-msgstr ""
+msgstr "ბოლოდან-ბოლომდე შეცდომა"
 
 #: core/smartattribute.cpp:128
 #, kde-format
@@ -746,25 +753,25 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Head Stability"
-msgstr ""
+msgstr "თავაკის სტაბილურობა"
 
 #: core/smartattribute.cpp:129 core/smartattribute.cpp:130
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital attribute."
-msgstr "Atributu de Western Digital."
+msgstr "Western Digital -ის ატრიბუტი."
 
 #: core/smartattribute.cpp:130
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Induced Op-Vibration Detection"
-msgstr ""
+msgstr "გვერდითი ვიბრაციების გამოვლენა"
 
 #: core/smartattribute.cpp:131
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Reported Uncorrectable Errors"
-msgstr "Fallos incorrexibles informaos"
+msgstr "გამოუსწორებელი შეცდომები"
 
 #: core/smartattribute.cpp:131
 #, kde-format
@@ -776,7 +783,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Command Timeout"
-msgstr ""
+msgstr "ბრძანების მოლოდინის ვადა"
 
 #: core/smartattribute.cpp:132
 #, kde-format
@@ -788,7 +795,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "High Fly Writes"
-msgstr ""
+msgstr "ჩაწერისას თავაკის აცდენები"
 
 #: core/smartattribute.cpp:133
 #, kde-format
@@ -800,7 +807,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Temperature Difference From 100"
-msgstr ""
+msgstr "ტემპერატურის სხვაობა 100-დან"
 
 #: core/smartattribute.cpp:134
 #, kde-format
@@ -814,7 +821,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-sense Error Rate"
-msgstr ""
+msgstr "G-sense -ის შეცდომების სიხშირე"
 
 #: core/smartattribute.cpp:135
 #, kde-format
@@ -826,7 +833,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power Off Retract Count"
-msgstr ""
+msgstr "გამორთვის ციკლები"
 
 #: core/smartattribute.cpp:136
 #, kde-format
@@ -838,7 +845,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load Cycle Count"
-msgstr "Númberu de ciclos de carga"
+msgstr "ჩატვირთვის ციკლების რაოდენობა"
 
 #: core/smartattribute.cpp:137
 #, kde-format
@@ -850,19 +857,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Temperature"
-msgstr "Temperatura"
+msgstr "ტემპერატურა"
 
 #: core/smartattribute.cpp:138
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Current internal temperature."
-msgstr "La temperatura interna total."
+msgstr "მიმდინარე შიდა ტემპერატურა."
 
 #: core/smartattribute.cpp:139
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Hardware ECC Recovered"
-msgstr ""
+msgstr "აპარატურული ECC აღდგენა"
 
 #: core/smartattribute.cpp:139
 #, kde-format
@@ -874,7 +881,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Reallocation Event Count"
-msgstr ""
+msgstr "გადამისამართების მოვლენების რაოდენობა"
 
 #: core/smartattribute.cpp:140
 #, kde-format
@@ -888,7 +895,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Current Pending Sector Count"
-msgstr ""
+msgstr "მიმდინარე მომლოდინე სექტორის რაოდენობა"
 
 #: core/smartattribute.cpp:141
 #, kde-format
@@ -902,19 +909,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Uncorrectable Sector Count"
-msgstr "Númberu de seutores incorrexibles"
+msgstr "შეუკეთებადი სექტორების რიცხვი"
 
 #: core/smartattribute.cpp:142
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of uncorrectable errors when reading/writing a sector."
-msgstr "El númberu de fallos incorrexibles al lleer/escribir nun sector."
+msgstr ""
 
 #: core/smartattribute.cpp:143
 #, kde-format
 msgctxt "SMART attr name"
 msgid "UltraDMA CRC Error Count"
-msgstr ""
+msgstr "UltraDMA CRC შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:143
 #, kde-format
@@ -928,25 +935,25 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Multi-Zone Error Rate<br/>Write Error Rate"
-msgstr ""
+msgstr "მრავალზონიანი შეცდომებს სიხშირე<br/>ჩაწერის შეცდომის სიხშირე"
 
 #: core/smartattribute.cpp:144
 #, kde-format
 msgctxt "SMART attr description"
 msgid "The total number of errors when writing a sector."
-msgstr "El númberu total de fallos cuando s'escribe un seutor."
+msgstr "შეცდომების საერთო რაოდენობა სექტორის ჩაწერისას."
 
 #: core/smartattribute.cpp:145
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of off-track errors."
-msgstr ""
+msgstr "დისკიდან წაკითხვის შეცდომების რაოდენობა."
 
 #: core/smartattribute.cpp:146
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Data Address Mark Errors"
-msgstr ""
+msgstr "მონაცემების მისამართის ნიშნის შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:146
 #, kde-format
@@ -958,43 +965,43 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Run Out Cancel"
-msgstr ""
+msgstr "ECC შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:147
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of ECC errors"
-msgstr ""
+msgstr "ECC შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft ECC Correction"
-msgstr ""
+msgstr "პროგრამული ECC შესწორება"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors corrected by software ECC"
-msgstr ""
+msgstr "პროგრამული ECC-ის მიერ ჩასწორებული შეცდომები"
 
 #: core/smartattribute.cpp:149
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Thermal Asperity Rate"
-msgstr ""
+msgstr "გადახურებები"
 
 #: core/smartattribute.cpp:149
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors due to high temperature."
-msgstr "El númberu de fallos por aciu de temperatures altes."
+msgstr "გადახურებების რაოდენობა."
 
 #: core/smartattribute.cpp:150
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Flying Height"
-msgstr ""
+msgstr "თავაკის სიმაღლე"
 
 #: core/smartattribute.cpp:150
 #, kde-format
@@ -1009,7 +1016,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin High Current"
-msgstr ""
+msgstr "დატრიალების მაღალი ძაბვა"
 
 #: core/smartattribute.cpp:151
 #, kde-format
@@ -1021,7 +1028,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin Buzz"
-msgstr ""
+msgstr "დატრიალების მცდელობები"
 
 #: core/smartattribute.cpp:152
 #, kde-format
@@ -1035,7 +1042,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Offline Seek Performance"
-msgstr ""
+msgstr "ავტონომური პოზიცირება"
 
 #: core/smartattribute.cpp:153
 #, kde-format
@@ -1047,31 +1054,31 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Vibration During Write"
-msgstr "Vibración na escritura"
+msgstr "ვიბრაცია ჩაწერის დრო"
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Vibration During Write"
-msgstr "Vibración na escritura"
+msgstr "ვიბრაცია ჩაწერის დრო"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Shock During Write"
-msgstr ""
+msgstr "დარტყმა ჩაწერისას"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Shock During Write"
-msgstr ""
+msgstr "დარტყმა ჩაწერისას"
 
 #: core/smartattribute.cpp:156
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Disk Shift"
-msgstr ""
+msgstr "დისკის წანაცვლება"
 
 #: core/smartattribute.cpp:156
 #, kde-format
@@ -1085,7 +1092,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-Sense Error Rate"
-msgstr ""
+msgstr "დარტყმები"
 
 #: core/smartattribute.cpp:157
 #, kde-format
@@ -1098,7 +1105,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Loaded Hours"
-msgstr ""
+msgstr "თავაკების მუშაობის რაოდენობა, საათებში"
 
 #: core/smartattribute.cpp:158
 #, kde-format
@@ -1110,7 +1117,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load/Unload Retry Count"
-msgstr ""
+msgstr "ჩატვირთვა/გამოტვირთვის ცდებს რაოდენობა"
 
 #: core/smartattribute.cpp:159
 #, kde-format
@@ -1122,7 +1129,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load Friction"
-msgstr ""
+msgstr "ჩატვირთვა ხახუნით"
 
 #: core/smartattribute.cpp:160
 #, kde-format
@@ -1134,19 +1141,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load/Unload Cycle Count"
-msgstr ""
+msgstr "ჩატვირთვა /გამოტვირთვის ციკლების რაოდენობა"
 
 #: core/smartattribute.cpp:161
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total number of load cycles."
-msgstr "El númberu de ciclos de carga."
+msgstr "ჩატვირთვის ციკლების სრული რაოდენობა."
 
 #: core/smartattribute.cpp:162
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load-In Time"
-msgstr ""
+msgstr "ჩატვირთვის დრო"
 
 #: core/smartattribute.cpp:162
 #, kde-format
@@ -1160,7 +1167,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Torque Amplification Count"
-msgstr ""
+msgstr "მომენტის კომპენსირების მცდელობები"
 
 #: core/smartattribute.cpp:163
 #, kde-format
@@ -1172,7 +1179,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-Off Retract Cycle"
-msgstr ""
+msgstr "გამორთვის ციკლები"
 
 #: core/smartattribute.cpp:164
 #, kde-format
@@ -1186,7 +1193,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "GMR Head Amplitude"
-msgstr ""
+msgstr "თავაკების კანკალის ამპლიტუდა"
 
 #: core/smartattribute.cpp:165
 #, kde-format
@@ -1200,13 +1207,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Drive Temperature"
-msgstr "La temperatura de la unidá"
+msgstr "დისკის ტემპერატურა"
 
 #: core/smartattribute.cpp:167
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Endurance Remaining"
-msgstr ""
+msgstr "დარჩენილი გამძლეობა"
 
 #: core/smartattribute.cpp:167
 #, kde-format
@@ -1220,7 +1227,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Seconds"
-msgstr ""
+msgstr "ჩართულობა, წამებში"
 
 #: core/smartattribute.cpp:168
 #, kde-format
@@ -1232,19 +1239,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Unrecoverable ECC Count"
-msgstr ""
+msgstr "აღუდგენელი ECC შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of unrecoverable ECC errors"
-msgstr ""
+msgstr "აღუდგენელი ECC შეცდომების რაოდენობა"
 
 #: core/smartattribute.cpp:170
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Good Block Rate"
-msgstr ""
+msgstr "კარგი ბლოკების რაოდენობა"
 
 #: core/smartattribute.cpp:170
 #, kde-format
@@ -1272,55 +1279,55 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Total LBAs Written"
-msgstr ""
+msgstr "ჩაწერილი LBA ჯამში"
 
 #: core/smartattribute.cpp:172
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total LBAs Written"
-msgstr ""
+msgstr "ჩაწერილი LBA ჯამში"
 
 #: core/smartattribute.cpp:173
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Total LBAs Read"
-msgstr ""
+msgstr "წაკითხული LBA ჯამში"
 
 #: core/smartattribute.cpp:173
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total LBAs Read"
-msgstr ""
+msgstr "წაკითხული LBA ჯამში"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD NAND_Writes_1GiB"
-msgstr ""
+msgstr "SSD NAND_Writes_1GiB"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of writes to NAND in 1 GB increments"
-msgstr "El númberu d'escritures na NAND n'incrementos de 1GB"
+msgstr "NAND-ში ჩაწერების რაოდენობა 1 გიგაბაიტიან ინკრემენტებში"
 
 #: core/smartattribute.cpp:175
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Read Error Retry Rate"
-msgstr ""
+msgstr "განმეორებადი წაკითხვების მცდელობები"
 
 #: core/smartattribute.cpp:175
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors while reading from a disk"
-msgstr "El númberu de fallos mentanto se llee dende un discu"
+msgstr "შეცდომების რაოდენობა დისკიდან წაკითხვისას"
 
 #: core/smartattribute.cpp:176
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Free Fall Protection"
-msgstr ""
+msgstr "ვარდნისგან დაცვა"
 
 #: core/smartattribute.cpp:176
 #, kde-format
@@ -1338,97 +1345,101 @@ msgstr "%1° C / %2° F"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Aborted"
-msgstr ""
+msgstr "შეწყვეტილია"
 
 #: core/smartstatus.cpp:89
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Interrupted"
-msgstr ""
+msgstr "შეწყვეტილია"
 
 #: core/smartstatus.cpp:92
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Fatal error"
-msgstr "Fallu fatal"
+msgstr "ფატალური შეცდომა"
 
 #: core/smartstatus.cpp:95
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Unknown error"
-msgstr ""
+msgstr "უცნობი შეცდომა"
 
 #: core/smartstatus.cpp:98
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Electrical error"
-msgstr "Fallu llétricu"
+msgstr "ელექტრული შეცდომა"
 
 #: core/smartstatus.cpp:101
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Servo error"
-msgstr ""
+msgstr "სერვოს შეცდომა"
 
 #: core/smartstatus.cpp:104
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Read error"
-msgstr "Fallu de llectura"
+msgstr "წაკითხვის შეცდომა"
 
 #: core/smartstatus.cpp:107
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Handling error"
-msgstr ""
+msgstr "დამმუშავებლის შეცდომა"
 
 #: core/smartstatus.cpp:110
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Self test in progress"
-msgstr ""
+msgstr "მიმდინარეობს თვითტესტი"
 
 #: core/smartstatus.cpp:114
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Success"
-msgstr ""
+msgstr "წარმატება"
 
 #: core/smartstatus.cpp:123
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Healthy"
-msgstr ""
+msgstr "ჯანმრთელი"
 
 #: core/smartstatus.cpp:126
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has been used outside of its design parameters in the past."
-msgstr "Nel pasáu usóse acullá de los sos parámetros de diseñu"
+msgstr ""
+"წარსულში იმყოფებოდა იმ პარამეტრების დიაპაზონს გარეთ, რომლისთვისაც "
+"განკუთვნილია."
 
 #: core/smartstatus.cpp:129
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has some bad sectors."
-msgstr "Tien dalgunos seutores malos."
+msgstr "აქვს რამდენიმე ცუდი სექტორი."
 
 #: core/smartstatus.cpp:132
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Is being used outside of its design parameters right now."
-msgstr "Nesti momentu ta usandose aculla de los sos parámetros de diseñu."
+msgstr ""
+"ამჟამად გამოიყენება პარამეტრების იმ დიაპაზონს გარეთ, რომლისთვისაც "
+"განკუთვნილია."
 
 #: core/smartstatus.cpp:135
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has many bad sectors."
-msgstr "Tien munchos seutores malos."
+msgstr "აქვს ბევრი ცუდი სექტორი."
 
 #: core/smartstatus.cpp:139
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Disk failure is imminent. Backup all data!"
-msgstr ""
+msgstr "დისკის შეცდომა გარდაუვალია. შეინახეთ მონაცემები!"
 
 #: fs/btrfs.cpp:166
 #, kde-kuit-format
@@ -1468,221 +1479,221 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr ""
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
-msgstr "desconozse"
+msgstr "უცნობი"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
-msgstr ""
+msgstr "გაფართოებული თვისებები"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
-msgstr "ensin formatiar"
+msgstr "დაუფორმატებელი"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks2"
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat12"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr "linux_raid_member"
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr "BitLocker"
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr "apfs"
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
-msgstr ""
+msgstr "minix"
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
-msgstr ""
+msgstr "მიმაგრება"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
-msgstr ""
+msgstr "მოხსნა"
 
 #: fs/jfs.cpp:155
 #, kde-kuit-format
@@ -1716,34 +1727,34 @@ msgid ""
 "Initial mount failed."
 msgstr ""
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
-msgstr ""
+msgstr "სვაპის აქტივაცია"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
-msgstr ""
+msgstr "სვაბის დეაქტივაცია"
 
 #: fs/luks.cpp:166
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unlock"
-msgstr ""
+msgstr "განბლოკვა"
 
 #: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Lock"
-msgstr ""
+msgstr "ჩაკეტვა"
 
 #: fs/luks.cpp:252
 #, kde-format
 msgid "Enter passphrase for %1:"
-msgstr ""
+msgstr "შეიყვანეთ %1-ის კოდური ფრაზა:"
 
 #: fs/luks.cpp:495 fs/luks.cpp:505 fs/luks2.cpp:88 fs/luks2.cpp:105
 #, kde-kuit-format
@@ -1790,7 +1801,7 @@ msgid ""
 "Initial mount failed."
 msgstr ""
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1798,7 +1809,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1806,7 +1817,7 @@ msgid ""
 "trying to update the NTFS boot sector."
 msgstr ""
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1857,7 +1868,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not create backup file <filename>%1</filename>."
-msgstr ""
+msgstr "შექცდომა მარქაფის ფაილის შექმნისას <filename>%1</filename>."
 
 #: jobs/backupfilesystemjob.cpp:68
 #, kde-kuit-format
@@ -1867,11 +1878,17 @@ msgid ""
 "filename>"
 msgstr ""
 
+#: jobs/changepermissionsjob.cpp:43
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "<filename>%1</filename>-ის წვდომების %2-ზე შეცვლა"
+
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
-msgstr ""
+msgstr "ფაილური სისტემის შემოწმება დანაყოფზე: <filename>%1</filename>"
 
 #: jobs/copyfilesystemjob.cpp:48
 #, kde-kuit-format
@@ -1953,6 +1970,8 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
+"შეცდომა დანაყოფის:<filename>%1</filename> მოწყობილობაში <filename>%2</"
+"filename> ჩამატებისას."
 
 #: jobs/createpartitionjob.cpp:74
 #, kde-kuit-format
@@ -1974,13 +1993,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
-msgstr ""
+msgstr "ახალი დანაყოფის შექმნა <filename>%1</filename>"
 
 #: jobs/createpartitionjob.cpp:96
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
-msgstr ""
+msgstr "ახალი დანაყოფის შექმნა დანაყოფზე <filename>%1</filename>"
 
 #: jobs/createpartitiontablejob.cpp:49
 #, kde-kuit-format
@@ -1994,25 +2013,25 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition table on device <filename>%1</filename>"
-msgstr "Creación d'una tabla de particiones nel preséu «%1»"
+msgstr ""
 
 #: jobs/createvolumegroupjob.cpp:49
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new Volume Group: <filename>%1</filename> with PV: %2"
-msgstr ""
+msgstr "ახალი ტომების ჯგუფის შექმნა: <filename>%1</filename> PV-ით: %2"
 
 #: jobs/deactivatelogicalvolumejob.cpp:50
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Logical Volumes: <filename>%1</filename>"
-msgstr ""
+msgstr "ლოგიკური ტომების დეაქტივაცია: <filename>%1</filename>"
 
 #: jobs/deactivatevolumegroupjob.cpp:47
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Volume Group: <filename>%1</filename>"
-msgstr ""
+msgstr "ტომების ჯგუფის დეაქტივაცია: <filename>%1</filename>"
 
 #: jobs/deletefilesystemjob.cpp:51
 #, kde-kuit-format
@@ -2021,12 +2040,14 @@ msgid ""
 "Could not delete file system: file system on <filename>%1</filename> is "
 "mounted."
 msgstr ""
+"ფაილური სისტემის წაშლის შეცდომა: ფაილური სისტემა <filename>%1</filename> -ზე "
+"უკვე მიმაგრებულია."
 
 #: jobs/deletefilesystemjob.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete file system on <filename>%1</filename>."
-msgstr ""
+msgstr "<filename>%1</filename>-ზე ფაილური სისტემის წაშლის შეცდომა."
 
 #: jobs/deletefilesystemjob.cpp:80
 #, kde-kuit-format
@@ -2048,13 +2069,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete file system on <filename>%1</filename>"
-msgstr ""
+msgstr "<filename>%1</filename>-ზე ფაილური სისტემის წაშლა"
 
 #: jobs/deletepartitionjob.cpp:61 plugins/sfdisk/sfdiskpartitiontable.cpp:100
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete partition <filename>%1</filename>."
-msgstr ""
+msgstr "<filename>%1</filename>-ზე დანაყოფის წაშლის შეცდომა."
 
 #: jobs/deletepartitionjob.cpp:65
 #, kde-kuit-format
@@ -2075,7 +2096,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
-msgstr ""
+msgstr "დანაყოფის წაშლა: <filename>%1</filename>"
 
 #: jobs/job.cpp:45
 #, kde-kuit-format
@@ -2111,7 +2132,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Job: %1"
-msgstr "Trabayu: %1"
+msgstr "დავალება: %1"
 
 #: jobs/job.cpp:115
 #, kde-kuit-format
@@ -2123,19 +2144,19 @@ msgstr "%1: %2"
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Pending"
-msgstr "Pendiente"
+msgstr "დარჩენილი"
 
 #: jobs/job.cpp:135
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Success"
-msgstr "Ésitu"
+msgstr "წარმატება"
 
 #: jobs/job.cpp:136
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Error"
-msgstr "Fallu"
+msgstr "შეცდომა"
 
 #: jobs/movefilesystemjob.cpp:52
 #, kde-kuit-format
@@ -2163,7 +2184,7 @@ msgstr ""
 #, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
-msgstr ""
+msgstr "მოწყობილობის დახურვა. შეიძლება რამდენიმე წამი დასჭირდეს."
 
 #: jobs/movefilesystemjob.cpp:79
 #, kde-kuit-format
@@ -2181,7 +2202,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove Volume Group: <filename>%1</filename>"
-msgstr ""
+msgstr "ტომების ჯგუფის წაშლა: <filename>%1</filename>"
 
 #: jobs/resizefilesystemjob.cpp:66
 #, kde-kuit-format
@@ -2257,22 +2278,22 @@ msgstr[1] ""
 msgctxt "@info/plain"
 msgid "Adding LVM Physical Volume %2 to %3."
 msgid_plural "Adding LVM Physical Volumes %2 to %3."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "LVM ფიზიკური ტომის %2 დამატება %3-ზე."
+msgstr[1] "LVM ფიზიკური ტომის %2 დამატება %3-ზე."
 
 #: jobs/resizevolumegroupjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Removing LVM Physical Volume %2 from %3."
 msgid_plural "Removing LVM Physical Volumes %2 from %3."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "LVM ფიზიკური ტომის %2 %3-დან წაშლა."
+msgstr[1] "LVM ფიზიკური ტომის %2 %3-დან წაშლა."
 
 #: jobs/resizevolumegroupjob.cpp:64
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resizing Volume Group %1 to %2."
-msgstr ""
+msgstr "ტომების ჯგუფის ზომის შეცვლა %1-დან %2-მდე."
 
 #: jobs/restorefilesystemjob.cpp:62
 #, kde-kuit-format
@@ -2313,13 +2334,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress flag turned on, active"
 msgid "on"
-msgstr ""
+msgstr "ჩართული"
 
 #: jobs/setpartflagsjob.cpp:65
 #, kde-kuit-format
 msgctxt "@info:progress flag turned off, inactive"
 msgid "off"
-msgstr ""
+msgstr "გამორთული"
 
 #: jobs/setpartflagsjob.cpp:65
 #, kde-kuit-format
@@ -2349,13 +2370,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Clear flags for partition <filename>%1</filename>"
-msgstr ""
+msgstr "ალმების გასუფთავება დანაყოფისთვის <filename>%1</filename>"
 
 #: jobs/setpartflagsjob.cpp:91
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
-msgstr ""
+msgstr "ალმები დანაყოფისთვის <filename>%1</filename> დაყენებულია \"%2\"-ზე"
 
 #: jobs/setpartgeometryjob.cpp:65
 #, kde-kuit-format
@@ -2385,7 +2406,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
-msgstr "Fallu al afitar los atributos de la partición <filename>%1</filename>."
+msgstr ""
 
 #: jobs/setpartitionattributesjob.cpp:61
 #, kde-kuit-format
@@ -2394,8 +2415,6 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "attributes for the partition <filename>%2</filename>."
 msgstr ""
-"Nun pudo abrise la tabla de particiones del preséu <filename>%1</filename> "
-"p'afitar los atributos de la partición <filename>%2</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:63
 #, kde-kuit-format
@@ -2404,8 +2423,6 @@ msgid ""
 "Could not open device <filename>%1</filename> to set the attributes for "
 "partition <filename>%2</filename>."
 msgstr ""
-"Nun pudo abrise'l preséu <filename>%1</filename> p'afitar los atributos de "
-"la partición <filename>%2</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:74
 #, kde-kuit-format
@@ -2425,7 +2442,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr "Fallu al afitar el nome de la partición <filename>%1</filename>."
+msgstr ""
 
 #: jobs/setpartitionlabeljob.cpp:61
 #, kde-kuit-format
@@ -2461,7 +2478,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr "Fallu al afitar l'UUID de la partición <filename>%1</filename>."
+msgstr ""
 
 #: jobs/setpartitionuuidjob.cpp:61
 #, kde-kuit-format
@@ -2528,13 +2545,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Copying source to target partition failed."
-msgstr ""
+msgstr "წყაროს სამიზნე დანაყოფზე კოპირების შეცდომა."
 
 #: ops/copyoperation.cpp:161
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating target partition for copying failed."
-msgstr ""
+msgstr "კოპირებისთვის სამიზნე დანაყოფის შექმნის შეცდომა."
 
 #: ops/copyoperation.cpp:163
 #, kde-kuit-format
@@ -2581,7 +2598,7 @@ msgid ""
 "(starting at %4) on <filename>%5</filename> and grow it to %6"
 msgstr ""
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
@@ -2591,7 +2608,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
-msgstr "Creación d'una tabla de particiones (del tipu %1) en «%2»"
+msgstr ""
 
 #: ops/createvolumegroupoperation.cpp:36
 #, kde-kuit-format
@@ -2603,67 +2620,67 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate volume group."
-msgstr ""
+msgstr "ტომების ჯგუფის დეაქტივაცია."
 
 #: ops/deleteoperation.cpp:87
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Shred partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "სამუდამოდ წაიშლება დანაყოფი <filename>%1</filename> (%2, %3)"
 
 #: ops/deleteoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
-msgstr ""
+msgstr "წაიშლება დანაყოფი <filename>%1</filename> (%2, %3)"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
-msgstr "Creación d'una partición (%1, %2) en «%3»"
+msgstr ""
 
 #: ops/operation.cpp:75
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "None"
-msgstr ""
+msgstr "არაფერი"
 
 #: ops/operation.cpp:76
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Pending"
-msgstr "Pendiente"
+msgstr "დარჩენილი"
 
 #: ops/operation.cpp:77
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Running"
-msgstr "N'execución"
+msgstr "გაშვებულია"
 
 #: ops/operation.cpp:78
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Success"
-msgstr ""
+msgstr "წარმატება"
 
 #: ops/operation.cpp:79
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Warning"
-msgstr "Alvertencia"
+msgstr "გაფრთხილება"
 
 #: ops/operation.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Error"
-msgstr "Fallu"
+msgstr "შეცდომა"
 
 #: ops/removevolumegroupoperation.cpp:35
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove a LVM volume group."
-msgstr ""
+msgstr "LVM ტომების ჯგუფის წაშლა."
 
 #: ops/resizeoperation.cpp:156
 #, kde-kuit-format
@@ -2693,13 +2710,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the left by %2"
-msgstr ""
+msgstr "დანაყოფის <filename>%1</filename> მარცხნივ, %2-ით გაწევა"
 
 #: ops/resizeoperation.cpp:204
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the right by %2"
-msgstr ""
+msgstr "დანაყოფის <filename>%1</filename> მარჯვნივ, %2-ით გაწევა"
 
 #: ops/resizeoperation.cpp:207
 #, kde-kuit-format
@@ -2749,7 +2766,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Unknown resize/move action."
-msgstr ""
+msgstr "უცნობი ზომის შეცვლის/გადატანის ქმედება."
 
 #: ops/resizeoperation.cpp:258
 #, kde-kuit-format
@@ -2812,7 +2829,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resize volume %1 from %2 to %3"
-msgstr ""
+msgstr "ტომის (%1) ზომის შეცვლა %2-დან %3-მდე"
 
 #: ops/restoreoperation.cpp:133
 #, kde-kuit-format
@@ -2826,7 +2843,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Restoring file system failed."
-msgstr ""
+msgstr "ფაილური სისტემის აღდგენის შეცდომა."
 
 #: ops/restoreoperation.cpp:141
 #, kde-kuit-format
@@ -2865,7 +2882,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Clear flags for partition <filename>%1</filename>"
-msgstr ""
+msgstr "ალმების გასუფთავება დანაყოფისთვის <filename>%1</filename>"
 
 #: ops/setpartflagsoperation.cpp:64
 #, kde-kuit-format
@@ -2877,13 +2894,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr ""
+msgstr "ნაპოვნია პროგრამული RAID მოწყობილობა: %1"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:249
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
-msgstr ""
+msgstr "ნაპოვნია მოწყობილობა: %1"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:65
 #, kde-kuit-format
@@ -2891,6 +2908,8 @@ msgctxt "@info:progress"
 msgid ""
 "Unknown partition role for new partition <filename>%1</filename> (roles: %2)"
 msgstr ""
+"უცნობი დანაყოფის როლი ახალი დანაყოფისთვის <filename>%1</filename> (როლები: "
+"%2)"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:89
 #, kde-kuit-format
@@ -2899,6 +2918,8 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
+"შეცდომა დანაყოფის:<filename>%1</filename> მოწყობილობაში <filename>%2</"
+"filename> ჩამატებისას."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:114
 #, kde-kuit-format
@@ -2928,148 +2949,148 @@ msgstr ""
 msgctxt "@item:intext unit"
 msgid "Byte"
 msgid_plural "Bytes"
-msgstr[0] "Byte"
-msgstr[1] "Bytes"
+msgstr[0] "ბაიტი"
+msgstr[1] "ბაიტი"
 
 #: util/capacity.cpp:101
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "KiB"
-msgstr "KiB"
+msgstr "კიბ"
 
 #: util/capacity.cpp:102
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "MiB"
-msgstr "MiB"
+msgstr "მიბ"
 
 #: util/capacity.cpp:103
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "GiB"
-msgstr "GiB"
+msgstr "გიბ"
 
 #: util/capacity.cpp:104
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "TiB"
-msgstr "TiB"
+msgstr "ტიბ"
 
 #: util/capacity.cpp:105
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "PiB"
-msgstr "PiB"
+msgstr "პიბ"
 
 #: util/capacity.cpp:106
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "EiB"
-msgstr "EiB"
+msgstr "ეიბ"
 
 #: util/capacity.cpp:107
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "ZiB"
-msgstr "ZiB"
+msgstr "ზიბ"
 
 #: util/capacity.cpp:108
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "YiB"
-msgstr "YiB"
+msgstr "იიბ"
 
 #: util/capacity.cpp:112
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "(unknown unit)"
-msgstr ""
+msgstr "(უცნობი ერთეული)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
-msgstr "Comandu: %1 %2"
+msgstr "ბრძანება: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
+#: util/externalcommandhelper.cpp:82
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
 #, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:91
+#: util/externalcommandhelper.cpp:96
 #, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:110
+#: util/externalcommandhelper.cpp:114
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:120
+#: util/externalcommandhelper.cpp:125
 #, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:145
+#: util/externalcommandhelper.cpp:151
 #, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr "Nun pudo abrise'l ficheru <filename>%1</filename> pa la escritura."
+msgstr ""
 
-#: util/externalcommandhelper.cpp:150
+#: util/externalcommandhelper.cpp:156
 #, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr "Nun pudo escribise nel ficheru <filename>%1</filename>."
+msgstr ""
 
-#: util/externalcommandhelper.cpp:216
+#: util/externalcommandhelper.cpp:237
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr ""
-
-#: util/externalcommandhelper.cpp:217
-#, kde-format
-msgctxt "direction: left"
-msgid "left"
-msgstr ""
-
-#: util/externalcommandhelper.cpp:218
-#, kde-format
-msgctxt "direction: right"
-msgid "right"
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
 msgstr ""
 
 #: util/externalcommandhelper.cpp:238
+#, kde-format
+msgctxt "direction: left"
+msgid "left"
+msgstr "მარცხნივ"
+
+#: util/externalcommandhelper.cpp:239
+#, kde-format
+msgctxt "direction: right"
+msgid "right"
+msgstr "მარჯვენა"
+
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:251
+#: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] "1 byte"
-msgstr[1] "%1 bytes"
+msgstr[0] "1 ბაიტი"
+msgstr[1] "%1 ბაიტი"
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3083,13 +3104,13 @@ msgstr "<application>KPMcore</application>"
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Library for managing partitions"
-msgstr "Biblioteca pa xestionar particiones"
+msgstr "დანაყოფების მართვის ბიბლიოთეკა"
 
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
-msgstr "&copy; 2008-2020 Los desendolcadores de KPMcore"
+msgid "&copy; 2008-2022 KPMcore developers"
+msgstr "&copy; 2008-2022 KPMcore -ის პროგრამისტები, ყველა უფლება დაცულია"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -3101,7 +3122,7 @@ msgstr "Volker Lanz"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Former maintainer"
-msgstr "Caltenedor anterior"
+msgstr "ყოფილი პროგრამისტი"
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
@@ -3113,7 +3134,7 @@ msgstr "Andrius Štikonas"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr "Caltenedor"
+msgstr "წამყვანი პროგრამისტი"
 
 #: util/helpers.cpp:58
 #, kde-kuit-format
@@ -3125,7 +3146,7 @@ msgstr "Teo Mrnjavac"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Former Calamares maintainer"
-msgstr "Caltenedor anterior de Calamares"
+msgstr "Calamares-ის ყოფილი პროგრამისტი"
 
 #: util/helpers.cpp:59
 #, kde-kuit-format
@@ -3137,7 +3158,7 @@ msgstr "Chantara Tith"
 #, kde-format
 msgctxt "@info:credit"
 msgid "LVM support"
-msgstr ""
+msgstr "LVM-ის მხარდაჭერა"
 
 #: util/helpers.cpp:60
 #, kde-kuit-format
@@ -3149,7 +3170,7 @@ msgstr "Pali Rohár"
 #, kde-format
 msgctxt "@info:credit"
 msgid "UDF support"
-msgstr ""
+msgstr "UDF-ის მხარდაჭერა"
 
 #: util/helpers.cpp:61
 #, kde-kuit-format
@@ -3161,7 +3182,7 @@ msgstr "Adriaan de Groot"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Calamares maintainer"
-msgstr "Caltenedor de Calamares"
+msgstr "Calamares-ის პროგრამისტი"
 
 #: util/helpers.cpp:62
 #, kde-kuit-format
@@ -3173,49 +3194,46 @@ msgstr "Caio Jordão Carvalho"
 #, kde-format
 msgctxt "@info:credit"
 msgid "Improved SMART support"
-msgstr ""
+msgstr "SMART-ის უკეთესი მხარდაჭერა"
 
 #: util/helpers.cpp:63
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "დავიდ ედმუნდსონი"
 
 #: util/helpers.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port from KAuth to Polkit"
-msgstr ""
+msgstr "KAuth-დან Polkit-ში გადატანა"
 
 #: util/htmlreport.cpp:51 util/htmlreport.cpp:58
 #, kde-format
 msgid "%1: SMART Status Report"
-msgstr ""
+msgstr "%1: SMART სტატუსის ანგარიში"
 
 #: util/htmlreport.cpp:66
 #, kde-format
 msgid "Date:"
-msgstr "Data:"
+msgstr "თარიღი:"
 
 #: util/htmlreport.cpp:67
 #, kde-format
 msgid "Program version:"
-msgstr "Versión del programa:"
+msgstr "პროგრამის ვერსია:"
 
 #: util/htmlreport.cpp:68
 #, kde-format
 msgid "Backend:"
-msgstr "Backend:"
+msgstr "უკანბოლო:"
 
 #: util/htmlreport.cpp:69
 #, kde-format
 msgid "KDE Frameworks version:"
-msgstr "Versión de KDE Frameworks:"
+msgstr "KDE Frameworks-ის ვერსია:"
 
 #: util/htmlreport.cpp:70
 #, kde-format
 msgid "Machine:"
-msgstr "Máquina:"
-
-#~ msgid "QCA does not support RSA."
-#~ msgstr "QCA nun sofita RSA."
+msgstr "მანქანა:"

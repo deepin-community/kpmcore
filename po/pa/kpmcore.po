@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
 "PO-Revision-Date: 2013-01-05 09:00+0530\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
@@ -1520,7 +1520,7 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "<filename>%1</filename> ਪਾਰਟੀਸ਼ਨ ਲਈ ਲੇਬਲ \"%2\" ਸੈੱਟ ਕਰੋ"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain partition table name"
 #| msgid "unknown"
@@ -1528,7 +1528,7 @@ msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "ਅਣਜਾਣ"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition role"
 #| msgid "extended"
@@ -1536,7 +1536,7 @@ msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "ਐਕਸਟੈੱਡ"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ext2"
@@ -1544,7 +1544,7 @@ msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ext3"
@@ -1552,7 +1552,7 @@ msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ext4"
@@ -1560,7 +1560,7 @@ msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "linuxswap"
@@ -1568,7 +1568,7 @@ msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "fat16"
@@ -1576,7 +1576,7 @@ msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "fat32"
@@ -1584,7 +1584,7 @@ msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ntfs"
@@ -1592,7 +1592,7 @@ msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "reiser"
@@ -1600,7 +1600,7 @@ msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "reiser4"
@@ -1608,7 +1608,7 @@ msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "xfs"
@@ -1616,14 +1616,14 @@ msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, fuzzy, kde-kuit-format
 #| msgid "jfs"
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "hfs"
@@ -1631,7 +1631,7 @@ msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "hfsplus"
@@ -1639,7 +1639,7 @@ msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ufs"
@@ -1647,7 +1647,7 @@ msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "unformatted"
@@ -1655,7 +1655,7 @@ msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "ਅਣ-ਫਾਰਮੈਟ"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "btrfs"
@@ -1663,7 +1663,7 @@ msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "hpfs"
@@ -1671,7 +1671,7 @@ msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "luks"
@@ -1679,7 +1679,7 @@ msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ocfs2"
@@ -1687,7 +1687,7 @@ msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "zfs"
@@ -1695,7 +1695,7 @@ msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "exfat"
@@ -1703,7 +1703,7 @@ msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "nilfs2"
@@ -1711,7 +1711,7 @@ msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "lvm2 pv"
@@ -1719,13 +1719,13 @@ msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr ""
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ufs"
@@ -1733,13 +1733,13 @@ msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr ""
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "luks"
@@ -1747,7 +1747,7 @@ msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks"
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item/plain filesystem name"
 #| msgid "fat16"
@@ -1755,37 +1755,37 @@ msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr ""
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr ""
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr ""
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr ""
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "ਮਾਊਂਟ"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1847,13 +1847,13 @@ msgstr ""
 "ਪਾਰਟੀਸ਼ਨ <filename>%1</filename> ਉੱਤੇ  XFS ਫਾਇਲ ਸਿਸਟਮ ਮੁੜ-ਸਾਈਜ਼ ਫੇਲ੍ਹ ਹੋਇਆ: ਸ਼ੁਰੂਆਤੀ "
 "ਮਾਊਂਟ ਫੇਲ੍ਹ ਹੈ।"
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr "ਸਵੈਪ ਸਰਗਰਮ"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1949,7 +1949,7 @@ msgstr ""
 "ਪਾਰਟੀਸ਼ਨ <filename>%1</filename> ਉੱਤੇ  XFS ਫਾਇਲ ਸਿਸਟਮ ਮੁੜ-ਸਾਈਜ਼ ਫੇਲ੍ਹ ਹੋਇਆ: ਸ਼ੁਰੂਆਤੀ "
 "ਮਾਊਂਟ ਫੇਲ੍ਹ ਹੈ।"
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -1963,7 +1963,7 @@ msgstr ""
 "ਪਾਰਟੀਸ਼ਨ <filename>%1</filename> ਉੱਤੇ NTFS ਫਾਇਲ ਸਿਸਟਮ ਲਈ ਬੂਟ ਸੈਕਟਰ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾ "
 "ਰਿਹਾ ਹੈ।"
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -1977,7 +1977,7 @@ msgstr ""
 "ਪਾਰਟੀਸ਼ਨ <filename>%1</filename> ਉੱਤੇ ਨਵਾਂ ਸ਼ੁਰੂ ਸੈਕਟਰ ਲਿਖਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ, ਜਦੋਂ NTFS ਬੂਟ "
 "ਸੈਕਟਰ ਅੱਪਡੇਟ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ।"
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid ""
@@ -2077,6 +2077,14 @@ msgid ""
 "Back up file system on partition <filename>%1</filename> to <filename>%2</"
 "filename>"
 msgstr "<filename>%1</filename> ਤੋਂ ਪਾਰਟੀਸ਼ਨ <filename>%2</filename> ਉੱਤੇ ਰੀਸਟੋਰ ਕਰੋ"
+
+#: jobs/changepermissionsjob.cpp:43
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info/plain"
+#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "<filename>%1</filename> ਪਾਰਟੀਸ਼ਨ ਲਈ ਲੇਬਲ \"%2\" ਸੈੱਟ ਕਰੋ"
 
 #: jobs/checkfilesystemjob.cpp:43
 #, fuzzy, kde-kuit-format
@@ -3126,7 +3134,7 @@ msgstr ""
 "ਪਾਰਟੀਸ਼ਨ <filename>%1</filename> (%2, %3) ਦੀ <filename>%4</filename> (%5, %6) "
 "ਕਾਪੀ"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Create filesystem %1 on partition <filename>%2</filename>"
@@ -3174,7 +3182,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "<filename>%1</filename> (%2, %3) ਪਾਰਟੀਸ਼ਨ ਹਟਾਓ"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
@@ -3675,7 +3683,7 @@ msgid "(unknown unit)"
 msgstr "(ਅਣਜਾਣ ਯੂਨਿਟ)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Command: %1 %2"
@@ -3683,74 +3691,74 @@ msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "ਕਮਾਂਡ: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
+#: util/externalcommandhelper.cpp:82
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "Could not open file <filename>%1</filename> for writing."
 msgid "Could not open device <filename>%1</filename> for reading."
 msgstr "ਫਾਇਲ <filename>%1</filename> ਲਿਖਣ ਲਈ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Could not create backup file <filename>%1</filename>."
 msgid "Could not seek position %1 on device <filename>%2</filename>."
 msgstr "ਬੈਕਅੱਪ ਫਾਇਲ <filename>%1</filename> ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:91
+#: util/externalcommandhelper.cpp:96
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Could not create backup file <filename>%1</filename>."
 msgid "Could not read from device <filename>%1</filename>."
 msgstr "ਬੈਕਅੱਪ ਫਾਇਲ <filename>%1</filename> ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:110
+#: util/externalcommandhelper.cpp:114
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "Could not open file <filename>%1</filename> for writing."
 msgid "Could not open device <filename>%1</filename> for writing."
 msgstr "ਫਾਇਲ <filename>%1</filename> ਲਿਖਣ ਲਈ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:120
+#: util/externalcommandhelper.cpp:125
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Could not create backup file <filename>%1</filename>."
 msgid "Could not write to device <filename>%1</filename>."
 msgstr "ਬੈਕਅੱਪ ਫਾਇਲ <filename>%1</filename> ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:145
+#: util/externalcommandhelper.cpp:151
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "Could not open file <filename>%1</filename> for writing."
 msgid "Could not open file <filename>%1</filename> for writing."
 msgstr "ਫਾਇਲ <filename>%1</filename> ਲਿਖਣ ਲਈ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:150
+#: util/externalcommandhelper.cpp:156
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Could not create backup file <filename>%1</filename>."
 msgid "Could not write to file <filename>%1</filename>."
 msgstr "ਬੈਕਅੱਪ ਫਾਇਲ <filename>%1</filename> ਬਣਾਈ ਨਹੀਂ ਜਾ ਸਕੀ।"
 
-#: util/externalcommandhelper.cpp:216
+#: util/externalcommandhelper.cpp:237
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info/plain"
 #| msgid "Copying %1 MiB/second, estimated time left: %2"
@@ -3758,20 +3766,20 @@ msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr "%1 MiB/ਸਕਿੰਟ ਕਾਪੀ ਜਾਰੀ, ਅਨੁਮਾਨਿਤ ਬਾਕੀ ਸਮਾਂ: %2"
 
-#: util/externalcommandhelper.cpp:251
+#: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
 #| "@info/plain argument 2 is a string such as 7 sectors (localized "
@@ -3780,8 +3788,8 @@ msgstr[1] ""
 #| msgid_plural "Copying %1 blocks (%2) finished."
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] "1 ਬਲਾਕ (%2) ਕਾਪੀ ਪੂਰੀ ਹੋਈ।"
 msgstr[1] "%1 ਬਲਾਕ (%2) ਕਾਪੀ ਪੂਰੀ ਹੋਈ।"
 
@@ -3802,7 +3810,7 @@ msgstr ""
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
+msgid "&copy; 2008-2022 KPMcore developers"
 msgstr ""
 
 #: util/helpers.cpp:56
