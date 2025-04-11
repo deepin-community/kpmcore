@@ -1,18 +1,18 @@
 # Translation of kpmcore.po to Catalan (Valencian)
-# Copyright (C) 2009-2020 This_file_is_part_of_KDE
+# Copyright (C) 2009-2022 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Manuel Tortosa Moreno <manutortosa@gmail.com>, 2009, 2010.
-# Josep Ma. Ferrer <txemaq@gmail.com>, 2009, 2010, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020.
+# Josep M. Ferrer <txemaq@gmail.com>, 2009, 2010, 2012, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2012, 2014, 2015, 2016, 2017, 2018, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: kpmcore\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2020-11-18 12:28+0100\n"
-"Last-Translator: Josep Ma. Ferrer <txemaq@gmail.com>\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
+"PO-Revision-Date: 2022-02-21 10:59+0100\n"
+"Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -56,7 +56,7 @@ msgid ""
 "Deleting a partition just created: Undoing the operation to create the "
 "partition."
 msgstr ""
-"Suprimeix una partició acabada de crear: desfés l'operació de crear una "
+"Suprimix una partició acabada de crear: desfera l'operació de crear una "
 "partició."
 
 #: core/operationstack.cpp:119
@@ -104,7 +104,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting a partition just copied: Removing the copy."
-msgstr "Suprimeix una partició acabada de copiar. Elimina la còpia."
+msgstr "Suprimix una partició acabada de copiar. Elimina la còpia."
 
 #: core/operationstack.cpp:238
 #, kde-kuit-format
@@ -113,8 +113,8 @@ msgid ""
 "Deleting a partition just copied over an existing partition: Removing the "
 "copy and deleting the existing partition."
 msgstr ""
-"Suprimeix una partició acabada de copiar damunt d'una partició existent. "
-"Elimina la còpia i suprimeix la partició existent."
+"Suprimix una partició acabada de copiar damunt d'una partició existent. "
+"Elimina la còpia i suprimix la partició existent."
 
 #: core/operationstack.cpp:251
 #, kde-kuit-format
@@ -131,7 +131,7 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Deleting a partition just restored: Removing the restore operation."
 msgstr ""
-"Suprimeix una partició acabada de restaurar: elimina l'operació de "
+"Suprimix una partició acabada de restaurar: elimina l'operació de "
 "restauració."
 
 #: core/operationstack.cpp:285
@@ -141,8 +141,8 @@ msgid ""
 "Deleting a partition just restored to an existing partition: Removing the "
 "restore operation and deleting the existing partition."
 msgstr ""
-"Suprimeix una partició acabada de restaurar a una partició existent: elimina "
-"l'operació de restauració i suprimeix la partició existent."
+"Suprimix una partició acabada de restaurar a una partició existent: elimina "
+"l'operació de restauració i suprimix la partició existent."
 
 #: core/operationstack.cpp:318
 #, kde-kuit-format
@@ -225,7 +225,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "unallocated"
-msgstr "no assignat "
+msgstr "no assignat"
 
 #: core/partitionrole.cpp:20
 #, kde-kuit-format
@@ -243,7 +243,7 @@ msgstr "ampliada"
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "primary"
-msgstr "primària "
+msgstr "primària"
 
 #: core/partitionrole.cpp:29
 #, kde-kuit-format
@@ -456,8 +456,8 @@ msgid ""
 "problem with the disk."
 msgstr ""
 "Rendiment global (general) de les transferències d'una unitat de disc dur. "
-"Si el valor d'aquest atribut està disminuint, hi ha una probabilitat alta "
-"que hi haja un problema amb el disc."
+"Si el valor d'este atribut està disminuint, hi ha una probabilitat alta que "
+"hi haja un problema amb el disc."
 
 #: core/smartattribute.cpp:103
 #, kde-format
@@ -477,13 +477,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Start/Stop Count"
-msgstr "Comptador d'inicis/aturades"
+msgstr "Comptador d'inicis/parades"
 
 #: core/smartattribute.cpp:104
 #, kde-format
 msgctxt "SMART attr description"
 msgid "A tally of spindle start/stop cycles."
-msgstr "Un comptador de cicles d'inicis/aturades de rotació."
+msgstr "Un comptador de cicles d'inicis/parades de rotació."
 
 #: core/smartattribute.cpp:105
 #, kde-format
@@ -500,8 +500,8 @@ msgid ""
 "transfers data to a special reserved area (spare area)."
 msgstr ""
 "Comptador de sectors reassignats. Quan la unitat de disc dur troba un error "
-"de lectura/escriptura/verificació, marca aquest sector com a «reassignat» i "
-"transfereix les dades a una àrea reservada especial (àrea de reserva)."
+"de lectura/escriptura/verificació, marca este sector com a «reassignat» i "
+"transferix les dades a una àrea reservada especial (àrea de reserva)."
 
 #: core/smartattribute.cpp:106
 #, kde-format
@@ -516,7 +516,7 @@ msgid ""
 "Margin of a channel while reading data. The function of this attribute is "
 "not specified."
 msgstr ""
-"Marge d'una canal en llegir dades. No s'ha especificat la funció d'aquest "
+"Marge d'una canal en llegir dades. No s'ha especificat la funció d'este "
 "atribut."
 
 #: core/smartattribute.cpp:107
@@ -551,7 +551,7 @@ msgid ""
 "subsystem."
 msgstr ""
 "Velocitat mitjana de les operacions de posicionament dels capçals magnètics. "
-"Si aquest atribut disminueix, és un senyal de problemes en el subsistema "
+"Si este atribut disminuïx, és un senyal de problemes en el subsistema "
 "mecànic."
 
 #: core/smartattribute.cpp:109
@@ -581,8 +581,8 @@ msgid ""
 "mechanical subsystem."
 msgstr ""
 "Comptador de reintents d'inici de rotació si el primer intent no va "
-"funcionar. Un augment del valor d'aquest atribut és un senyal de problemes "
-"en el subsistema mecànic del disc dur."
+"funcionar. Un augment del valor d'este atribut és un senyal de problemes en "
+"el subsistema mecànic del disc dur."
 
 #: core/smartattribute.cpp:111
 #, kde-format
@@ -599,8 +599,8 @@ msgid ""
 "mechanical subsystem."
 msgstr ""
 "Comptador de sol·licituds de recalibratge si el primer intent no va "
-"funcionar. Un augment del valor d'aquest atribut és un senyal de problemes "
-"en el subsistema mecànic del disc dur."
+"funcionar. Un augment del valor d'este atribut és un senyal de problemes en "
+"el subsistema mecànic del disc dur."
 
 #: core/smartattribute.cpp:112
 #, kde-format
@@ -695,7 +695,7 @@ msgid ""
 "always 100."
 msgstr ""
 "Nombre d'eixides sense EN ESPERA IMMEDIATA com l'última ordre "
-"(independentment de l'activitat PLI usant condensadors de potència). El "
+"(independentment de l'activitat PLI utilitzant condensadors de potència). El "
 "valor normalitzat sempre és 100."
 
 #: core/smartattribute.cpp:119
@@ -716,11 +716,11 @@ msgid ""
 "condition, otherwise 100."
 msgstr ""
 "Últim resultat de la prova, saturada al seu valor màxim. Bytes 0 a 1: últim "
-"resultat de la prova com a microsegons per a descarregar a l'interval [25, "
+"resultat de la prova com a microsegons per a descarregar en l'interval [25, "
 "5000000], inferior indica un codi d'error específic. Bytes 2 a 3: minuts des "
 "de l'última prova. Bytes 4 a 5: Nombre de temps en les proves. El valor "
-"normalitzat s'estableix a 1 en el cas de fallada de la prova o 11 si el "
-"condensador ha estat provat en una condició de temperatura excessiva, en cas "
+"normalitzat s'establix a 1 en el cas de fallada de la prova o 11 si el "
+"condensador ha sigut provat en una condició de temperatura excessiva, en cas "
 "contrari 100."
 
 #: core/smartattribute.cpp:120
@@ -739,7 +739,7 @@ msgstr "Nombre de fallades de l'ordre d'esborrament flaix."
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Range Delta"
-msgstr "SSD Usa l'interval delta"
+msgstr "SSD Utilitza l'interval delta"
 
 #: core/smartattribute.cpp:121
 #, kde-format
@@ -751,7 +751,7 @@ msgstr "Delta entre els blocs flaix més i menys emprats."
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Used Reserved Block Count Total"
-msgstr "SSD Compte total dels blocs reservats usats"
+msgstr "SSD Compte total dels blocs reservats utilitzats"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #: core/smartattribute.cpp:126
@@ -764,7 +764,7 @@ msgstr "Atribut de Samsung «Pre-Fail»."
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unused Reserved Block Count Total"
-msgstr "SSD Compte total dels blocs reservats sense usar"
+msgstr "SSD Compte total dels blocs reservats sense utilitzar"
 
 #: core/smartattribute.cpp:124
 #, kde-format
@@ -797,7 +797,7 @@ msgstr "Atribut de Western Digital i Samsung."
 #, kde-format
 msgctxt "SMART attr name"
 msgid "End-to-End Error"
-msgstr "Error d'extrem a extrem"
+msgstr "S'ha produït un error d'extrem a extrem"
 
 #: core/smartattribute.cpp:128
 #, kde-format
@@ -809,7 +809,7 @@ msgid ""
 msgstr ""
 "Part de la tecnologia SMART IV d'HP: Després de transferir a través de la "
 "memòria intermèdia de dades de la memòria cau de la RAM les dades de paritat "
-"entre la màquina i la unitat de disc no coincideixen."
+"entre la màquina i la unitat de disc no coincidixen."
 
 #: core/smartattribute.cpp:129
 #, kde-format
@@ -840,7 +840,7 @@ msgstr "Errors no corregibles informats"
 msgctxt "SMART attr description"
 msgid "Count of errors that could not be recovered using hardware ECC."
 msgstr ""
-"Comptador d'errors que no es poden recuperar usant l'ECC del maquinari."
+"Comptador d'errors que no es poden recuperar utilitzant l'ECC del maquinari."
 
 #: core/smartattribute.cpp:132
 #, kde-format
@@ -852,7 +852,8 @@ msgstr "Límit de temps de l'ordre"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of aborted operations due to HDD timeout."
-msgstr "Comptador d'operacions interrompudes a causa de temps excedit del HDD."
+msgstr ""
+"Comptador d'operacions interrompudes a causa de temps límit excedit del HDD."
 
 #: core/smartattribute.cpp:133
 #, kde-format
@@ -893,7 +894,7 @@ msgstr "Freqüència d'errors del sensor G"
 msgctxt "SMART attr description"
 msgid "Count of errors resulting from externally-induced shock and vibration."
 msgstr ""
-"Comptador d'errors resultants de cops i vibracions induïts externament."
+"Comptador d'errors resultants de vegades i vibracions induïts externament."
 
 #: core/smartattribute.cpp:136
 #, kde-format
@@ -943,7 +944,8 @@ msgstr "ECC recuperat per maquinari"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of errors that could be recovered using hardware ECC."
-msgstr "Comptador d'errors que es poden recuperar usant l'ECC del maquinari."
+msgstr ""
+"Comptador d'errors que es poden recuperar utilitzant l'ECC del maquinari."
 
 #: core/smartattribute.cpp:140
 #, kde-format
@@ -958,7 +960,7 @@ msgid ""
 "Count of remap operations. The raw value of this attribute shows the total "
 "number of attempts to transfer data from reallocated sectors to a spare area."
 msgstr ""
-"Comptador d'operacions de remapatge. El valor d'aquest atribut mostra el "
+"Comptador d'operacions de remapatge. El valor d'este atribut mostra el "
 "nombre total d'intents de transferir dades des de sectors reassignats a una "
 "àrea de reserva."
 
@@ -975,7 +977,7 @@ msgid ""
 "Number of &quot;unstable&quot; sectors (waiting to be remapped, because of "
 "read errors)."
 msgstr ""
-"Nombre de sectors «inestables» (en espera de ser remapejats, per errors de "
+"Nombre de sectors «inestables» (en espera de ser remapats, per errors de "
 "lectura)."
 
 #: core/smartattribute.cpp:142
@@ -1010,7 +1012,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Multi-Zone Error Rate<br/>Write Error Rate"
-msgstr "Freqüència d'errors multi-zona<br/>Freqüència d'errors d'escriptura"
+msgstr "Freqüència d'errors multizona<br/>Freqüència d'errors d'escriptura"
 
 #: core/smartattribute.cpp:144
 #, kde-format
@@ -1088,9 +1090,9 @@ msgid ""
 "increases the chances of a read/write error."
 msgstr ""
 "Alçària dels capçals sobre la superfície del disc. Una alçària que siga "
-"massa baixa augmenta les possibilitats d'un cop del capçal mentre que una "
-"alçària que siga massa alta augmenta les possibilitats d'un error de lectura/"
-"escriptura."
+"massa baixa augmenta les possibilitats d'una vegada del capçal mentre que "
+"una alçària que siga massa alta augmenta les possibilitats d'un error de "
+"lectura/escriptura."
 
 #: core/smartattribute.cpp:151
 #, kde-format
@@ -1103,8 +1105,8 @@ msgstr "Càrrega elèctrica d'inici de rotació"
 msgctxt "SMART attr description"
 msgid "Amount of surge current used to spin up the drive."
 msgstr ""
-"Quantitat de càrrega elèctrica inicial usada per a començar la rotació de la "
-"unitat."
+"Quantitat de càrrega elèctrica inicial utilitzada per a començar la rotació "
+"de la unitat."
 
 #: core/smartattribute.cpp:152
 #, kde-format
@@ -1151,13 +1153,13 @@ msgstr "Vibració durant l'escriptura"
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Shock During Write"
-msgstr "Cops durant l'escriptura"
+msgstr "Vegades durant l'escriptura"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Shock During Write"
-msgstr "Cops durant l'escriptura"
+msgstr "Vegades durant l'escriptura"
 
 #: core/smartattribute.cpp:156
 #, kde-format
@@ -1172,8 +1174,8 @@ msgid ""
 "Distance the disk has shifted relative to the spindle (usually due to shock "
 "or temperature)."
 msgstr ""
-"Distància que el disc ha decalat en relació a la rotació (seguda normalment "
-"a cops o temperatura)."
+"Distància que el disc ha decalat amb relació a la rotació (seguda normalment "
+"a vegades o temperatura)."
 
 #: core/smartattribute.cpp:157
 #, kde-format
@@ -1187,7 +1189,7 @@ msgctxt "SMART attr description"
 msgid ""
 "The number of errors resulting from externally-induced shock and vibration."
 msgstr ""
-"El nombre d'errors resultants de cops i vibracions induïts externament."
+"El nombre d'errors resultants de vegades i vibracions induïts externament."
 
 #: core/smartattribute.cpp:158
 #, kde-format
@@ -1199,7 +1201,7 @@ msgstr "Hores de càrrega"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time spent operating under data load."
-msgstr "Temps dedicat a operar sota càrrega de dades."
+msgstr "Temps dedicat a operar davall càrrega de dades."
 
 #: core/smartattribute.cpp:159
 #, kde-format
@@ -1326,13 +1328,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Seconds"
-msgstr "Segons en engegar"
+msgstr "Segons en iniciar"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time elapsed in the power-on state"
-msgstr "Temps transcorregut en l'estat d'engegada"
+msgstr "Temps transcorregut en l'estat d'iniciada"
 
 #: core/smartattribute.cpp:169
 #, kde-format
@@ -1467,7 +1469,7 @@ msgstr "Error fatal"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Unknown error"
-msgstr "Error desconegut"
+msgstr "S'ha produït un error desconegut"
 
 #: core/smartstatus.cpp:98
 #, kde-kuit-format
@@ -1479,19 +1481,19 @@ msgstr "Error elèctric"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Servo error"
-msgstr "Error del servo"
+msgstr "S'ha produït un error del servo"
 
 #: core/smartstatus.cpp:104
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Read error"
-msgstr "Error de lectura"
+msgstr "S'ha produït un error de lectura"
 
 #: core/smartstatus.cpp:107
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Handling error"
-msgstr "Error de gestió"
+msgstr "S'ha produït un error de gestió"
 
 #: core/smartstatus.cpp:110
 #, kde-kuit-format
@@ -1515,25 +1517,26 @@ msgstr "Bon estat"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has been used outside of its design parameters in the past."
-msgstr "En el passat s'ha usat per sobre dels seus paràmetres de disseny."
+msgstr ""
+"En el passat s'ha utilitzat per damunt dels seus paràmetres de disseny."
 
 #: core/smartstatus.cpp:129
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has some bad sectors."
-msgstr "Té alguns sectors dolents."
+msgstr "Té alguns sectors roïns."
 
 #: core/smartstatus.cpp:132
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Is being used outside of its design parameters right now."
-msgstr "Ara s'està usant per sobre dels seus paràmetres de disseny."
+msgstr "Ara s'està utilitzant per damunt dels seus paràmetres de disseny."
 
 #: core/smartstatus.cpp:135
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Has many bad sectors."
-msgstr "Té molts sectors dolents."
+msgstr "Té molts sectors roïns."
 
 #: core/smartstatus.cpp:139
 #, kde-kuit-format
@@ -1590,217 +1593,217 @@ msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr ""
 "S'està establint l'etiqueta per a la partició <filename>%1</filename> a %2"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "desconegut"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "ampliada"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "sense format"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks2"
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat12"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr "linux_raid_member"
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr "BitLocker"
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr "apfs"
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr "minix"
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "Munta"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1846,13 +1849,13 @@ msgstr ""
 "En redimensionar la partició <filename>%1</filename> al sistema de fitxers "
 "JFS: ha fallat el muntatge inicial."
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr "Activa la partició d'intercanvi"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1887,7 +1890,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing encrypted file system on partition <filename>%1</filename> failed."
 msgstr ""
-"Ha fallat la redimensió del sistema de fitxers encriptat a la partició "
+"Ha fallat la redimensió del sistema de fitxers encriptat en la partició "
 "<filename>%1</filename>."
 
 #: fs/nilfs2.cpp:137
@@ -1930,17 +1933,17 @@ msgstr ""
 "En redimensionar la partició <filename>%1</filename> al sistema de fitxers "
 "NILFS2: ha fallat el muntatge inicial."
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updating boot sector for NTFS file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"S'està actualitzant el sector d'arrencada del sistema de fitxers NTFS de la "
+"S'està actualitzant el sector d'arrancada del sistema de fitxers NTFS de la "
 "partició <filename>%1</filename>."
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1948,15 +1951,15 @@ msgid ""
 "trying to update the NTFS boot sector."
 msgstr ""
 "No s'ha pogut escriure el nou sector d'inici de la partició <filename>%1</"
-"filename> en provar d'actualitzar el sector d'arrencada NTFS."
+"filename> en provar d'actualitzar el sector d'arrancada NTFS."
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updated NTFS boot sector for partition <filename>%1</filename> successfully."
 msgstr ""
-"S'ha actualitzat amb èxit el sector d'arrencada NTFS de la partició "
+"S'ha actualitzat amb èxit el sector d'arrancada NTFS de la partició "
 "<filename>%1</filename>."
 
 #: fs/xfs.cpp:159
@@ -2006,7 +2009,7 @@ msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
 "backup."
 msgstr ""
-"No s'ha pogut obrir el sistema de fitxers a la partició d'origen <filename>"
+"No s'ha pogut obrir el sistema de fitxers en la partició d'origen <filename>"
 "%1</filename> per a fer una còpia de seguretat."
 
 #: jobs/backupfilesystemjob.cpp:56
@@ -2026,11 +2029,17 @@ msgstr ""
 "Fes còpia de seguretat de la partició <filename>%1</filename> a <filename>"
 "%2</filename>"
 
+#: jobs/changepermissionsjob.cpp:43
+#, kde-kuit-format
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "Canvieu els permisos de: <filename>%1</filename> a %2"
+
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
-msgstr "Comprova el sistema de fitxers a la partició <filename>%1</filename>"
+msgstr "Comprova el sistema de fitxers en la partició <filename>%1</filename>"
 
 #: jobs/copyfilesystemjob.cpp:48
 #, kde-kuit-format
@@ -2040,9 +2049,9 @@ msgid ""
 "filename> is smaller than the file system on source partition <filename>%2</"
 "filename>."
 msgstr ""
-"No s'ha pogut copiar el sistema de fitxers: el sistema de fitxers a la "
-"partició de destinació <filename>%1</filename> és més petit que el sistema "
-"de fitxers a la partició d'origen <filename>%2</filename>."
+"No s'ha pogut copiar el sistema de fitxers: el sistema de fitxers en la "
+"partició de destinació <filename>%1</filename> és més xicotet que el sistema "
+"de fitxers en la partició d'origen <filename>%2</filename>."
 
 #: jobs/copyfilesystemjob.cpp:56
 #, kde-kuit-format
@@ -2051,7 +2060,7 @@ msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
 "copying."
 msgstr ""
-"No s'ha pogut obrir el sistema de fitxers a la partició d'origen <filename>"
+"No s'ha pogut obrir el sistema de fitxers en la partició d'origen <filename>"
 "%1</filename> per a copiar."
 
 #: jobs/copyfilesystemjob.cpp:58
@@ -2061,7 +2070,7 @@ msgid ""
 "Could not open file system on target partition <filename>%1</filename> for "
 "copying."
 msgstr ""
-"No s'ha pogut obrir el sistema de fitxers a la partició de destinació "
+"No s'ha pogut obrir el sistema de fitxers en la partició de destinació "
 "<filename>%1</filename> per a copiar."
 
 #: jobs/copyfilesystemjob.cpp:61
@@ -2071,7 +2080,7 @@ msgid ""
 "Closing device. This may take a while, especially on slow devices like "
 "Memory Sticks."
 msgstr ""
-"S'està tancant el dispositiu. Això pot trigar una estona, especialment en "
+"S'està tancant el dispositiu. Açò pot tardar una estona, especialment en "
 "dispositius lents com els «Memory Sticks»."
 
 #: jobs/copyfilesystemjob.cpp:88
@@ -2091,7 +2100,7 @@ msgid ""
 "Failed to set the system type for the file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"Ha fallat en definir el tipus de sistema per al sistema de fitxers en la "
+"No s'ha pogut definir el tipus de sistema per al sistema de fitxers en la "
 "partició <filename>%1</filename>."
 
 #: jobs/createfilesystemjob.cpp:68
@@ -2122,7 +2131,7 @@ msgid ""
 "Create file system <filename>%1</filename> on partition <filename>%2</"
 "filename>"
 msgstr ""
-"Crea el sistema de fitxers <filename>%1</filename> a la partició <filename>"
+"Crea el sistema de fitxers <filename>%1</filename> en la partició <filename>"
 "%2</filename>"
 
 #: jobs/createpartitionjob.cpp:72
@@ -2132,7 +2141,7 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
-"Ha fallat en afegir la partició <filename>%1</filename> al dispositiu "
+"No s'ha pogut afegir la partició <filename>%1</filename> al dispositiu "
 "<filename>%2</filename>."
 
 #: jobs/createpartitionjob.cpp:74
@@ -2174,7 +2183,7 @@ msgid ""
 "Creating partition table failed: Could not open device <filename>%1</"
 "filename>."
 msgstr ""
-"Ha fallat la creació de la taula de particions: no s'ha pogut obrir el "
+"No s'ha pogut crear la taula de particions: no s'ha pogut obrir el "
 "dispositiu <filename>%1</filename>."
 
 #: jobs/createpartitiontablejob.cpp:61
@@ -2244,7 +2253,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete file system on <filename>%1</filename>"
-msgstr "Suprimeix el sistema de fitxers a <filename>%1</filename>"
+msgstr "Suprimix el sistema de fitxers a <filename>%1</filename>"
 
 #: jobs/deletepartitionjob.cpp:61 plugins/sfdisk/sfdiskpartitiontable.cpp:100
 #, kde-kuit-format
@@ -2268,14 +2277,14 @@ msgctxt "@info:progress"
 msgid ""
 "Deleting partition failed: Could not open device <filename>%1</filename>."
 msgstr ""
-"Ha fallat en suprimir la partició: no s'ha pogut obrir el dispositiu "
+"No s'ha pogut suprimir la partició: no s'ha pogut obrir el dispositiu "
 "<filename>%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
-msgstr "Suprimeix la partició <filename>%1</filename>"
+msgstr "Suprimix la partició <filename>%1</filename>"
 
 #: jobs/job.cpp:45
 #, kde-kuit-format
@@ -2339,7 +2348,7 @@ msgstr "Correcte"
 #, kde-kuit-format
 msgctxt "@info:progress job"
 msgid "Error"
-msgstr "Error"
+msgstr "S'ha produït un error"
 
 #: jobs/movefilesystemjob.cpp:52
 #, kde-kuit-format
@@ -2347,7 +2356,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open file system on partition <filename>%1</filename> for moving."
 msgstr ""
-"No s'ha pogut obrir el sistema de fitxers a la partició <filename>%1</"
+"No s'ha pogut obrir el sistema de fitxers en la partició <filename>%1</"
 "filename> per a desplaçar-lo."
 
 #: jobs/movefilesystemjob.cpp:54
@@ -2357,15 +2366,15 @@ msgid ""
 "Could not create target for moving file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"No s'ha pogut crear la destinació per a desplaçar el sistema de fitxers a la "
-"partició <filename>%1</filename>."
+"No s'ha pogut crear la destinació per a desplaçar el sistema de fitxers en "
+"la partició <filename>%1</filename>."
 
 #: jobs/movefilesystemjob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback for file system on partition <filename>%1</filename> failed."
 msgstr ""
-"Ha fallat la restauració del sistema de fitxers a la partició <filename>%1</"
+"Ha fallat la restauració del sistema de fitxers en la partició <filename>%1</"
 "filename>."
 
 #: jobs/movefilesystemjob.cpp:65 jobs/restorefilesystemjob.cpp:89
@@ -2373,21 +2382,21 @@ msgstr ""
 #, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
-msgstr "S'està tancant el dispositiu. Això pot trigar alguns segons."
+msgstr "S'està tancant el dispositiu. Açò pot tardar alguns segons."
 
 #: jobs/movefilesystemjob.cpp:79
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Move the file system on partition <filename>%1</filename> to sector %2"
 msgstr ""
-"Desplaça el sistema de fitxers a la partició <filename>%1</filename> al "
+"Desplaça el sistema de fitxers en la partició <filename>%1</filename> al "
 "sector %2"
 
 #: jobs/movephysicalvolumejob.cpp:57
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Move used PE in %1 on %2 to other available Physical Volumes"
-msgstr "Mou el PE usat en %1 fins a %2 a altres volums físics disponibles"
+msgstr "Mou el PE utilitzat en %1 fins a %2 a altres volums físics disponibles"
 
 #: jobs/removevolumegroupjob.cpp:41
 #, kde-kuit-format
@@ -2406,10 +2415,10 @@ msgid_plural ""
 "requested length of %1 sectors."
 msgstr[0] ""
 "El sistema de fitxers de la partició <filename>%2</filename> ja té la "
-"longitud sol·licitada d'1 sector."
+"llargària sol·licitada d'1 sector."
 msgstr[1] ""
 "El sistema de fitxers de la partició <filename>%2</filename> ja té la "
-"longitud sol·licitada de %1 sectors."
+"llargària sol·licitada de %1 sectors."
 
 #: jobs/resizefilesystemjob.cpp:69
 #, kde-format
@@ -2422,8 +2431,8 @@ msgstr "Redimensiona el sistema de fitxers des de %1 fins a %2 sectors."
 msgctxt "@info:progress"
 msgid "Resizing a %1 file system using internal backend functions."
 msgstr ""
-"S'està redimensionant un sistema de fitxers %1 usant les funcions internes "
-"del dorsal."
+"S'està redimensionant un sistema de fitxers %1 utilitzant les funcions "
+"internes del dorsal."
 
 #: jobs/resizefilesystemjob.cpp:91
 #, kde-kuit-format
@@ -2432,16 +2441,16 @@ msgid ""
 "The file system on partition <filename>%1</filename> cannot be resized "
 "because there is no support for it."
 msgstr ""
-"El sistema de fitxers a la partició <filename>%1</filename> no es pot "
-"redimensionar perquè no admet aquesta funció."
+"El sistema de fitxers en la partició <filename>%1</filename> no es pot "
+"redimensionar perquè no admet esta funció."
 
 #: jobs/resizefilesystemjob.cpp:119
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Successfully resized file system using internal backend functions."
 msgstr ""
-"El sistema de fitxers s'ha redimensionat amb èxit usant funcions internes "
-"del dorsal."
+"El sistema de fitxers s'ha redimensionat amb èxit utilitzant funcions "
+"internes del dorsal."
 
 #: jobs/resizefilesystemjob.cpp:123
 #, kde-kuit-format
@@ -2548,7 +2557,7 @@ msgctxt "@info:progress"
 msgid ""
 "Set the file system label on partition <filename>%1</filename> to \"%2\""
 msgstr ""
-"Estableix «%2» a l'etiqueta del sistema de fitxers de la partició <filename>"
+"Establix «%2» a l'etiqueta del sistema de fitxers de la partició <filename>"
 "%1</filename>"
 
 #: jobs/setpartflagsjob.cpp:65
@@ -2604,7 +2613,7 @@ msgstr "Neteja els indicadors de la partició <filename>%1</filename>"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
-msgstr "Estableix els indicadors de la partició <filename>%1</filename> a «%2»"
+msgstr "Establix els indicadors de la partició <filename>%1</filename> a «%2»"
 
 #: jobs/setpartgeometryjob.cpp:65
 #, kde-kuit-format
@@ -2613,7 +2622,7 @@ msgid ""
 "Could not open device <filename>%1</filename> while trying to resize/move "
 "partition <filename>%2</filename>."
 msgstr ""
-"No s'ha d'obrir el dispositiu<filename>%1</filename> en provar de "
+"No s'ha d'obrir el dispositiu <filename>%1</filename> en provar de "
 "redimensionar/desplaçar la partició <filename>%2</filename>."
 
 #: jobs/setpartgeometryjob.cpp:81
@@ -2623,8 +2632,8 @@ msgid ""
 "Set geometry of partition <filename>%1</filename>: Start sector: %2, length: "
 "%3"
 msgstr ""
-"Estableix la geometria de la partició <filename>%1</filename>: sector "
-"d'inici: %2, longitud: %3"
+"Establix la geometria de la partició <filename>%1</filename>: sector "
+"d'inici: %2, llargària: %3"
 
 #: jobs/setpartitionattributesjob.cpp:47
 #, kde-kuit-format
@@ -2641,7 +2650,7 @@ msgstr ""
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
 msgstr ""
-"Ha fallat en establir els atributs de la partició <filename>%1</filename>."
+"No s'han pogut establir els atributs de la partició <filename>%1</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:61
 #, kde-kuit-format
@@ -2667,7 +2676,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
-msgstr "Estableix els atributs «%2» a la partició <filename>%1</filename>"
+msgstr "Establix els atributs «%2» en la partició <filename>%1</filename>"
 
 #: jobs/setpartitionlabeljob.cpp:47
 #, kde-kuit-format
@@ -2683,7 +2692,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr "Ha fallat en establir el nom de la partició <filename>%1</filename>."
+msgstr "No s'ha pogut establir el nom de la partició <filename>%1</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:61
 #, kde-kuit-format
@@ -2709,7 +2718,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
-msgstr "Estableix l'etiqueta «%2» a la partició <filename>%1</filename>"
+msgstr "Establix l'etiqueta «%2» en la partició <filename>%1</filename>"
 
 #: jobs/setpartitionuuidjob.cpp:47
 #, kde-kuit-format
@@ -2725,7 +2734,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr "Ha fallat en establir l'UUID de la partició <filename>%1</filename>."
+msgstr "No s'ha pogut establir l'UUID de la partició <filename>%1</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:61
 #, kde-kuit-format
@@ -2751,7 +2760,7 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
-msgstr "Estableix l'UUID «%2» a la partició <filename>%1</filename>"
+msgstr "Establix l'UUID «%2» en la partició <filename>%1</filename>"
 
 #: jobs/shredfilesystemjob.cpp:61
 #, kde-kuit-format
@@ -2810,7 +2819,7 @@ msgstr "Ha fallat la còpia de l'origen a la partició de destinació."
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating target partition for copying failed."
-msgstr "Ha fallat la creació de la partició de destinació per a copiar."
+msgstr "No s'ha pogut crear la partició de destinació per a copiar."
 
 #: ops/copyoperation.cpp:163
 #, kde-kuit-format
@@ -2866,11 +2875,12 @@ msgstr ""
 "Copia la partició <filename>%1</filename> (%2, %3) a l'espai sense assignar "
 "(començant a %4) a <filename>%5</filename> i engrandir-la fins a %6"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
-msgstr "Es crea el sistema de fitxers %1 a la partició <filename>%2</filename>"
+msgstr ""
+"Es crea el sistema de fitxers %1 en la partició <filename>%2</filename>"
 
 #: ops/createpartitiontableoperation.cpp:104
 #, kde-kuit-format
@@ -2901,9 +2911,9 @@ msgstr "Tritura la partició <filename>%1</filename> (%2,%3)"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
-msgstr "Suprimeix la partició <filename>%1</filename> (%2,%3)"
+msgstr "Suprimix la partició <filename>%1</filename> (%2,%3)"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
@@ -2943,7 +2953,7 @@ msgstr "Avís"
 #, kde-kuit-format
 msgctxt "@info:progress operation"
 msgid "Error"
-msgstr "Error"
+msgstr "S'ha produït un error"
 
 #: ops/removevolumegroupoperation.cpp:35
 #, kde-kuit-format
@@ -2996,13 +3006,13 @@ msgstr "Desplaça la partició <filename>%1</filename> a la dreta de %2"
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Grow partition <filename>%1</filename> from %2 to %3"
-msgstr "Engrandeix la partició <filename>%1</filename> des de %2 fins a %3"
+msgstr "Engrandix la partició <filename>%1</filename> des de %2 fins a %3"
 
 #: ops/resizeoperation.cpp:210
 #, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Shrink partition <filename>%1</filename> from %2 to %3"
-msgstr "Encongeix la partició <filename>%1</filename> des de %2 fins a %3"
+msgstr "Encull la partició <filename>%1</filename> des de %2 fins a %3"
 
 #: ops/resizeoperation.cpp:213
 #, kde-kuit-format
@@ -3011,7 +3021,7 @@ msgid ""
 "Move partition <filename>%1</filename> to the left by %2 and grow it from %3 "
 "to %4"
 msgstr ""
-"Desplaça la partició <filename>%1</filename> a l'esquerra de %2 i engrandeix-"
+"Desplaça la partició <filename>%1</filename> a l'esquerra de %2 i engrandix-"
 "la des de %3 fins a %4"
 
 #: ops/resizeoperation.cpp:216
@@ -3021,8 +3031,8 @@ msgid ""
 "Move partition <filename>%1</filename> to the right by %2 and grow it from "
 "%3 to %4"
 msgstr ""
-"Desplaça la partició <filename>%1</filename> a la dreta de %2 i engrandeix-"
-"la des de %3 fins a %4"
+"Desplaça la partició <filename>%1</filename> a la dreta de %2 i engrandix-la "
+"des de %3 fins a %4"
 
 #: ops/resizeoperation.cpp:219
 #, kde-kuit-format
@@ -3031,8 +3041,8 @@ msgid ""
 "Move partition <filename>%1</filename> to the left by %2 and shrink it from "
 "%3 to %4"
 msgstr ""
-"Desplaça la partició <filename>%1</filename> a l'esquerra de %2 i encongeix-"
-"la des de %3 fins a %4"
+"Desplaça la partició <filename>%1</filename> a l'esquerra de %2 i encull-la "
+"des de %3 fins a %4"
 
 #: ops/resizeoperation.cpp:222
 #, kde-kuit-format
@@ -3041,7 +3051,7 @@ msgid ""
 "Move partition <filename>%1</filename> to the right by %2 and shrink it from "
 "%3 to %4"
 msgstr ""
-"Desplaça la partició <filename>%1</filename> a la dreta de %2 i encongeix-la "
+"Desplaça la partició <filename>%1</filename> a la dreta de %2 i encull-la "
 "des de %3 fins a %4"
 
 #: ops/resizeoperation.cpp:229
@@ -3058,14 +3068,14 @@ msgid ""
 "<filename>%1</filename>."
 msgstr ""
 "El redimensionament/desplaçament ha fallat: No s'ha pogut redimensionar el "
-"sistema de fitxers per a encongir <filename>%1</filename>."
+"sistema de fitxers per a encollir <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:263
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not shrink partition <filename>%1</filename>."
 msgstr ""
-"La redimensió/desplaçament ha fallat. no s'ha pogut encongir la partició "
+"La redimensió/desplaçament ha fallat. no s'ha pogut encollir la partició "
 "<filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:282
@@ -3110,7 +3120,7 @@ msgid ""
 "%1</filename>"
 msgstr ""
 "Ha fallat la redimensió/desplaçament. no s'ha pogut redimensionar el sistema "
-"de fitxers a la partició <filename>%1</filename>"
+"de fitxers en la partició <filename>%1</filename>"
 
 #: ops/resizeoperation.cpp:312
 #, kde-kuit-format
@@ -3133,7 +3143,7 @@ msgid ""
 "Checking target file system on partition <filename>%1</filename> after the "
 "restore failed."
 msgstr ""
-"Ha fallat la comprovació del sistema de fitxers a la partició <filename>%1</"
+"Ha fallat la comprovació del sistema de fitxers en la partició <filename>%1</"
 "filename> després de restaurar."
 
 #: ops/restoreoperation.cpp:138
@@ -3146,7 +3156,7 @@ msgstr "Ha fallat la restauració del sistema de fitxers."
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating the destination partition to restore to failed."
-msgstr "Ha fallat la creació de la partició de destinació per a restaurar."
+msgstr "No s'ha pogut crear la partició de destinació per a restaurar."
 
 #: ops/restoreoperation.cpp:156
 #, kde-kuit-format
@@ -3170,14 +3180,14 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> to \"%2\""
-msgstr "Estableix l'etiqueta «%2» per a la partició <filename>%1</filename>"
+msgstr "Establix l'etiqueta «%2» per a la partició <filename>%1</filename>"
 
 #: ops/setfilesystemlabeloperation.cpp:60
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> from \"%2\" to \"%3\""
 msgstr ""
-"Estableix l'etiqueta per a la partició <filename>%1</filename> des de «%2» a "
+"Establix l'etiqueta per a la partició <filename>%1</filename> des de «%2» a "
 "«%3»"
 
 #: ops/setpartflagsoperation.cpp:62
@@ -3191,7 +3201,7 @@ msgstr "Neteja els indicadors de la partició <filename>%1</filename>"
 msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr ""
-"Estableix els indicadors «%2» per a la partició <filename>%1</filename> a "
+"Establix els indicadors a «%2» per a la partició <filename>%1</filename>"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:219
 #, kde-kuit-format
@@ -3221,7 +3231,7 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
-"Ha fallat en afegir la partició <filename>%1</filename> al dispositiu "
+"No s'ha pogut afegir la partició <filename>%1</filename> al dispositiu "
 "<filename>%2</filename>."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:114
@@ -3240,8 +3250,8 @@ msgctxt "@info:progress"
 msgid ""
 "Failed to erase filesystem signature on partition <filename>%1</filename>."
 msgstr ""
-"Ha fallat l'esborrat de la signatura del sistema de fitxers a la partició "
-"<filename>%1</filename>."
+"No s'ha pogut fer l'esborrat de la signatura del sistema de fitxers en la "
+"partició <filename>%1</filename>."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:157
 #, kde-kuit-format
@@ -3250,8 +3260,8 @@ msgid ""
 "Could not determine file system of partition at sector %1 on device "
 "<filename>%2</filename>."
 msgstr ""
-"No s'ha pogut determinar el sistema de fitxers a la partició del sector %1 "
-"al dispositiu <filename>%2</filename>."
+"No s'ha pogut determinar el sistema de fitxers en la partició del sector %1 "
+"en el dispositiu <filename>%2</filename>."
 
 #: util/capacity.cpp:100
 #, kde-kuit-format
@@ -3316,95 +3326,97 @@ msgid "(unknown unit)"
 msgstr "(unitat desconeguda)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "Ordre: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
+#: util/externalcommandhelper.cpp:82
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
 msgstr "No s'ha pogut obrir <filename>%1</filename> per a lectura."
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
 #, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
 msgstr ""
-"No s'ha pogut cercar la posició %1 al dispositiu <filename>%2</filename>."
+"No s'ha pogut buscar la posició %1 al dispositiu <filename>%2</filename>."
 
-#: util/externalcommandhelper.cpp:91
+#: util/externalcommandhelper.cpp:96
 #, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
 msgstr "No s'ha pogut llegir del dispositiu <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:110
+#: util/externalcommandhelper.cpp:114
 #, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
 msgstr ""
 "No s'ha pogut obrir el dispositiu <filename>%1</filename> per a escriptura."
 
-#: util/externalcommandhelper.cpp:120
+#: util/externalcommandhelper.cpp:125
 #, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
 msgstr "No s'ha pogut escriure al dispositiu <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:145
+#: util/externalcommandhelper.cpp:151
 #, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
 msgstr ""
 "No s'ha pogut obrir el fitxer <filename>%1</filename> per a escriptura."
 
-#: util/externalcommandhelper.cpp:150
+#: util/externalcommandhelper.cpp:156
 #, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr "No s'ha pogut escriure al fitxer <filename>%1</filename>."
+msgstr "No s'ha pogut escriure en el fitxer <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:216
+#: util/externalcommandhelper.cpp:237
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr "S'estan copiant %1 blocs (%2 bytes) des de %3 fins a %4, direcció: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
+msgstr ""
+"S'estan copiant %1 fragment (%2 bytes) des de %3 fins a %4, direcció: %5."
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
 msgstr "esquerra"
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
 msgstr "dreta"
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr "S'està copiant %1 MiB/segon, temps restant estimat: %2"
 
-#: util/externalcommandhelper.cpp:251
+#: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
-msgstr "S'està copiant la resta de la mida del bloc %1 des de %2 fins a %3."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
+msgstr ""
+"S'està copiant la resta de la mida del fragment %1 des de %2 fins a %3."
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
 msgstr[0] "1 byte"
 msgstr[1] "%1 bytes"
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
-msgstr[0] "S'ha acabat de copiar 1 bloc (%2)."
-msgstr[1] "S'han acabat de copiar %1 blocs (%2)."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
+msgstr[0] "S'ha acabat de copiar 1 fragment (%2)."
+msgstr[1] "S'han acabat de copiar %1 fragments (%2)."
 
 #: util/helpers.cpp:49
 #, kde-kuit-format
@@ -3421,8 +3433,8 @@ msgstr "Biblioteca per a gestionar les particions"
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
-msgstr "&copy; 2008-2020 Els desenvolupadors de la KPMcore"
+msgid "&copy; 2008-2022 KPMcore developers"
+msgstr "&copy; 2008-2022 Els desenvolupadors de la KPMcore"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -3543,13 +3555,9 @@ msgstr "Dorsal:"
 #: util/htmlreport.cpp:69
 #, kde-format
 msgid "KDE Frameworks version:"
-msgstr "Versió dels Frameworks del KDE:"
+msgstr "Versió de Frameworks de KDE:"
 
 #: util/htmlreport.cpp:70
 #, kde-format
 msgid "Machine:"
 msgstr "Màquina:"
-
-#~ msgctxt "@info:status"
-#~ msgid "Could not obtain administrator privileges."
-#~ msgstr "No s'han pogut obtenir els privilegis d'administrador."

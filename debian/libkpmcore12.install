@@ -1,5 +1,4 @@
-usr/lib/*/libkpmcore.so.21.*
-usr/lib/*/libkpmcore.so.11
+usr/lib/*/libkpmcore.so.*
 usr/lib/*/qt5/plugins/
 usr/lib/*/libexec/
 usr/share/dbus-1/

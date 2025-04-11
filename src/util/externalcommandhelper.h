@@ -14,13 +14,14 @@
 #include <memory>
 #include <unordered_set>
 
-#include <QEventLoop>
-#include <QString>
-#include <QProcess>
 #include <QDBusContext>
+#include <QEventLoop>
+#include <QFile>
+#include <QProcess>
+#include <QString>
 
 class QDBusServiceWatcher;
-constexpr qint64 MiB = 1 << 30;
+constexpr qint64 MiB = 1 << 20;
 
 class ExternalCommandHelper : public QObject, public QDBusContext
 {
@@ -33,16 +34,16 @@ Q_SIGNALS:
 
 public:
     ExternalCommandHelper();
-    bool readData(const QString& sourceDevice, QByteArray& buffer, const qint64 offset, const qint64 size);
-    bool writeData(const QString& targetDevice, const QByteArray& buffer, const qint64 offset);
+    bool readData(QFile& device, QByteArray& buffer, const qint64 offset, const qint64 size);
+    bool writeData(QFile& device, const QByteArray& buffer, const qint64 offset);
 
 public Q_SLOTS:
     Q_SCRIPTABLE QVariantMap RunCommand(const QString& command, const QStringList& arguments, const QByteArray& input, const int processChannelMode);
-    Q_SCRIPTABLE QVariantMap CopyBlocks(const QString& sourceDevice, const qint64 sourceOffset, const qint64 sourceLength,
+    Q_SCRIPTABLE QVariantMap CopyFileData(const QString& sourceDevice, const qint64 sourceOffset, const qint64 sourceLength,
                                         const QString& targetDevice, const qint64 targetOffset, const qint64 blockSize);
     Q_SCRIPTABLE QByteArray ReadData(const QString& device, const qint64 offset, const qint64 length);
     Q_SCRIPTABLE bool WriteData(const QByteArray& buffer, const QString& targetDevice, const qint64 targetOffset);
-    Q_SCRIPTABLE bool CreateFile(const QString& filePath, const QByteArray& fileContents);
+    Q_SCRIPTABLE bool WriteFstab(const QByteArray& fstabContents);
 
 private:
     bool isCallerAuthorized();

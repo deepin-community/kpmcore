@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
 "PO-Revision-Date: 2009-11-15 12:06+0100\n"
 "Last-Translator: Axel Rousseau <axel@esperanto-jeunes.org>\n"
 "Language-Team: esperanto <kde-i18n-eo@kde.org>\n"
@@ -1470,103 +1470,103 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "Kroĉpunkto"
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr ""
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "Etendata"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr ""
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr ""
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr ""
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr ""
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr ""
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr ""
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr ""
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr ""
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr ""
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr ""
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr ""
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr ""
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr ""
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr ""
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, fuzzy, kde-kuit-format
 #| msgctxt "@title:window"
 #| msgid "Information"
@@ -1574,115 +1574,115 @@ msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "Informoj"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr ""
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr ""
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr ""
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr ""
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr ""
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr ""
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr ""
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr ""
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr ""
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr ""
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr ""
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr ""
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr ""
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr ""
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr ""
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr ""
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr ""
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr ""
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1724,13 +1724,13 @@ msgid ""
 "Initial mount failed."
 msgstr "Kroĉpunkto"
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr ""
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1804,7 +1804,7 @@ msgid ""
 "Initial mount failed."
 msgstr "Kroĉpunkto"
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgctxt "@info:progress"
@@ -1813,7 +1813,7 @@ msgid ""
 "filename>."
 msgstr "Kroĉpunkto"
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgctxt "@info:progress"
@@ -1822,7 +1822,7 @@ msgid ""
 "trying to update the NTFS boot sector."
 msgstr "Kroĉpunkto"
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgctxt "@info:progress"
@@ -1889,6 +1889,13 @@ msgctxt "@info:progress"
 msgid ""
 "Back up file system on partition <filename>%1</filename> to <filename>%2</"
 "filename>"
+msgstr "Kroĉpunkto"
+
+#: jobs/changepermissionsjob.cpp:43
+#, fuzzy, kde-kuit-format
+#| msgid "Mount Point"
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
 msgstr "Kroĉpunkto"
 
 #: jobs/checkfilesystemjob.cpp:43
@@ -2683,7 +2690,7 @@ msgid ""
 "(starting at %4) on <filename>%5</filename> and grow it to %6"
 msgstr "Kroĉpunkto"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgctxt "@info:status"
@@ -2724,7 +2731,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "Kroĉpunkto"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgctxt "@info:status"
@@ -3144,97 +3151,97 @@ msgid "(unknown unit)"
 msgstr ""
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:79
+#: util/externalcommandhelper.cpp:82
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not open device <filename>%1</filename> for reading."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not seek position %1 on device <filename>%2</filename>."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:91
+#: util/externalcommandhelper.cpp:96
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not read from device <filename>%1</filename>."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:110
+#: util/externalcommandhelper.cpp:114
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not open device <filename>%1</filename> for writing."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:120
+#: util/externalcommandhelper.cpp:125
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not write to device <filename>%1</filename>."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:145
+#: util/externalcommandhelper.cpp:151
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not open file <filename>%1</filename> for writing."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:150
+#: util/externalcommandhelper.cpp:156
 #, fuzzy, kde-kuit-format
 #| msgid "Mount Point"
 msgid "Could not write to file <filename>%1</filename>."
 msgstr "Kroĉpunkto"
 
-#: util/externalcommandhelper.cpp:216
+#: util/externalcommandhelper.cpp:237
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr ""
 
-#: util/externalcommandhelper.cpp:251
+#: util/externalcommandhelper.cpp:274
 #, kde-kuit-format
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
 msgstr ""
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3253,7 +3260,7 @@ msgstr ""
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
+msgid "&copy; 2008-2022 KPMcore developers"
 msgstr ""
 
 #: util/helpers.cpp:56

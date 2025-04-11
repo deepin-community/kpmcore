@@ -1,8 +1,128 @@
-kpmcore (21.08.0-1deepin1) unstable; urgency=medium
+kpmcore (22.12.3-1) unstable; urgency=medium
 
-  * Update symbols for RISC-V GCC 12
+  [ Aurélien COUDERC ]
+  * New upstream release (22.12.3).
+  * Update build-deps and deps with the info from cmake.
 
- -- Clansty <i@gao4.pw>  Mon, 09 Jan 2023 07:39:08 +0000
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 01 Mar 2023 11:57:57 +0100
+
+kpmcore (22.12.1-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.12.1).
+  * Bump Standards-Version to 4.6.2, no change required.
+  * Add Albert Astals Cid’s master key to upstream signing keys.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 06 Jan 2023 23:38:41 +0100
+
+kpmcore (22.12.0-2) unstable; urgency=medium
+
+  * Upload with a correctly released changelog.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Dec 2022 16:04:50 +0100
+
+kpmcore (22.12.0-1) unstable; urgency=medium
+
+  [ Jonathan Carter ]
+  * Remove self from uploaders, package is good in the hands of KDE team now
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.08.3).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (22.11.90).
+  * Update build-deps and deps with the info from cmake.
+  * New upstream release (22.12.0).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Dec 2022 00:13:02 +0100
+
+kpmcore (22.08.1-2) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Update symbols from buildd’s logs.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 03 Oct 2022 22:17:49 +0200
+
+kpmcore (22.08.1-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (22.08.1).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 28 Sep 2022 23:14:29 +0200
+
+kpmcore (22.04.3-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + libkpmcore-dev: Add Multi-Arch: same.
+
+  [ Jonathan Carter ]
+  * New upstream release
+  * Bump soname version to 12
+  * Update symbols file
+  * Update copyright years
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 10 Aug 2022 11:16:13 +0200
+
+kpmcore (21.12.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Update symbols file from the logs of buildds.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 28 Jul 2022 16:40:30 +0200
+
+kpmcore (21.12.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bump Standards-Version to 4.6.1, no changes required.
+  * Remove inactive Uploaders.
+  * Remove the libkpmcore4-dev replaces in libkpmcore-dev, as the rename was
+    done before Debian Buster.
+  * Remove the libkpmcore4, libkpmcore8, and libkpmcore9 breaks/replaces in
+    libkpmcore11: they either refer to versions older than Debian Buster, or
+    to development versions between Buster and Bullseye.
+  * Update symbols file. (Closes: #1012963)
+
+ -- Pino Toscano <pino@debian.org>  Thu, 28 Jul 2022 05:57:48 +0200
+
+kpmcore (21.12.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update symbols file from the logs of buildds.
+  * CI: enable blhc, as it should work fine now.
+  * Update the build dependencies according to the upstream build system:
+    - bump cmake to 3.16.0
+  * Remove the unused ${shlibs:Depends} substvar from libkpmcore-dev.
+
+ -- Pino Toscano <pino@debian.org>  Mon, 07 Mar 2022 07:56:22 +0100
+
+kpmcore (21.12.2-3) unstable; urgency=medium
+
+  * More symbols fixes for armel and riscv64.
+  * Add Build-Depends-Package to symbols file.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 18 Feb 2022 13:24:03 +0100
+
+kpmcore (21.12.2-2) unstable; urgency=medium
+
+  * Fix symbols for armel and riscv64.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 18 Feb 2022 11:16:31 +0100
+
+kpmcore (21.12.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 17 Feb 2022 11:19:15 +0200
+
+kpmcore (21.12.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.6.0
+  * Update symbols
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 20 Jan 2022 11:57:01 +0200
 
 kpmcore (21.08.0-1) unstable; urgency=medium
 

@@ -26,7 +26,7 @@ target_link_libraries(testhelpers PRIVATE kpmcore)
 
 macro (kpm_test name)
     add_executable(${name} ${ARGN})
-    target_link_libraries(${name} testhelpers kpmcore Qt5::Core)
+    target_link_libraries(${name} testhelpers kpmcore Qt${QT_MAJOR_VERSION}::Core)
 endmacro()
 
 ###
@@ -34,15 +34,15 @@ endmacro()
 # Tests of initialization: try explicitly loading some backends
 kpm_test(testinit testinit.cpp)  # Default backend
 if(TARGET pmdummybackendplugin)
-    add_test(NAME testinit-dummy COMMAND testinit $<TARGET_FILE:pmdummybackendplugin>)
+    add_test(NAME testinit-dummy COMMAND testinit $<TARGET_FILE_NAME:pmdummybackendplugin>)
 endif()
 if(TARGET pmsfdiskbackendplugin)
-    add_test(NAME testinit-sfdisk COMMAND testinit $<TARGET_FILE:pmsfdiskbackendplugin>)
+    add_test(NAME testinit-sfdisk COMMAND testinit $<TARGET_FILE_NAME:pmsfdiskbackendplugin>)
 else()
     return()  # All the rest really needs a working backend
 endif()
 
-set(BACKEND $<TARGET_FILE:pmsfdiskbackendplugin>)
+set(BACKEND $<TARGET_FILE_NAME:pmsfdiskbackendplugin>)
 
 ###
 #

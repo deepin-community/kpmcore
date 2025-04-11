@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-26 02:38+0100\n"
+"POT-Creation-Date: 2022-02-09 00:50+0000\n"
 "PO-Revision-Date: 2021-03-23 09:47+0100\n"
 "Last-Translator: Vit Pelcak <vpelcak@suse.cz>\n"
 "Language-Team: Czech <kde-i18n-doc@kde.org>\n"
@@ -16,8 +16,8 @@ msgstr ""
 
 #: util/org.kde.kpmcore.externalcommand.policy.podir/org.kde.kpmcore.externalcommand.policy.in.h:1
 msgctxt "description"
-msgid "Start external command daemon"
-msgstr "Spustit démona externích příkazů"
+msgid "Run privileged partition manager helper"
+msgstr ""
 
 #: util/org.kde.kpmcore.externalcommand.policy.podir/org.kde.kpmcore.externalcommand.policy.in.h:2
 msgctxt "message"

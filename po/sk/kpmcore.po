@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-30 02:40+0100\n"
-"PO-Revision-Date: 2020-03-24 10:42+0100\n"
-"Last-Translator: Dusan Kazik <prescott66@gmail.com>\n"
+"POT-Creation-Date: 2022-06-27 00:47+0000\n"
+"PO-Revision-Date: 2021-11-19 10:30+0100\n"
+"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: sk\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Poedit 3.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #, kde-format
@@ -159,12 +159,10 @@ msgstr ""
 "zariadení."
 
 #: core/operationstack.cpp:395
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resizing file system from %1 to %2 sectors."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing Volume Group, nothing to do."
-msgstr "Zmena veľkosti súborového systému z %1 na %2 sektorov."
+msgstr "Zmena veľkosti skupiny zväzkov. Nič na vykonanie."
 
 #: core/operationstack.cpp:440
 #, kde-kuit-format
@@ -203,7 +201,7 @@ msgid ""
 "Partition <filename>%1</filename> is not properly aligned (first sector: %2, "
 "modulo: %3)."
 msgstr ""
-"Partícia <filename>%1</filename> nezačína na hranici cylindra (prvý sektor: "
+"Oddiel <filename>%1</filename> nezačína na hranici cylindra (prvý sektor: "
 "%2, modulo: %3)."
 
 #: core/partitionalignment.cpp:83
@@ -213,8 +211,8 @@ msgid ""
 "Partition <filename>%1</filename> is not properly aligned (last sector: %2, "
 "modulo: %3)."
 msgstr ""
-"Partícia <filename>%1</filename> nekončí na hranici cylindra (posledný "
-"sektor: %2, modulo: %3)."
+"Oddiel <filename>%1</filename> nekončí na hranici cylindra (posledný sektor: "
+"%2, modulo: %3)."
 
 #: core/partitionrole.cpp:17
 #, kde-kuit-format
@@ -1549,217 +1547,217 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "Nastavenie návestia pre partíciu <filename>%1</filename> na \"%2\""
 
-#: fs/filesystem.cpp:440
+#: fs/filesystem.cpp:503
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "neznámy"
 
-#: fs/filesystem.cpp:441
+#: fs/filesystem.cpp:504
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "rozšírený"
 
-#: fs/filesystem.cpp:443
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:444
+#: fs/filesystem.cpp:507
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:445
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:446
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:447
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:448
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:449
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:450
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:451
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:452
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:453
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:454
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:455
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:456
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:457
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "nenaformátovaný"
 
-#: fs/filesystem.cpp:458
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:459
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:460
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:461
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:462
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:463
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:464
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:465
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:466
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:467
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:468
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:469
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks2"
 
-#: fs/filesystem.cpp:470
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat12"
 
-#: fs/filesystem.cpp:471
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr "linux_raid_member"
 
-#: fs/filesystem.cpp:472
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr "BitLocker"
 
-#: fs/filesystem.cpp:473
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr "apfs"
 
-#: fs/filesystem.cpp:474
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr "minix"
 
-#: fs/filesystem.cpp:517 fs/luks.cpp:156
+#: fs/filesystem.cpp:580 fs/luks.cpp:156
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "Pripojiť"
 
-#: fs/filesystem.cpp:523 fs/luks.cpp:161
+#: fs/filesystem.cpp:586 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1772,7 +1770,7 @@ msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: Could "
 "not create temp dir."
 msgstr ""
-"Zmena veľkosti súborového systému JFS na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému JFS na oddieli <filename>%1</filename> "
 "zlyhalo: Nie je možné vytvoriť dočasný adresár."
 
 #: fs/jfs.cpp:169 fs/jfs.cpp:188
@@ -1782,7 +1780,7 @@ msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
 "Remount failed."
 msgstr ""
-"Zmena veľkosti súborového systému JFS na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému JFS na oddieli <filename>%1</filename> "
 "zlyhalo:Zlyhalo znovu-pripojenie."
 
 #: fs/jfs.cpp:174
@@ -1792,7 +1790,7 @@ msgid ""
 "<warning>Resizing JFS file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"<warning>Zmena veľkosti súborového systému JFS na partícii <filename>%1</"
+"<warning>Zmena veľkosti súborového systému JFS na oddieli <filename>%1</"
 "filename> Zlyhalo odpojenie.</warning>"
 
 #: fs/jfs.cpp:176
@@ -1802,16 +1800,16 @@ msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"Zmena veľkosti súborového systému JFS na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému JFS na oddieli <filename>%1</filename> "
 "zlyhalo:Zlyhalo pripojenie."
 
-#: fs/linuxswap.cpp:133
+#: fs/linuxswap.cpp:127
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr "Aktivovať swap"
 
-#: fs/linuxswap.cpp:138
+#: fs/linuxswap.cpp:132
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Deactivate swap"
@@ -1838,7 +1836,7 @@ msgstr "Zadajte heslo pre %1:"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
-msgstr "Zmena veľkosti  LUKS crypt na partící <filename>%1</filename>."
+msgstr "Zmena veľkosti  LUKS crypt na oddieli <filename>%1</filename>."
 
 #: fs/luks.cpp:509 fs/luks2.cpp:116
 #, kde-kuit-format
@@ -1846,7 +1844,7 @@ msgctxt "@info:progress"
 msgid ""
 "Resizing encrypted file system on partition <filename>%1</filename> failed."
 msgstr ""
-"Zmena veľkosti šifrovaného súborového systému na partící <filename>%1</"
+"Zmena veľkosti šifrovaného súborového systému na oddieli <filename>%1</"
 "filename> zlyhalo."
 
 #: fs/nilfs2.cpp:137
@@ -1856,7 +1854,7 @@ msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "Could not create temp dir."
 msgstr ""
-"Zmena veľkosti súborového systému NILFS2 na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému NILFS2 na oddieli <filename>%1</filename> "
 "zlyhala: Nie je možné vytvoriť dočasný adresár."
 
 #: fs/nilfs2.cpp:151 fs/nilfs2.cpp:170
@@ -1866,7 +1864,7 @@ msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "NILFS2 file system resize failed."
 msgstr ""
-"Zmena veľkosti súborového systému NILFS2 na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému NILFS2 na oddieli <filename>%1</filename> "
 "zlyhala: zlyhala zmena veľkosti súborového systému NILFS2."
 
 #: fs/nilfs2.cpp:156
@@ -1876,7 +1874,7 @@ msgid ""
 "<warning>Resizing NILFS2 file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"<warning>Zmena veľkosti súborového systému NILFS2 na partícii <filename>%1</"
+"<warning>Zmena veľkosti súborového systému NILFS2 na oddieli <filename>%1</"
 "filename>: Zlyhalo odpojenie.</warning>"
 
 #: fs/nilfs2.cpp:158
@@ -1886,20 +1884,20 @@ msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"Zmena veľkosti súborového systému NILFS2 na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému NILFS2 na oddieli <filename>%1</filename> "
 "zlyhala: Zlyhalo počiatočné pripojenie."
 
-#: fs/ntfs.cpp:172
+#: fs/ntfs.cpp:182
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updating boot sector for NTFS file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"Updatovanie zavádzacieho sektora pre NTFS súborový systém na partícii "
+"Updatovanie zavádzacieho sektora pre NTFS súborový systém na oddieli "
 "<filename>%1</filename>."
 
-#: fs/ntfs.cpp:184 fs/ntfs.cpp:192
+#: fs/ntfs.cpp:194 fs/ntfs.cpp:202
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1909,7 +1907,7 @@ msgstr ""
 "Nie je možné zapísať nový štartovací sektor pre partíciu <filename>%1</"
 "filename> počas pokusu o aktualizáciu NTFS bootovacieho sektoru. "
 
-#: fs/ntfs.cpp:196
+#: fs/ntfs.cpp:206
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1925,7 +1923,7 @@ msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: Could "
 "not create temp dir."
 msgstr ""
-"Zmena veľkosti súborového systému XFS na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému XFS na oddieli <filename>%1</filename> "
 "zlyhalo: Nie je možné vytvoriť dočasný adresár."
 
 #: fs/xfs.cpp:173 fs/xfs.cpp:192
@@ -1935,7 +1933,7 @@ msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "xfs_growfs failed."
 msgstr ""
-"Zmena veľkosti súborového systému XFS na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému XFS na oddieli <filename>%1</filename> "
 "zlyhalo: zlyhalo xfs_growfs."
 
 #: fs/xfs.cpp:178
@@ -1945,7 +1943,7 @@ msgid ""
 "<warning>Resizing XFS file system on partition <filename>%1</filename> "
 "failed: Unmount failed.</warning>"
 msgstr ""
-"<warning>Zmena veľkosti súborového systému XFS na partícii <filename>%1</"
+"<warning>Zmena veľkosti súborového systému XFS na oddieli <filename>%1</"
 "filename> zlyhalo:Zlyhalo odpojenie.</warning>"
 
 #: fs/xfs.cpp:180
@@ -1955,7 +1953,7 @@ msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"Zmena veľkosti súborového systému XFS na partícii <filename>%1</filename> "
+"Zmena veľkosti súborového systému XFS na oddieli <filename>%1</filename> "
 "zlyhalo:Zlyhalo pripojenie."
 
 #: jobs/backupfilesystemjob.cpp:54
@@ -1981,14 +1979,22 @@ msgid ""
 "Back up file system on partition <filename>%1</filename> to <filename>%2</"
 "filename>"
 msgstr ""
-"Zálohovať súborový systém na partícii  <filename>%1</filename> do <filename>"
+"Zálohovať súborový systém na oddieli <filename>%1</filename> do <filename>"
 "%2</filename>"
+
+#: jobs/changepermissionsjob.cpp:43
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:status"
+#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+msgctxt "@info/plain"
+msgid "Change the permissions of: <filename>%1</filename> to %2"
+msgstr "Nastavenie návestia pre partíciu <filename>%1</filename> na \"%2\""
 
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
-msgstr "Skontrolovať súborový systém na partícii <filename>%1</filename>"
+msgstr "Skontrolovať súborový systém na oddieli <filename>%1</filename>"
 
 #: jobs/copyfilesystemjob.cpp:48
 #, kde-kuit-format
@@ -1998,8 +2004,8 @@ msgid ""
 "filename> is smaller than the file system on source partition <filename>%2</"
 "filename>."
 msgstr ""
-"Nie je možné skopírovať súborový systém : Súborový systém na cieľovej "
-"partícii <filename>%1</filename> je menší ako na zdrojovej <filename>%2</"
+"Nie je možné skopírovať súborový systém : Súborový systém na cieľovom "
+"oddieli <filename>%1</filename> je menší ako na zdrojovej <filename>%2</"
 "filename>."
 
 #: jobs/copyfilesystemjob.cpp:56
@@ -2009,7 +2015,7 @@ msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
 "copying."
 msgstr ""
-"Nie je možné otvoriť súborový systém na zdrojovej partícii <filename>%1</"
+"Nie je možné otvoriť súborový systém na zdrojovom oddieli <filename>%1</"
 "filename> pre kopírovanie."
 
 #: jobs/copyfilesystemjob.cpp:58
@@ -2019,7 +2025,7 @@ msgid ""
 "Could not open file system on target partition <filename>%1</filename> for "
 "copying."
 msgstr ""
-"Nie je možné otvoriť súborový systém na cieľovej partícii <filename>%1</"
+"Nie je možné otvoriť súborový systém na cieľovom oddieli <filename>%1</"
 "filename> pre kopírovanie."
 
 #: jobs/copyfilesystemjob.cpp:61
@@ -2039,7 +2045,7 @@ msgid ""
 "Copy file system on partition <filename>%1</filename> to partition <filename>"
 "%2</filename>"
 msgstr ""
-"Kopírovať súborový systém na partícii <filename>%1</filename> na partíciu "
+"Kopírovať súborový systém na oddieli <filename>%1</filename> na partíciu "
 "<filename>%2</filename>"
 
 #: jobs/createfilesystemjob.cpp:66
@@ -2049,8 +2055,8 @@ msgid ""
 "Failed to set the system type for the file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"Zlyhalo nastavenie systémového typu pre súborový systém na partícii "
-"<filename>%1</filename>."
+"Zlyhalo nastavenie systémového typu pre súborový systém na oddieli <filename>"
+"%1</filename>."
 
 #: jobs/createfilesystemjob.cpp:68
 #, kde-kuit-format
@@ -2059,7 +2065,7 @@ msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "system type for partition <filename>%2</filename>."
 msgstr ""
-"Nie je možné otvoriť tabuľku partícií na zariadení <filename>%1</filename> "
+"Nie je možné otvoriť tabuľku oddielov na zariadení <filename>%1</filename> "
 "na nastavenie systémového typu pre partíciu <filename>%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:70
@@ -2079,7 +2085,7 @@ msgid ""
 "Create file system <filename>%1</filename> on partition <filename>%2</"
 "filename>"
 msgstr ""
-"Vytvoriť súborový systém <filename>%1</filename> na partícii <filename>%2</"
+"Vytvoriť súborový systém <filename>%1</filename> na oddieli <filename>%2</"
 "filename>"
 
 #: jobs/createpartitionjob.cpp:72
@@ -2089,8 +2095,8 @@ msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
 "filename>."
 msgstr ""
-"Zlyhalo pridanie partície  <filename>%1</filename> na zariadenie  <filename>"
-"%2</filename>."
+"Zlyhalo pridanie oddielu <filename>%1</filename> na zariadení <filename>%2</"
+"filename>."
 
 #: jobs/createpartitionjob.cpp:74
 #, kde-kuit-format
@@ -2116,13 +2122,13 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
-msgstr "Vytvoriť novú partíciu <filename>%1</filename>"
+msgstr "Vytvoriť nový oddiel <filename>%1</filename>"
 
 #: jobs/createpartitionjob.cpp:96
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
-msgstr "Vytvoriť novú partíciu na zariadení <filename>%1</filename>"
+msgstr "Vytvoriť nový oddiel na zariadení <filename>%1</filename>"
 
 #: jobs/createpartitiontablejob.cpp:49
 #, kde-kuit-format
@@ -2210,7 +2216,7 @@ msgstr "Zmazať súborový systém na <filename>%1</filename>"
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete partition <filename>%1</filename>."
-msgstr "Nie je možné zmazať partíciu <filename>%1</filename>."
+msgstr "Nie je možné odstrániť oddiel <filename>%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:65
 #, kde-kuit-format
@@ -2228,14 +2234,14 @@ msgctxt "@info:progress"
 msgid ""
 "Deleting partition failed: Could not open device <filename>%1</filename>."
 msgstr ""
-"Zmazanie partície zlyhalo: Nie je možné otvoriť zariadenie <filename>%1</"
-"filename>."
+"Odstraňovanie oddielu zlyhalo: Nepodarilo sa otvoriť zariadenie <filename>"
+"%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:80
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
-msgstr "Zmazať partíciu <filename>%1</filename>"
+msgstr "Odstránenie oddielu <filename>%1</filename>"
 
 #: jobs/job.cpp:45
 #, kde-kuit-format
@@ -2310,7 +2316,7 @@ msgctxt "@info:progress"
 msgid ""
 "Could not open file system on partition <filename>%1</filename> for moving."
 msgstr ""
-"Nie je možné otvoriť súborový systém na partícii <filename>%1</filename> pre "
+"Nepodarilo sa otvoriť súborový systém na oddieli <filename>%1</filename> pre "
 "presun."
 
 #: jobs/movefilesystemjob.cpp:54
@@ -2320,15 +2326,14 @@ msgid ""
 "Could not create target for moving file system on partition <filename>%1</"
 "filename>."
 msgstr ""
-"Nie je možné vytvoriť cieľ pre presunutie súborového systému na partíciu "
+"Nepodarilo sa vytvoriť cieľ pre presunutie súborového systému na oddiel "
 "<filename>%1</filename>."
 
 #: jobs/movefilesystemjob.cpp:63
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback for file system on partition <filename>%1</filename> failed."
-msgstr ""
-"Rollback súborového systému na partícii <filename>%1</filename> zlyhal."
+msgstr "Rollback súborového systému na oddiel <filename>%1</filename> zlyhal."
 
 #: jobs/movefilesystemjob.cpp:65 jobs/restorefilesystemjob.cpp:89
 #: jobs/shredfilesystemjob.cpp:66
@@ -2342,7 +2347,7 @@ msgstr "Zatváranie zariadenia. Môže to chvíľu trvať."
 msgctxt "@info:progress"
 msgid "Move the file system on partition <filename>%1</filename> to sector %2"
 msgstr ""
-"Presunúť súborový systém na partícii <filename>%1</filename> do sektoru %2"
+"Presunúť súborový systém na oddiel <filename>%1</filename> do sektoru %2"
 
 #: jobs/movephysicalvolumejob.cpp:57
 #, kde-kuit-format
@@ -2368,14 +2373,14 @@ msgid_plural ""
 "The file system on partition <filename>%2</filename> already has the "
 "requested length of %1 sectors."
 msgstr[0] ""
-"Súborový systém na partícii <filename>%2</filename> už má požadovanú dľžku 1 "
+"Súborový systém na oddieli <filename>%2</filename> už má požadovanú dľžku 1 "
 "sektora."
 msgstr[1] ""
-"Súborový systém na partícii <filename>%2</filename> už má požadovanú dľžku "
-"%1 sektorov."
+"Súborový systém na oddieli <filename>%2</filename> už má požadovanú dľžku %1 "
+"sektorov."
 msgstr[2] ""
-"Súborový systém na partícii <filename>%2</filename> už má požadovanú dľžku "
-"%1 sektorov."
+"Súborový systém na oddieli <filename>%2</filename> už má požadovanú dľžku %1 "
+"sektorov."
 
 #: jobs/resizefilesystemjob.cpp:69
 #, kde-format
@@ -2398,7 +2403,7 @@ msgid ""
 "The file system on partition <filename>%1</filename> cannot be resized "
 "because there is no support for it."
 msgstr ""
-"Na súborovom systéme na partícii <filename>%1</filename> nemôže byť zmenená "
+"Na súborovom systéme na oddieli <filename>%1</filename> nemôže byť zmenená "
 "veľkosť pretože nie je podporovaná zmena veľkosti."
 
 #: jobs/resizefilesystemjob.cpp:119
@@ -2434,8 +2439,8 @@ msgstr ""
 msgctxt "@info:progress"
 msgid "Maximize file system on <filename>%1</filename> to fill the partition"
 msgstr ""
-"Maximalizuj súborový systém na <filename>%1</filename> tak aby vyplnil "
-"partíciu"
+"Maximalizácia súborového systému na <filename>%1</filename> tak aby vyplnil "
+"oddiel"
 
 #: jobs/resizefilesystemjob.cpp:136
 #, kde-kuit-format
@@ -2646,112 +2651,83 @@ msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
 msgstr "Nastavenie návestia pre partíciu <filename>%1</filename> na \"%2\""
 
 #: jobs/setpartitionlabeljob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting names. Job ignored."
 msgstr ""
-"Súborový systém na partícii <filename>%1</filename> nepodporuje návestia. "
-"Úloha ignorovaná."
+"Tabuľka oddielov na oddieli <filename>%1</filename> nepodporuje nastavenie "
+"názvov. Úloha vynechaná."
 
 #: jobs/setpartitionlabeljob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr "Zlyhalo vytvorenie novej partície <filename>%1</filename>."
+msgstr "Zlyhalo nastavenie názvu oddielu <filename>%1</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "name for the partition <filename>%2</filename>."
 msgstr ""
-"Nie je možné otvoriť tabuľku partícií na zariadení <filename>%1</filename> "
-"na nastavenie systémového typu pre partíciu <filename>%2</filename>."
+"Nepodarilo sa otvoriť tabuľku oddielov zariadenia <filename>%1</filename> na "
+"nastavenie názvu oddielu <filename>%2</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the name for partition "
 "<filename>%2</filename>."
 msgstr ""
-"Nie je možné otvoriť zariadenie <filename>%1</filename> na nastavenie typu "
-"systému pre partíciu <filename>%2</filename>. "
+"Nepodarilo sa otvoriť zariadenie <filename>%1</filename> na nastavenie názvu "
+"oddielu <filename>%2</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
-msgstr "Nastavenie návestia pre partíciu <filename>%1</filename> na \"%2\""
+msgstr "Nastavenie menovky oddielu <filename>%1</filename> na \"%2\""
 
 #: jobs/setpartitionuuidjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting UUIDs. Job ignored."
 msgstr ""
-"Súborový systém na partícii <filename>%1</filename> nepodporuje návestia. "
-"Úloha ignorovaná."
+"Tabuľka oddielov na oddieli <filename>%1</filename> nepodporuje nastavenie "
+"identifikátorov UUID. Úloha vynechaná."
 
 #: jobs/setpartitionuuidjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr "Zlyhalo vytvorenie novej partície <filename>%1</filename>."
+msgstr ""
+"Zlyhalo nastavenie identifikátora UUID oddielu <filename>%1</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "UUID for the partition <filename>%2</filename>."
 msgstr ""
-"Nie je možné otvoriť tabuľku partícií na zariadení <filename>%1</filename> "
-"na nastavenie systémového typu pre partíciu <filename>%2</filename>."
+"Nepodarilo sa otvoriť tabuľku oddielov zariadenia <filename>%1</filename> na "
+"nastavenie identifikátora UUID oddielu <filename>%2</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the UUID for partition "
 "<filename>%2</filename>."
 msgstr ""
-"Nie je možné otvoriť zariadenie <filename>%1</filename> na nastavenie typu "
-"systému pre partíciu <filename>%2</filename>. "
+"Nepodarilo sa otvoriť zariadenie <filename>%1</filename> na nastavenie "
+"identifikátora UUID oddielu <filename>%2</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:74
 #, fuzzy, kde-kuit-format
@@ -2874,7 +2850,7 @@ msgstr ""
 "Kopírovanie oddielu <filename>%1</filename> (%2, %3) na nevyhradený priestor "
 "(začiatok na %4) do <filename>%5</filename> a zväčšenie na %6"
 
-#: ops/createfilesystemoperation.cpp:84
+#: ops/createfilesystemoperation.cpp:89
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
@@ -2910,7 +2886,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "Vymazanie partície <filename>%1</filename> (%2, %3)"
 
-#: ops/newoperation.cpp:200
+#: ops/newoperation.cpp:205
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
@@ -3128,12 +3104,10 @@ msgstr ""
 "filename>."
 
 #: ops/resizevolumegroupoperation.cpp:108
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Copying remainder of block size %1 from %2 to %3."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resize volume %1 from %2 to %3"
-msgstr "Kopírovanie zvyšku bloku o veľkosti %1 z %2 do %3."
+msgstr "Zmena veľkosti zväzku %1 z %2 na %3"
 
 #: ops/restoreoperation.cpp:133
 #, kde-kuit-format
@@ -3200,12 +3174,10 @@ msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr "Nastavenie príznakov pre partíciu <filename>%1</filename> to \"%2\""
 
 #: plugins/sfdisk/sfdiskbackend.cpp:219
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Device found: %1"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr "Nájdené zariadenie: %1"
+msgstr "Našlo sa zariadenie so softvérovým RAIDom: %1"
 
 #: plugins/sfdisk/sfdiskbackend.cpp:249
 #, kde-kuit-format
@@ -3325,100 +3297,83 @@ msgid "(unknown unit)"
 msgstr "(neznáma jednotka)"
 
 #: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:224
+#: util/externalcommand.cpp:226
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "Príkaz: %1 %2"
 
-#: util/externalcommandhelper.cpp:79
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#: util/externalcommandhelper.cpp:82
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr ""
-"Nie je možné otvoriť zariadenie <filename>%1</filename> na rollback "
-"kopírovanie."
+msgstr "Nepodarilo sa otvoriť zariadenie <filename>%1</filename> na čítanie."
 
-#: util/externalcommandhelper.cpp:84 util/externalcommandhelper.cpp:115
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
+#, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr "Nie je možné sprístupniť zariadenie <filename>%1</filename>."
+msgstr ""
+"Nepodarilo sa presunúť pozíciu %1 na zariadení <filename>%2</filename>."
 
-#: util/externalcommandhelper.cpp:91
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:96
+#, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr "Nie je možné sprístupniť zariadenie <filename>%1</filename>."
+msgstr "Nepodarilo sa čítať zo zariadenia <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:110
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#: util/externalcommandhelper.cpp:114
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr ""
-"Nie je možné otvoriť zariadenie <filename>%1</filename> na rollback "
-"kopírovanie."
+msgstr "Nepodarilo sa otvoriť zariadenie <filename>%1</filename> na zápis."
 
-#: util/externalcommandhelper.cpp:120
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:125
+#, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr "Nie je možné sprístupniť zariadenie <filename>%1</filename>."
+msgstr "Nepodarilo sa zapísať do zariadenia <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:145
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#: util/externalcommandhelper.cpp:151
+#, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr ""
-"Nie je možné otvoriť zariadenie <filename>%1</filename> na rollback "
-"kopírovanie."
+msgstr "Nepodarilo sa otvoriť súbor <filename>%1</filename> na zápis."
 
-#: util/externalcommandhelper.cpp:150
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Could not access device <filename>%1</filename>"
+#: util/externalcommandhelper.cpp:156
+#, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr "Nie je možné sprístupniť zariadenie <filename>%1</filename>."
+msgstr "Nepodarilo sa zapísať do súboru <filename>%1</filename>."
 
-#: util/externalcommandhelper.cpp:216
+#: util/externalcommandhelper.cpp:237
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:progress"
-#| msgid "Copying %1 blocks (%2 sectors) from %3 to %4, direction: %5."
+#| msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
 msgctxt "@info:progress"
-msgid "Copying %1 blocks (%2 bytes) from %3 to %4, direction: %5."
-msgstr "Kopírovanie %1 blokov (%2 sektorov) z %3 na %4, direction: %5."
+msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
+msgstr "Kopírovanie %1 blokov (%2 bajtov) z %3 na %4, smer: %5."
 
-#: util/externalcommandhelper.cpp:217
+#: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
 msgstr "vľavo"
 
-#: util/externalcommandhelper.cpp:218
+#: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
 msgstr "vpravo"
 
-#: util/externalcommandhelper.cpp:238
+#: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr "Kopírovanie %1 MiB/s, uplynutý čas: %2"
 
-#: util/externalcommandhelper.cpp:251
-#, kde-kuit-format
+#: util/externalcommandhelper.cpp:274
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid "Copying remainder of block size %1 from %2 to %3."
 msgctxt "@info:progress"
-msgid "Copying remainder of block size %1 from %2 to %3."
+msgid "Copying remainder of chunk size %1 from %2 to %3."
 msgstr "Kopírovanie zvyšku bloku o veľkosti %1 z %2 do %3."
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
@@ -3426,18 +3381,18 @@ msgstr[0] "1 bajt"
 msgstr[1] "%1 bajty"
 msgstr[2] "%1 bajtov"
 
-#: util/externalcommandhelper.cpp:265
+#: util/externalcommandhelper.cpp:288
 #, fuzzy, kde-kuit-format
 #| msgctxt ""
-#| "@info:progress argument 2 is a string such as 7 sectors (localized "
+#| "@info:progress argument 2 is a string such as 7 bytes (localized "
 #| "accordingly)"
 #| msgid "Copying 1 block (%2) finished."
 #| msgid_plural "Copying %1 blocks (%2) finished."
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
-msgid "Copying 1 block (%2) finished."
-msgid_plural "Copying %1 blocks (%2) finished."
-msgstr[0] "Kopírovanie 1 bloku (%2) ukončené."
+msgid "Copying 1 chunk (%2) finished."
+msgid_plural "Copying %1 chunks (%2) finished."
+msgstr[0] "Kopírovanie 1 bloku (%2) dokončené."
 msgstr[1] "Kopírovanie %1 blokov (%2) ukončené."
 msgstr[2] "Kopírovanie %1 blokov (%2) ukončené."
 
@@ -3456,10 +3411,10 @@ msgstr "Knižnica pre správu oddielov"
 #: util/helpers.cpp:51
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info:credit"
-#| msgid "&copy; 2008-2019 KPMcore developers"
+#| msgid "&copy; 2008-2020 KPMcore developers"
 msgctxt "@info:credit"
-msgid "&copy; 2008-2020 KPMcore developers"
-msgstr "&copy; 2008-2019 KPMcore vývojári"
+msgid "&copy; 2008-2022 KPMcore developers"
+msgstr "&copy; 2008-2020 Vývojári KPMcore"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -3534,12 +3489,10 @@ msgid "Calamares maintainer"
 msgstr "Správca Calamares"
 
 #: util/helpers.cpp:62
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:credit"
-#| msgid "Caio Carvalho"
+#, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Caio Jordão Carvalho"
-msgstr "Caio Carvalho"
+msgstr "Caio Jordão Carvalho"
 
 #: util/helpers.cpp:62
 #, kde-format
@@ -3551,7 +3504,7 @@ msgstr "Zlepšená podpora SMART"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: util/helpers.cpp:63
 #, kde-format
