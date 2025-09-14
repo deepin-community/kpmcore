@@ -1,3 +1,65 @@
+kpmcore (24.12.3-2) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Backport upstream commits:
+    - Fix a memory leak by actually freeing a correct pointer.
+    - Fix a crash when filesystem==nullptr.
+  * Reenable build-time tests.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 09 Jun 2025 09:01:20 +0200
+
+kpmcore (24.12.3-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (24.12.3).
+  * Backport commit to fix misleading Polish translation. (Closes:
+    #1104060)
+  * Bump Standards-Version to 4.7.2, no change required.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sun, 04 May 2025 00:19:45 +0200
+
+kpmcore (24.12.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (24.12.0).
+  * Update build-deps and deps with the info from cmake.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 21 Dec 2024 08:41:23 +0100
+
+kpmcore (24.08.2-1) experimental; urgency=medium
+
+  [ Jesse Rhodes ]
+  * New upstream release (24.05.2).
+  * Update build-deps with info from cmake.
+  * Update list of installed files from build system.
+  * Update libkpmcore12.symbols.
+  * Refresh copyright info.
+  * pkg-config -> pkgconf.
+  * Update Standards-Version to 4.7.0 (no changes needed).
+  * Use dh-sequence-kf6.
+  * Update package descriptions.
+
+  [ Aurélien COUDERC ]
+  * New upstream release (24.08.2).
+  * Update symbols from build for 24.08.2.
+  * Fix typo in Replaces relation with older version of the lib.
+  * Cleanup Breaks/Replaces.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Wed, 16 Oct 2024 08:48:50 +0200
+
+kpmcore (23.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Jesse Rhodes ]
+  * New upstream release (23.08.2).
+  * Update symbols file.
+  * Update build-deps with info from cmake.
+  * New upstream release (23.08.3).
+
+ -- Jesse Rhodes <jesse@sney.ca>  Tue, 05 Dec 2023 12:18:00 -0500
+
 kpmcore (22.12.3-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]

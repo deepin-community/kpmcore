@@ -1,21 +1,22 @@
-# SymbolsHelper-Confirmed: 22.08.1 amd64 armel armhf riscv64
+# SymbolsHelper-Confirmed: 24.08.2 amd64
 libkpmcore.so.12 libkpmcore12 #MINVER#
 * Build-Depends-Package: libkpmcore-dev
  _Z12aboutKPMcorev@Base 22.04.3
+ _Z13generateFstabRK5QListI10FstabEntryE@Base 24.05.2
  _Z16readFstabEntriesRK7QString@Base 22.04.3
  _Z16writeMountpointsRK5QListI10FstabEntryE@Base 22.04.3
  _Z17registerMetaTypesv@Base 22.04.3
  _Z19possibleMountPointsRK7QStringS1_@Base 22.04.3
  _Z23caseInsensitiveLessThanRK7QStringS1_@Base 22.04.3
  _Z9isMountedRK7QString@Base 22.04.3
- _ZN10DiskDeviceC1ERK7QStringS2_iiixS2_@Base 22.04.3
- _ZN10DiskDeviceC2ERK7QStringS2_iiixS2_@Base 22.04.3
+ _ZN10DiskDeviceC1ERK7QStringS2_xxS2_@Base 24.08.2
+ _ZN10DiskDeviceC2ERK7QStringS2_xxS2_@Base 24.08.2
  _ZN10FileSystem10addFeatureERK7QStringRK8QVariant@Base 22.04.3
  _ZN10FileSystem10writeLabelER6ReportRK7QStringS4_@Base 22.04.3
  _ZN10FileSystem11addFeaturesERK4QMapI7QString8QVariantE@Base 22.04.3
- _ZN10FileSystem11nameForTypeENS_4TypeERK11QStringList@Base 22.04.3
- _ZN10FileSystem11typeForNameERK7QStringRK11QStringList@Base 22.04.3
- _ZN10FileSystem12findExternalERK7QStringRK11QStringListi@Base 22.04.3
+ _ZN10FileSystem11nameForTypeENS_4TypeERK5QListI7QStringE@Base 24.05.2
+ _ZN10FileSystem11typeForNameERK7QStringRK5QListIS0_E@Base 24.05.2
+ _ZN10FileSystem12findExternalERK7QStringRK5QListIS0_Ei@Base 24.05.2
  _ZN10FileSystem13setLastSectorEx@Base 22.04.3
  _ZN10FileSystem13setSectorSizeEx@Base 22.04.3
  _ZN10FileSystem14setFirstSectorEx@Base 22.04.3
@@ -44,7 +45,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN10FileSystemD0Ev@Base 22.04.3
  _ZN10FileSystemD1Ev@Base 22.04.3
  _ZN10FileSystemD2Ev@Base 22.04.3
- _ZN10FstabEntry10setOptionsERK11QStringList@Base 22.04.3
+ _ZN10FstabEntry10setOptionsERK5QListI7QStringE@Base 24.05.2
  _ZN10FstabEntry11setDumpFreqEi@Base 22.04.3
  _ZN10FstabEntry13setMountPointERK7QString@Base 22.04.3
  _ZN10FstabEntry13setPassNumberEi@Base 22.04.3
@@ -110,7 +111,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN12NewOperationD1Ev@Base 22.04.3
  _ZN12NewOperationD2Ev@Base 22.04.3
  _ZN12SoftwareRAID10isRaidPathERK7QString@Base 22.04.3
- _ZN12SoftwareRAID11shrinkArrayER6ReportRK11QStringList@Base 22.04.3
+ _ZN12SoftwareRAID11shrinkArrayER6ReportRK5QListI7QStringE@Base 24.05.2
  _ZN12SoftwareRAID12getArraySizeERK7QString@Base 22.04.3
  _ZN12SoftwareRAID12getChunkSizeERK7QString@Base 22.04.3
  _ZN12SoftwareRAID12getRaidLevelERK7QString@Base 22.04.3
@@ -120,14 +121,14 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN12SoftwareRAID16scanSoftwareRAIDER5QListIP6DeviceE@Base 22.04.3
  _ZN12SoftwareRAID16stopSoftwareRAIDERK7QString@Base 22.04.3
  _ZN12SoftwareRAID17getDevicePathListERK7QString@Base 22.04.3
- _ZN12SoftwareRAID18createSoftwareRAIDER6ReportRK7QString11QStringListii@Base 22.04.3
+ _ZN12SoftwareRAID18createSoftwareRAIDER6ReportRK7QString5QListIS2_Eii@Base 24.05.2
  _ZN12SoftwareRAID18deleteSoftwareRAIDER6ReportRS_@Base 22.04.3
  _ZN12SoftwareRAID20assembleSoftwareRAIDERK7QString@Base 22.04.3
  _ZN12SoftwareRAID20getRAIDConfigurationERK7QString@Base 22.04.3
  _ZN12SoftwareRAID22reassembleSoftwareRAIDERK7QString@Base 22.04.3
  _ZN12SoftwareRAID7getUUIDERK7QString@Base 22.04.3
  _ZN12SoftwareRAID9getDetailERK7QString@Base 22.04.3
- _ZN12SoftwareRAID9growArrayER6ReportRK11QStringList@Base 22.04.3
+ _ZN12SoftwareRAID9growArrayER6ReportRK5QListI7QStringE@Base 24.05.2
  _ZN12SoftwareRAID9setStatusENS_6StatusE@Base 22.04.3
  _ZN12SoftwareRAIDC1ERK7QStringNS_6StatusES2_@Base 22.04.3
  _ZN12SoftwareRAIDC2ERK7QStringNS_6StatusES2_@Base 22.04.3
@@ -192,7 +193,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN14PartWidgetBase13m_BorderWidthE@Base 22.04.3
  _ZN14PartWidgetBase14m_BorderHeightE@Base 22.04.3
  _ZN14PartWidgetBase9m_SpacingE@Base 22.04.3
- _ZN14PartitionTable13flagsFromListE11QStringList@Base 22.04.3
+ _ZN14PartitionTable13flagsFromListE5QListI7QStringE@Base 24.05.2
  _ZN14PartitionTable15nameToTableTypeERK7QString@Base 22.04.3
  _ZN14PartitionTable15tableTypeToNameENS_9TableTypeE@Base 22.04.3
  _ZN14PartitionTable17defaultLastUsableERK6DeviceNS_9TableTypeE@Base 22.04.3
@@ -248,14 +249,14 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN15ExternalCommand5writeERK10QByteArray@Base 22.04.3
  _ZN15ExternalCommand6addArgERK7QString@Base 22.04.3
  _ZN15ExternalCommand6reportEv@Base 22.04.3
- _ZN15ExternalCommand7setArgsERK11QStringList@Base 22.04.3
+ _ZN15ExternalCommand7setArgsERK5QListI7QStringE@Base 24.05.2
  _ZN15ExternalCommand8progressEi@Base 22.04.3
  _ZN15ExternalCommand8readDataERK16CopySourceDevice@Base 22.04.3
  _ZN15ExternalCommand9writeDataER6ReportRK10QByteArrayRK7QStringy@Base 22.04.3
- _ZN15ExternalCommandC1ER6ReportRK7QStringRK11QStringListN8QProcess18ProcessChannelModeE@Base 22.04.3
- _ZN15ExternalCommandC1ERK7QStringRK11QStringListN8QProcess18ProcessChannelModeE@Base 22.04.3
- _ZN15ExternalCommandC2ER6ReportRK7QStringRK11QStringListN8QProcess18ProcessChannelModeE@Base 22.04.3
- _ZN15ExternalCommandC2ERK7QStringRK11QStringListN8QProcess18ProcessChannelModeE@Base 22.04.3
+ _ZN15ExternalCommandC1ER6ReportRK7QStringRK5QListIS2_EN8QProcess18ProcessChannelModeE@Base 24.05.2
+ _ZN15ExternalCommandC1ERK7QStringRK5QListIS0_EN8QProcess18ProcessChannelModeE@Base 24.05.2
+ _ZN15ExternalCommandC2ER6ReportRK7QStringRK5QListIS2_EN8QProcess18ProcessChannelModeE@Base 24.05.2
+ _ZN15ExternalCommandC2ERK7QStringRK5QListIS0_EN8QProcess18ProcessChannelModeE@Base 24.05.2
  _ZN15ExternalCommandD0Ev@Base 22.04.3
  _ZN15ExternalCommandD1Ev@Base 22.04.3
  _ZN15ExternalCommandD2Ev@Base 22.04.3
@@ -360,8 +361,8 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN26CreateVolumeGroupOperation4undoEv@Base 22.04.3
  _ZN26CreateVolumeGroupOperation7previewEv@Base 22.04.3
  _ZN26CreateVolumeGroupOperation9canCreateEv@Base 22.04.3
- _ZN26CreateVolumeGroupOperationC1ERK7QStringRK7QVectorIPK9PartitionEi@Base 22.04.3
- _ZN26CreateVolumeGroupOperationC2ERK7QStringRK7QVectorIPK9PartitionEi@Base 22.04.3
+ _ZN26CreateVolumeGroupOperationC1ERK7QStringRK5QListIPK9PartitionEi@Base 24.05.2
+ _ZN26CreateVolumeGroupOperationC2ERK7QStringRK5QListIPK9PartitionEi@Base 24.05.2
  _ZN26RemoveVolumeGroupOperation11isRemovableEPK19VolumeManagerDevice@Base 22.04.3
  _ZN26RemoveVolumeGroupOperation4undoEv@Base 22.04.3
  _ZN26RemoveVolumeGroupOperation7previewEv@Base 22.04.3
@@ -369,8 +370,8 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN26RemoveVolumeGroupOperationC2ER19VolumeManagerDevice@Base 22.04.3
  _ZN26ResizeVolumeGroupOperation4undoEv@Base 22.04.3
  _ZN26ResizeVolumeGroupOperation7previewEv@Base 22.04.3
- _ZN26ResizeVolumeGroupOperationC1ER9LvmDeviceRK7QVectorIPK9PartitionE@Base 22.04.3
- _ZN26ResizeVolumeGroupOperationC2ER9LvmDeviceRK7QVectorIPK9PartitionE@Base 22.04.3
+ _ZN26ResizeVolumeGroupOperationC1ER9LvmDeviceRK5QListIPK9PartitionE@Base 24.05.2
+ _ZN26ResizeVolumeGroupOperationC2ER9LvmDeviceRK5QListIPK9PartitionE@Base 24.05.2
  _ZN27SetFileSystemLabelOperation4undoEv@Base 22.04.3
  _ZN27SetFileSystemLabelOperation7previewEv@Base 22.04.3
  _ZN27SetFileSystemLabelOperationC1ER9PartitionRK7QString@Base 22.04.3
@@ -496,9 +497,8 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN2FS4ext4C2ExxxRK7QStringRK4QMapIS1_8QVariantE@Base 22.04.3
  _ZN2FS4f2fs10m_GetLabelE@Base 22.04.3
  _ZN2FS4f2fs10m_SetLabelE@Base 22.04.3
- _ZN2FS4f2fs10oldVersionE@Base 22.04.3
+ _ZN2FS4f2fs10writeLabelER6ReportRK7QStringS5_@Base 23.08.2
  _ZN2FS4f2fs12m_UpdateUUIDE@Base 22.04.3
- _ZN2FS4f2fs15createWithLabelER6ReportRK7QStringS5_@Base 22.04.3
  _ZN2FS4f2fs4initEv@Base 22.04.3
  _ZN2FS4f2fs6createER6ReportRK7QString@Base 22.04.3
  _ZN2FS4f2fs6m_CopyE@Base 22.04.3
@@ -540,6 +540,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN2FS4luks14setPayloadSizeEv@Base 22.04.3
  _ZN2FS4luks19loadInnerFileSystemERK7QString@Base 22.04.3
  _ZN2FS4luks21createInnerFileSystemEN10FileSystem4TypeE@Base 22.04.3
+ _ZN2FS4luks25execChangePosixPermissionER6ReportRK7QString@Base 24.05.2
  _ZN2FS4luks4initEv@Base 22.04.3
  _ZN2FS4luks4scanERK7QString@Base 22.04.3
  _ZN2FS4luks5mountER6ReportRK7QStringS5_@Base 22.04.3
@@ -747,6 +748,23 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN2FS7unknown6m_MoveE@Base 22.04.3
  _ZN2FS7unknownC1ExxxRK7QStringRK4QMapIS1_8QVariantE@Base 22.04.3
  _ZN2FS7unknownC2ExxxRK7QStringRK4QMapIS1_8QVariantE@Base 22.04.3
+ _ZN2FS8bcachefs10m_GetLabelE@Base 24.05.2
+ _ZN2FS8bcachefs10m_SetLabelE@Base 24.05.2
+ _ZN2FS8bcachefs12m_UpdateUUIDE@Base 24.05.2
+ _ZN2FS8bcachefs15createWithLabelER6ReportRK7QStringS5_@Base 24.05.2
+ _ZN2FS8bcachefs4initEv@Base 24.05.2
+ _ZN2FS8bcachefs6createER6ReportRK7QString@Base 24.05.2
+ _ZN2FS8bcachefs6m_CopyE@Base 24.05.2
+ _ZN2FS8bcachefs6m_GrowE@Base 24.05.2
+ _ZN2FS8bcachefs6m_MoveE@Base 24.05.2
+ _ZN2FS8bcachefs7m_CheckE@Base 24.05.2
+ _ZN2FS8bcachefs8m_BackupE@Base 24.05.2
+ _ZN2FS8bcachefs8m_CreateE@Base 24.05.2
+ _ZN2FS8bcachefs8m_ShrinkE@Base 24.05.2
+ _ZN2FS8bcachefs9m_GetUUIDE@Base 24.05.2
+ _ZN2FS8bcachefs9m_GetUsedE@Base 24.05.2
+ _ZN2FS8bcachefsC1ExxxRK7QStringRK4QMapIS1_8QVariantE@Base 24.05.2
+ _ZN2FS8bcachefsC2ExxxRK7QStringRK4QMapIS1_8QVariantE@Base 24.05.2
  _ZN2FS8extended6createER6ReportRK7QString@Base 22.04.3
  _ZN2FS8extended6m_GrowE@Base 22.04.3
  _ZN2FS8extended6m_MoveE@Base 22.04.3
@@ -872,10 +890,10 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN9LvmDevice16createLVSnapshotER6ReportR9PartitionRK7QStringx@Base 22.04.3
  _ZN9LvmDevice6getLVsERK7QString@Base 22.04.3
  _ZN9LvmDevice6getVGsEv@Base 22.04.3
- _ZN9LvmDevice6movePVER6ReportRK7QStringRK11QStringList@Base 22.04.3
+ _ZN9LvmDevice6movePVER6ReportRK7QStringRK5QListIS2_E@Base 24.05.2
  _ZN9LvmDevice7getUUIDERK7QString@Base 22.04.3
  _ZN9LvmDevice8createLVER6ReportRS_R9PartitionRK7QString@Base 22.04.3
- _ZN9LvmDevice8createVGER6Report7QStringRK7QVectorIPK9PartitionEi@Base 22.04.3
+ _ZN9LvmDevice8createVGER6Report7QStringRK5QListIPK9PartitionEi@Base 24.05.2
  _ZN9LvmDevice8getFieldERK7QStringS2_@Base 22.04.3
  _ZN9LvmDevice8insertPVER6ReportRS_RK7QString@Base 22.04.3
  _ZN9LvmDevice8removeLVER6ReportRS_R9Partition@Base 22.04.3
@@ -925,13 +943,9 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZN9PartitionD1Ev@Base 22.04.3
  _ZN9PartitionD2Ev@Base 22.04.3
  _ZN9PartitionaSERKS_@Base 22.04.3
- _ZNK10DiskDevice12cylinderSizeEv@Base 22.04.3
  _ZNK10DiskDevice12totalSectorsEv@Base 22.04.3
- _ZNK10DiskDevice15sectorsPerTrackEv@Base 22.04.3
  _ZNK10DiskDevice17logicalSectorSizeEv@Base 22.04.3
  _ZNK10DiskDevice18physicalSectorSizeEv@Base 22.04.3
- _ZNK10DiskDevice5headsEv@Base 22.04.3
- _ZNK10DiskDevice9cylindersEv@Base 22.04.3
  _ZNK10FileSystem10lastSectorEv@Base 22.04.3
  _ZNK10FileSystem10mountTitleEv@Base 22.04.3
  _ZNK10FileSystem10sectorSizeEv@Base 22.04.3
@@ -952,7 +966,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZNK10FileSystem20implPosixPermissionsEv@Base 22.04.3
  _ZNK10FileSystem4copyER6ReportRK7QStringS4_@Base 22.04.3
  _ZNK10FileSystem4moveER6ReportRK7QStringx@Base 22.04.3
- _ZNK10FileSystem4nameERK11QStringList@Base 22.04.3
+ _ZNK10FileSystem4nameERK5QListI7QStringE@Base 24.05.2
  _ZNK10FileSystem4typeEv@Base 22.04.3
  _ZNK10FileSystem4uuidEv@Base 22.04.3
  _ZNK10FileSystem5checkER6ReportRK7QString@Base 22.04.3
@@ -1005,7 +1019,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZNK13PartitionNode19highestMountedChildEv@Base 22.04.3
  _ZNK13PartitionNode21findPartitionBySectorExRK13PartitionRole@Base 22.04.3
  _ZNK13PartitionNode9successorERK9Partition@Base 22.04.3
- _ZNK13PartitionRole8toStringERK11QStringList@Base 22.04.3
+ _ZNK13PartitionRole8toStringERK5QListI7QStringE@Base 24.05.2
  _ZNK14CheckOperation11descriptionEv@Base 22.04.3
  _ZNK14CheckOperation7targetsERK6Device@Base 22.04.3
  _ZNK14CheckOperation7targetsERK9Partition@Base 22.04.3
@@ -1017,7 +1031,6 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZNK14PartitionTable11freeSectorsEv@Base 22.04.3
  _ZNK14PartitionTable11hasExtendedEv@Base 22.04.3
  _ZNK14PartitionTable12numPrimariesEv@Base 22.04.3
- _ZNK14PartitionTable13isSectorBasedERK6Device@Base 22.04.3
  _ZNK14PartitionTable16freeSectorsAfterERK9Partition@Base 22.04.3
  _ZNK14PartitionTable17freeSectorsBeforeERK9Partition@Base 22.04.3
  _ZNK14PartitionTable8extendedEv@Base 22.04.3
@@ -1245,6 +1258,14 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZNK2FS7reiser416supportToolFoundEv@Base 22.04.3
  _ZNK2FS7reiser45checkER6ReportRK7QString@Base 22.04.3
  _ZNK2FS7unknown8canMountERK7QStringS3_@Base 22.04.3
+ _ZNK2FS8bcachefs11maxCapacityEv@Base 24.05.2
+ _ZNK2FS8bcachefs11minCapacityEv@Base 24.05.2
+ _ZNK2FS8bcachefs12resizeOnlineER6ReportRK7QStringS5_x@Base 24.05.2
+ _ZNK2FS8bcachefs14maxLabelLengthEv@Base 24.05.2
+ _ZNK2FS8bcachefs15supportToolNameEv@Base 24.05.2
+ _ZNK2FS8bcachefs16supportToolFoundEv@Base 24.05.2
+ _ZNK2FS8bcachefs5checkER6ReportRK7QString@Base 24.05.2
+ _ZNK2FS8bcachefs6resizeER6ReportRK7QStringx@Base 24.05.2
  _ZNK2FS8reiserfs10updateUUIDER6ReportRK7QString@Base 22.04.3
  _ZNK2FS8reiserfs11maxCapacityEv@Base 22.04.3
  _ZNK2FS8reiserfs11minCapacityEv@Base 22.04.3
@@ -1322,6 +1343,13 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZNK9Partition8canMountEv@Base 22.04.3
  _ZNK9PartitioneqERKS_@Base 22.04.3
  _ZNK9PartitionneERKS_@Base 22.04.3
+ (optional=templinst)_ZNKSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE4findERS2_@Base 24.05.2
+ (optional=templinst)_ZNSt10_HashtableI7QStringS0_SaIS0_ENSt8__detail9_IdentityESt8equal_toIS0_ESt4hashIS0_ENS2_18_Mod_range_hashingENS2_20_Default_ranged_hashENS2_20_Prime_rehash_policyENS2_17_Hashtable_traitsILb0ELb1ELb1EEEE5clearEv@Base 24.05.2
+ (optional=templinst)_ZNSt10_HashtableI7QStringS0_SaIS0_ENSt8__detail9_IdentityESt8equal_toIS0_ESt4hashIS0_ENS2_18_Mod_range_hashingENS2_20_Default_ranged_hashENS2_20_Prime_rehash_policyENS2_17_Hashtable_traitsILb0ELb1ELb1EEEEC1IPKS0_EET_SH_mRKS7_RKS5_RKS1_St17integral_constantIbLb1EE@Base 24.05.2
+ (optional=templinst)_ZNSt10_HashtableI7QStringS0_SaIS0_ENSt8__detail9_IdentityESt8equal_toIS0_ESt4hashIS0_ENS2_18_Mod_range_hashingENS2_20_Default_ranged_hashENS2_20_Prime_rehash_policyENS2_17_Hashtable_traitsILb0ELb1ELb1EEEEC2IPKS0_EET_SH_mRKS7_RKS5_RKS1_St17integral_constantIbLb1EE@Base 24.05.2
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE16_M_insert_uniqueIS4_EES1_ISt17_Rb_tree_iteratorIS4_EbEOT_@Base 24.05.2
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_@Base 24.05.2
+ (optional=templinst)_ZNSt8_Rb_treeI7QStringSt4pairIKS0_8QVariantESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS4_ERS2_@Base 24.05.2
  _ZTI10DiskDevice@Base 22.04.3
  _ZTI10FileSystem@Base 22.04.3
  _ZTI10PartWidget@Base 22.04.3
@@ -1388,6 +1416,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZTIN2FS7lvm2_pvE@Base 22.04.3
  _ZTIN2FS7reiser4E@Base 22.04.3
  _ZTIN2FS7unknownE@Base 22.04.3
+ _ZTIN2FS8bcachefsE@Base 24.05.2
  _ZTIN2FS8extendedE@Base 22.04.3
  _ZTIN2FS8reiserfsE@Base 22.04.3
  _ZTIN2FS9bitlockerE@Base 22.04.3
@@ -1466,6 +1495,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZTSN2FS7lvm2_pvE@Base 22.04.3
  _ZTSN2FS7reiser4E@Base 22.04.3
  _ZTSN2FS7unknownE@Base 22.04.3
+ _ZTSN2FS8bcachefsE@Base 24.05.2
  _ZTSN2FS8extendedE@Base 22.04.3
  _ZTSN2FS8reiserfsE@Base 22.04.3
  _ZTSN2FS9bitlockerE@Base 22.04.3
@@ -1544,6 +1574,7 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  _ZTVN2FS7lvm2_pvE@Base 22.04.3
  _ZTVN2FS7reiser4E@Base 22.04.3
  _ZTVN2FS7unknownE@Base 22.04.3
+ _ZTVN2FS8bcachefsE@Base 24.05.2
  _ZTVN2FS8extendedE@Base 22.04.3
  _ZTVN2FS8reiserfsE@Base 22.04.3
  _ZTVN2FS9bitlockerE@Base 22.04.3
@@ -1551,22 +1582,4 @@ libkpmcore.so.12 libkpmcore12 #MINVER#
  (arch=armel riscv64)_ZTVSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIvELN9__gnu_cxx12_Lock_policyE1EE@Base 22.08.1
  (arch=amd64 armhf)_ZTVSt23_Sp_counted_ptr_inplaceI11SmartStatusSaIvELN9__gnu_cxx12_Lock_policyE2EE@Base 22.08.1
  _ZZNSt19_Sp_make_shared_tag5_S_tiEvE5__tag@Base 22.04.3
- _ZZZN10KAboutDataC4ERK7QStringS2_S2_S2_N13KAboutLicense10LicenseKeyES2_S2_S2_S2_Ed_NKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZN14KPluginFactory17instantiatePluginI11CoreBackendEENS_6ResultIT_EERK15KPluginMetaDataP7QObjectRK5QListI8QVariantEENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK12NewOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK13CopyOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK14CheckOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK15BackupOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK15DeleteOperation8iconNameEvENKUlvE0_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK15DeleteOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK15ResizeOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK16RestoreOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK21SetPartFlagsOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK25CreateFileSystemOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK26CreateVolumeGroupOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK26RemoveVolumeGroupOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK26ResizeVolumeGroupOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK27SetFileSystemLabelOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK29CreatePartitionTableOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
- _ZZZNK30DeactivateVolumeGroupOperation8iconNameEvENKUlvE_clEvE15qstring_literal@Base 22.04.3
  _ZlsR11QTextStreamRK14PartitionTable@Base 22.04.3

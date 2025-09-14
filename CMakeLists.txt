@@ -8,7 +8,7 @@
 cmake_minimum_required(VERSION 3.16 FATAL_ERROR)
 
 # KDE Application Version, managed by release script
-set (RELEASE_SERVICE_VERSION_MAJOR "22")
+set (RELEASE_SERVICE_VERSION_MAJOR "24")
 set (RELEASE_SERVICE_VERSION_MINOR "12")
 set (RELEASE_SERVICE_VERSION_MICRO "3")
 set (RELEASE_SERVICE_VERSION "${RELEASE_SERVICE_VERSION_MAJOR}.${RELEASE_SERVICE_VERSION_MINOR}.${RELEASE_SERVICE_VERSION_MICRO}")
@@ -25,8 +25,8 @@ set(CMAKE_BUILD_WITH_INSTALL_RPATH ON)
 # By default this is set to / and /usr which is good for majority of distros
 
 # Dependencies
-set(QT_MIN_VERSION "5.15.2")
-set(KF5_MIN_VERSION "5.90")
+set(QT_MIN_VERSION "6.5.0")
+set(KF_MIN_VERSION "5.240.0")
 set(BLKID_MIN_VERSION "2.33.2")
 # PolkitQt5-1
 
@@ -35,7 +35,7 @@ set(BLKID_MIN_VERSION "2.33.2")
 
 set(KDE_COMPILERSETTINGS_LEVEL "5.85")
 
-find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
+find_package(ECM ${KF_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/modules/")
 
 include(KDEInstallDirs)
@@ -45,17 +45,14 @@ include(FeatureSummary)
 include(GenerateExportHeader)
 include(ECMSetupVersion)
 include(ECMConfiguredInstall)
+include(ECMDeprecationSettings)
 
 ecm_setup_version(${RELEASE_SERVICE_VERSION} VARIABLE_PREFIX KPMCORE
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kpmcore_version.h"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KPMcoreConfigVersion.cmake"
                         SOVERSION ${SOVERSION})
 
-if (NOT QT_MAJOR_VERSION)
-    set(QT_MAJOR_VERSION "5")
-endif()
-
-find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} COMPONENTS REQUIRED
+find_package(Qt6 ${QT_MIN_VERSION} COMPONENTS REQUIRED
   Core
   DBus
   Gui
@@ -63,15 +60,18 @@ find_package(Qt${QT_MAJOR_VERSION} ${QT_MIN_VERSION} COMPONENTS REQUIRED
 )
 
 # Load the frameworks we need
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED
+find_package(KF6 ${KF_MIN_VERSION} REQUIRED
   CoreAddons
   I18n
   WidgetsAddons
 )
 
-find_package(PolkitQt${QT_MAJOR_VERSION}-1 REQUIRED)
+find_package(PolkitQt6-1 REQUIRED)
 
-add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f00)
+ecm_set_disabled_deprecation_versions(QT 6.7
+    KF 6.4
+)
+
 kde_enable_exceptions()
 
 if(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
@@ -104,7 +104,7 @@ set_target_properties( kpmcore
 
 message(STATUS "kpmcore ${RELEASE_SERVICE_VERSION} will be built for install into ${CMAKE_INSTALL_PREFIX}")
 
-feature_summary(WHAT ALL INCLUDE_QUIET_PACKAGES FATAL_ON_MISSING_REQUIRED_PACKAGES)
+feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 enable_testing()
 add_subdirectory(test)
