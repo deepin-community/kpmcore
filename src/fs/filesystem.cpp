@@ -21,6 +21,7 @@
 #include "backend/corebackendmanager.h"
 
 #include "util/externalcommand.h"
+#include "util/externalcommand_trustedprefixes.h"
 #include "util/capacity.h"
 #include "util/helpers.h"
 
@@ -69,7 +70,8 @@ const std::vector<QColor> FileSystem::defaultColorCode =
     QColor( 255,100,100 ), // linux_raid_member
     QColor( 110,20,50 ),   // bitlocker
     QColor( 255,155,174 ), // apfs
-    QColor( 0,170,255 ), // minix
+    QColor( 0,170,255 ),   // minix
+    QColor( 100,170,255 ), // bcachefs
 }
 };
 
@@ -535,6 +537,7 @@ static const KLocalizedString* typeNames()
         kxi18nc("@item filesystem name", "BitLocker"),
         kxi18nc("@item filesystem name", "apfs"),
         kxi18nc("@item filesystem name", "minix"),
+        kxi18nc("@item filesystem name", "bcachefs"),
     };
 
     return s;
@@ -650,9 +653,8 @@ qint64 FileSystem::lastSector() const
 
 bool FileSystem::findExternal(const QString& cmdName, const QStringList& args, int expectedCode)
 {
-    QString cmdFullPath = QStandardPaths::findExecutable(cmdName);
-    if (cmdFullPath.isEmpty())
-        cmdFullPath = QStandardPaths::findExecutable(cmdName, { QStringLiteral("/sbin/"), QStringLiteral("/usr/sbin/"), QStringLiteral("/usr/local/sbin/") });
+    QString cmdFullPath = findTrustedCommand(cmdName);
+
     if (cmdFullPath.isEmpty())
         return false;
 

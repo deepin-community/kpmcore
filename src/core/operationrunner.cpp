@@ -39,8 +39,9 @@ void OperationRunner::run()
     // Disable Plasma removable device automounting
     QStringList modules;
     QDBusConnection bus = QDBusConnection::connectToBus(QDBusConnection::SessionBus, QStringLiteral("sessionBus"));
-    QDBusInterface kdedInterface( QStringLiteral("org.kde.kded5"), QStringLiteral("/kded"), QStringLiteral("org.kde.kded5"), bus );
-    QDBusReply<QStringList> reply = kdedInterface.call( QStringLiteral("loadedModules")  );
+    const QString plasmaVersionMajor = QString::fromLocal8Bit(qgetenv("KDE_SESSION_VERSION"));
+    QDBusInterface kdedInterface( QStringLiteral("org.kde.kded") + plasmaVersionMajor, QStringLiteral("/kded"), QStringLiteral("org.kde.kded") + plasmaVersionMajor, bus );
+    QDBusReply<QStringList> reply = kdedInterface.call( QStringLiteral("loadedModules") );
     if ( reply.isValid() )
         modules = reply.value();
     QString automounterService = QStringLiteral("device_automounter");
@@ -109,3 +110,5 @@ QString OperationRunner::description(qint32 op) const
 
     return operationStack().operations()[op]->description();
 }
+
+#include "moc_operationrunner.cpp"

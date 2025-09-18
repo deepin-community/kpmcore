@@ -58,11 +58,6 @@ void SfdiskBackend::initFSSupport()
 {
 }
 
-QList<Device*> SfdiskBackend::scanDevices(bool excludeReadOnly)
-{
-    return scanDevices(excludeReadOnly ? ScanFlags() : ScanFlag::includeReadOnly);
-}
-
 QList<Device*> SfdiskBackend::scanDevices(const ScanFlags scanFlags)
 {
     const bool includeReadOnly = scanFlags.testFlag(ScanFlag::includeReadOnly);
@@ -153,10 +148,39 @@ QList<Device*> SfdiskBackend::scanDevices(const ScanFlags scanFlags)
  * and then a }. If there is, replace the ,.
  *
  * This is also fixed in util-linux 2.37.
+ *
+ * For some partition tables sfdisk prints an error message before the actual json
+ * starts (seen with sfdisk 2.37.4). It looks like this:
+ *
+ * omitting empty partition (5)
+ *  {
+ *  "partitiontable": {
+ *     "label": "dos",
+ *     "id": "0x91769176",
+ *     "device": "/dev/sdb",
+ *     "unit": "sectors",
+ *     "sectorsize": 512,
+ *     "partitions": [
+ *        {
+ *           "node": "/dev/sdb1",
+ *           "start": 63,
+ *           "size": 84630357,
+ *           "type": "7",
+ *           "bootable": true
+ *        },{
+ * etc.
  */
 static void
 fixInvalidJsonFromSFDisk( QByteArray& s )
 {
+    int jsonStart = s.indexOf('{');
+    if (jsonStart != 0) {
+        const QByteArray invalidStart = s.left(jsonStart);
+        qDebug() << "removed \"" << invalidStart.data() << "\" from beginning of sfdisk json output";
+        const QByteArray copy = s.mid(jsonStart);
+        s = copy;
+    }
+
     // -1 if there is no comma (but then there's no useful JSON either),
     //    not is 0 a valid place (the start) for a , in a JSON document.
     int lastComma = s.lastIndexOf(',');
@@ -248,14 +272,13 @@ Device* SfdiskBackend::scanDevice(const QString& deviceNode)
 
             Log(Log::Level::information) << xi18nc("@info:status", "Device found: %1", name);
 
-            d = new DiskDevice(name, deviceNode, 255, 63, deviceSize / logicalSectorSize / 255 / 63, logicalSectorSize, icon);
+            d = new DiskDevice(name, deviceNode, logicalSectorSize, deviceSize / logicalSectorSize, icon);
         }
 
         if ( d )
         {
             if (sfdiskJsonCommand.exitCode() != 0) {
                 scanWholeDevicePartition(*d);
-
                 return d;
             }
 
@@ -264,6 +287,18 @@ Device* SfdiskBackend::scanDevice(const QString& deviceNode)
 
             const QJsonObject jsonObject = QJsonDocument::fromJson(s).object();
             const QJsonObject partitionTable = jsonObject[QLatin1String("partitiontable")].toObject();
+
+            if (jsonObject.isEmpty()) {
+                qDebug() << "json object created from sfdisk output is empty !\nOutput is \"" << s.data() << "\"";
+            }
+
+            /* Workaround for whole device FAT partitions */
+            if(partitionTable[QLatin1String("label")].toString() == QStringLiteral("dos")) {
+                scanWholeDevicePartition(*d);
+                if(d->partitionTable()) {
+                    return d;
+                }
+            }
 
             if (!updateDevicePartitionTable(*d, partitionTable))
                 return nullptr;
@@ -338,9 +373,7 @@ void SfdiskBackend::scanDevicePartitions(Device& d, const QJsonArray& jsonPartit
     }
 
     d.partitionTable()->updateUnallocated(d);
-
-    if (d.partitionTable()->isSectorBased(d))
-        d.partitionTable()->setType(d, PartitionTable::msdos_sectorbased);
+    d.partitionTable()->setType(d, d.partitionTable()->type());
 
     for (const Partition *part : std::as_const(partitions))
         PartitionAlignment::isAligned(d, *part);
@@ -357,7 +390,7 @@ Partition* SfdiskBackend::scanPartition(Device& d, const QString& partitionNode,
     FileSystem::Type type = detectFileSystem(partitionNode);
     PartitionRole::Roles r = PartitionRole::Primary;
 
-    if ( (d.partitionTable()->type() == PartitionTable::msdos || d.partitionTable()->type() == PartitionTable::msdos_sectorbased) &&
+    if ( (d.partitionTable()->type() == PartitionTable::msdos) &&
         ( partitionType == QStringLiteral("5") || partitionType == QStringLiteral("f") ) ) {
         r = PartitionRole::Extended;
         type = FileSystem::Type::Extended;
@@ -589,8 +622,37 @@ FileSystem::Type SfdiskBackend::fileSystemNameToType(const QString& name, const 
     else if (name == QStringLiteral("BitLocker")) rval = FileSystem::Type::BitLocker;
     else if (name == QStringLiteral("apfs")) rval = FileSystem::Type::Apfs;
     else if (name == QStringLiteral("minix")) rval = FileSystem::Type::Minix;
+    else if (name == QStringLiteral("bcachefs")) rval = FileSystem::Type::Bcachefs;
 
     return rval;
+}
+
+// udev encodes the labels with ID_LABEL_FS_ENC which is done with
+// blkid_encode_string(). Within this function some 1-byte utf-8
+// characters not considered safe (e.g. '\' or ' ') are encoded as hex
+// TODO: Qt6: get a more efficient implementation from Qt
+static QString decodeFsEncString(const QString &str)
+{
+    QString decoded;
+    decoded.reserve(str.size());
+    int i = 0;
+    while (i < str.size()) {
+        if (i <= str.size() - 4) {    // we need at least four characters \xAB
+            if (str.at(i) == QLatin1Char('\\') &&
+                str.at(i+1) == QLatin1Char('x')) {
+                bool bOk;
+                const int code = str.mid(i+2, 2).toInt(&bOk, 16);
+                if (bOk && code >= 0x20 && code < 0x80) {
+                    decoded += QChar(code);
+                    i += 4;
+                    continue;
+                }
+            }
+        }
+        decoded += str.at(i);
+        ++i;
+    }
+    return decoded;
 }
 
 QString SfdiskBackend::readLabel(const QString& deviceNode) const
@@ -600,10 +662,12 @@ QString SfdiskBackend::readLabel(const QString& deviceNode) const
                                  QStringLiteral("--query=property"),
                                  deviceNode });
     udevCommand.run();
-    QRegularExpression re(QStringLiteral("ID_FS_LABEL=(.*)"));
+    QRegularExpression re(QStringLiteral("ID_FS_LABEL_ENC=(.*)"));
     QRegularExpressionMatch reFileSystemLabel = re.match(udevCommand.output());
-    if (reFileSystemLabel.hasMatch())
-        return reFileSystemLabel.captured(1);
+    if (reFileSystemLabel.hasMatch()) {
+        QString escapedLabel = reFileSystemLabel.captured(1);
+        return decodeFsEncString(escapedLabel);
+    }
 
     return QString();
 }
@@ -632,7 +696,7 @@ PartitionTable::Flags SfdiskBackend::availableFlags(PartitionTable::TableType ty
         flags = PartitionTable::Flag::BiosGrub |
                 PartitionTable::Flag::Boot;
     }
-    else if (type == PartitionTable::msdos || type == PartitionTable::msdos_sectorbased)
+    else if (type == PartitionTable::msdos)
         flags = PartitionTable::Flag::Boot;
 
     return flags;
