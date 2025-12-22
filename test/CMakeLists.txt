@@ -26,7 +26,7 @@ target_link_libraries(testhelpers PRIVATE kpmcore)
 
 macro (kpm_test name)
     add_executable(${name} ${ARGN})
-    target_link_libraries(${name} testhelpers kpmcore Qt${QT_MAJOR_VERSION}::Core)
+    target_link_libraries(${name} testhelpers kpmcore Qt6::Core)
 endmacro()
 
 ###
@@ -64,3 +64,9 @@ add_test(NAME testexternalcommand COMMAND testexternalcommand ${BACKEND})
 # Test Device
 kpm_test(testdevice testdevice.cpp)
 add_test(NAME testdevice COMMAND testdevice ${BACKEND})
+
+find_package(Qt6Test REQUIRED)
+
+kpm_test(test_fstab test_fstab.cpp)
+add_test(NAME test_fstab COMMAND test_fstab)
+target_link_libraries(test_fstab Qt6::Test)

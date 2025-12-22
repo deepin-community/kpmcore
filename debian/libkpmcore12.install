@@ -1,5 +1,5 @@
 usr/lib/*/libkpmcore.so.*
-usr/lib/*/qt5/plugins/
+usr/lib/*/qt6/plugins/
 usr/lib/*/libexec/
 usr/share/dbus-1/
 usr/share/locale

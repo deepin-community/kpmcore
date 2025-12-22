@@ -5,7 +5,7 @@
 export DEB_BUILD_MAINT_OPTIONS=hardening=+all
 
 %:
-	dh $@ --with pkgkde_symbolshelper
+	dh $@
 
 override_dh_makeshlibs:
 	dh_makeshlibs -Xlibpmdummybackendplugin -Xlibpmsfdiskbackendplugin
@@ -15,4 +15,4 @@ execute_after_dh_auto_install:
 	rm debian/tmp/usr/share/locale/*/LC_MESSAGES/kpmcore._policy_.mo
 
 # Not sure these can work in a chroot
-override_dh_auto_test:
+#override_dh_auto_test:

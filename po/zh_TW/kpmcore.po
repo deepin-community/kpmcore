@@ -4,30 +4,31 @@
 # Frank Weng (a.k.a. Franklin) <franklin at goodhorse dot idv dot tw>, 2008, 2009.
 # Franklin Weng <franklin@goodhorse.idv.tw>, 2010, 2011, 2013.
 # pan93412 <pan93412@gmail.com>, 2019.
+# SPDX-FileCopyrightText: 2023, 2024 Kisaragi Hiu <mail@kisaragi-hiu.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: partitionmanager\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-27 00:47+0000\n"
-"PO-Revision-Date: 2019-06-19 14:45+0800\n"
-"Last-Translator: pan93412 <pan93412@gmail.com>\n"
-"Language-Team: Chinese <zh-l10n@lists.linux.org.tw>\n"
+"POT-Creation-Date: 2024-10-11 00:42+0000\n"
+"PO-Revision-Date: 2024-02-11 22:51+0900\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
+"Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 19.04.2\n"
+"X-Generator: Lokalize 24.01.95\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Frank Weng (a.k.a. Franklin), pan93412"
+msgstr "Frank Weng (a.k.a. Franklin), pan93412, Kisaragi Hiu"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "franklin@goodhorse.idv.tw, pan93412@gmail.com"
+msgstr "franklin@goodhorse.idv.tw, pan93412@gmail.com, mail@kisaragi-hiu.com"
 
 #: core/device.cpp:33
 #, kde-format
@@ -146,7 +147,7 @@ msgstr "在裝置上建立新的磁碟分割表，丟棄先前的操作。"
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing Volume Group, nothing to do."
-msgstr "調整磁區群組，無事可做。"
+msgstr "正在調整卷冊群組大小，無事可做。"
 
 #: core/operationstack.cpp:440
 #, kde-kuit-format
@@ -178,7 +179,7 @@ msgctxt "@item partition name"
 msgid "Copy of %1"
 msgstr "%1 的副本"
 
-#: core/partitionalignment.cpp:80
+#: core/partitionalignment.cpp:62
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -188,7 +189,7 @@ msgstr ""
 "分割區 <filename>%1</filename> 的開始位置並未對齊磁柱分界（第一個磁區：%2，模"
 "數：%3）"
 
-#: core/partitionalignment.cpp:83
+#: core/partitionalignment.cpp:65
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -226,13 +227,13 @@ msgstr "主要"
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: core/partitionrole.cpp:32
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "LVM logical volume"
-msgstr ""
+msgstr "LVM 邏輯卷冊"
 
 #: core/partitionrole.cpp:34
 #, kde-kuit-format
@@ -256,7 +257,7 @@ msgstr "根目錄"
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "swap"
-msgstr "交換"
+msgstr "swap"
 
 #: core/partitiontable.cpp:186
 #, kde-kuit-format
@@ -316,31 +317,31 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "apple-tv-recovery"
-msgstr ""
+msgstr "Apple TV 復原 (apple-tv-recovery)"
 
 #: core/partitiontable.cpp:206
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "diag"
-msgstr ""
+msgstr "診斷 (diag)"
 
 #: core/partitiontable.cpp:208
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "legacy-boot"
-msgstr ""
+msgstr "舊式開機 (legacy-boot)"
 
 #: core/partitiontable.cpp:210
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "msft-data"
-msgstr ""
+msgstr "微軟資料 (msft-data)"
 
 #: core/partitiontable.cpp:212
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "irst"
-msgstr ""
+msgstr "irst"
 
 #: core/partitiontable.cpp:499
 #, kde-kuit-format
@@ -352,19 +353,19 @@ msgstr "未知"
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level]"
 msgid " [RAID %1]"
-msgstr ""
+msgstr " [RAID %1]"
 
 #: core/raid/softwareraid.cpp:95
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Recovering]"
 msgid " [RAID %1 - Recovering]"
-msgstr ""
+msgstr " [RAID %1 - 回復中]"
 
 #: core/raid/softwareraid.cpp:97
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Resyncing]"
 msgid " [RAID %1 - Resyncing]"
-msgstr ""
+msgstr " [RAID %1 - 重新同步中]"
 
 #: core/smartattribute.cpp:45
 #, kde-kuit-format
@@ -526,7 +527,7 @@ msgstr "上電時間"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of hours in power-on state."
-msgstr "系統在上電狀態的時數。"
+msgstr "在上電狀態的小時數。"
 
 #: core/smartattribute.cpp:110
 #, kde-format
@@ -562,7 +563,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power Cycle Count"
-msgstr ""
+msgstr "電源循環次數"
 
 #: core/smartattribute.cpp:112
 #, kde-format
@@ -586,7 +587,7 @@ msgstr "作業系統回報的無法修正的讀取錯誤。"
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Available Reserved Space"
-msgstr ""
+msgstr "SSD 可用的保留空間"
 
 #: core/smartattribute.cpp:114
 #, kde-format
@@ -598,44 +599,44 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count"
-msgstr ""
+msgstr "SSD 計劃失敗次數"
 
 #: core/smartattribute.cpp:115 core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
 "Number of flash program operation failures since the drive was deployed."
-msgstr ""
+msgstr "磁碟部署以來閃存計劃操作失敗的次數。"
 
 #: core/smartattribute.cpp:116 core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count"
-msgstr ""
+msgstr "SSD 消除失敗次數"
 
 #: core/smartattribute.cpp:116
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase operation failures since the drive was deployed."
-msgstr ""
+msgstr "磁碟部署以來快閃抹除操作失敗的次數。"
 
 #: core/smartattribute.cpp:117
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Leveling Count"
-msgstr ""
+msgstr "SSD 耗損等級次數"
 
 #: core/smartattribute.cpp:117
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Counts the maximum worst erase count on any block."
-msgstr ""
+msgstr "計算各區塊最大、最不好的抹除次數。"
 
 #: core/smartattribute.cpp:118
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unexpected power loss count"
-msgstr ""
+msgstr "SSD 未預期的斷電的次數"
 
 #: core/smartattribute.cpp:118
 #, kde-format
@@ -650,7 +651,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Power Loss Protection Failure"
-msgstr ""
+msgstr "SSD 斷電保護失敗"
 
 #: core/smartattribute.cpp:119
 #, kde-format
@@ -668,56 +669,56 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count (chip)"
-msgstr ""
+msgstr "SSD 抹除失敗次數（晶片）"
 
 #: core/smartattribute.cpp:120
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase command failures."
-msgstr ""
+msgstr "快閃抹除指令失敗的次數。"
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Range Delta"
-msgstr ""
+msgstr "SSD 耗損範圍差異"
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Delta between most-worn and least-worn flash blocks."
-msgstr ""
+msgstr "消耗最多和最少的快閃區塊的差異。"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Used Reserved Block Count Total"
-msgstr ""
+msgstr "SSD 已使用的保留區塊總數"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #: core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" Samsung attribute."
-msgstr ""
+msgstr "「失敗前」三星屬性。"
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unused Reserved Block Count Total"
-msgstr ""
+msgstr "SSD 未使用的保留區塊總數"
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" HP attribute."
-msgstr ""
+msgstr "「失敗前」HP 屬性。"
 
 #: core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count Total or Non-4K Aligned Access Count"
-msgstr ""
+msgstr "SSD 計劃失敗總次數，或是非 4K-對齊的存取次數"
 
 #: core/smartattribute.cpp:127
 #, kde-format
@@ -729,13 +730,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital and Samsung attribute."
-msgstr ""
+msgstr "Western Digital 和三星的屬性。"
 
 #: core/smartattribute.cpp:128
 #, kde-format
 msgctxt "SMART attr name"
 msgid "End-to-End Error"
-msgstr ""
+msgstr "端對端錯誤"
 
 #: core/smartattribute.cpp:128
 #, kde-format
@@ -745,18 +746,20 @@ msgid ""
 "data buffer the parity data between the host and the hard drive did not "
 "match."
 msgstr ""
+"HP 的 SMART IV 科技的一部分：在傳輸經過快取記憶體資料緩存，主機和磁碟之間的同"
+"位 (parity) 資料不相符。"
 
 #: core/smartattribute.cpp:129
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Head Stability"
-msgstr ""
+msgstr "讀寫頭穩定性"
 
 #: core/smartattribute.cpp:129 core/smartattribute.cpp:130
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital attribute."
-msgstr ""
+msgstr "Western Digital 的屬性。"
 
 #: core/smartattribute.cpp:130
 #, kde-format
@@ -768,13 +771,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Reported Uncorrectable Errors"
-msgstr ""
+msgstr "回報的無法修正的錯誤"
 
 #: core/smartattribute.cpp:131
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of errors that could not be recovered using hardware ECC."
-msgstr ""
+msgstr "無法使用硬體 ECC 修正的錯誤數量。"
 
 #: core/smartattribute.cpp:132
 #, kde-format
@@ -818,7 +821,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-sense Error Rate"
-msgstr ""
+msgstr "加速度感應器錯誤率"
 
 #: core/smartattribute.cpp:135
 #, kde-format
@@ -866,13 +869,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Hardware ECC Recovered"
-msgstr ""
+msgstr "硬體 ECC 已復原"
 
 #: core/smartattribute.cpp:139
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of errors that could be recovered using hardware ECC."
-msgstr ""
+msgstr "可以使用硬體 ECC 修正的錯誤數量。"
 
 #: core/smartattribute.cpp:140
 #, kde-format
@@ -965,24 +968,22 @@ msgid "Run Out Cancel"
 msgstr ""
 
 #: core/smartattribute.cpp:147
-#, fuzzy, kde-format
-#| msgctxt "@label partition"
-#| msgid "Number of sectors:"
+#, kde-format
 msgctxt "SMART attr description"
 msgid "Number of ECC errors"
-msgstr "磁區數量："
+msgstr "ECC 錯誤數量"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft ECC Correction"
-msgstr ""
+msgstr "軟體 ECC 修正"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors corrected by software ECC"
-msgstr ""
+msgstr "被軟體 ECC 修正的錯誤數量"
 
 #: core/smartattribute.cpp:149
 #, kde-format
@@ -1041,25 +1042,25 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Offline Seek Performance"
-msgstr ""
+msgstr "線下搜尋效能"
 
 #: core/smartattribute.cpp:153
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Drive's seek performance during its internal tests."
-msgstr ""
+msgstr "磁碟內部測試時的搜尋效能"
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Vibration During Write"
-msgstr ""
+msgstr "寫入時有震動"
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Vibration During Write"
-msgstr ""
+msgstr "寫入時有震動"
 
 #: core/smartattribute.cpp:155
 #, kde-format
@@ -1091,7 +1092,7 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-Sense Error Rate"
-msgstr ""
+msgstr "加速度感應器錯誤率"
 
 #: core/smartattribute.cpp:157
 #, kde-format
@@ -1104,13 +1105,13 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Loaded Hours"
-msgstr ""
+msgstr "負載小時數"
 
 #: core/smartattribute.cpp:158
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time spent operating under data load."
-msgstr ""
+msgstr "在高資料負載狀態下運轉的時間。"
 
 #: core/smartattribute.cpp:159
 #, kde-format
@@ -1122,19 +1123,19 @@ msgstr ""
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of times head changes position."
-msgstr ""
+msgstr "讀寫頭變更位置的次數。"
 
 #: core/smartattribute.cpp:160
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load Friction"
-msgstr ""
+msgstr "負載摩擦"
 
 #: core/smartattribute.cpp:160
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Resistance caused by friction in mechanical parts while operating."
-msgstr ""
+msgstr "運轉中由機械零件中的摩擦力所造成的阻力。"
 
 #: core/smartattribute.cpp:161
 #, kde-format
@@ -1212,7 +1213,7 @@ msgstr "裝置溫度"
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Endurance Remaining"
-msgstr ""
+msgstr "剩餘耐用程度"
 
 #: core/smartattribute.cpp:167
 #, kde-format
@@ -1220,37 +1221,37 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of physical erase cycles completed on the drive as a percentage of the "
 "maximum physical erase cycles the drive supports"
-msgstr ""
+msgstr "已完成的物理抹除循環次數之於磁碟所支援的最大物理抹除循環次數的百分比"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Seconds"
-msgstr ""
+msgstr "上電秒數"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time elapsed in the power-on state"
-msgstr ""
+msgstr "在上電狀態中經過的時間"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Unrecoverable ECC Count"
-msgstr ""
+msgstr "無法修正的 ECC 數量"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of unrecoverable ECC errors"
-msgstr ""
+msgstr "無法修正的 ECC 錯誤數量"
 
 #: core/smartattribute.cpp:170
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Good Block Rate"
-msgstr ""
+msgstr "好區塊比例"
 
 #: core/smartattribute.cpp:170
 #, kde-format
@@ -1258,7 +1259,7 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of available reserved blocks as percentage of the total number of "
 "reserved blocks"
-msgstr ""
+msgstr "可用的保留區塊之於保留區塊總數的百分比"
 
 #: core/smartattribute.cpp:171
 #, kde-format
@@ -1302,13 +1303,13 @@ msgstr "總共讀取的 LBA 數"
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD NAND_Writes_1GiB"
-msgstr ""
+msgstr "SSD NAND_寫入_1GiB"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of writes to NAND in 1 GB increments"
-msgstr ""
+msgstr "寫入 NAND 的次數，以 1GB 為一次"
 
 #: core/smartattribute.cpp:175
 #, kde-format
@@ -1436,59 +1437,98 @@ msgctxt "@item"
 msgid "Disk failure is imminent. Backup all data!"
 msgstr "即將發生磁碟錯誤。快快快，快點備份！"
 
-#: fs/btrfs.cpp:166
+#: fs/bcachefs.cpp:120
 #, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
+#| msgctxt "@info:progress"
 #| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
+#| "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 #| "Could not create temp dir."
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"Could not create temp dir."
+msgstr ""
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：無法建立暫"
+"存目錄。"
+
+#: fs/bcachefs.cpp:136 fs/bcachefs.cpp:158
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
+#| "btrfs file system resize failed."
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"bcachefs device resize command failed."
+msgstr ""
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：btrfs 檔案"
+"系統調整大小失敗。"
+
+#: fs/bcachefs.cpp:141
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "<warning>Resizing Btrfs file system on partition <filename>%1</filename>: "
+#| "Unmount failed.</warning>"
+msgctxt "@info:progress"
+msgid ""
+"<warning>Resizing Bcachefs file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
+msgstr ""
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：卸載失敗。"
+
+#: fs/bcachefs.cpp:144
+#, fuzzy, kde-kuit-format
+#| msgctxt "@info:progress"
+#| msgid ""
+#| "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
+#| "Initial mount failed."
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"Initial mount failed."
+msgstr ""
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：初始掛載失"
+"敗。"
+
+#: fs/btrfs.cpp:166
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 "Could not create temp dir."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：無法建立暫存"
-"目錄。"
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：無法建立暫"
+"存目錄。"
 
-#: fs/btrfs.cpp:182 fs/btrfs.cpp:202
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing XFS file system on partition <filename>%1</filename> failed: "
-#| "xfs_growfs failed."
+#: fs/btrfs.cpp:182 fs/btrfs.cpp:203
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 "btrfs file system resize failed."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：xfs_growfs 失"
-"敗。"
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：btrfs 檔案"
+"系統調整大小失敗。"
 
 #: fs/btrfs.cpp:187
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing JFS file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing Btrfs file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：卸載失敗。"
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：卸載失敗。"
 
-#: fs/btrfs.cpp:189
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
-#| "Initial mount failed."
+#: fs/btrfs.cpp:190
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：初始化掛載失"
+"調整位於 <filename>%1</filename> 上的 Btrfs 檔案系統的大小時失敗：初始掛載失"
 "敗。"
 
 #: fs/fat12.cpp:141
@@ -1497,226 +1537,223 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "設定分割區 <filename>%1</filename> 的標籤為 %2"
 
-#: fs/filesystem.cpp:503
+#: fs/filesystem.cpp:505
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "未知"
 
-#: fs/filesystem.cpp:504
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "延伸"
 
-#: fs/filesystem.cpp:506
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:507
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:508
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:509
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linux 交換分割區"
 
-#: fs/filesystem.cpp:510
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:511
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:512
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:513
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:514
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:515
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:516
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:517
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:518
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:519
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:520
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "未格式化"
 
-#: fs/filesystem.cpp:521
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:522
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:523
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:524
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:525
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:526
-#, fuzzy, kde-kuit-format
-#| msgid "exfat:"
+#: fs/filesystem.cpp:528
+#, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
-msgstr "exfat:"
-
-#: fs/filesystem.cpp:527
-#, fuzzy, kde-kuit-format
-#| msgid "nilfs2:"
-msgctxt "@item filesystem name"
-msgid "nilfs2"
-msgstr "nilfs2:"
-
-#: fs/filesystem.cpp:528
-#, fuzzy, kde-kuit-format
-#| msgid "lvm2 pv:"
-msgctxt "@item filesystem name"
-msgid "lvm2 pv"
-msgstr "lvm2 pv:"
+msgstr "exfat"
 
 #: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "f2fs"
-msgstr ""
+msgid "nilfs2"
+msgstr "nilfs2"
 
 #: fs/filesystem.cpp:530
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain filesystem name"
-#| msgid "ufs"
+#, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "udf"
-msgstr "ufs"
+msgid "lvm2 pv"
+msgstr "lvm2 pv"
 
 #: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "iso9660"
-msgstr ""
+msgid "f2fs"
+msgstr "f2fs"
 
 #: fs/filesystem.cpp:532
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain filesystem name"
-#| msgid "luks"
+#, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "luks2"
-msgstr "luks"
+msgid "udf"
+msgstr "udf"
 
 #: fs/filesystem.cpp:533
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain filesystem name"
-#| msgid "fat16"
+#, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat12"
-msgstr "fat16"
+msgid "iso9660"
+msgstr "iso9660"
 
 #: fs/filesystem.cpp:534
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "luks2"
+msgstr "luks2"
+
+#: fs/filesystem.cpp:535
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "fat12"
+msgstr "fat12"
+
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr ""
 
-#: fs/filesystem.cpp:535
-#, kde-kuit-format
-msgctxt "@item filesystem name"
-msgid "BitLocker"
-msgstr ""
-
-#: fs/filesystem.cpp:536
-#, kde-kuit-format
-msgctxt "@item filesystem name"
-msgid "apfs"
-msgstr ""
-
 #: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
+msgid "BitLocker"
+msgstr "BitLocker"
+
+#: fs/filesystem.cpp:538
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "apfs"
+msgstr "apfs"
+
+#: fs/filesystem.cpp:539
+#, kde-kuit-format
+msgctxt "@item filesystem name"
 msgid "minix"
+msgstr "minix"
+
+#: fs/filesystem.cpp:540
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "bcachefs"
 msgstr ""
 
-#: fs/filesystem.cpp:580 fs/luks.cpp:156
+#: fs/filesystem.cpp:583 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "掛載"
 
-#: fs/filesystem.cpp:586 fs/luks.cpp:161
+#: fs/filesystem.cpp:589 fs/luks.cpp:166
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1743,17 +1780,14 @@ msgstr ""
 "敗。"
 
 #: fs/jfs.cpp:174
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing JFS file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing JFS file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：卸載失敗。"
+"<warning>調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：卸載"
+"失敗。</warning>"
 
 #: fs/jfs.cpp:176
 #, kde-kuit-format
@@ -1762,7 +1796,7 @@ msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：初始化掛載失"
+"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：初始掛載失"
 "敗。"
 
 #: fs/linuxswap.cpp:127
@@ -1777,94 +1811,74 @@ msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr "停止交換分割區"
 
-#: fs/luks.cpp:166
-#, kde-kuit-format
-msgctxt "@title:menu"
-msgid "Unlock"
-msgstr ""
-
 #: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
-msgid "Lock"
-msgstr ""
+msgid "Unlock"
+msgstr "解除鎖定"
 
-#: fs/luks.cpp:252
+#: fs/luks.cpp:176
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Lock"
+msgstr "鎖定"
+
+#: fs/luks.cpp:257
 #, kde-format
 msgid "Enter passphrase for %1:"
-msgstr ""
+msgstr "輸入 %1 的密語："
 
-#: fs/luks.cpp:495 fs/luks.cpp:505 fs/luks2.cpp:88 fs/luks2.cpp:105
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resizing/moving partition <filename>%1</filename> failed."
+#: fs/luks.cpp:500 fs/luks.cpp:510 fs/luks2.cpp:89 fs/luks2.cpp:106
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
-msgstr "調整或移動分割區 <filename>%1</filename> 失敗。"
+msgstr ""
 
-#: fs/luks.cpp:509 fs/luks2.cpp:116
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Rollback for file system on partition <filename>%1</filename> failed."
+#: fs/luks.cpp:514 fs/luks2.cpp:117
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing encrypted file system on partition <filename>%1</filename> failed."
-msgstr "返還分割區 <filename>%1</filename> 上的檔案系統失敗。"
+msgstr "為位於分割區 <filename>%1</filename> 上的檔案系統調整大小時失敗。"
 
 #: fs/nilfs2.cpp:137
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
-#| "Could not create temp dir."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "Could not create temp dir."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：無法建立暫存"
-"目錄。"
+"調整位於 <filename>%1</filename> 上的 NILFS2 檔案系統的大小時失敗：無法建立暫"
+"存目錄。"
 
 #: fs/nilfs2.cpp:151 fs/nilfs2.cpp:170
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing XFS file system on partition <filename>%1</filename> failed: "
-#| "xfs_growfs failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "NILFS2 file system resize failed."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：xfs_growfs 失"
-"敗。"
+"調整位於 <filename>%1</filename> 上的 NILFS2 檔案系統的大小時失敗：NILFS2 檔"
+"案系統調整大小失敗。"
 
 #: fs/nilfs2.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing JFS file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing NILFS2 file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：卸載失敗。"
+"<warning>調整位於 <filename>%1</filename> 上的 NILFS2 檔案系統的大小時發生問"
+"題：卸載失敗。</warning>"
 
 #: fs/nilfs2.cpp:158
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
-#| "Initial mount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 JFS 檔案系統的大小時失敗：初始化掛載失"
+"調整位於 <filename>%1</filename> 上的 NILFS2 檔案系統的大小時失敗：初始掛載失"
 "敗。"
 
 #: fs/ntfs.cpp:182
@@ -1913,17 +1927,14 @@ msgstr ""
 "敗。"
 
 #: fs/xfs.cpp:178
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing XFS file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing XFS file system on partition <filename>%1</filename> "
 "failed: Unmount failed.</warning>"
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：卸載失敗。"
+"<warning>調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：卸載"
+"失敗。</warning>"
 
 #: fs/xfs.cpp:180
 #, kde-kuit-format
@@ -1932,7 +1943,7 @@ msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
 msgstr ""
-"調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：初始化掛載失"
+"調整位於 <filename>%1</filename> 上的 XFS 檔案系統的大小時失敗：初始掛載失"
 "敗。"
 
 #: jobs/backupfilesystemjob.cpp:54
@@ -1958,13 +1969,11 @@ msgid ""
 msgstr ""
 "備份分割區 <filename>%1</filename> 上的檔案系統到 <filename>%2</filename>"
 
-#: jobs/changepermissionsjob.cpp:43
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#: jobs/changepermissionsjob.cpp:49
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Change the permissions of: <filename>%1</filename> to %2"
-msgstr "設定分割區 <filename>%1</filename> 的標籤為 %2"
+msgstr "變更 <filename>%1</filename> 的權限為為 %2"
 
 #: jobs/checkfilesystemjob.cpp:43
 #, kde-kuit-format
@@ -2000,14 +2009,12 @@ msgid ""
 msgstr "無法開啟目標分割區 <filename>%1</filename> 的檔案系統以複製。"
 
 #: jobs/copyfilesystemjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Closing device. This may take a few seconds."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Closing device. This may take a while, especially on slow devices like "
 "Memory Sticks."
-msgstr "關閉裝置。這可能會花一點時間。"
+msgstr "正在關閉裝置。這可能會花一點時間，尤其是在裝置是隨身碟等較慢的裝置時。"
 
 #: jobs/copyfilesystemjob.cpp:88
 #, kde-kuit-format
@@ -2019,55 +2026,41 @@ msgstr ""
 "複製分割區 <filename>%1</filename> 上檔案系統到分割區 <filename>%2</filename>"
 
 #: jobs/createfilesystemjob.cpp:66
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to clobber file system on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to set the system type for the file system on partition <filename>%1</"
 "filename>."
-msgstr "刪除分割區 <filename>%1</filename> 上的 clobber 檔案系統失敗。"
+msgstr "設定分割區 <filename>%1</filename> 上的檔案系統的系統類型時失敗。"
 
 #: jobs/createfilesystemjob.cpp:68
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "system type for partition <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 以上的分割表以設定分割區 <filename>%2</"
+"filename> 的系統類型。"
 
 #: jobs/createfilesystemjob.cpp:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set partition flags for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the system type for "
 "partition <filename>%2</filename>."
 msgstr ""
 "無法開啟裝置 <filename>%1</filename> 以設定分割區 <filename>%2</filename> 的"
-"旗標。"
+"系統類型。"
 
 #: jobs/createfilesystemjob.cpp:84
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Restore the file system from file <filename>%1</filename> to partition "
-#| "<filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Create file system <filename>%1</filename> on partition <filename>%2</"
 "filename>"
 msgstr ""
-"從檔案 <filename>%1</filename> 復原分割區 <filename>%2</filename> 上的檔案系"
-"統"
+"建立檔案系統 <filename>%1</filename> 在分割區 <filename>%2</filename> 上"
 
 #: jobs/createpartitionjob.cpp:72
 #, kde-kuit-format
@@ -2079,17 +2072,14 @@ msgstr ""
 "無法在裝置 <filename>%2</filename> 上新增分割區 <filename>%1</filename>"
 
 #: jobs/createpartitionjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to create "
 "new partition <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 上的磁碟分割表以建立新分割區 <filename>"
+"%2</filename>。"
 
 #: jobs/createpartitionjob.cpp:76
 #, kde-kuit-format
@@ -2127,59 +2117,46 @@ msgid "Create new partition table on device <filename>%1</filename>"
 msgstr "在裝置 <filename>%1</filename> 上建立新的磁碟分割表"
 
 #: jobs/createvolumegroupjob.cpp:49
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create new partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new Volume Group: <filename>%1</filename> with PV: %2"
-msgstr "建立新分割區 <filename>%1</filename>。"
+msgstr "建立新卷冊群組：<filename>%1</filename>，使用 PV：%2"
 
 #: jobs/deactivatelogicalvolumejob.cpp:50
-#, fuzzy, kde-kuit-format
-#| msgctxt "@title:window"
-#| msgid "Device Properties: <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Logical Volumes: <filename>%1</filename>"
-msgstr "裝置屬性：<filename>%1</filename>"
+msgstr "停用邏輯卷冊：<filename>%1</filename>"
 
 #: jobs/deactivatevolumegroupjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@title:window"
-#| msgid "Device Properties: <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Volume Group: <filename>%1</filename>"
-msgstr "裝置屬性：<filename>%1</filename>"
+msgstr "停用卷冊群組：<filename>%1</filename>"
 
 #: jobs/deletefilesystemjob.cpp:51
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Delete file system on <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not delete file system: file system on <filename>%1</filename> is "
 "mounted."
-msgstr "刪除 <filename>%1</filename> 上的檔案系統"
+msgstr "無法刪除檔案系統：<filename>%1</filename> 上的檔案系統已被掛載。"
 
 #: jobs/deletefilesystemjob.cpp:76
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Delete file system on <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete file system on <filename>%1</filename>."
-msgstr "刪除 <filename>%1</filename> 上的檔案系統"
+msgstr "無法刪除 <filename>%1</filename> 上的檔案系統。"
 
 #: jobs/deletefilesystemjob.cpp:80
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
 "file system on <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 上的磁碟分割表以刪除 <filename>%2</"
+"filename> 上的檔案系統。"
 
 #: jobs/deletefilesystemjob.cpp:83
 #, kde-kuit-format
@@ -2204,17 +2181,14 @@ msgid "Could not delete partition <filename>%1</filename>."
 msgstr "無法刪除分割區 <filename>%1</filename>。"
 
 #: jobs/deletepartitionjob.cpp:65
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
 "partition <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 上的磁碟分割表以刪除分割區 <filename>"
+"%2</filename>。"
 
 #: jobs/deletepartitionjob.cpp:67
 #, kde-kuit-format
@@ -2236,20 +2210,16 @@ msgid "Source and target for copying do not overlap: Rollback is not required."
 msgstr "來源與目標分割區未重疊：不需要返還。"
 
 #: jobs/job.cpp:69
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Rollback from: First sector: %1, last sector: %2."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback from: First byte: %1, last byte: %2."
-msgstr "返還從：第一個磁區：%1，最後一個磁區：%2。"
+msgstr "返還從：第一個位元組：%1，最後一個位元組：%2。"
 
 #: jobs/job.cpp:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Rollback to: First sector: %1, last sector: %2."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback to: First byte: %1, last byte: %2."
-msgstr "返還到：第一個磁區：%1，最後一個磁區：%2。"
+msgstr "返還到：第一個位元組：%1，最後一個位元組：%2。"
 
 #: jobs/job.cpp:74 jobs/job.cpp:80
 #, kde-kuit-format
@@ -2319,7 +2289,7 @@ msgstr "返還分割區 <filename>%1</filename> 上的檔案系統失敗。"
 #, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
-msgstr "關閉裝置。這可能會花一點時間。"
+msgstr "正在關閉裝置。這可能會花一點時間。"
 
 #: jobs/movefilesystemjob.cpp:79
 #, kde-kuit-format
@@ -2331,15 +2301,13 @@ msgstr "移動分割區 <filename>%1</filename> 上的檔案系統到磁區 %2"
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Move used PE in %1 on %2 to other available Physical Volumes"
-msgstr ""
+msgstr "將 %2 上 %1 內已使用的 PE 移動到其他可用的物理卷冊上"
 
 #: jobs/removevolumegroupjob.cpp:41
-#, fuzzy, kde-kuit-format
-#| msgctxt "@label partition state"
-#| msgid "mounted on <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove Volume Group: <filename>%1</filename>"
-msgstr "掛載於 <filename>%1</filename>"
+msgstr "移除卷冊群組：<filename>%1</filename>"
 
 #: jobs/resizefilesystemjob.cpp:66
 #, kde-kuit-format
@@ -2352,6 +2320,7 @@ msgid_plural ""
 "requested length of %1 sectors."
 msgstr[0] "分割區 <filename>%2</filename> 上的檔案系統長度已經是 %1 個磁區了。"
 
+# %1 是 partition().fileSystem().length()，%2 是 newLength()，都是磁區數量
 #: jobs/resizefilesystemjob.cpp:69
 #, kde-format
 msgctxt "@info:progress"
@@ -2415,22 +2384,21 @@ msgstr[0] "將分割區 <filename>%2</filename> 上的檔案系統大小調整�
 msgctxt "@info/plain"
 msgid "Adding LVM Physical Volume %2 to %3."
 msgid_plural "Adding LVM Physical Volumes %2 to %3."
-msgstr[0] ""
+msgstr[0] "正在將 LVM 物理卷冊 %2 加入 %3。"
 
 #: jobs/resizevolumegroupjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Removing LVM Physical Volume %2 from %3."
 msgid_plural "Removing LVM Physical Volumes %2 from %3."
-msgstr[0] ""
+msgstr[0] "正在從 %3 移除 LVM 物理卷冊 %2。"
 
+# %1 是 device().name()，不是大小
 #: jobs/resizevolumegroupjob.cpp:64
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resizing file system from %1 to %2 sectors."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resizing Volume Group %1 to %2."
-msgstr "調整檔案系統大小，從 %1 個磁區調整為 %2 個磁區。"
+msgstr "正在調整卷冊群組 %1 的大小到 %2。"
 
 #: jobs/restorefilesystemjob.cpp:62
 #, kde-kuit-format
@@ -2461,7 +2429,7 @@ msgid ""
 "File system on partition <filename>%1</filename> does not support setting "
 "labels. Job ignored."
 msgstr ""
-"分割區 <filename>%1</filename> 上的檔案系統未支援設定標籤。此工作將被忽略。"
+"分割區 <filename>%1</filename> 上的檔案系統不支援設定標籤。此工作將被忽略。"
 
 #: jobs/setfilesystemlabeljob.cpp:81
 #, kde-kuit-format
@@ -2541,172 +2509,127 @@ msgid ""
 msgstr "設定分割區 <filename>%1</filename> 的位置：開始磁區：%2，長度：%3"
 
 #: jobs/setpartitionattributesjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting attributes. Job ignored."
 msgstr ""
-"分割區 <filename>%1</filename> 上的檔案系統未支援設定標籤。此工作將被忽略。"
+"分割區 <filename>%1</filename> 的磁碟分割表不支援設定屬性。此工作將被忽略。"
 
 #: jobs/setpartitionattributesjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to clobber file system on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
-msgstr "刪除分割區 <filename>%1</filename> 上的 clobber 檔案系統失敗。"
+msgstr "無法為分割區 <filename>%1</filename> 設定屬性。"
 
 #: jobs/setpartitionattributesjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "attributes for the partition <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 上的磁碟分割表以設定分割區 <filename>"
+"%2</filename> 的屬性。"
 
 #: jobs/setpartitionattributesjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set partition flags for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the attributes for "
 "partition <filename>%2</filename>."
 msgstr ""
 "無法開啟裝置 <filename>%1</filename> 以設定分割區 <filename>%2</filename> 的"
-"旗標。"
+"屬性。"
 
 #: jobs/setpartitionattributesjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
-msgstr "設定分割區 <filename>%1</filename> 的標籤為 %2"
+msgstr "設定分割區 <filename>%1</filename> 的屬性為 %2"
 
 #: jobs/setpartitionlabeljob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting names. Job ignored."
 msgstr ""
-"分割區 <filename>%1</filename> 上的檔案系統未支援設定標籤。此工作將被忽略。"
+"分割區 <filename>%1</filename> 的磁碟分割表不支援設定名稱。此工作將被忽略。"
 
 #: jobs/setpartitionlabeljob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to clobber file system on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr "刪除分割區 <filename>%1</filename> 上的 clobber 檔案系統失敗。"
+msgstr "無法為分割區 <filename>%1</filename> 設定名稱。"
 
 #: jobs/setpartitionlabeljob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "name for the partition <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 上的磁碟分割表以設定分割區 <filename>"
+"%2</filename> 的名稱。"
 
 #: jobs/setpartitionlabeljob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set partition flags for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the name for partition "
 "<filename>%2</filename>."
 msgstr ""
 "無法開啟裝置 <filename>%1</filename> 以設定分割區 <filename>%2</filename> 的"
-"旗標。"
+"名稱。"
 
 #: jobs/setpartitionlabeljob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
 msgstr "設定分割區 <filename>%1</filename> 的標籤為 %2"
 
 #: jobs/setpartitionuuidjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:progress"
-#| msgid ""
-#| "File system on partition <filename>%1</filename> does not support setting "
-#| "labels. Job ignored."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting UUIDs. Job ignored."
 msgstr ""
-"分割區 <filename>%1</filename> 上的檔案系統未支援設定標籤。此工作將被忽略。"
+"分割區 <filename>%1</filename> 的磁碟分割表不支援設定 UUID。此工作將被忽略。"
 
 #: jobs/setpartitionuuidjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to clobber file system on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr "刪除分割區 <filename>%1</filename> 上的 clobber 檔案系統失敗。"
+msgstr "無法為分割區 <filename>%1</filename> 設定 UUID。"
 
 #: jobs/setpartitionuuidjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "UUID for the partition <filename>%2</filename>."
 msgstr ""
-"無法開啟裝置 <filename>%1</filename> 以建立新分割區 <filename>%2</filename>。"
+"無法開啟裝置 <filename>%1</filename> 上的磁碟分割表以設定分割區 <filename>"
+"%2</filename> 的 UUID。"
 
 #: jobs/setpartitionuuidjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set partition flags for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the UUID for partition "
 "<filename>%2</filename>."
 msgstr ""
 "無法開啟裝置 <filename>%1</filename> 以設定分割區 <filename>%2</filename> 的"
-"旗標。"
+"UUID。"
 
 #: jobs/setpartitionuuidjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
-msgstr "設定分割區 <filename>%1</filename> 的標籤為 %2"
+msgstr "設定分割區 <filename>%1</filename> 的 UUID 為 %2"
 
 #: jobs/shredfilesystemjob.cpp:61
 #, kde-kuit-format
@@ -2735,18 +2658,14 @@ msgid "Check and repair partition <filename>%1</filename> (%2, %3)"
 msgstr "檢查並修復分割區 <filename>%1</filename>（%2，%3）"
 
 #: ops/copyoperation.cpp:147 ops/restoreoperation.cpp:131
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Maximizing file system on target partition <filename>%1</"
-#| "filename> to the size of the partition failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "<warning>Maximizing file system on target partition <filename>%1</filename> "
 "to the size of the partition failed.</warning>"
 msgstr ""
-"警告：將目標分割區 <filename>%1</filename> 上的檔案系統大小調到最大的動作失"
-"敗。"
+"<warning>將目標分割區 <filename>%1</filename> 上的檔案系統大小調到最大的動作"
+"失敗。</warning>"
 
 #: ops/copyoperation.cpp:151
 #, kde-kuit-format
@@ -2832,20 +2751,16 @@ msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
 msgstr "在 <filename>%2</filename> 上建立新的磁碟分割表（型態：%1）"
 
 #: ops/createvolumegroupoperation.cpp:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Create a new partition."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new LVM volume group named '%1'."
-msgstr "建立新的分割區。"
+msgstr "建立名為「%1」的新 LVM 卷冊群組。"
 
 #: ops/deactivatevolumegroupoperation.cpp:35
-#, fuzzy, kde-kuit-format
-#| msgctxt "@title:menu"
-#| msgid "Deactivate swap"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate volume group."
-msgstr "停止交換分割區"
+msgstr "停用卷冊群組。"
 
 #: ops/deleteoperation.cpp:87
 #, kde-kuit-format
@@ -2902,12 +2817,10 @@ msgid "Error"
 msgstr "錯誤"
 
 #: ops/removevolumegroupoperation.cpp:35
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Create a new partition."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove a LVM volume group."
-msgstr "建立新的分割區。"
+msgstr "移除一個 LVM 卷冊群組。"
 
 #: ops/resizeoperation.cpp:156
 #, kde-kuit-format
@@ -3056,12 +2969,10 @@ msgid ""
 msgstr "無法復原分割區 <filename>%1</filename> 原來的大小。"
 
 #: ops/resizevolumegroupoperation.cpp:108
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Copying remainder of block size %1 from  %2 to %3."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resize volume %1 from %2 to %3"
-msgstr "將剩下的區塊大小 %1 從 %2 複製到 %3 中。"
+msgstr "調整卷冊 %1 的大小，從 %2 到 %3"
 
 #: ops/restoreoperation.cpp:133
 #, kde-kuit-format
@@ -3123,15 +3034,13 @@ msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr "設定分割區 <filename>%1</filename> 的旗標為 %2"
 
-#: plugins/sfdisk/sfdiskbackend.cpp:219
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Device found: %1"
+#: plugins/sfdisk/sfdiskbackend.cpp:243
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr "找到裝置：%1"
+msgstr "找到軟體 RAID 裝置：%1"
 
-#: plugins/sfdisk/sfdiskbackend.cpp:249
+#: plugins/sfdisk/sfdiskbackend.cpp:273
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
@@ -3163,14 +3072,11 @@ msgstr ""
 "試著調整或移動檔案系統時，發現無法設定分割區 <filename>%1</filename> 位置。"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:124
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Failed to erase reiser4 signature on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to erase filesystem signature on partition <filename>%1</filename>."
-msgstr "刪除分割區 <filename>%1</filename> 上的 reiser4 簽章失敗。"
+msgstr "無法消除分割區 <filename>%1</filename> 上的檔案系統簽章。"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:157
 #, kde-kuit-format
@@ -3181,8 +3087,7 @@ msgid ""
 msgstr "無法決定裝置 <filename>%2</filename> 第 %1 磁區上的分割區的檔案系統。"
 
 #: util/capacity.cpp:100
-#, fuzzy, kde-kuit-format
-#| msgid "Byte"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "Byte"
 msgid_plural "Bytes"
@@ -3228,13 +3133,13 @@ msgstr "EiB"
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "ZiB"
-msgstr "ZB"
+msgstr "ZiB"
 
 #: util/capacity.cpp:108
 #, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "YiB"
-msgstr "YB"
+msgstr "YiB"
 
 #: util/capacity.cpp:112
 #, kde-kuit-format
@@ -3242,109 +3147,86 @@ msgctxt "@item:intext unit"
 msgid "(unknown unit)"
 msgstr "（未知的單位）"
 
-#: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:226
+#: util/externalcommand.cpp:114 util/externalcommand.cpp:118
+#: util/externalcommand.cpp:241
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
 msgstr "指令：%1 %2"
 
 #: util/externalcommandhelper.cpp:82
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "Could not open file <filename>%1</filename> for writing."
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr "無法開啟檔案 <filename>%1</filename> 以寫入。"
+msgstr "無法開啟裝置 <filename>%1</filename> 以讀取。"
 
 #: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr "無法存取裝置<filename>%1</filename>"
+msgstr "無法搜尋裝置 <filename>%2</filename> 上的位置 %1"
 
 #: util/externalcommandhelper.cpp:96
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr "無法存取裝置<filename>%1</filename>"
+msgstr "無法從裝置 <filename>%1</filename> 讀取。"
 
 #: util/externalcommandhelper.cpp:114
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "Could not open file <filename>%1</filename> for writing."
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr "無法開啟檔案 <filename>%1</filename> 以寫入。"
+msgstr "無法開啟裝置 <filename>%1</filename> 供寫入。"
 
 #: util/externalcommandhelper.cpp:125
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr "無法存取裝置<filename>%1</filename>"
+msgstr "無法寫入裝置 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:151
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid "Could not open file <filename>%1</filename> for writing."
+#, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr "無法開啟檔案 <filename>%1</filename> 以寫入。"
+msgstr "無法開啟檔案 <filename>%1</filename> 供寫入。"
 
 #: util/externalcommandhelper.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr "無法存取裝置<filename>%1</filename>"
+msgstr "無法寫入檔案 <filename>%1</filename>。"
 
 #: util/externalcommandhelper.cpp:237
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Copying %1 blocks (%2 sectors) from %3 to %4, direction: %5."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
-msgstr "從 %3 複製 %1 個區塊（%2 個磁區）到 %4 中，方向：%5"
+msgstr "正在從 %3 複製 %1 個區塊到 %4（%2 位元組），方向：%5。"
 
 #: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
-msgstr ""
+msgstr "左"
 
 #: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
-msgstr ""
+msgstr "右"
 
 #: util/externalcommandhelper.cpp:261
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
-msgstr "複製速度 %1 MB/秒，估計剩餘時間：%2"
+msgstr "複製速度 %1 MiB/秒，估計剩餘時間：%2"
 
 #: util/externalcommandhelper.cpp:274
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Copying remainder of block size %1 from  %2 to %3."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying remainder of chunk size %1 from %2 to %3."
-msgstr "將剩下的區塊大小 %1 從 %2 複製到 %3 中。"
+msgstr "正在將剩下的區塊（大小 %1）從 %2 複製到 %3。"
 
 #: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
+msgstr[0] "%1 位元組"
 
 #: util/externalcommandhelper.cpp:288
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info:progress argument 2 is a string such as 7 bytes (localized "
-#| "accordingly)"
-#| msgid "Copying 1 block (%2) finished."
-#| msgid_plural "Copying %1 blocks (%2) finished."
+#, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
 msgid "Copying 1 chunk (%2) finished."
@@ -3352,24 +3234,22 @@ msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] "複製 %1 個區塊（%2）已完成。"
 
 #: util/helpers.cpp:49
-#, fuzzy, kde-kuit-format
-#| msgctxt "@action:button"
-#| msgid "Quit <application>%1</application>"
+#, kde-kuit-format
 msgctxt "@title"
 msgid "<application>KPMcore</application>"
-msgstr "離開 <application>%1</application>"
+msgstr "<application>KPMcore</application>"
 
 #: util/helpers.cpp:50
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Library for managing partitions"
-msgstr ""
+msgstr "管理磁碟分割區的函式庫"
 
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "&copy; 2008-2022 KPMcore developers"
-msgstr ""
+msgstr "&copy; 2008-2022 KPMcore 開發團隊"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -3381,93 +3261,91 @@ msgstr "Volker Lanz"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Former maintainer"
-msgstr ""
+msgstr "前任維護者"
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Andrius Štikonas"
-msgstr ""
+msgstr "Andrius Štikonas"
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "維護者"
 
 #: util/helpers.cpp:58
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Teo Mrnjavac"
-msgstr ""
+msgstr "Teo Mrnjavac"
 
 #: util/helpers.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Former Calamares maintainer"
-msgstr ""
+msgstr "前 Calamares 維護者"
 
 #: util/helpers.cpp:59
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Chantara Tith"
-msgstr ""
+msgstr "Chantara Tith"
 
 #: util/helpers.cpp:59
 #, kde-format
 msgctxt "@info:credit"
 msgid "LVM support"
-msgstr ""
+msgstr "LVM 支援"
 
 #: util/helpers.cpp:60
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Pali Rohár"
-msgstr ""
+msgstr "Pali Rohár"
 
 #: util/helpers.cpp:60
 #, kde-format
 msgctxt "@info:credit"
 msgid "UDF support"
-msgstr ""
+msgstr "UDF 支援"
 
 #: util/helpers.cpp:61
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Adriaan de Groot"
-msgstr ""
+msgstr "Adriaan de Groot"
 
 #: util/helpers.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Calamares maintainer"
-msgstr ""
+msgstr "Calamares 維護者"
 
 #: util/helpers.cpp:62
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Caio Jordão Carvalho"
-msgstr ""
+msgstr "Caio Jordão Carvalho"
 
 #: util/helpers.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Save SMART Report"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Improved SMART support"
-msgstr "儲存 SMART 報告"
+msgstr "改善 SMART 支援"
 
 #: util/helpers.cpp:63
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "David Edmundson"
 
 #: util/helpers.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port from KAuth to Polkit"
-msgstr ""
+msgstr "從 KAuth 移植到 Polkit"
 
 #: util/htmlreport.cpp:51 util/htmlreport.cpp:58
 #, kde-format
@@ -3490,10 +3368,9 @@ msgid "Backend:"
 msgstr "後端介面："
 
 #: util/htmlreport.cpp:69
-#, fuzzy, kde-format
-#| msgid "KDE version:"
+#, kde-format
 msgid "KDE Frameworks version:"
-msgstr "KDE 版本:"
+msgstr "KDE Frameworks 版本："
 
 #: util/htmlreport.cpp:70
 #, kde-format

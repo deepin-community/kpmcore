@@ -83,7 +83,7 @@ QColor PartWidget::activeColor(const QColor& col) const
 
 void PartWidget::paintEvent(QPaintEvent*)
 {
-    if (partition() == nullptr)
+    if (partition() == nullptr || partition()->isFileSystemNullptr())
         return;
 
     auto partitionCapacity = partition()->capacity();
@@ -144,3 +144,5 @@ void PartWidget::drawGradient(QPainter* painter, const QColor& color, const QRec
 
     style()->drawControl(QStyle::CE_PushButtonBevel, &option, painter, this);
 }
+
+#include "moc_partwidget.cpp"

@@ -37,12 +37,6 @@ void DummyBackend::initFSSupport()
 {
 }
 
-QList<Device*> DummyBackend::scanDevices(bool excludeReadOnly)
-{
-    Q_UNUSED(excludeReadOnly)
-    return scanDevices(ScanFlags());
-}
-
 QList<Device*> DummyBackend::scanDevices(const ScanFlags scanFlags)
 {
     Q_UNUSED(scanFlags)
@@ -56,8 +50,8 @@ QList<Device*> DummyBackend::scanDevices(const ScanFlags scanFlags)
 
 Device* DummyBackend::scanDevice(const QString& deviceNode)
 {
-    DiskDevice* d = new DiskDevice(QStringLiteral("Dummy Device"), QStringLiteral("/tmp") + deviceNode, 255, 30, 63, 512);
-    CoreBackend::setPartitionTableForDevice(*d, new PartitionTable(PartitionTable::msdos_sectorbased, 2048, d->totalSectors() - 2048));
+    DiskDevice* d = new DiskDevice(QStringLiteral("Dummy Device"), QStringLiteral("/tmp") + deviceNode, 512, 524288);
+    CoreBackend::setPartitionTableForDevice(*d, new PartitionTable(PartitionTable::msdos, 2048, d->totalSectors() - 2048));
     CoreBackend::setPartitionTableMaxPrimaries(*d->partitionTable(), 128);
     d->partitionTable()->updateUnallocated(*d);
     d->setIconName(QStringLiteral("drive-harddisk"));
