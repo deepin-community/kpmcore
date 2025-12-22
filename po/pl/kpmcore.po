@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
+# SPDX-FileCopyrightText: 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025 Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-27 00:47+0000\n"
-"PO-Revision-Date: 2022-03-13 11:11+0100\n"
+"POT-Creation-Date: 2024-10-11 00:42+0000\n"
+"PO-Revision-Date: 2024-03-23 11:10+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.03.70\n"
+"X-Generator: Lokalize 24.12.1\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -193,7 +193,7 @@ msgctxt "@item partition name"
 msgid "Copy of %1"
 msgstr "Kopia %1"
 
-#: core/partitionalignment.cpp:80
+#: core/partitionalignment.cpp:62
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -203,7 +203,7 @@ msgstr ""
 "Partycja <filename>%1</filename> nie rozpoczyna się na granicy cylindra "
 "(pierwszy sektor: %2, modulo: %3)."
 
-#: core/partitionalignment.cpp:83
+#: core/partitionalignment.cpp:65
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
@@ -1493,7 +1493,7 @@ msgstr "Powodzenie"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Healthy"
-msgstr "Stan"
+msgstr "Zdrowy"
 
 #: core/smartstatus.cpp:126
 #, kde-kuit-format
@@ -1529,6 +1529,47 @@ msgid "Disk failure is imminent. Backup all data!"
 msgstr ""
 "Niedługo dysk ulegnie usterce. Wykonaj kopię zapasową wszystkich danych!"
 
+#: fs/bcachefs.cpp:120
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"Could not create temp dir."
+msgstr ""
+"Zmiana rozmiaru systemu plików Bcachefs na partycji <filename>%1</filename> "
+"nie powiodła się: nie można utworzyć katalogu tymczasowego."
+
+#: fs/bcachefs.cpp:136 fs/bcachefs.cpp:158
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"bcachefs device resize command failed."
+msgstr ""
+"Zmiana rozmiaru systemu plików Bcachefs na partycji <filename>%1</filename> "
+"nie powiodła się: nie powiodło się polecenie zmiany rozmiaru urządzenia "
+"bcachefs."
+
+#: fs/bcachefs.cpp:141
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"<warning>Resizing Bcachefs file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
+msgstr ""
+"<warning>Zmiana rozmiaru systemu plików Bcachefs na partycji <filename>%1</"
+"filename>: nie udało się odpiąć.</warning>"
+
+#: fs/bcachefs.cpp:144
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"Initial mount failed."
+msgstr ""
+"Zmiana rozmiaru systemu plików Bcachefs na partycji <filename>%1</filename> "
+"nie powiodła się: nie udało się początkowe podpięcie."
+
 #: fs/btrfs.cpp:166
 #, kde-kuit-format
 msgctxt "@info:progress"
@@ -1539,7 +1580,7 @@ msgstr ""
 "Zmiana rozmiaru systemu plików Btrfs na partycji <filename>%1</filename> nie "
 "powiodła się: nie można utworzyć katalogu tymczasowego."
 
-#: fs/btrfs.cpp:182 fs/btrfs.cpp:202
+#: fs/btrfs.cpp:182 fs/btrfs.cpp:203
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1559,7 +1600,7 @@ msgstr ""
 "<warning>Zmiana rozmiaru systemu plików Btrfs na partycji <filename>%1</"
 "filename>: nie udało się odpiąć.</warning>"
 
-#: fs/btrfs.cpp:189
+#: fs/btrfs.cpp:190
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -1575,217 +1616,223 @@ msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "Ustawianie etykiety dla partycji <filename>%1</filename> na %2"
 
-#: fs/filesystem.cpp:503
+#: fs/filesystem.cpp:505
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "nieznany"
 
-#: fs/filesystem.cpp:504
+#: fs/filesystem.cpp:506
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "rozszerzony"
 
-#: fs/filesystem.cpp:506
+#: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:507
+#: fs/filesystem.cpp:509
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:508
+#: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:509
+#: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:510
+#: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:511
+#: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:512
+#: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:513
+#: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:514
+#: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:515
+#: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:516
+#: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:517
+#: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:518
+#: fs/filesystem.cpp:520
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:519
+#: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:520
+#: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "niesformatowany"
 
-#: fs/filesystem.cpp:521
+#: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:522
+#: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:523
+#: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:524
+#: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:525
+#: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:526
+#: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:527
+#: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:528
+#: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:529
+#: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr "f2fs"
 
-#: fs/filesystem.cpp:530
+#: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "udf"
 msgstr "udf"
 
-#: fs/filesystem.cpp:531
+#: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "iso9660"
 msgstr "iso9660"
 
-#: fs/filesystem.cpp:532
+#: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "luks2"
 msgstr "luks2"
 
-#: fs/filesystem.cpp:533
+#: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "fat12"
 msgstr "fat12"
 
-#: fs/filesystem.cpp:534
+#: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "linux_raid_member"
 msgstr "członek_linux_raid"
 
-#: fs/filesystem.cpp:535
+#: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "BitLocker"
 msgstr "BitLocker"
 
-#: fs/filesystem.cpp:536
+#: fs/filesystem.cpp:538
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "apfs"
 msgstr "apfs"
 
-#: fs/filesystem.cpp:537
+#: fs/filesystem.cpp:539
 #, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "minix"
 msgstr "minix"
 
-#: fs/filesystem.cpp:580 fs/luks.cpp:156
+#: fs/filesystem.cpp:540
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "bcachefs"
+msgstr "bcachefs"
+
+#: fs/filesystem.cpp:583 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "Podepnij"
 
-#: fs/filesystem.cpp:586 fs/luks.cpp:161
+#: fs/filesystem.cpp:589 fs/luks.cpp:166
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
@@ -1843,30 +1890,30 @@ msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr "Wyłącz przestrzeń wymiany"
 
-#: fs/luks.cpp:166
+#: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unlock"
 msgstr "Odblokuj"
 
-#: fs/luks.cpp:171
+#: fs/luks.cpp:176
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Lock"
 msgstr "Zablokuj"
 
-#: fs/luks.cpp:252
+#: fs/luks.cpp:257
 #, kde-format
 msgid "Enter passphrase for %1:"
 msgstr "Wprowadź hasło dla %1"
 
-#: fs/luks.cpp:495 fs/luks.cpp:505 fs/luks2.cpp:88 fs/luks2.cpp:105
+#: fs/luks.cpp:500 fs/luks.cpp:510 fs/luks2.cpp:89 fs/luks2.cpp:106
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
 msgstr "Zmiana rozmiaru partycji LUKS <filename>%1</filename>."
 
-#: fs/luks.cpp:509 fs/luks2.cpp:116
+#: fs/luks.cpp:514 fs/luks2.cpp:117
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
@@ -2010,7 +2057,7 @@ msgstr ""
 "Wykonywanie kopii zapasowej systemu plików na partycji <filename>%1</"
 "filename> do <filename>%2</filename>"
 
-#: jobs/changepermissionsjob.cpp:43
+#: jobs/changepermissionsjob.cpp:49
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Change the permissions of: <filename>%1</filename> to %2"
@@ -3173,13 +3220,13 @@ msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr "Ustawienie flagi dla partycji <filename>%1</filename> na \"%2\""
 
-#: plugins/sfdisk/sfdiskbackend.cpp:219
+#: plugins/sfdisk/sfdiskbackend.cpp:243
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
 msgstr "Znaleziono programowe urządzenie RAID: %1"
 
-#: plugins/sfdisk/sfdiskbackend.cpp:249
+#: plugins/sfdisk/sfdiskbackend.cpp:273
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
@@ -3292,8 +3339,8 @@ msgctxt "@item:intext unit"
 msgid "(unknown unit)"
 msgstr "(nieznana jednostka)"
 
-#: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:226
+#: util/externalcommand.cpp:114 util/externalcommand.cpp:118
+#: util/externalcommand.cpp:241
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"

@@ -3,13 +3,13 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2018, 2020, 2022.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: kpmcore._policy_\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-09 00:50+0000\n"
-"PO-Revision-Date: 2022-02-09 09:16+0200\n"
+"POT-Creation-Date: 2023-11-05 12:39+0000\n"
+"PO-Revision-Date: 2023-06-28 09:09+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -27,8 +27,12 @@ msgstr "Запуск привілейованої допоміжної прог�
 
 #: util/org.kde.kpmcore.externalcommand.policy.podir/org.kde.kpmcore.externalcommand.policy.in.h:2
 msgctxt "message"
-msgid "Administrative privileges are required to manage disks"
-msgstr "Для керування дисками потрібні права доступу адміністратора (root)"
+msgid "Authenticate to manage disks."
+msgstr "Розпізнавання для керування дисками."
+
+#~ msgctxt "message"
+#~ msgid "Administrative privileges are required to manage disks"
+#~ msgstr "Для керування дисками потрібні права доступу адміністратора (root)"
 
 #~ msgctxt "description"
 #~ msgid "Start external command daemon"

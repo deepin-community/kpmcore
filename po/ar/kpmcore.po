@@ -2,32 +2,33 @@
 # Copyright (C) 2013 This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 # Safa Alfulaij <safaalfulaij@hotmail.com>, 2013.
+# SPDX-FileCopyrightText: 2024, 2025 Zayed Al-Saidi <zayed.alsaidi@gmail.com>
 # Automatically generated, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-27 00:47+0000\n"
-"PO-Revision-Date: 2013-08-13 16:37+0300\n"
-"Last-Translator: Safa Alfulaij <safaalfulaij@hotmail.com>\n"
-"Language-Team: Arabic <doc@arabeyes.org>\n"
+"POT-Creation-Date: 2024-10-11 00:42+0000\n"
+"PO-Revision-Date: 2025-01-04 21:17+0400\n"
+"Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
+"Language-Team: ar\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 23.08.5\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "صفا الفليج"
+msgstr "صفا الفليج,زايد السعيدي"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "safaalfulaij@hotmail.com"
+msgstr " safaalfulaij@hotmail.com,zayed.alsaidi@gmail.com"
 
 #: core/device.cpp:33
 #, kde-format
@@ -38,20 +39,16 @@ msgstr "جهاز مجهول"
 #, kde-kuit-format
 msgctxt "@item:inlistbox Device name – Capacity (device node)"
 msgid "%1 – %2 (%3)"
-msgstr ""
+msgstr "%1 – %2 (%3)"
 
 #: core/lvmdevice.cpp:362
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "An error occurred while running lvdisplay."
-msgstr ""
+msgstr "حدث خطأ أثناء تشغيل lvdisplay."
 
 #: core/operationstack.cpp:101
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Deleting a partition just created: Undoing the operation to create the "
-#| "partition."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Deleting a partition just created: Undoing the operation to create the "
@@ -59,11 +56,7 @@ msgid ""
 msgstr "حذف قسم أنشأ لتوّه: التراجع عن عملية إنشاء القسم."
 
 #: core/operationstack.cpp:119
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing a partition just created: Updating start and end in existing "
-#| "operation."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Resizing a partition just created: Updating start and end in existing "
@@ -71,57 +64,39 @@ msgid ""
 msgstr "تغيير حجم قسم أنشأ لتوّه: تحديث البداية والنهاية في العملية الحاليّة."
 
 #: core/operationstack.cpp:139
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copying a partition that is itself a copy: Copying the original source "
-#| "partition instead."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Copying a new partition: Creating a new partition instead."
-msgstr "نسخ قسم هو بذاته نسخة: نسخ القسم المصدر الأصلي بدلًا من ذلك."
+msgstr "نسخ قسم جديد: إنشاء قسم جديد بدلاً من ذلك."
 
 #: core/operationstack.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Changing label for a new partition: No new operation required."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing label for a new partition: No new operation required."
 msgstr "تغيير لصيقة قسم جديد: لا حاجة إلى عملية جديدة."
 
 #: core/operationstack.cpp:169
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Changing file system for a new partition: No new operation required."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing file system for a new partition: No new operation required."
 msgstr "تغيير نظام ملفات قسم جديد: لا حاجة إلى عملية جديدة."
 
 #: core/operationstack.cpp:186
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Checking file systems is automatically done when creating them: No new "
-#| "operation required."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Checking file systems is automatically done when creating them: No new "
 "operation required."
-msgstr "تغيير أنظمة ملفات يتم تلقائيًّا عند إنشائها: لا حاجة إلى عملية جديدة."
+msgstr "تغيير أنظمة ملفات تلقائيًّا عند إنشائها: لا حاجة إلى عملية جديدة."
 
 #: core/operationstack.cpp:233
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Deleting a partition just copied: Removing the copy."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting a partition just copied: Removing the copy."
 msgstr "حذف قسم نُسخ لتوّه: إزالة النسخة."
 
 #: core/operationstack.cpp:238
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Deleting a partition just copied over an existing partition: Removing the "
-#| "copy and deleting the existing partition."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Deleting a partition just copied over an existing partition: Removing the "
@@ -129,11 +104,7 @@ msgid ""
 msgstr "حذف قسم نُسخ لتوّه فوق قسم موجود: إزالة النسخة واحذف القسم الحالي."
 
 #: core/operationstack.cpp:251
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copying a partition that is itself a copy: Copying the original source "
-#| "partition instead."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Copying a partition that is itself a copy: Copying the original source "
@@ -141,19 +112,13 @@ msgid ""
 msgstr "نسخ قسم هو بذاته نسخة: نسخ القسم المصدر الأصلي بدلًا من ذلك."
 
 #: core/operationstack.cpp:280
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Deleting a partition just restored: Removing the restore operation."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Deleting a partition just restored: Removing the restore operation."
 msgstr "حذف قسم استعيد لتوّه: إزالة عملية الاستعادة."
 
 #: core/operationstack.cpp:285
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Deleting a partition just restored to an existing partition: Removing the "
-#| "restore operation and deleting the existing partition."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Deleting a partition just restored to an existing partition: Removing the "
@@ -162,42 +127,31 @@ msgstr ""
 "حذف قسم استعيد لتوّه إلى قسم موجود: إزالة عملية الاستعادة وحذف القسم الحالي."
 
 #: core/operationstack.cpp:318
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Changing flags again for the same partition: Removing old operation."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing flags again for the same partition: Removing old operation."
 msgstr "تغيير الأعلام مرة أخرى لنفس القسم: إزالة العملية القديمة."
 
 #: core/operationstack.cpp:349
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Changing label again for the same partition: Removing old operation."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Changing label again for the same partition: Removing old operation."
 msgstr "تغيير اللصيقة مرة أخرى لنفس القسم: إزالة العملية القديمة."
 
 #: core/operationstack.cpp:375
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Creating new partition table, discarding previous operation on device."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating new partition table, discarding previous operation on device."
 msgstr "إنشاء جدول تقسيم جدي، تجاهل العملية السابقة للجهاز."
 
 #: core/operationstack.cpp:395
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Restoring file system failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing Volume Group, nothing to do."
-msgstr "فشل استعادة نظام الملفات."
+msgstr "تغيير حجم مجموعة المجلدات، لا يوجد شيء يجب فعله."
 
 #: core/operationstack.cpp:440
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Add operation: %1"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Add operation: %1"
 msgstr "أضف العملية: %1"
@@ -226,25 +180,25 @@ msgctxt "@item partition name"
 msgid "Copy of %1"
 msgstr "نسخة من %1"
 
-#: core/partitionalignment.cpp:80
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Partition <filename>%1</filename> has been copied to the clipboard."
+#: core/partitionalignment.cpp:62
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Partition <filename>%1</filename> is not properly aligned (first sector: %2, "
 "modulo: %3)."
-msgstr "نُسخ القسم <filename>%1</filename> إلى الحافظة."
+msgstr ""
+"القسم <filename>%1</filename> ليس محاذيًا بشكل صحيح (القطاع الأول: %2، النمط: "
+"%3)."
 
-#: core/partitionalignment.cpp:83
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Partition <filename>%1</filename> has been copied to the clipboard."
+#: core/partitionalignment.cpp:65
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Partition <filename>%1</filename> is not properly aligned (last sector: %2, "
 "modulo: %3)."
-msgstr "نُسخ القسم <filename>%1</filename> إلى الحافظة."
+msgstr ""
+"القسم <filename>%1</filename> غير محاذيًا بشكل صحيح (القطاع الأخير: %2، "
+"modulo: %3)."
 
 #: core/partitionrole.cpp:17
 #, kde-kuit-format
@@ -274,13 +228,13 @@ msgstr "أولي"
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: core/partitionrole.cpp:32
 #, kde-kuit-format
 msgctxt "@item partition role"
 msgid "LVM logical volume"
-msgstr ""
+msgstr "وحدة تخزين منطقية LVM"
 
 #: core/partitionrole.cpp:34
 #, kde-kuit-format
@@ -316,84 +270,82 @@ msgstr "مخفي"
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "raid"
-msgstr ""
+msgstr "raid"
 
 #: core/partitiontable.cpp:190
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "lvm"
-msgstr ""
+msgstr "lvm"
 
 #: core/partitiontable.cpp:192
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "lba"
-msgstr ""
+msgstr "lba"
 
 #: core/partitiontable.cpp:194
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "hpservice"
-msgstr ""
+msgstr "hpservice"
 
 #: core/partitiontable.cpp:196
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "palo"
-msgstr ""
+msgstr "palo"
 
 #: core/partitiontable.cpp:198
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "prep"
-msgstr ""
+msgstr "prep"
 
 #: core/partitiontable.cpp:200
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "msft-reserved"
-msgstr ""
+msgstr "msft-reserved"
 
 #: core/partitiontable.cpp:202
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "bios-grub"
-msgstr ""
+msgstr "bios-grub"
 
 #: core/partitiontable.cpp:204
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "apple-tv-recovery"
-msgstr ""
+msgstr "apple-tv-recovery"
 
 #: core/partitiontable.cpp:206
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "diag"
-msgstr ""
+msgstr "diag"
 
 #: core/partitiontable.cpp:208
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "legacy-boot"
-msgstr ""
+msgstr "legacy-boot"
 
 #: core/partitiontable.cpp:210
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "msft-data"
-msgstr ""
+msgstr "msft-data"
 
 #: core/partitiontable.cpp:212
 #, kde-kuit-format
 msgctxt "@item partition flag"
 msgid "irst"
-msgstr ""
+msgstr "irst"
 
 #: core/partitiontable.cpp:499
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain partition table name"
-#| msgid "unknown"
+#, kde-kuit-format
 msgctxt "@item partition table name"
 msgid "unknown"
 msgstr "مجهول"
@@ -402,19 +354,19 @@ msgstr "مجهول"
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level]"
 msgid " [RAID %1]"
-msgstr ""
+msgstr " [RAID %1]"
 
 #: core/raid/softwareraid.cpp:95
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Recovering]"
 msgid " [RAID %1 - Recovering]"
-msgstr ""
+msgstr "[RAID %1 - استرداد]"
 
 #: core/raid/softwareraid.cpp:97
 #, kde-kuit-format
 msgctxt "@item:inlistbox [RAID level - Resyncing]"
 msgid " [RAID %1 - Resyncing]"
-msgstr ""
+msgstr "[RAID %1 - إعادة المزامنة]"
 
 #: core/smartattribute.cpp:45
 #, kde-kuit-format
@@ -484,18 +436,20 @@ msgid ""
 "of this attribute is decreasing there is a high probability that there is a "
 "problem with the disk."
 msgstr ""
+"الأداء الإجمالي (العام) لمحرك الأقراص الصلبة. إذا كانت قيمة هذه الخاصية "
+"تتناقص، فهناك احتمال كبير لوجود مشكلة في القرص."
 
 #: core/smartattribute.cpp:103
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin-Up Time"
-msgstr ""
+msgstr "وقت الدوران"
 
 #: core/smartattribute.cpp:103
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Average time of spindle spin up from zero RPM to fully operational."
-msgstr ""
+msgstr "متوسط ​​وقت دوران المغزل من صفر دورة في الدقيقة إلى التشغيل الكامل."
 
 #: core/smartattribute.cpp:104
 #, kde-format
@@ -507,7 +461,7 @@ msgstr "ابدأ/أوقف العدّاد"
 #, kde-format
 msgctxt "SMART attr description"
 msgid "A tally of spindle start/stop cycles."
-msgstr ""
+msgstr "إحصاء دورات بدء/إيقاف المغزل."
 
 #: core/smartattribute.cpp:105
 #, kde-format
@@ -523,6 +477,9 @@ msgid ""
 "verification error, it marks this sector as &quot;reallocated&quot; and "
 "transfers data to a special reserved area (spare area)."
 msgstr ""
+"عدد القطاعات المعاد تخصيصها. عندما يجد القرص الصلب خطأ في القراءة/الكتابة/"
+"التحقق، فإنه يضع علامة على هذا القطاع باعتباره &quot;معاد تخصيصه&quot; وينقل "
+"البيانات إلى منطقة محجوزة خاصة (منطقة احتياطية)."
 
 #: core/smartattribute.cpp:106
 #, kde-format
@@ -551,6 +508,8 @@ msgid ""
 "Rate of seek errors of the magnetic heads. If there is a partial failure in "
 "the mechanical positioning system, then seek errors will arise."
 msgstr ""
+"معدل أخطاء البحث للرؤوس المغناطيسية. إذا كان هناك فشل جزئي في نظام تحديد "
+"المواقع الميكانيكي، فستنشأ أخطاء البحث."
 
 #: core/smartattribute.cpp:108
 #, kde-format
@@ -566,24 +525,26 @@ msgid ""
 "attribute is decreasing, it is a sign of problems in the mechanical "
 "subsystem."
 msgstr ""
+"متوسط ​​أداء عمليات البحث للرؤوس المغناطيسية. إذا كانت هذه الخاصية متناقصة، "
+"فهذه علامة على وجود مشاكل في النظام الفرعي الميكانيكي."
 
 #: core/smartattribute.cpp:109
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Hours"
-msgstr ""
+msgstr "ساعات التشغيل"
 
 #: core/smartattribute.cpp:109
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of hours in power-on state."
-msgstr ""
+msgstr "عدد الساعات في حالة التشغيل."
 
 #: core/smartattribute.cpp:110
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin Retry Count"
-msgstr ""
+msgstr "عدد محاولات إعادة الدوران"
 
 #: core/smartattribute.cpp:110
 #, kde-format
@@ -593,12 +554,14 @@ msgid ""
 "An increase of this attribute value is a sign of problems in the hard disk "
 "mechanical subsystem."
 msgstr ""
+"عدد محاولات إعادة بدء الدوران إذا كانت المحاولة الأولى غير ناجحة. زيادة قيمة "
+"هذه الخاصية هي علامة على وجود مشاكل في النظام الفرعي الميكانيكي للقرص الصلب."
 
 #: core/smartattribute.cpp:111
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Recalibration Retries"
-msgstr ""
+msgstr "إعادة محاولة المعايرة"
 
 #: core/smartattribute.cpp:111
 #, kde-format
@@ -608,85 +571,87 @@ msgid ""
 "increase of this attribute value is a sign of problems in the hard disk "
 "mechanical subsystem."
 msgstr ""
+"عدد عمليات إعادة المعايرة المطلوبة في حالة فشل المحاولة الأولى. زيادة قيمة "
+"هذه الخاصية هي علامة على وجود مشاكل في النظام الفرعي الميكانيكي للقرص الصلب."
 
 #: core/smartattribute.cpp:112
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power Cycle Count"
-msgstr ""
+msgstr "عدد دورات الطاقة"
 
 #: core/smartattribute.cpp:112
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of full hard disk power on/off cycles."
-msgstr ""
+msgstr "عدد دورات تشغيل وإيقاف تشغيل القرص الصلب بالكامل."
 
 #: core/smartattribute.cpp:113 core/smartattribute.cpp:145
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft Read Error Rate"
-msgstr ""
+msgstr "معدل خطأ القراءة الناعمة"
 
 #: core/smartattribute.cpp:113
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Uncorrected read errors reported to the operating system."
-msgstr ""
+msgstr "أُبلغ عن أخطاء القراءة غير المصححة إلى نظام التشغيل."
 
 #: core/smartattribute.cpp:114
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Available Reserved Space"
-msgstr ""
+msgstr "مساحة محجوزة متاحة على SSD"
 
 #: core/smartattribute.cpp:114
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of available reserved space as a percentage of reserved space."
-msgstr ""
+msgstr "عدد المساحة المحجوزة المتاحة كنسبة مئوية من المساحة المحجوزة."
 
 #: core/smartattribute.cpp:115
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count"
-msgstr ""
+msgstr "عدد حالات فشل برنامج SSD"
 
 #: core/smartattribute.cpp:115 core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
 "Number of flash program operation failures since the drive was deployed."
-msgstr ""
+msgstr "عدد حالات فشل تشغيل برنامج الفلاش منذ نشر محرك الأقراص."
 
 #: core/smartattribute.cpp:116 core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count"
-msgstr ""
+msgstr "عدد مرات فشل مسح SSD"
 
 #: core/smartattribute.cpp:116
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase operation failures since the drive was deployed."
-msgstr ""
+msgstr "عدد حالات فشل عملية مسح الفلاش منذ نشر محرك الأقراص."
 
 #: core/smartattribute.cpp:117
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Leveling Count"
-msgstr ""
+msgstr "عدد مستويات تآكل SSD"
 
 #: core/smartattribute.cpp:117
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Counts the maximum worst erase count on any block."
-msgstr ""
+msgstr "يحسب الحد الأقصى لعدد أسوأ عمليات المسح على أي كتلة."
 
 #: core/smartattribute.cpp:118
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unexpected power loss count"
-msgstr ""
+msgstr "عدد حالات فقدان الطاقة غير المتوقعة في SSD"
 
 #: core/smartattribute.cpp:118
 #, kde-format
@@ -696,12 +661,14 @@ msgid ""
 "(regardless of PLI activity using capacitor power). Normalized value is "
 "always 100."
 msgstr ""
+"عدد عمليات إيقاف التشغيل بدون STANDBY IMMEDIATE كآخر أمر (بغض النظر عن نشاط "
+"PLI باستخدام طاقة المكثف). القيمة الطبيعية هي دائمًا 100."
 
 #: core/smartattribute.cpp:119
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Power Loss Protection Failure"
-msgstr ""
+msgstr "فشل حماية فقدان الطاقة في SSD"
 
 #: core/smartattribute.cpp:119
 #, kde-format
@@ -714,79 +681,85 @@ msgid ""
 "or 11 if the capacitor has been tested in an excessive temperature "
 "condition, otherwise 100."
 msgstr ""
+"نتيجة الاختبار الأخيرة، مشبعة عند أقصى قيمة لها. البايتات 0-1: نتيجة "
+"الاختبار الأخيرة بالميكروثانية لتفريغ المكثف في النطاق [25، 5000000]، يشير "
+"الأقل إلى رمز خطأ محدد. البايتات 2-3: الدقائق منذ الاختبار الأخير. البايتات "
+"4-5: عدد الاختبارات مدى الحياة. يتم ضبط القيمة الطبيعية على 1 في حالة فشل "
+"الاختبار أو 11 إذا تم اختبار المكثف في حالة درجة حرارة مفرطة، وإلا 100."
 
 #: core/smartattribute.cpp:120
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Erase Fail Count (chip)"
-msgstr ""
+msgstr "عدد مرات فشل مسح SSD (الشريحة)"
 
 #: core/smartattribute.cpp:120
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of flash erase command failures."
-msgstr ""
+msgstr "عدد حالات فشل أمر مسح الفلاش."
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Wear Range Delta"
-msgstr ""
+msgstr "فرق نطاق تآكل SSD"
 
 #: core/smartattribute.cpp:121
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Delta between most-worn and least-worn flash blocks."
-msgstr ""
+msgstr "الفرق بين كتل الفلاش الأكثر تآكلًا والأقل تآكلًا."
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Used Reserved Block Count Total"
-msgstr ""
+msgstr "إجمالي عدد الكتل المحجوزة المستخدمة في SSD"
 
 #: core/smartattribute.cpp:122 core/smartattribute.cpp:123
 #: core/smartattribute.cpp:126
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" Samsung attribute."
-msgstr ""
+msgstr "سمة \"ما قبل الفشل\" من سامسونج."
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Unused Reserved Block Count Total"
-msgstr ""
+msgstr "إجمالي عدد الكتل المحجوزة غير المستخدمة في SSD"
 
 #: core/smartattribute.cpp:124
 #, kde-format
 msgctxt "SMART attr description"
 msgid "\"Pre-Fail\" HP attribute."
-msgstr ""
+msgstr "سمة اتش بي \"ما قبل الفشل\"."
 
 #: core/smartattribute.cpp:125
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD Program Fail Count Total or Non-4K Aligned Access Count"
 msgstr ""
+"إجمالي عدد حالات فشل برنامج SSD أو عدد حالات الوصول غير المتوافقة مع 4K"
 
 #: core/smartattribute.cpp:127
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SATA Downshift Error Count"
-msgstr ""
+msgstr "عدد أخطاء خفض سرعة SATA"
 
 #: core/smartattribute.cpp:127
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital and Samsung attribute."
-msgstr ""
+msgstr "سمة ويسترن ديجيتال وسامسونج."
 
 #: core/smartattribute.cpp:128
 #, kde-format
 msgctxt "SMART attr name"
 msgid "End-to-End Error"
-msgstr ""
+msgstr "خطأ من النهاية إلى النهاية"
 
 #: core/smartattribute.cpp:128
 #, kde-format
@@ -796,66 +769,69 @@ msgid ""
 "data buffer the parity data between the host and the hard drive did not "
 "match."
 msgstr ""
+"جزء من تقنية SMART IV من اتش بي: بعد نقل البيانات عبر ذاكرة التخزين المؤقت "
+"RAM، لم تتطابق بيانات التكافؤ بين المضيف والقرص الصلب."
 
 #: core/smartattribute.cpp:129
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Head Stability"
-msgstr ""
+msgstr "استقرار الرأس"
 
 #: core/smartattribute.cpp:129 core/smartattribute.cpp:130
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Western Digital attribute."
-msgstr ""
+msgstr "سمة ويسترن ديجيتال."
 
 #: core/smartattribute.cpp:130
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Induced Op-Vibration Detection"
-msgstr ""
+msgstr "كشف الاهتزازات المستحثة"
 
 #: core/smartattribute.cpp:131
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Reported Uncorrectable Errors"
-msgstr ""
+msgstr "الأخطاء المبلغة غير القابلة للتصحيح"
 
 #: core/smartattribute.cpp:131
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of errors that could not be recovered using hardware ECC."
 msgstr ""
+"عدد الأخطاء التي لا يمكن استردادها باستخدام نظام تصحيح الأخطاء (ECC) للأجهزة."
 
 #: core/smartattribute.cpp:132
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Command Timeout"
-msgstr ""
+msgstr "مهلة الأوامر"
 
 #: core/smartattribute.cpp:132
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of aborted operations due to HDD timeout."
-msgstr ""
+msgstr "عدد العمليات التي ألغيت بسبب انتهاء مهلة القرص الصلب."
 
 #: core/smartattribute.cpp:133
 #, kde-format
 msgctxt "SMART attr name"
 msgid "High Fly Writes"
-msgstr ""
+msgstr "كتابة عالية الطيران"
 
 #: core/smartattribute.cpp:133
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of fly height errors detected."
-msgstr ""
+msgstr "عدد أخطاء الطيران العالي المكتشفة."
 
 #: core/smartattribute.cpp:134
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Temperature Difference From 100"
-msgstr ""
+msgstr "فرق درجة الحرارة من 100"
 
 #: core/smartattribute.cpp:134
 #, kde-format
@@ -864,72 +840,75 @@ msgid ""
 "Value is equal to (100 &ndash; temp. °C), allowing manufacturer to set a "
 "minimum threshold which corresponds to a maximum temperature."
 msgstr ""
+"القيمة تساوي (100 - درجة الحرارة د°)، مما يسمح للشركة المصنعة بتعيين حد أدنى "
+"يتوافق مع الحد الأقصى لدرجة الحرارة."
 
 #: core/smartattribute.cpp:135
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-sense Error Rate"
-msgstr ""
+msgstr "معدل أخطاء الاهتزاز"
 
 #: core/smartattribute.cpp:135
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of errors resulting from externally-induced shock and vibration."
-msgstr ""
+msgstr "عدد الأخطاء الناتجة عن الصدمات والاهتزازات الناجمة عن عوامل خارجية."
 
 #: core/smartattribute.cpp:136
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power Off Retract Count"
-msgstr ""
+msgstr "عدد حالات فقدان الطاقة غير المتوقعة"
 
 #: core/smartattribute.cpp:136
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of power-off or emergency retract cycles"
-msgstr ""
+msgstr "عدد دورات إيقاف التشغيل أو السحب في حالات الطوارئ"
 
 #: core/smartattribute.cpp:137
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load Cycle Count"
-msgstr ""
+msgstr "عدد دورات التحميل"
 
 #: core/smartattribute.cpp:137
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of load/unload cycles into head landing zone position."
-msgstr ""
+msgstr "عدد دورات التحميل/التفريغ في موضع منطقة الهبوط الرئيسية."
 
 #: core/smartattribute.cpp:138 core/smartattribute.cpp:166
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Temperature"
-msgstr ""
+msgstr "درجة الحرارة"
 
 #: core/smartattribute.cpp:138
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Current internal temperature."
-msgstr ""
+msgstr "درجة الحرارة الداخلية الحالية."
 
 #: core/smartattribute.cpp:139
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Hardware ECC Recovered"
-msgstr ""
+msgstr "تم استعادة ECC للأجهزة"
 
 #: core/smartattribute.cpp:139
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of errors that could be recovered using hardware ECC."
 msgstr ""
+"عدد الأخطاء التي يمكن استردادها باستخدام نظام تصحيح الأخطاء (ECC) للأجهزة."
 
 #: core/smartattribute.cpp:140
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Reallocation Event Count"
-msgstr ""
+msgstr "عدد أحداث إعادة التخصيص"
 
 #: core/smartattribute.cpp:140
 #, kde-format
@@ -938,12 +917,14 @@ msgid ""
 "Count of remap operations. The raw value of this attribute shows the total "
 "number of attempts to transfer data from reallocated sectors to a spare area."
 msgstr ""
+"عدد عمليات إعادة التعيين. تُظهر القيمة الخام لهذه الخاصية العدد الإجمالي "
+"لمحاولات نقل البيانات من القطاعات المعاد تخصيصها إلى منطقة احتياطية."
 
 #: core/smartattribute.cpp:141
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Current Pending Sector Count"
-msgstr ""
+msgstr "عدد القطاعات المعلقة الحالية"
 
 #: core/smartattribute.cpp:141
 #, kde-format
@@ -952,24 +933,26 @@ msgid ""
 "Number of &quot;unstable&quot; sectors (waiting to be remapped, because of "
 "read errors)."
 msgstr ""
+"عدد القطاعات &quot;غير المستقرة&quot; (التي تنتظر إعادة تعيينها، بسبب أخطاء "
+"القراءة)."
 
 #: core/smartattribute.cpp:142
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Uncorrectable Sector Count"
-msgstr ""
+msgstr "عدد القطاعات غير القابلة للتصحيح"
 
 #: core/smartattribute.cpp:142
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of uncorrectable errors when reading/writing a sector."
-msgstr ""
+msgstr "عدد الأخطاء غير القابلة للتصحيح عند قراءة/كتابة قطاع."
 
 #: core/smartattribute.cpp:143
 #, kde-format
 msgctxt "SMART attr name"
 msgid "UltraDMA CRC Error Count"
-msgstr ""
+msgstr "عدد أخطاء UltraDMA CRC"
 
 #: core/smartattribute.cpp:143
 #, kde-format
@@ -978,78 +961,80 @@ msgid ""
 "Count of errors in data transfer via the interface cable as determined by "
 "ICRC."
 msgstr ""
+"عدد الأخطاء في نقل البيانات عبر كابل الواجهة كما تم تحديده بواسطة ICRC (فحص "
+"التكرار الدوري للواجهة)."
 
 #: core/smartattribute.cpp:144
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Multi-Zone Error Rate<br/>Write Error Rate"
-msgstr ""
+msgstr "معدل الخطأ متعدد المناطق<br/>معدل خطأ الكتابة"
 
 #: core/smartattribute.cpp:144
 #, kde-format
 msgctxt "SMART attr description"
 msgid "The total number of errors when writing a sector."
-msgstr ""
+msgstr "العدد الإجمالي للأخطاء عند كتابة قطاع."
 
 #: core/smartattribute.cpp:145
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of off-track errors."
-msgstr ""
+msgstr "عدد الأخطاء الخارجة عن المسار."
 
 #: core/smartattribute.cpp:146
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Data Address Mark Errors"
-msgstr ""
+msgstr "أخطاء علامة عنوان البيانات"
 
 #: core/smartattribute.cpp:146
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of Data Address Mark errors (or vendor-specific)."
-msgstr ""
+msgstr "عدد أخطاء علامة عنوان البيانات (أو الخاصة بالبائع)."
 
 #: core/smartattribute.cpp:147
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Run Out Cancel"
-msgstr ""
+msgstr "نفاد إلغاء"
 
 #: core/smartattribute.cpp:147
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of ECC errors"
-msgstr ""
+msgstr "عدد أخطاء تصحيح الأخطاء (ECC)."
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Soft ECC Correction"
-msgstr ""
+msgstr "تصحيح ECC الناعم"
 
 #: core/smartattribute.cpp:148
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors corrected by software ECC"
-msgstr ""
+msgstr "عدد الأخطاء التي تم تصحيحها عن طريق برنامج ECC"
 
 #: core/smartattribute.cpp:149
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Thermal Asperity Rate"
-msgstr ""
+msgstr "معدل الخشونة الحرارية"
 
 #: core/smartattribute.cpp:149
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors due to high temperature."
-msgstr ""
+msgstr "عدد الأخطاء بسبب ارتفاع درجة الحرارة."
 
 #: core/smartattribute.cpp:150
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Flying Height"
-msgstr ""
+msgstr "ارتفاع الطيران"
 
 #: core/smartattribute.cpp:150
 #, kde-format
@@ -1059,24 +1044,27 @@ msgid ""
 "increases the chances of a head crash while a flying height that is too high "
 "increases the chances of a read/write error."
 msgstr ""
+"ارتفاع الرؤوس فوق سطح القرص. يؤدي ارتفاع الطيران المنخفض للغاية إلى زيادة "
+"احتمالات اصطدام الرأس، في حين يؤدي ارتفاع الطيران المرتفع للغاية إلى زيادة "
+"احتمالات حدوث خطأ في القراءة/الكتابة."
 
 #: core/smartattribute.cpp:151
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin High Current"
-msgstr ""
+msgstr "تيار التدوير العالي"
 
 #: core/smartattribute.cpp:151
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Amount of surge current used to spin up the drive."
-msgstr ""
+msgstr "كمية التيار الزائد المستخدم لتشغيل محرك الأقراص."
 
 #: core/smartattribute.cpp:152
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Spin Buzz"
-msgstr ""
+msgstr "طنين التدوير"
 
 #: core/smartattribute.cpp:152
 #, kde-format
@@ -1084,49 +1072,49 @@ msgctxt "SMART attr description"
 msgid ""
 "Number of buzz routines needed to spin up the drive due to insufficient "
 "power."
-msgstr ""
+msgstr "عدد إجراءات الطنين اللازمة لتشغيل محرك الأقراص بسبب عدم كفاية الطاقة."
 
 #: core/smartattribute.cpp:153
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Offline Seek Performance"
-msgstr ""
+msgstr "أداء البحث الداخلي"
 
 #: core/smartattribute.cpp:153
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Drive's seek performance during its internal tests."
-msgstr ""
+msgstr "اختبار أداء محرك الأقراص أثناء اختباراته الداخلية."
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Vibration During Write"
-msgstr ""
+msgstr "الاهتزاز أثناء الكتابة"
 
 #: core/smartattribute.cpp:154
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Vibration During Write"
-msgstr ""
+msgstr "الاهتزاز أثناء الكتابة"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Shock During Write"
-msgstr ""
+msgstr "صدمة أثناء الكتابة"
 
 #: core/smartattribute.cpp:155
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Shock During Write"
-msgstr ""
+msgstr "صدمة أثناء الكتابة"
 
 #: core/smartattribute.cpp:156
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Disk Shift"
-msgstr ""
+msgstr "إزاحة القرص"
 
 #: core/smartattribute.cpp:156
 #, kde-format
@@ -1135,73 +1123,74 @@ msgid ""
 "Distance the disk has shifted relative to the spindle (usually due to shock "
 "or temperature)."
 msgstr ""
+"المسافة التي تحركها القرص بالنسبة للمغزل (عادة بسبب الصدمة أو درجة الحرارة)."
 
 #: core/smartattribute.cpp:157
 #, kde-format
 msgctxt "SMART attr name"
 msgid "G-Sense Error Rate"
-msgstr ""
+msgstr "معدل أخطاء الاهتزاز"
 
 #: core/smartattribute.cpp:157
 #, kde-format
 msgctxt "SMART attr description"
 msgid ""
 "The number of errors resulting from externally-induced shock and vibration."
-msgstr ""
+msgstr "عدد الأخطاء الناتجة عن الصدمات والاهتزازات الناجمة عن عوامل خارجية."
 
 #: core/smartattribute.cpp:158
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Loaded Hours"
-msgstr ""
+msgstr "ساعات التحميل"
 
 #: core/smartattribute.cpp:158
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time spent operating under data load."
-msgstr ""
+msgstr "الوقت المستغرق في العمل تحت عبء البيانات."
 
 #: core/smartattribute.cpp:159
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load/Unload Retry Count"
-msgstr ""
+msgstr "مرات إعادة المحاولة للتحميل/التفريغ"
 
 #: core/smartattribute.cpp:159
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of times head changes position."
-msgstr ""
+msgstr "عدد المرات التي يتغير فيها وضع الرأس."
 
 #: core/smartattribute.cpp:160
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load Friction"
-msgstr ""
+msgstr "احتكاك الحمل"
 
 #: core/smartattribute.cpp:160
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Resistance caused by friction in mechanical parts while operating."
-msgstr ""
+msgstr "المقاومة الناتجة عن الاحتكاك في الأجزاء الميكانيكية أثناء التشغيل."
 
 #: core/smartattribute.cpp:161
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load/Unload Cycle Count"
-msgstr ""
+msgstr "دورات التحميل/التفريغ"
 
 #: core/smartattribute.cpp:161
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total number of load cycles."
-msgstr ""
+msgstr "العدد الإجمالي لدورات التحميل."
 
 #: core/smartattribute.cpp:162
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Load-In Time"
-msgstr ""
+msgstr "وقت التحميل"
 
 #: core/smartattribute.cpp:162
 #, kde-format
@@ -1210,24 +1199,26 @@ msgid ""
 "Total time of loading on the magnetic heads actuator (time not spent in "
 "parking area)."
 msgstr ""
+"إجمالي وقت التحميل على محرك الرؤوس المغناطيسية (الوقت الذي لا يتم قضاؤه في "
+"منطقة الوقوف)."
 
 #: core/smartattribute.cpp:163
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Torque Amplification Count"
-msgstr ""
+msgstr "عدد تضخيم عزم الدوران"
 
 #: core/smartattribute.cpp:163
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of attempts to compensate for platter speed variations."
-msgstr ""
+msgstr "عدد المحاولات للتعويض عن الاختلافات في سرعة الطبق."
 
 #: core/smartattribute.cpp:164
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-Off Retract Cycle"
-msgstr ""
+msgstr "دورة حالات فقدان الطاقة غير المتوقعة"
 
 #: core/smartattribute.cpp:164
 #, kde-format
@@ -1236,12 +1227,13 @@ msgid ""
 "The number of times the magnetic armature was retracted automatically as a "
 "result of cutting power."
 msgstr ""
+"عدد المرات التي تم فيها سحب المحرك المغناطيسي تلقائيًا نتيجة لقوة القطع."
 
 #: core/smartattribute.cpp:165
 #, kde-format
 msgctxt "SMART attr name"
 msgid "GMR Head Amplitude"
-msgstr ""
+msgstr "سعة رأس GMR"
 
 #: core/smartattribute.cpp:165
 #, kde-format
@@ -1249,19 +1241,19 @@ msgctxt "SMART attr description"
 msgid ""
 "Amplitude of &quot;thrashing&quot; (distance of repetitive forward/reverse "
 "head motion)"
-msgstr ""
+msgstr "سعة &quot;الضرب&quot; (مسافة حركة الرأس المتكررة للأمام/للخلف)"
 
 #: core/smartattribute.cpp:166
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Drive Temperature"
-msgstr ""
+msgstr "درجة حرارة محرك الأقراص"
 
 #: core/smartattribute.cpp:167
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Endurance Remaining"
-msgstr ""
+msgstr "قدرة التحمل المتبقية"
 
 #: core/smartattribute.cpp:167
 #, kde-format
@@ -1270,36 +1262,38 @@ msgid ""
 "Count of physical erase cycles completed on the drive as a percentage of the "
 "maximum physical erase cycles the drive supports"
 msgstr ""
+"عدد دورات المسح المادي المكتملة على محرك الأقراص كنسبة مئوية من الحد الأقصى "
+"لدورات المسح المادي التي يدعمها محرك الأقراص"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Power-On Seconds"
-msgstr ""
+msgstr "ثواني التشغيل"
 
 #: core/smartattribute.cpp:168
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Time elapsed in the power-on state"
-msgstr ""
+msgstr "الوقت المنقضي في حالة التشغيل"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Unrecoverable ECC Count"
-msgstr ""
+msgstr "عدد ECC غير قابل للاسترداد"
 
 #: core/smartattribute.cpp:169
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Count of unrecoverable ECC errors"
-msgstr ""
+msgstr "عدد أخطاء ECC غير القابلة للإصلاح"
 
 #: core/smartattribute.cpp:170
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Good Block Rate"
-msgstr ""
+msgstr "معدل الكتل الجيدة"
 
 #: core/smartattribute.cpp:170
 #, kde-format
@@ -1307,13 +1301,13 @@ msgctxt "SMART attr description"
 msgid ""
 "Count of available reserved blocks as percentage of the total number of "
 "reserved blocks"
-msgstr ""
+msgstr "عدد الكتل المحجوزة المتاحة كنسبة مئوية من إجمالي عدد الكتل المحجوزة"
 
 #: core/smartattribute.cpp:171
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Head Flying Hours<br/>or Transfer Error Rate (Fujitsu)"
-msgstr ""
+msgstr "ساعات طيران الرأس<br/>أو معدل خطأ النقل (فوجيتسو)"
 
 #: core/smartattribute.cpp:171
 #, kde-format
@@ -1322,66 +1316,68 @@ msgid ""
 "Time while head is positioning<br/>or counts the number of times the link is "
 "reset during a data transfer."
 msgstr ""
+"الوقت أثناء وضع الرأس<br/>أو يحسب عدد المرات التي يتم فيها إعادة تعيين "
+"الارتباط أثناء نقل البيانات."
 
 #: core/smartattribute.cpp:172
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Total LBAs Written"
-msgstr ""
+msgstr "إجمالي عناوين الكتل المنطقية المكتوبة"
 
 #: core/smartattribute.cpp:172
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total LBAs Written"
-msgstr ""
+msgstr "إجمالي عناوين الكتل المنطقية المكتوبة"
 
 #: core/smartattribute.cpp:173
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Total LBAs Read"
-msgstr ""
+msgstr "إجمالي عناوين الكتل المنطقية المقروءة"
 
 #: core/smartattribute.cpp:173
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Total LBAs Read"
-msgstr ""
+msgstr "إجمالي عناوين الكتل المنطقية المقروءة"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr name"
 msgid "SSD NAND_Writes_1GiB"
-msgstr ""
+msgstr "SSD NAND_Writes_1GiB"
 
 #: core/smartattribute.cpp:174
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of writes to NAND in 1 GB increments"
-msgstr ""
+msgstr "عدد عمليات الكتابة إلى NAND بزيادات قدرها 1 جيجابايت"
 
 #: core/smartattribute.cpp:175
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Read Error Retry Rate"
-msgstr ""
+msgstr "معدل إعادة المحاولة لقراءة الخطأ"
 
 #: core/smartattribute.cpp:175
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of errors while reading from a disk"
-msgstr ""
+msgstr "عدد الأخطاء أثناء القراءة من القرص"
 
 #: core/smartattribute.cpp:176
 #, kde-format
 msgctxt "SMART attr name"
 msgid "Free Fall Protection"
-msgstr ""
+msgstr "حماية من السقوط الحر"
 
 #: core/smartattribute.cpp:176
 #, kde-format
 msgctxt "SMART attr description"
 msgid "Number of &quot;Free Fall Events&quot; detected"
-msgstr ""
+msgstr "عدد &quot;أحداث السقوط الحر&quot; التي تم اكتشافها"
 
 #: core/smartstatus.cpp:78
 #, kde-kuit-format
@@ -1423,7 +1419,7 @@ msgstr "خطأ كهربائي"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Servo error"
-msgstr ""
+msgstr "خطأ سِرفو"
 
 #: core/smartstatus.cpp:104
 #, kde-kuit-format
@@ -1435,7 +1431,7 @@ msgstr "خطأ قراءة"
 #, kde-kuit-format
 msgctxt "@item"
 msgid "Handling error"
-msgstr ""
+msgstr "خطأ تعامل"
 
 #: core/smartstatus.cpp:110
 #, kde-kuit-format
@@ -1485,12 +1481,48 @@ msgctxt "@item"
 msgid "Disk failure is imminent. Backup all data!"
 msgstr "فشل القرص وشيك. انسخ كل بياناتك احتياطيًّا!"
 
+#: fs/bcachefs.cpp:120
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"Could not create temp dir."
+msgstr ""
+"فشل تغيير حجم نظام ملفات Bcachefs في القسم <filename>%1</filename>: تعذّر "
+"إنشاء الدليل المؤقت."
+
+#: fs/bcachefs.cpp:136 fs/bcachefs.cpp:158
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"bcachefs device resize command failed."
+msgstr ""
+"فشل تغيير حجم نظام ملفات Bcachefs في القسم <filename>%1</filename>: فشل "
+"تغيير حجم نظام ملفات Bcachefs."
+
+#: fs/bcachefs.cpp:141
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"<warning>Resizing Bcachefs file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
+msgstr ""
+"<warning> تغيير حجم نظام ملفات Bcachefs في القسم <filename>%1</filename>: "
+"فشلت إزالة الضم.</warning>"
+
+#: fs/bcachefs.cpp:144
+#, kde-kuit-format
+msgctxt "@info:progress"
+msgid ""
+"Resizing Bcachefs file system on partition <filename>%1</filename> failed: "
+"Initial mount failed."
+msgstr ""
+"فشل تغيير حجم نظام ملفات Bcachefs في القسم <filename>%1</filename>: فشل الضم "
+"الابتدائي."
+
 #: fs/btrfs.cpp:166
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
-#| "Could not create temp dir."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
@@ -1499,12 +1531,8 @@ msgstr ""
 "فشل تغيير حجم نظام ملفات Btrfs في القسم <filename>%1</filename>: تعذّر إنشاء "
 "الدليل المؤقت."
 
-#: fs/btrfs.cpp:182 fs/btrfs.cpp:202
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
-#| "btrfs file system resize failed."
+#: fs/btrfs.cpp:182 fs/btrfs.cpp:203
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
@@ -1514,25 +1542,17 @@ msgstr ""
 "حجم نظام ملفات btrfs."
 
 #: fs/btrfs.cpp:187
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing Btrfs file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing Btrfs file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"تحذير: تغيير حجم نظام ملفات Btrfs في القسم <filename>%1</filename>: فشلت "
-"إزالة الضم."
+"<warning>تغيير حجم نظام ملفات Btrfs في القسم <filename>%1</filename>: فشلت "
+"إزالة الضم.</warning>"
 
-#: fs/btrfs.cpp:189
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
-#| "Initial mount failed."
+#: fs/btrfs.cpp:190
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing Btrfs file system on partition <filename>%1</filename> failed: "
@@ -1542,243 +1562,235 @@ msgstr ""
 "الابتدائي."
 
 #: fs/fat12.cpp:141
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Setting label for partition <filename>%1</filename> to %2"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr "تعيين لصيقة القسم <filename>%1</filename> إلى \"%2"
 
-#: fs/filesystem.cpp:503
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain partition table name"
-#| msgid "unknown"
+#: fs/filesystem.cpp:505
+#, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "مجهول"
 
-#: fs/filesystem.cpp:504
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item partition role"
-#| msgid "extended"
+#: fs/filesystem.cpp:506
+#, kde-kuit-format
 msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "ممتد"
 
-#: fs/filesystem.cpp:506
-#, kde-kuit-format
-msgctxt "@item filesystem name"
-msgid "ext2"
-msgstr ""
-
-#: fs/filesystem.cpp:507
-#, kde-kuit-format
-msgctxt "@item filesystem name"
-msgid "ext3"
-msgstr ""
-
 #: fs/filesystem.cpp:508
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ext4"
-msgstr ""
+msgid "ext2"
+msgstr "ext2"
 
 #: fs/filesystem.cpp:509
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain filesystem name"
-#| msgid "linuxswap"
+#, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "linuxswap"
-msgstr "تبديل لينكس"
+msgid "ext3"
+msgstr "ext3"
 
 #: fs/filesystem.cpp:510
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat16"
-msgstr ""
+msgid "ext4"
+msgstr "ext4"
 
 #: fs/filesystem.cpp:511
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat32"
-msgstr ""
+msgid "linuxswap"
+msgstr "تبديل لينكس"
 
 #: fs/filesystem.cpp:512
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ntfs"
-msgstr ""
+msgid "fat16"
+msgstr "فات16"
 
 #: fs/filesystem.cpp:513
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "reiser"
-msgstr ""
+msgid "fat32"
+msgstr "فات32"
 
 #: fs/filesystem.cpp:514
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "reiser4"
-msgstr ""
+msgid "ntfs"
+msgstr "إن تي إف إس"
 
 #: fs/filesystem.cpp:515
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "xfs"
-msgstr ""
+msgid "reiser"
+msgstr "reiser"
 
 #: fs/filesystem.cpp:516
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "jfs"
-msgstr ""
+msgid "reiser4"
+msgstr "reiser4"
 
 #: fs/filesystem.cpp:517
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "hfs"
-msgstr ""
+msgid "xfs"
+msgstr "إكس إف إس"
 
 #: fs/filesystem.cpp:518
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "hfsplus"
-msgstr ""
+msgid "jfs"
+msgstr "جي أف أس"
 
 #: fs/filesystem.cpp:519
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ufs"
-msgstr ""
+msgid "hfs"
+msgstr "hfs"
 
 #: fs/filesystem.cpp:520
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item/plain filesystem name"
-#| msgid "unformatted"
+#, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "unformatted"
-msgstr "غير مهيء"
+msgid "hfsplus"
+msgstr "hfsplus"
 
 #: fs/filesystem.cpp:521
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "btrfs"
-msgstr ""
+msgid "ufs"
+msgstr "ufs"
 
 #: fs/filesystem.cpp:522
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "hpfs"
-msgstr ""
+msgid "unformatted"
+msgstr "غير مهيأ"
 
 #: fs/filesystem.cpp:523
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "luks"
-msgstr ""
+msgid "btrfs"
+msgstr "btrfs"
 
 #: fs/filesystem.cpp:524
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "ocfs2"
-msgstr ""
+msgid "hpfs"
+msgstr "hpfs"
 
 #: fs/filesystem.cpp:525
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "zfs"
-msgstr ""
+msgid "luks"
+msgstr "luks"
 
 #: fs/filesystem.cpp:526
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "exfat"
-msgstr ""
+msgid "ocfs2"
+msgstr "ocfs2"
 
 #: fs/filesystem.cpp:527
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "nilfs2"
-msgstr ""
+msgid "zfs"
+msgstr "zfs"
 
 #: fs/filesystem.cpp:528
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "lvm2 pv"
-msgstr ""
+msgid "exfat"
+msgstr "إكس فات"
 
 #: fs/filesystem.cpp:529
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "f2fs"
-msgstr ""
+msgid "nilfs2"
+msgstr "nilfs2"
 
 #: fs/filesystem.cpp:530
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "udf"
-msgstr ""
+msgid "lvm2 pv"
+msgstr "lvm2 pv"
 
 #: fs/filesystem.cpp:531
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "iso9660"
-msgstr ""
+msgid "f2fs"
+msgstr "f2fs"
 
 #: fs/filesystem.cpp:532
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "luks2"
-msgstr ""
+msgid "udf"
+msgstr "udf"
 
 #: fs/filesystem.cpp:533
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "fat12"
-msgstr ""
+msgid "iso9660"
+msgstr "iso9660"
 
 #: fs/filesystem.cpp:534
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "linux_raid_member"
-msgstr ""
+msgid "luks2"
+msgstr "luks2"
 
 #: fs/filesystem.cpp:535
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "BitLocker"
-msgstr ""
+msgid "fat12"
+msgstr "فات12"
 
 #: fs/filesystem.cpp:536
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "apfs"
-msgstr ""
+msgid "linux_raid_member"
+msgstr "linux_raid_member"
 
 #: fs/filesystem.cpp:537
 #, kde-kuit-format
 msgctxt "@item filesystem name"
-msgid "minix"
-msgstr ""
+msgid "BitLocker"
+msgstr "بت لوكر"
 
-#: fs/filesystem.cpp:580 fs/luks.cpp:156
+#: fs/filesystem.cpp:538
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "apfs"
+msgstr "apfs"
+
+#: fs/filesystem.cpp:539
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "minix"
+msgstr "مينيكس"
+
+#: fs/filesystem.cpp:540
+#, kde-kuit-format
+msgctxt "@item filesystem name"
+msgid "bcachefs"
+msgstr "bcachefs"
+
+#: fs/filesystem.cpp:583 fs/luks.cpp:161
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "ضم"
 
-#: fs/filesystem.cpp:586 fs/luks.cpp:161
+#: fs/filesystem.cpp:589 fs/luks.cpp:166
 #, kde-kuit-format
 msgctxt "@title:menu"
 msgid "Unmount"
 msgstr "أزل الضم"
 
 #: fs/jfs.cpp:155
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
-#| "Could not create temp dir."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: Could "
@@ -1788,11 +1800,7 @@ msgstr ""
 "الدليل المؤقت."
 
 #: fs/jfs.cpp:169 fs/jfs.cpp:188
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
-#| "Remount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
@@ -1802,25 +1810,17 @@ msgstr ""
 "الضم."
 
 #: fs/jfs.cpp:174
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing JFS file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing JFS file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"تحذير: تغيير حجم نظام ملفات JFS في القسم <filename>%1</filename>: فشل إزالة "
-"الضم."
+"<warning>تغيير حجم نظام ملفات JFS في القسم <filename>%1</filename>: فشل "
+"إزالة الضم.</warning>"
 
 #: fs/jfs.cpp:176
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing JFS file system on partition <filename>%1</filename> failed: "
-#| "Initial mount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing JFS file system on partition <filename>%1</filename> failed: "
@@ -1841,47 +1841,39 @@ msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr "عطّل التبديل"
 
-#: fs/luks.cpp:166
-#, kde-kuit-format
-msgctxt "@title:menu"
-msgid "Unlock"
-msgstr ""
-
 #: fs/luks.cpp:171
 #, kde-kuit-format
 msgctxt "@title:menu"
-msgid "Lock"
-msgstr ""
+msgid "Unlock"
+msgstr "فك القفل"
 
-#: fs/luks.cpp:252
+#: fs/luks.cpp:176
+#, kde-kuit-format
+msgctxt "@title:menu"
+msgid "Lock"
+msgstr "اقفل"
+
+#: fs/luks.cpp:257
 #, kde-format
 msgid "Enter passphrase for %1:"
-msgstr ""
+msgstr "أدخل عبارة مرور لـ %1:"
 
-#: fs/luks.cpp:495 fs/luks.cpp:505 fs/luks2.cpp:88 fs/luks2.cpp:105
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resizing/moving partition <filename>%1</filename> failed."
+#: fs/luks.cpp:500 fs/luks.cpp:510 fs/luks2.cpp:89 fs/luks2.cpp:106
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
-msgstr "فشل تغيير حجم/نقل القسم <filename>%1</filename>."
+msgstr "تغيير حجم ملف LUKS على القسم <filename>%1</filename>."
 
-#: fs/luks.cpp:509 fs/luks2.cpp:116
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Rollback for file system on partition <filename>%1</filename> failed."
+#: fs/luks.cpp:514 fs/luks2.cpp:117
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing encrypted file system on partition <filename>%1</filename> failed."
-msgstr "فشل التراجع عن نظام الملفات في القسم <filename>%1</filename>."
+msgstr ""
+"فشلت عملية تغيير حجم نظام الملفات المشفر على القسم <filename>%1</filename>."
 
 #: fs/nilfs2.cpp:137
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
-#| "Could not create temp dir."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
@@ -1891,11 +1883,7 @@ msgstr ""
 "الدليل المؤقت."
 
 #: fs/nilfs2.cpp:151 fs/nilfs2.cpp:170
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
-#| "NILFS2 file system resize failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
@@ -1905,25 +1893,17 @@ msgstr ""
 "حجم نظام ملفات NILFS2."
 
 #: fs/nilfs2.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing NILFS2 file system on partition <filename>%1</"
-#| "filename>: Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing NILFS2 file system on partition <filename>%1</filename>: "
 "Unmount failed.</warning>"
 msgstr ""
-"تحذير: تغيير حجم نظام ملفات NILFS2 في القسم <filename>%1</filename>: فشل "
-"إزالة الضم."
+"<warning>تغيير حجم نظام ملفات NILFS2 في القسم <filename>%1</filename>: فشل "
+"إزالة الضم.</warning>"
 
 #: fs/nilfs2.cpp:158
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
-#| "Initial mount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing NILFS2 file system on partition <filename>%1</filename> failed: "
@@ -1933,21 +1913,16 @@ msgstr ""
 "الابتدائي."
 
 #: fs/ntfs.cpp:182
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not resize file system on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updating boot sector for NTFS file system on partition <filename>%1</"
 "filename>."
-msgstr "تعذّر تغيير حجم نظام الملفات في القسم <filename>%1</filename>."
+msgstr ""
+"تحديث قطاع التمهيد لنظام الملفات NTFS على القسم <filename>%1</filename>."
 
 #: fs/ntfs.cpp:194 fs/ntfs.cpp:202
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not write new start sector to partition <filename>%1</filename> "
-#| "when trying to update the NTFS boot sector."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not write new start sector to partition <filename>%1</filename> when "
@@ -1957,22 +1932,14 @@ msgstr ""
 "تحديث قطاع إقلاع NTFS."
 
 #: fs/ntfs.cpp:206
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Updated NTFS boot sector for partition <filename>%1</filename> "
-#| "successfully."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Updated NTFS boot sector for partition <filename>%1</filename> successfully."
 msgstr "حُدّث قطاع إقلاع NTFS للقسم <filename>%1</filename> بنجاح."
 
 #: fs/xfs.cpp:159
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing XFS file system on partition <filename>%1</filename> failed: "
-#| "Could not create temp dir."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: Could "
@@ -1982,11 +1949,7 @@ msgstr ""
 "الدليل المؤقت."
 
 #: fs/xfs.cpp:173 fs/xfs.cpp:192
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing XFS file system on partition <filename>%1</filename> failed: "
-#| "xfs_growfs failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
@@ -1996,25 +1959,17 @@ msgstr ""
 "xfs_growfs."
 
 #: fs/xfs.cpp:178
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Resizing XFS file system on partition <filename>%1</filename>: "
-#| "Unmount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "<warning>Resizing XFS file system on partition <filename>%1</filename> "
 "failed: Unmount failed.</warning>"
 msgstr ""
-"تحذير: تغيير حجم نظام ملفات XFS في القسم <filename>%1</filename>: فشل إزالة "
-"الضم."
+"<warning>تغيير حجم نظام ملفات XFS في القسم <filename>%1</filename>: فشل "
+"إزالة الضم.</warning>"
 
 #: fs/xfs.cpp:180
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resizing XFS file system on partition <filename>%1</filename> failed: "
-#| "Initial mount failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
@@ -2024,11 +1979,7 @@ msgstr ""
 "الابتدائي."
 
 #: jobs/backupfilesystemjob.cpp:54
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open file system on source partition <filename>%1</filename> "
-#| "for backup."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
@@ -2038,19 +1989,13 @@ msgstr ""
 "الاحتياطي."
 
 #: jobs/backupfilesystemjob.cpp:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not create backup file <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not create backup file <filename>%1</filename>."
 msgstr "تعذّر إنشاء ملف النسخ الاحتياطي <filename>%1</filename>."
 
 #: jobs/backupfilesystemjob.cpp:68
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Back up file system on partition <filename>%1</filename> to <filename>%2</"
-#| "filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Back up file system on partition <filename>%1</filename> to <filename>%2</"
@@ -2059,29 +2004,20 @@ msgstr ""
 "انسخ احتياطيًّا نظام الملفات على القسم <filename>%1</filename> إلى <filename>"
 "%2</filename>"
 
-#: jobs/changepermissionsjob.cpp:43
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#: jobs/changepermissionsjob.cpp:49
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Change the permissions of: <filename>%1</filename> to %2"
-msgstr "عيّن لصيقة القسم <filename>%1</filename> إلى \"%2\""
+msgstr "تغيير أذونات: <filename>%1</filename> إلى %2"
 
 #: jobs/checkfilesystemjob.cpp:43
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Check file system on partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Check file system on partition <filename>%1</filename>"
 msgstr "تحقّق من نظام الملفات على القسم <filename>%1</filename>"
 
 #: jobs/copyfilesystemjob.cpp:48
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Cannot copy file system: File system on target partition <filename>%1</"
-#| "filename> is smaller than the file system on source partition <filename>"
-#| "%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Cannot copy file system: File system on target partition <filename>%1</"
@@ -2092,11 +2028,7 @@ msgstr ""
 "أصغر من نظام الملفات على قسم المصدر <filename>%2</filename>."
 
 #: jobs/copyfilesystemjob.cpp:56
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open file system on source partition <filename>%1</filename> "
-#| "for copying."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open file system on source partition <filename>%1</filename> for "
@@ -2104,11 +2036,7 @@ msgid ""
 msgstr "تعذّر فتح نظام الملفات على القسم المصدر <filename>%1</filename> للنسخ."
 
 #: jobs/copyfilesystemjob.cpp:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open file system on target partition <filename>%1</filename> "
-#| "for copying."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open file system on target partition <filename>%1</filename> for "
@@ -2116,11 +2044,7 @@ msgid ""
 msgstr "تعذّر فتح نظام الملفات على القسم الهدف <filename>%1</filename> للنسخ."
 
 #: jobs/copyfilesystemjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Closing device. This may take a while, especially on slow devices like "
-#| "Memory Sticks."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Closing device. This may take a while, especially on slow devices like "
@@ -2129,11 +2053,7 @@ msgstr ""
 "يغلق الجهاز. قد يأخذ هذا وقتًا، خصوصًا في الأجهزة البطيئة كأصابع الذاكرة."
 
 #: jobs/copyfilesystemjob.cpp:88
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copy file system on partition <filename>%1</filename> to partition "
-#| "<filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Copy file system on partition <filename>%1</filename> to partition <filename>"
@@ -2143,11 +2063,7 @@ msgstr ""
 "filename>"
 
 #: jobs/createfilesystemjob.cpp:66
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Failed to set the system type for the file system on partition <filename>"
-#| "%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to set the system type for the file system on partition <filename>%1</"
@@ -2156,11 +2072,7 @@ msgstr ""
 "فشل تعيين نوع نظام الملفات لنظام الملفات على القسم <filename>%1</filename>."
 
 #: jobs/createfilesystemjob.cpp:68
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
@@ -2170,11 +2082,7 @@ msgstr ""
 "للقسم <filename>%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the system type for "
@@ -2184,25 +2092,16 @@ msgstr ""
 "%2</filename>."
 
 #: jobs/createfilesystemjob.cpp:84
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Restore the file system from file <filename>%1</filename> to partition "
-#| "<filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Create file system <filename>%1</filename> on partition <filename>%2</"
 "filename>"
 msgstr ""
-"استعد نظام الملفات من <filename>%1</filename> إلى القسم <filename>%2</"
-"filename>"
+"إنشاء نظام الملفات <filename>%1</filename> على القسم <filename>%2</filename>"
 
 #: jobs/createpartitionjob.cpp:72
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Failed to add partition <filename>%1</filename> to device <filename>%2</"
-#| "filename>."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
@@ -2211,11 +2110,7 @@ msgstr ""
 "فشل إضافة القسم <filename>%1</filename> إلى الجهاز <filename>%2</filename>."
 
 #: jobs/createpartitionjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to "
-#| "create new partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to create "
@@ -2225,11 +2120,7 @@ msgstr ""
 "<filename>%2</filename>."
 
 #: jobs/createpartitionjob.cpp:76
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to create new partition "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to create new partition "
@@ -2239,27 +2130,19 @@ msgstr ""
 "filename>."
 
 #: jobs/createpartitionjob.cpp:94
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create new partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
 msgstr "أنشئ القسم الجديد <filename>%1</filename>"
 
 #: jobs/createpartitionjob.cpp:96
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create new partition on device <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition on device <filename>%1</filename>"
 msgstr "أنشئ قسم جديد على الجهاز <filename>%1</filename>"
 
 #: jobs/createpartitiontablejob.cpp:49
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Creating partition table failed: Could not open device <filename>%1</"
-#| "filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Creating partition table failed: Could not open device <filename>%1</"
@@ -2267,61 +2150,46 @@ msgid ""
 msgstr "فشل إنشاء جدول تقسيم: تعذّر فتح الجهاز <filename>%1</filename>."
 
 #: jobs/createpartitiontablejob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create new partition table on device <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Create new partition table on device <filename>%1</filename>"
 msgstr "أنشئ جدول تقسيم جديد على الجهاز <filename>%1</filename>"
 
 #: jobs/createvolumegroupjob.cpp:49
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create new partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new Volume Group: <filename>%1</filename> with PV: %2"
-msgstr "أنشئ القسم الجديد <filename>%1</filename>"
+msgstr "إنشاء مجموعة مجلدات جديدة: <filename>%1</filename> مع PV: %2"
 
 #: jobs/deactivatelogicalvolumejob.cpp:50
-#, fuzzy, kde-kuit-format
-#| msgctxt "@title:window"
-#| msgid "Device Properties: <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Logical Volumes: <filename>%1</filename>"
-msgstr "خصائص الجهاز: <filename>%1</filename>"
+msgstr "إلغاء تنشيط وحدات التخزين المنطقية: <filename>%1</filename>"
 
 #: jobs/deactivatevolumegroupjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@title:window"
-#| msgid "Device Properties: <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate Volume Group: <filename>%1</filename>"
-msgstr "خصائص الجهاز: <filename>%1</filename>"
+msgstr "ألغ تنشيط مجموعة وحدات التخزين: <filename>%1</filename>"
 
 #: jobs/deletefilesystemjob.cpp:51
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not delete file system on <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not delete file system: file system on <filename>%1</filename> is "
 "mounted."
-msgstr "تعذّر حذف نظام الملفات على <filename>%1</filename>."
+msgstr ""
+"تعذر حذف نظام الملفات: تم تحميل نظام الملفات على <filename>%1</filename>."
 
 #: jobs/deletefilesystemjob.cpp:76
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not delete file system on <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete file system on <filename>%1</filename>."
 msgstr "تعذّر حذف نظام الملفات على <filename>%1</filename>."
 
 #: jobs/deletefilesystemjob.cpp:80
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to "
-#| "delete file system on <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
@@ -2331,11 +2199,7 @@ msgstr ""
 "في <filename>%2</filename>."
 
 #: jobs/deletefilesystemjob.cpp:83
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not delete file system signature for partition <filename>%1</"
-#| "filename>: Failed to open device <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not delete file system signature for partition <filename>%1</"
@@ -2345,27 +2209,19 @@ msgstr ""
 "الجهاز <filename>%2</filename>."
 
 #: jobs/deletefilesystemjob.cpp:93
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Delete file system on <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete file system on <filename>%1</filename>"
 msgstr "احذف نظام الملفات على <filename>%1</filename>"
 
 #: jobs/deletepartitionjob.cpp:61 plugins/sfdisk/sfdiskpartitiontable.cpp:100
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not delete partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not delete partition <filename>%1</filename>."
 msgstr "تعذّر حذف القسم <filename>%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:65
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to "
-#| "delete partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to delete "
@@ -2375,76 +2231,56 @@ msgstr ""
 "<filename>%2</filename>."
 
 #: jobs/deletepartitionjob.cpp:67
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Deleting partition failed: Could not open device <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Deleting partition failed: Could not open device <filename>%1</filename>."
 msgstr "فشل حذف القسم: تعذّر فتح الجهاز <filename>%1</filename>."
 
 #: jobs/deletepartitionjob.cpp:80
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Delete the partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Delete the partition <filename>%1</filename>"
 msgstr "احذف القسم <filename>%1</filename>"
 
 #: jobs/job.cpp:45
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Source and target for copying do not overlap: Rollback is not required."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Source and target for copying do not overlap: Rollback is not required."
 msgstr "مصدر وهدف النسخ لا يتداخلان: التراجع ليس مطلوبًا."
 
 #: jobs/job.cpp:69
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Rollback from: First sector: %1, last sector: %2."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback from: First byte: %1, last byte: %2."
-msgstr "التراجع من: أول قطاع: %1، آخر قطاع: %2."
+msgstr "التراجع من: البايت الأول: %1، البايت الأخير: %2."
 
 #: jobs/job.cpp:70
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Rollback to: First sector: %1, last sector: %2."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback to: First byte: %1, last byte: %2."
-msgstr "التراجع إلى: أول قطاع: %1، آخر قطاع: %2."
+msgstr "التراجع إلى: البايت الأول: %1، البايت الأخير: %2."
 
 #: jobs/job.cpp:74 jobs/job.cpp:80
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open device <filename>%1</filename> to rollback copying."
 msgstr "تعذّر فتح الجهاز <filename>%1</filename> للتراجع عن النسخ."
 
 #: jobs/job.cpp:86
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Rollback failed: Source or target are not devices."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback failed: Source or target are not devices."
 msgstr "فشل التراجع: المصدر أو الهدف ليسا أجهزة."
 
 #: jobs/job.cpp:106
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Job: %1"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Job: %1"
-msgstr "المهمة: %1"
+msgstr "الوظيفة: %1"
 
 #: jobs/job.cpp:115
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain job status (error, warning, ...)"
-#| msgid "%1: %2"
+#, kde-kuit-format
 msgctxt "@info:progress job status (error, warning, ...)"
 msgid "%1: %2"
 msgstr "%1: %2"
@@ -2468,22 +2304,14 @@ msgid "Error"
 msgstr "خطأ"
 
 #: jobs/movefilesystemjob.cpp:52
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open file system on partition <filename>%1</filename> for "
-#| "moving."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open file system on partition <filename>%1</filename> for moving."
 msgstr "تعذّر فتح نظام الملفات على القسم <filename>%1</filename> للنقل."
 
 #: jobs/movefilesystemjob.cpp:54
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not create target for moving file system on partition <filename>%1</"
-#| "filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not create target for moving file system on partition <filename>%1</"
@@ -2491,28 +2319,20 @@ msgid ""
 msgstr "تعذّر إنشاء الهدف لنقل نظام الملفات على القسم <filename>%1</filename>."
 
 #: jobs/movefilesystemjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Rollback for file system on partition <filename>%1</filename> failed."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Rollback for file system on partition <filename>%1</filename> failed."
 msgstr "فشل التراجع عن نظام الملفات في القسم <filename>%1</filename>."
 
 #: jobs/movefilesystemjob.cpp:65 jobs/restorefilesystemjob.cpp:89
 #: jobs/shredfilesystemjob.cpp:66
-#, fuzzy, kde-format, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Closing device. This may take a few seconds."
+#, kde-format, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Closing device. This may take a few seconds."
 msgstr "يغلق الجهاز. قد يأخذ هذا بضع ثوان."
 
 #: jobs/movefilesystemjob.cpp:79
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Move the file system on partition <filename>%1</filename> to sector %2"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Move the file system on partition <filename>%1</filename> to sector %2"
 msgstr "انقل نظام الملفات على القسم <filename>%1</filename> إلى القطاع %2"
@@ -2521,25 +2341,16 @@ msgstr "انقل نظام الملفات على القسم <filename>%1</filenam
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Move used PE in %1 on %2 to other available Physical Volumes"
-msgstr ""
+msgstr "نقل PE المستخدمة في %1 على %2 إلى وحدات تخزين مادية أخرى متاحة"
 
 #: jobs/removevolumegroupjob.cpp:41
-#, fuzzy, kde-kuit-format
-#| msgctxt "@label partition state"
-#| msgid "mounted on <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove Volume Group: <filename>%1</filename>"
-msgstr "مضموم في <filename>%1</filename>"
+msgstr "أزل مجموعة وحدات التخزين: <filename>%1</filename>"
 
 #: jobs/resizefilesystemjob.cpp:66
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "The file system on partition <filename>%2</filename> already has the "
-#| "requested length of 1 sector."
-#| msgid_plural ""
-#| "The file system on partition <filename>%2</filename> already has the "
-#| "requested length of %1 sectors."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "The file system on partition <filename>%2</filename> already has the "
@@ -2567,27 +2378,19 @@ msgstr[5] ""
 "قطاع)."
 
 #: jobs/resizefilesystemjob.cpp:69
-#, fuzzy, kde-format
-#| msgctxt "@info/plain"
-#| msgid "Restoring file system failed."
+#, kde-format
 msgctxt "@info:progress"
 msgid "Resizing file system from %1 to %2 sectors."
-msgstr "فشل استعادة نظام الملفات."
+msgstr "تغيير حجم نظام الملفات من %1 إلى %2 قطاع."
 
 #: jobs/resizefilesystemjob.cpp:76
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resizing a %1 file system using internal backend functions."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resizing a %1 file system using internal backend functions."
 msgstr "يغيّر حجم نظام ملفات %1 باستخدام دوال التتبّع الخلفي الداخلية."
 
 #: jobs/resizefilesystemjob.cpp:91
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "The file system on partition <filename>%1</filename> cannot be resized "
-#| "because there is no support for it."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "The file system on partition <filename>%1</filename> cannot be resized "
@@ -2596,19 +2399,13 @@ msgstr ""
 "تعذّر تغيير حجم نظام الملفات في القسم <filename>%1</filename> لأن لا دعم لذلك."
 
 #: jobs/resizefilesystemjob.cpp:119
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Successfully resized file system using internal backend functions."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Successfully resized file system using internal backend functions."
 msgstr "غُيّر حجم نظام الملفات باستخدام دوال التتبّع الخلفي الداخلية بنجاح."
 
 #: jobs/resizefilesystemjob.cpp:123
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition <filename>%1</filename> while trying to resize "
-#| "the file system."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition <filename>%1</filename> while trying to resize the "
@@ -2617,42 +2414,30 @@ msgstr ""
 "تعذّر فتح القسم <filename>%1</filename> أثناء محاولة تغيير حجم نظام الملفات"
 
 #: jobs/resizefilesystemjob.cpp:126
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not read geometry for partition <filename>%1</filename> while "
-#| "trying to resize the file system."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not read geometry for partition <filename>%1</filename> while trying "
 "to resize the file system."
 msgstr ""
-"تعذّرت قراءة هندسة القسم <filename>%1</filename> أثناء محاولة تغيير حجم نظام "
+"تعذّرت قراءة أبعاد القسم <filename>%1</filename> أثناء محاولة تغيير حجم نظام "
 "الملفات"
 
 #: jobs/resizefilesystemjob.cpp:134
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resize file system on partition <filename>%2</filename> to 1 sector"
-#| msgid_plural ""
-#| "Resize file system on partition <filename>%2</filename> to %1 sectors"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Maximize file system on <filename>%1</filename> to fill the partition"
-msgstr "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى لا قطاعات"
+msgstr "تكبير نظام الملفات على <filename>%1</filename> لملء القسم"
 
 #: jobs/resizefilesystemjob.cpp:136
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resize file system on partition <filename>%2</filename> to 1 sector"
-#| msgid_plural ""
-#| "Resize file system on partition <filename>%2</filename> to %1 sectors"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Resize file system on partition <filename>%2</filename> to 1 sector"
 msgid_plural ""
 "Resize file system on partition <filename>%2</filename> to %1 sectors"
 msgstr[0] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى لا قطاعات"
 msgstr[1] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى قطاع واحد"
-msgstr[2] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى قطاعان"
+msgstr[2] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى قطاعين"
 msgstr[3] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى %1 قطاعات"
 msgstr[4] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى %1 قطاعًا"
 msgstr[5] "غيّر حجم نظام الملفات في القسم <filename>%2</filename> إلى %1 قطاع"
@@ -2662,56 +2447,45 @@ msgstr[5] "غيّر حجم نظام الملفات في القسم <filename>%2<
 msgctxt "@info/plain"
 msgid "Adding LVM Physical Volume %2 to %3."
 msgid_plural "Adding LVM Physical Volumes %2 to %3."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إضافة وحدة تخزين LVM المادية %2 إلى %3."
+msgstr[1] "إضافة وحدة تخزين LVM المادية %2 إلى %3."
+msgstr[2] "إضافة وحدتي تخزين LVM المادية %2 إلى %3."
+msgstr[3] "إضافة وحدات تخزين LVM المادية %2 إلى %3."
+msgstr[4] "إضافة وحدات تخزين LVM المادية %2 إلى %3."
+msgstr[5] "إضافة وحدات تخزين LVM المادية %2 إلى %3."
 
 #: jobs/resizevolumegroupjob.cpp:62
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Removing LVM Physical Volume %2 from %3."
 msgid_plural "Removing LVM Physical Volumes %2 from %3."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "إزالة وحدة تخزين LVM الفعلية %2 من %3."
+msgstr[1] "إزالة وحدة تخزين LVM الفعلية %2 من %3."
+msgstr[2] "إزالة وحدتي تخزين LVM المادية %2 من %3."
+msgstr[3] "إزالة وحدات تخزين LVM المادية %2 من %3."
+msgstr[4] "إزالة وحدات تخزين LVM المادية %2 من %3."
+msgstr[5] "إزالة وحدات تخزين LVM المادية %2 من %3."
 
 #: jobs/resizevolumegroupjob.cpp:64
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Restoring file system failed."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resizing Volume Group %1 to %2."
-msgstr "فشل استعادة نظام الملفات."
+msgstr "تغيير حجم مجموعة المجلدات %1 إلى %2."
 
 #: jobs/restorefilesystemjob.cpp:62
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not open backup file <filename>%1</filename> to restore from."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open backup file <filename>%1</filename> to restore from."
 msgstr "تعذّر فتح ملف النسخ الاحتياطي <filename>%1</filename> للاستعادة منه."
 
 #: jobs/restorefilesystemjob.cpp:64 jobs/shredfilesystemjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open target partition <filename>%1</filename> to restore to."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open target partition <filename>%1</filename> to restore to."
 msgstr "تعذّر فتح القسم الهدف <filename>%1</filename> للاستعادة إليه."
 
 #: jobs/restorefilesystemjob.cpp:100
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Restore the file system from file <filename>%1</filename> to partition "
-#| "<filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Restore the file system from file <filename>%1</filename> to partition "
@@ -2721,46 +2495,36 @@ msgstr ""
 "filename>"
 
 #: jobs/setfilesystemlabeljob.cpp:48
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "The file system on partition <filename>%1</filename> could not be mounted."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "File system on partition <filename>%1</filename> does not support setting "
 "labels. Job ignored."
-msgstr "تعذّر ضم نظام الملفات على القسم <filename>%1</filename>."
+msgstr ""
+"لا يدعم نظام الملفات الموجود على القسم <filename>%1</filename> تعيين "
+"العلامات. تُجاهلت المهمة."
 
 #: jobs/setfilesystemlabeljob.cpp:81
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Set the file system label on partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Set the file system label on partition <filename>%1</filename> to \"%2\""
 msgstr "عيّن لصيقة نظام الملفات في القسم <filename>%1</filename> إلى \"%2\""
 
 #: jobs/setpartflagsjob.cpp:65
-#, fuzzy, kde-kuit-format
-#| msgctxt "@item partition role"
-#| msgid "none"
+#, kde-kuit-format
 msgctxt "@info:progress flag turned on, active"
 msgid "on"
-msgstr "لاشيء"
+msgstr "يعمل"
 
 #: jobs/setpartflagsjob.cpp:65
 #, kde-kuit-format
 msgctxt "@info:progress flag turned off, inactive"
 msgid "off"
-msgstr ""
+msgstr "متوقف"
 
 #: jobs/setpartflagsjob.cpp:65
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "There was an error setting flag %1 for partition <filename>%2</filename> "
-#| "to state %3."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "There was an error setting flag %1 for partition <filename>%2</filename> to "
@@ -2769,11 +2533,7 @@ msgstr ""
 "حدث خطأ أثناء تعيين العلم %1 للقسم <filename>%2</filename> إلى الحالة %3."
 
 #: jobs/setpartflagsjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "partition flags for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set "
@@ -2783,11 +2543,7 @@ msgstr ""
 "للقسم <filename>%2</filename>."
 
 #: jobs/setpartflagsjob.cpp:76
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set partition flags for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set partition flags for "
@@ -2797,27 +2553,19 @@ msgstr ""
 "%2</filename>."
 
 #: jobs/setpartflagsjob.cpp:89
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Clear flags for partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Clear flags for partition <filename>%1</filename>"
 msgstr "امحُ الأعلام للقسم <filename>%1</filename>"
 
 #: jobs/setpartflagsjob.cpp:91
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the flags for partition <filename>%1</filename> to \"%2\""
 msgstr "عيّن أعلام القسم <filename>%1</filename> إلى \"%2\""
 
 #: jobs/setpartgeometryjob.cpp:65
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> while trying to resize/move "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> while trying to resize/move "
@@ -2827,11 +2575,7 @@ msgstr ""
 "<filename>%2</filename>."
 
 #: jobs/setpartgeometryjob.cpp:81
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Set geometry of partition <filename>%1</filename>: Start sector: %2, "
-#| "length: %3"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Set geometry of partition <filename>%1</filename>: Start sector: %2, length: "
@@ -2839,192 +2583,145 @@ msgid ""
 msgstr "عيّن هندسة القسم <filename>%1</filename>: أول قطاع: %2، الطول: %3"
 
 #: jobs/setpartitionattributesjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "The file system on partition <filename>%1</filename> could not be mounted."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting attributes. Job ignored."
-msgstr "تعذّر ضم نظام الملفات على القسم <filename>%1</filename>."
+msgstr ""
+"لا يدعم جدول التقسيم الخاص بالقسم <filename>%1</filename> سمات الإعداد. "
+"تُجاهلت المهمة."
 
 #: jobs/setpartitionattributesjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the attributes for the partition <filename>%1</filename>."
-msgstr "فشل إنشاء القسم الجديد <filename>%1</filename>."
+msgstr "فشل في تعيين السمات للقسم <filename>%1</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "attributes for the partition <filename>%2</filename>."
 msgstr ""
-"تعذّر فتح جدول التقسيم على الجهاز <filename>%1</filename> لتعيين نوع النظام "
-"للقسم <filename>%2</filename>."
+"تعذر فتح جدول الأقسام على الجهاز <filename>%1</filename> لتعيين السمات للقسم "
+"<filename>%2</filename>."
 
 #: jobs/setpartitionattributesjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the attributes for "
 "partition <filename>%2</filename>."
 msgstr ""
-"تعذّر فتح الجهاز <filename>%1</filename> لتعيين نوع النظام للقسم <filename>"
-"%2</filename>."
+"تعذر فتح الجهاز <filename>%1</filename> لتعيين السمات للقسم <filename>%2</"
+"filename>."
 
 #: jobs/setpartitionattributesjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the attributes on partition <filename>%1</filename> to \"%2\""
-msgstr "عيّن لصيقة القسم <filename>%1</filename> إلى \"%2\""
+msgstr "تعيين السمات على القسم <filename>%1</filename> إلى \"%2\""
 
 #: jobs/setpartitionlabeljob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "The file system on partition <filename>%1</filename> could not be mounted."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting names. Job ignored."
-msgstr "تعذّر ضم نظام الملفات على القسم <filename>%1</filename>."
+msgstr ""
+"لا يدعم جدول التقسيم الخاص بالقسم <filename>%1</filename> أسماء الإعدادات. "
+"تُجاهلت المهمة."
 
 #: jobs/setpartitionlabeljob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the name for the partition <filename>%1</filename>."
-msgstr "فشل إنشاء القسم الجديد <filename>%1</filename>."
+msgstr "فشل في تعيين اسم للقسم <filename>%1</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "name for the partition <filename>%2</filename>."
 msgstr ""
-"تعذّر فتح جدول التقسيم على الجهاز <filename>%1</filename> لتعيين نوع النظام "
-"للقسم <filename>%2</filename>."
+"تعذّر فتح جدول التقسيم على الجهاز <filename>%1</filename> لتعيين اسم للقسم "
+"<filename>%2</filename>."
 
 #: jobs/setpartitionlabeljob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the name for partition "
 "<filename>%2</filename>."
 msgstr ""
-"تعذّر فتح الجهاز <filename>%1</filename> لتعيين نوع النظام للقسم <filename>"
-"%2</filename>."
+"تعذّر فتح الجهاز <filename>%1</filename> لتعيين اسم للقسم <filename>%2</"
+"filename>."
 
 #: jobs/setpartitionlabeljob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
 msgstr "عيّن لصيقة القسم <filename>%1</filename> إلى \"%2\""
 
 #: jobs/setpartitionuuidjob.cpp:47
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info"
-#| msgid ""
-#| "The file system on partition <filename>%1</filename> could not be mounted."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Partition table of partition <filename>%1</filename> does not support "
 "setting UUIDs. Job ignored."
-msgstr "تعذّر ضم نظام الملفات على القسم <filename>%1</filename>."
+msgstr ""
+"لا يدعم جدول التقسيم الخاص بالقسم <filename>%1</filename> إعداد معرفات UUID. "
+"تُجاهلت المهمة."
 
 #: jobs/setpartitionuuidjob.cpp:59
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Failed to create new partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Failed to set the UUID for the partition <filename>%1</filename>."
-msgstr "فشل إنشاء القسم الجديد <filename>%1</filename>."
+msgstr "فشل تعيين UUID للقسم <filename>%1</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open partition table on device <filename>%1</filename> to set "
-#| "the system type for partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open partition table on device <filename>%1</filename> to set the "
 "UUID for the partition <filename>%2</filename>."
 msgstr ""
-"تعذّر فتح جدول التقسيم على الجهاز <filename>%1</filename> لتعيين نوع النظام "
-"للقسم <filename>%2</filename>."
+"تعذّر فتح جدول التقسيم على الجهاز <filename>%1</filename> لتعيين UUID للقسم "
+"<filename>%2</filename>."
 
 #: jobs/setpartitionuuidjob.cpp:63
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not open device <filename>%1</filename> to set the system type for "
-#| "partition <filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not open device <filename>%1</filename> to set the UUID for partition "
 "<filename>%2</filename>."
 msgstr ""
-"تعذّر فتح الجهاز <filename>%1</filename> لتعيين نوع النظام للقسم <filename>"
-"%2</filename>."
+"تعذّر فتح الجهاز <filename>%1</filename> لتعيين UUID للقسم <filename>%2</"
+"filename>."
 
 #: jobs/setpartitionuuidjob.cpp:74
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
-msgstr "عيّن لصيقة القسم <filename>%1</filename> إلى \"%2\""
+msgstr "عيّن UUID للقسم <filename>%1</filename> إلى \"%2\""
 
 #: jobs/shredfilesystemjob.cpp:61
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not open random data source to overwrite file system."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Could not open random data source to overwrite file system."
 msgstr "تعذّر فتح مصدر البيانات العشوائية للكتابة فوق نظام الملفات."
 
 #: jobs/shredfilesystemjob.cpp:77
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Shred the file system on <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Shred the file system on <filename>%1</filename>"
 msgstr "مزّق نظام الملفات في <filename>%1</filename>"
 
 #: ops/backupoperation.cpp:39
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Backup partition <filename>%1</filename> (%2, %3) to <filename>%4</"
-#| "filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Backup partition <filename>%1</filename> (%2, %3) to <filename>%4</filename>"
@@ -3033,102 +2730,74 @@ msgstr ""
 "filename>"
 
 #: ops/checkoperation.cpp:50
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Check and repair partition <filename>%1</filename> (%2, %3)"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Check and repair partition <filename>%1</filename> (%2, %3)"
 msgstr "تحقّق وأصلح القسم <filename>%1</filename> (%2، %3)"
 
 #: ops/copyoperation.cpp:147 ops/restoreoperation.cpp:131
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Warning: Maximizing file system on target partition <filename>%1</"
-#| "filename> to the size of the partition failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "<warning>Maximizing file system on target partition <filename>%1</filename> "
 "to the size of the partition failed.</warning>"
 msgstr ""
-"تحذير: فشل تكبير نظام الملفات في القسم الهدف <filename>%1</filename> إلى حجم "
-"القسم."
+"<warning> فشل تكبير نظام الملفات في القسم الهدف <filename>%1</filename> إلى "
+"حجم القسم.</warning>"
 
 #: ops/copyoperation.cpp:151
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Checking target partition <filename>%1</filename> after copy failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking target partition <filename>%1</filename> after copy failed."
 msgstr "فشل التحقّق من القسم <filename>%1</filename> بعد النسخ."
 
 #: ops/copyoperation.cpp:158
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Copying source to target partition failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Copying source to target partition failed."
 msgstr "فشل نسخ المصدر إلى القسم الهدف."
 
 #: ops/copyoperation.cpp:161
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Creating target partition for copying failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating target partition for copying failed."
 msgstr "فشل إنشاء القسم الهدف للنسخ."
 
 #: ops/copyoperation.cpp:163
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Checking source partition <filename>%1</filename> failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking source partition <filename>%1</filename> failed."
 msgstr "فشل التحقّق من القسم المصدر <filename>%1</filename>."
 
 #: ops/copyoperation.cpp:170 ops/operation.cpp:174 ops/resizeoperation.cpp:175
 #: ops/restoreoperation.cpp:148
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain job status (error, warning, ...)"
-#| msgid "%1: %2"
+#, kde-kuit-format
 msgctxt "@info:status (success, error, warning...) of operation"
 msgid "%1: %2"
 msgstr "%1: %2"
 
 #: ops/copyoperation.cpp:179
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copy partition <filename>%1</filename> (%2, %3) to <filename>%4</"
-#| "filename> (%5, %6)"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to <filename>%4</filename> "
 "(%5, %6)"
 msgstr ""
-"انسخ القسم <filename>%1</filename> (%2، %3) إلى <filename>%4</filename> (%5، "
-"%6)"
+"انسخ القسم  <filename>%1</filename> (%2، %3) إلى <filename>%4</filename> "
+"(%5، %6)"
 
 #: ops/copyoperation.cpp:188
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copy partition <filename>%1</filename> (%2, %3) to <filename>%4</"
-#| "filename> (%5, %6)"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to <filename>%4</filename> "
 "(%5, %6) and grow it to %7"
 msgstr ""
-"انسخ القسم <filename>%1</filename> (%2، %3) إلى <filename>%4</filename> (%5، "
-"%6)"
+"انسخ القسم <filename>%1</filename> (%2، %3) إلى <filename>%4</filename> (%5, "
+"%6) وقم بزيادته إلى %7"
 
 #: ops/copyoperation.cpp:200
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copy partition <filename>%1</filename> (%2, %3) to unallocated space "
-#| "(starting at %4) on <filename>%5</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to unallocated space "
@@ -3138,71 +2807,53 @@ msgstr ""
 "عند %4) في <filename>%5</filename>"
 
 #: ops/copyoperation.cpp:208
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Copy partition <filename>%1</filename> (%2, %3) to unallocated space "
-#| "(starting at %4) on <filename>%5</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Copy partition <filename>%1</filename> (%2, %3) to unallocated space "
 "(starting at %4) on <filename>%5</filename> and grow it to %6"
 msgstr ""
 "انسخ القسم <filename>%1</filename> (%2، %3) إلى المساحة غير المخصّصة (تبدأ "
-"عند %4) في <filename>%5</filename>"
+"عند %4) في <filename>%5</filename> وستكبر إلى %6"
 
 #: ops/createfilesystemoperation.cpp:89
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create filesystem %1 on partition <filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create filesystem %1 on partition <filename>%2</filename>"
 msgstr "أنشئ نظام الملفات %1 في القسم <filename>%2</filename>"
 
 #: ops/createpartitiontableoperation.cpp:104
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
 msgstr "أنشئ جدول تقسيم جديد (النوع: %1) في <filename>%2</filename>"
 
 #: ops/createvolumegroupoperation.cpp:36
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Create a new partition."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Create a new LVM volume group named '%1'."
-msgstr "أنشئ قسمًا جديدًا."
+msgstr "قم بإنشاء مجموعة وحدة تخزين LVM جديدة باسم '%1'."
 
 #: ops/deactivatevolumegroupoperation.cpp:35
-#, fuzzy, kde-kuit-format
-#| msgctxt "@title:menu"
-#| msgid "Deactivate swap"
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Deactivate volume group."
-msgstr "عطّل التبديل"
+msgstr "ألغ تنشيط مجموعة وحدات التخزين"
 
 #: ops/deleteoperation.cpp:87
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Shred partition <filename>%1</filename> (%2, %3)"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Shred partition <filename>%1</filename> (%2, %3)"
 msgstr "مزّق القسم <filename>%1</filename> (%2، %3)"
 
 #: ops/deleteoperation.cpp:89
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Delete partition <filename>%1</filename> (%2, %3)"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "احذف القسم <filename>%1</filename> (%2، %3)"
 
 #: ops/newoperation.cpp:205
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Create a new partition (%1, %2) on <filename>%3</filename>"
 msgstr "أنشئ قسم جديد (%1، %2) في <filename>%3</filename>"
@@ -3244,175 +2895,125 @@ msgid "Error"
 msgstr "خطأ"
 
 #: ops/removevolumegroupoperation.cpp:35
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:status"
-#| msgid "Create a new partition."
+#, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Remove a LVM volume group."
-msgstr "أنشئ قسمًا جديدًا."
+msgstr "أزل مجموعة وحدات التخزين LVM."
 
 #: ops/resizeoperation.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Moving extended partition <filename>%1</filename> failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving extended partition <filename>%1</filename> failed."
 msgstr "فشل نقل القسم الممتد <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:165
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Checking partition <filename>%1</filename> after resize/move failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> after resize/move failed."
 msgstr "فشل التحقّق من القسم <filename>%1</filename> بعد تغيير حجمه/نقله."
 
 #: ops/resizeoperation.cpp:168
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Resizing/moving partition <filename>%1</filename> failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resizing/moving partition <filename>%1</filename> failed."
 msgstr "فشل تغيير حجم/نقل القسم <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:171
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Checking partition <filename>%1</filename> before resize/move failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Checking partition <filename>%1</filename> before resize/move failed."
 msgstr "فشل التحقّق من القسم <filename>%1</filename> قبل تغيير حجمه/نقله."
 
 #: ops/resizeoperation.cpp:201
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid "Move partition <filename>%1</filename> to the left by %2"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the left by %2"
 msgstr "انقل القسم <filename>%1</filename> إلى اليسار بمقدار %2"
 
 #: ops/resizeoperation.cpp:204
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid "Move partition <filename>%1</filename> to the right by %2"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Move partition <filename>%1</filename> to the right by %2"
 msgstr "انقل القسم <filename>%1</filename> إلى اليمين بمقدار %2"
 
 #: ops/resizeoperation.cpp:207
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid "Shrink partition <filename>%1</filename> from %2 to %3"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Grow partition <filename>%1</filename> from %2 to %3"
-msgstr "مزّق القسم <filename>%1</filename> من %2 إلى %3"
+msgstr "كبّر القسم <filename>%1</filename> من %2 إلى %3"
 
 #: ops/resizeoperation.cpp:210
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid "Shrink partition <filename>%1</filename> from %2 to %3"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Shrink partition <filename>%1</filename> from %2 to %3"
-msgstr "مزّق القسم <filename>%1</filename> من %2 إلى %3"
+msgstr "صغّر القسم <filename>%1</filename> من %2 إلى %3"
 
 #: ops/resizeoperation.cpp:213
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid ""
-#| "Move partition <filename>%1</filename> to the left by %2 and shrink it "
-#| "from %3 to %4"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the left by %2 and grow it from %3 "
 "to %4"
 msgstr ""
-"انقل القسم <filename>%1</filename> إلى اليسار بمقدار %2 ومزّقه من %3 إلى %4"
+"انقل القسم <filename>%1</filename> إلى اليسار بمقدار %2 وكبّره من %3 إلى %4"
 
 #: ops/resizeoperation.cpp:216
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid ""
-#| "Move partition <filename>%1</filename> to the right by %2 and shrink it "
-#| "from %3 to %4"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the right by %2 and grow it from "
 "%3 to %4"
 msgstr ""
-"انقل القسم <filename>%1</filename> إلى اليمين بمقدار %2 ومزّقه من %3 إلى %4"
+"انقل القسم <filename>%1</filename> إلى اليمين بمقدار %2 وكبّره من %3 إلى %4"
 
 #: ops/resizeoperation.cpp:219
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid ""
-#| "Move partition <filename>%1</filename> to the left by %2 and shrink it "
-#| "from %3 to %4"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the left by %2 and shrink it from "
 "%3 to %4"
 msgstr ""
-"انقل القسم <filename>%1</filename> إلى اليسار بمقدار %2 ومزّقه من %3 إلى %4"
+"انقل القسم <filename>%1</filename> إلى اليسار بمقدار %2 وصغّره من %3 إلى %4"
 
 #: ops/resizeoperation.cpp:222
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid ""
-#| "Move partition <filename>%1</filename> to the right by %2 and shrink it "
-#| "from %3 to %4"
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid ""
 "Move partition <filename>%1</filename> to the right by %2 and shrink it from "
 "%3 to %4"
 msgstr ""
-"انقل القسم <filename>%1</filename> إلى اليمين بمقدار %2 ومزّقه من %3 إلى %4"
+"انقل القسم <filename>%1</filename> إلى اليمين بمقدار %2 وصغّره من %3 إلى %4"
 
 #: ops/resizeoperation.cpp:229
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain describe resize/move action"
-#| msgid "Unknown resize/move action."
+#, kde-kuit-format
 msgctxt "@info:status describe resize/move action"
 msgid "Unknown resize/move action."
 msgstr "إجراء تغيير حجم/نقل مجهول."
 
 #: ops/resizeoperation.cpp:258
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resize/move failed: Could not resize file system to shrink partition "
-#| "<filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Resize/move failed: Could not resize file system to shrink partition "
 "<filename>%1</filename>."
 msgstr ""
-"فشل تغيير الحجم/النقل: تعذّر تغيير حجم نظام الملفات لتمزيق القسم <filename>"
+"فشل تغيير الحجم/النقل: تعذّر تغيير حجم نظام الملفات لتصغير القسم <filename>"
 "%1</filename>."
 
 #: ops/resizeoperation.cpp:263
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resize/move failed: Could not shrink partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not shrink partition <filename>%1</filename>."
-msgstr "فشل تغيير الحجم/النقل: تعذّر تمزيق القسم <filename>%1</filename>."
+msgstr "فشل تغيير الحجم/النقل: تعذّر تصغير القسم <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:282
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Moving partition <filename>%1</filename> failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Moving partition <filename>%1</filename> failed."
 msgstr "فشل نقل القسم <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:287
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Moving the filesystem for partition <filename>%1</filename> failed. "
-#| "Rolling back."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Moving the filesystem for partition <filename>%1</filename> failed. Rolling "
@@ -3420,11 +3021,7 @@ msgid ""
 msgstr "فشل نقل نظام ملفات القسم <filename>%1</filename>. يتراجع."
 
 #: ops/resizeoperation.cpp:291
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Moving back partition <filename>%1</filename> to its original position "
-#| "failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Moving back partition <filename>%1</filename> to its original position "
@@ -3432,20 +3029,13 @@ msgid ""
 msgstr "فشل نقل القسم <filename>%1</filename> إلى موقعه الأصلي."
 
 #: ops/resizeoperation.cpp:304
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resize/move failed: Could not shrink partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Resize/move failed: Could not grow partition <filename>%1</filename>."
-msgstr "فشل تغيير الحجم/النقل: تعذّر تمزيق القسم <filename>%1</filename>."
+msgstr "فشل تغيير الحجم/النقل: تعذّر تكبير القسم <filename>%1</filename>."
 
 #: ops/resizeoperation.cpp:309
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Resize/move failed: Could not resize the file system on partition "
-#| "<filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Resize/move failed: Could not resize the file system on partition <filename>"
@@ -3455,11 +3045,7 @@ msgstr ""
 "filename>"
 
 #: ops/resizeoperation.cpp:312
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not restore old partition size for partition <filename>%1</"
-#| "filename>."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Could not restore old partition size for partition <filename>%1</filename>."
@@ -3469,14 +3055,10 @@ msgstr "تعذّرت استعادة حجم القرص السابق للقسم <f
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Resize volume %1 from %2 to %3"
-msgstr ""
+msgstr "تغيير حجم المجلد %1 من %2 إلى %3"
 
 #: ops/restoreoperation.cpp:133
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Checking target file system on partition <filename>%1</filename> after "
-#| "the restore failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Checking target file system on partition <filename>%1</filename> after the "
@@ -3486,37 +3068,26 @@ msgstr ""
 "استعادته."
 
 #: ops/restoreoperation.cpp:138
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Restoring file system failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Restoring file system failed."
 msgstr "فشل استعادة نظام الملفات."
 
 #: ops/restoreoperation.cpp:141
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Creating target partition for copying failed."
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Creating the destination partition to restore to failed."
-msgstr "فشل إنشاء القسم الهدف للنسخ."
+msgstr "فشلت عملية إنشاء قسم الوجهة لاستعادته."
 
 #: ops/restoreoperation.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Restore partition from <filename>%1</filename> to <filename>%2</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Restore partition from <filename>%1</filename> to <filename>%2</filename>"
 msgstr "استعد القسم من <filename>%1</filename> إلى <filename>%2</filename>"
 
 #: ops/restoreoperation.cpp:158
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Restore partition on <filename>%1</filename> at %2 from <filename>%3</"
-#| "filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid ""
 "Restore partition on <filename>%1</filename> at %2 from <filename>%3</"
@@ -3525,69 +3096,50 @@ msgstr ""
 "استعد القسم في <filename>%1</filename> عند %2 من <filename>%3</filename>"
 
 #: ops/setfilesystemlabeloperation.cpp:58
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set label for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> to \"%2\""
 msgstr "عيّن لصيقة القسم <filename>%1</filename> إلى \"%2\""
 
 #: ops/setfilesystemlabeloperation.cpp:60
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Set label for partition <filename>%1</filename> from \"%2\" to \"%3\""
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set label for partition <filename>%1</filename> from \"%2\" to \"%3\""
 msgstr "عيّن لصيقة القسم <filename>%1</filename> من \"%2\" إلى \"%3\""
 
 #: ops/setpartflagsoperation.cpp:62
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Clear flags for partition <filename>%1</filename>"
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Clear flags for partition <filename>%1</filename>"
 msgstr "امحُ الأعلام للقسم <filename>%1</filename>"
 
 #: ops/setpartflagsoperation.cpp:64
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Set flags for partition <filename>%1</filename> to \"%2\""
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr "عيّن أعلام القسم <filename>%1</filename> إلى \"%2\""
 
-#: plugins/sfdisk/sfdiskbackend.cpp:219
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Device found: %1"
+#: plugins/sfdisk/sfdiskbackend.cpp:243
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Software RAID Device found: %1"
-msgstr "عُثر على الجهاز: %1"
+msgstr "عُثر على جهاز RAID برمجي: %1"
 
-#: plugins/sfdisk/sfdiskbackend.cpp:249
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Device found: %1"
+#: plugins/sfdisk/sfdiskbackend.cpp:273
+#, kde-kuit-format
 msgctxt "@info:status"
 msgid "Device found: %1"
-msgstr "عُثر على الجهاز: %1"
+msgstr "عثر على الجهاز: %1"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:65
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Setting label for partition <filename>%1</filename> to %2"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Unknown partition role for new partition <filename>%1</filename> (roles: %2)"
-msgstr "تعيين لصيقة القسم <filename>%1</filename> إلى \"%2"
+msgstr "دور قسم غير معروف للقسم الجديد <filename>%1</filename> (الأدوار: %2)"
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:89
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Failed to add partition <filename>%1</filename> to device <filename>%2</"
-#| "filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to add partition <filename>%1</filename> to device <filename>%2</"
@@ -3596,11 +3148,7 @@ msgstr ""
 "فشل إضافة القسم <filename>%1</filename> إلى الجهاز <filename>%2</filename>."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:114
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not set geometry for partition <filename>%1</filename> while trying "
-#| "to resize/move it."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not set geometry for partition <filename>%1</filename> while trying to "
@@ -3609,21 +3157,14 @@ msgstr ""
 "تعذّر تعيين هندسة القسم <filename>%1</filename> أثناء محاولة تغيير حجمه/نقله."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:124
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Failed to erase filesystem signature on partition <filename>%1</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Failed to erase filesystem signature on partition <filename>%1</filename>."
 msgstr "فشل مسح توقيع نظام الملفات في القسم <filename>%1</filename>."
 
 #: plugins/sfdisk/sfdiskpartitiontable.cpp:157
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid ""
-#| "Could not determine file system of partition at sector %1 on device "
-#| "<filename>%2</filename>."
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid ""
 "Could not determine file system of partition at sector %1 on device "
@@ -3632,8 +3173,7 @@ msgstr ""
 "تعذّر تحديد نظام ملفات القسم عند القطاع %1 في الجهاز <filename>%2</filename>."
 
 #: util/capacity.cpp:100
-#, fuzzy, kde-kuit-format
-#| msgid "Byte"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "Byte"
 msgid_plural "Bytes"
@@ -3645,149 +3185,121 @@ msgstr[4] "بايت"
 msgstr[5] "بايت"
 
 #: util/capacity.cpp:101
-#, fuzzy, kde-kuit-format
-#| msgid "KiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "KiB"
 msgstr "ك.بايت"
 
 #: util/capacity.cpp:102
-#, fuzzy, kde-kuit-format
-#| msgid "MiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "MiB"
 msgstr "م.بايت"
 
 #: util/capacity.cpp:103
-#, fuzzy, kde-kuit-format
-#| msgid "GiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "GiB"
 msgstr "ج.بايت"
 
 #: util/capacity.cpp:104
-#, fuzzy, kde-kuit-format
-#| msgid "TiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "TiB"
 msgstr "ت.بايت"
 
 #: util/capacity.cpp:105
-#, fuzzy, kde-kuit-format
-#| msgid "PiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "PiB"
 msgstr "ب.بايت"
 
 #: util/capacity.cpp:106
-#, fuzzy, kde-kuit-format
-#| msgid "EiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "EiB"
 msgstr "إك.بايت"
 
 #: util/capacity.cpp:107
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain unit"
-#| msgid "ZiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "ZiB"
 msgstr "ز.بايت"
 
 #: util/capacity.cpp:108
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain unit"
-#| msgid "YiB"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "YiB"
 msgstr "ي.بايت"
 
 #: util/capacity.cpp:112
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain unit"
-#| msgid "(unknown unit)"
+#, kde-kuit-format
 msgctxt "@item:intext unit"
 msgid "(unknown unit)"
 msgstr "(وحدة مجهولة)"
 
-#: util/externalcommand.cpp:111 util/externalcommand.cpp:114
-#: util/externalcommand.cpp:226
+#: util/externalcommand.cpp:114 util/externalcommand.cpp:118
+#: util/externalcommand.cpp:241
 #, kde-kuit-format
 msgctxt "@info:status"
 msgid "Command: %1 %2"
-msgstr ""
+msgstr "الأمر: %1 %2"
 
 #: util/externalcommandhelper.cpp:82
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for reading."
-msgstr "تعذّر فتح الجهاز <filename>%1</filename> للتراجع عن النسخ."
+msgstr "تعذّر فتح الجهاز <filename>%1</filename> للقراءة."
 
 #: util/externalcommandhelper.cpp:89 util/externalcommandhelper.cpp:120
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not seek position %1 on device <filename>%2</filename>."
-msgstr "تعذّر الوصول للجهاز <filename>%1</filename>"
+msgstr "تعذر البحث عن الموضع %1 على الجهاز <filename>%2</filename>."
 
 #: util/externalcommandhelper.cpp:96
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not read from device <filename>%1</filename>."
-msgstr "تعذّر الوصول للجهاز <filename>%1</filename>"
+msgstr "تعذّرت القراءة من الجهاز <filename>%1</filename>"
 
 #: util/externalcommandhelper.cpp:114
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#, kde-kuit-format
 msgid "Could not open device <filename>%1</filename> for writing."
-msgstr "تعذّر فتح الجهاز <filename>%1</filename> للتراجع عن النسخ."
+msgstr "تعذّر فتح الجهاز <filename>%1</filename> للكتابة."
 
 #: util/externalcommandhelper.cpp:125
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not write to device <filename>%1</filename>."
-msgstr "تعذّر الوصول للجهاز <filename>%1</filename>"
+msgstr "تعذّرت الكتابة على الجهاز <filename>%1</filename>."
 
 #: util/externalcommandhelper.cpp:151
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not open device <filename>%1</filename> to rollback copying."
+#, kde-kuit-format
 msgid "Could not open file <filename>%1</filename> for writing."
-msgstr "تعذّر فتح الجهاز <filename>%1</filename> للتراجع عن النسخ."
+msgstr "تعذّر فتح الملف <filename>%1</filename> للكتابة."
 
 #: util/externalcommandhelper.cpp:156
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Could not access device <filename>%1</filename>"
+#, kde-kuit-format
 msgid "Could not write to file <filename>%1</filename>."
-msgstr "تعذّر الوصول للجهاز <filename>%1</filename>"
+msgstr "تعذّرت الكتابة في الملفّ <filename>%1</filename>."
 
 #: util/externalcommandhelper.cpp:237
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 chunks (%2 bytes) from %3 to %4, direction: %5."
-msgstr ""
+msgstr "نسخ أجزاء %1 (%2 بايت) من %3 إلى %4، الاتجاه: %5."
 
 #: util/externalcommandhelper.cpp:238
 #, kde-format
 msgctxt "direction: left"
 msgid "left"
-msgstr ""
+msgstr "يسار"
 
 #: util/externalcommandhelper.cpp:239
 #, kde-format
 msgctxt "direction: right"
 msgid "right"
-msgstr ""
+msgstr "يمين"
 
 #: util/externalcommandhelper.cpp:261
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info/plain"
-#| msgid "Copying %1 MiB/second, estimated time left: %2"
+#, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying %1 MiB/second, estimated time left: %2"
 msgstr "ينسخ %1 م.بايت/ثانية، الوقت المتبقي المقدّر: %2"
@@ -3796,56 +3308,49 @@ msgstr "ينسخ %1 م.بايت/ثانية، الوقت المتبقي المق�
 #, kde-kuit-format
 msgctxt "@info:progress"
 msgid "Copying remainder of chunk size %1 from %2 to %3."
-msgstr ""
+msgstr "نسخ باقي حجم القطعة %1 من %2 إلى %3."
 
 #: util/externalcommandhelper.cpp:288
 #, kde-format
 msgid "1 byte"
 msgid_plural "%1 bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
+msgstr[0] "صفر بايت"
+msgstr[1] "%1 بايت"
+msgstr[2] "%1 بايت"
+msgstr[3] "%1 بايت"
+msgstr[4] "%1 بايت"
+msgstr[5] "%1 بايت"
 
 #: util/externalcommandhelper.cpp:288
-#, fuzzy, kde-kuit-format
-#| msgctxt ""
-#| "@info/plain argument 2 is a string such as 7 sectors (localized "
-#| "accordingly)"
-#| msgid "Copying 1 block (%2) finished."
-#| msgid_plural "Copying %1 blocks (%2) finished."
+#, kde-kuit-format
 msgctxt ""
 "@info:progress argument 2 is a string such as 7 bytes (localized accordingly)"
 msgid "Copying 1 chunk (%2) finished."
 msgid_plural "Copying %1 chunks (%2) finished."
 msgstr[0] "اكتمل نسخ لا كتل (%2)."
 msgstr[1] "اكتمل نسخ كتلة واحدة (%2)."
-msgstr[2] "اكتمل نسخ كتلتان (%2)."
+msgstr[2] "اكتمل نسخ كتلتين (%2)."
 msgstr[3] "اكتمل نسخ %1 كتل (%2)."
 msgstr[4] "اكتمل نسخ %1 كتلة (%2)."
 msgstr[5] "اكتمل نسخ %1 كتلة (%2)."
 
 #: util/helpers.cpp:49
-#, fuzzy, kde-kuit-format
-#| msgctxt "@action:button"
-#| msgid "Quit <application>%1</application>"
+#, kde-kuit-format
 msgctxt "@title"
 msgid "<application>KPMcore</application>"
-msgstr "أنهِ <application>%1</application>"
+msgstr "<application> كي بي إم كور </application>"
 
 #: util/helpers.cpp:50
 #, kde-kuit-format
 msgctxt "@title"
 msgid "Library for managing partitions"
-msgstr ""
+msgstr "مكتبة لإدارة الأقسام"
 
 #: util/helpers.cpp:51
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "&copy; 2008-2022 KPMcore developers"
-msgstr ""
+msgstr "&copy; مطورو KPMcore 2008-2022"
 
 #: util/helpers.cpp:56
 #, kde-kuit-format
@@ -3857,98 +3362,91 @@ msgstr "Volker Lanz"
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Former maintainer"
-msgstr ""
+msgstr "الصائن السّابق"
 
 #: util/helpers.cpp:57
-#, fuzzy, kde-kuit-format
-#| msgid "Andrius Štikonas"
+#, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Andrius Štikonas"
-msgstr "Andrius Štikonas"
+msgstr "أندريوس شتيكوناس"
 
 #: util/helpers.cpp:57
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Maintainer"
-msgstr ""
+msgstr "الصائن"
 
 #: util/helpers.cpp:58
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Teo Mrnjavac"
-msgstr ""
+msgstr "ثيو مرنجافاك"
 
 #: util/helpers.cpp:58
 #, kde-format
 msgctxt "@info:credit"
 msgid "Former Calamares maintainer"
-msgstr ""
+msgstr "مشرف كالاماريس السابق"
 
 #: util/helpers.cpp:59
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Chantara Tith"
-msgstr ""
+msgstr "شانتارا تيث"
 
 #: util/helpers.cpp:59
-#, fuzzy, kde-format
-#| msgctxt "@info:credit"
-#| msgid "Btrfs support"
+#, kde-format
 msgctxt "@info:credit"
 msgid "LVM support"
-msgstr "دعم Btrfs"
+msgstr "دعم LVM"
 
 #: util/helpers.cpp:60
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Pali Rohár"
-msgstr ""
+msgstr "بالي روهار"
 
 #: util/helpers.cpp:60
-#, fuzzy, kde-format
-#| msgctxt "@info:credit"
-#| msgid "Btrfs support"
+#, kde-format
 msgctxt "@info:credit"
 msgid "UDF support"
-msgstr "دعم Btrfs"
+msgstr "دعم UDF"
 
 #: util/helpers.cpp:61
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Adriaan de Groot"
-msgstr ""
+msgstr "أدريان دي غروت"
 
 #: util/helpers.cpp:61
 #, kde-format
 msgctxt "@info:credit"
 msgid "Calamares maintainer"
-msgstr ""
+msgstr "مشرف كالاماريس"
 
 #: util/helpers.cpp:62
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "Caio Jordão Carvalho"
-msgstr ""
+msgstr "كايو جورداو كارفالو"
 
 #: util/helpers.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@action:button"
-#| msgid "Save SMART Report"
+#, kde-format
 msgctxt "@info:credit"
 msgid "Improved SMART support"
-msgstr "احفظ تقرير SMART"
+msgstr "دعم SMART محسّن"
 
 #: util/helpers.cpp:63
 #, kde-kuit-format
 msgctxt "@info:credit"
 msgid "David Edmundson"
-msgstr ""
+msgstr "ديفيد إدموندسون"
 
 #: util/helpers.cpp:63
 #, kde-format
 msgctxt "@info:credit"
 msgid "Port from KAuth to Polkit"
-msgstr ""
+msgstr "نقل من KAuth إلى Polkit"
 
 #: util/htmlreport.cpp:51 util/htmlreport.cpp:58
 #, kde-format
@@ -3971,10 +3469,9 @@ msgid "Backend:"
 msgstr "التتبّع الخلفي:"
 
 #: util/htmlreport.cpp:69
-#, fuzzy, kde-format
-#| msgid "KDE version:"
+#, kde-format
 msgid "KDE Frameworks version:"
-msgstr "إصدار كدي:"
+msgstr "إصدارة إطار كِيدِي:"
 
 #: util/htmlreport.cpp:70
 #, kde-format
@@ -4320,7 +3817,7 @@ msgstr "الآلة:"
 
 #~ msgctxt "@label"
 #~ msgid "Is this the first time KDE Partition Manager is being run?"
-#~ msgstr "هل هذا أول تشغيل لمدير كدي للأقسام؟"
+#~ msgstr "هل هذا أول تشغيل لمدير كِيدِي للأقسام؟"
 
 #~ msgctxt "@label"
 #~ msgid "Hide log messages below"
@@ -5359,7 +4856,7 @@ msgstr "الآلة:"
 
 #~ msgctxt "@title:window"
 #~ msgid "KDE Partition Manager"
-#~ msgstr "مدير كدي للأقسام"
+#~ msgstr "مدير كِيدِي للأقسام"
 
 #~ msgctxt "@title:window"
 #~ msgid "Devices"
@@ -5898,7 +5395,7 @@ msgstr "الآلة:"
 
 #~ msgctxt "@title"
 #~ msgid "<application>KDE Partition Manager</application>"
-#~ msgstr "<application>مدير كدي للأقسام</application>"
+#~ msgstr "<application>مدير كِيدِي للأقسام</application>"
 
 #~ msgctxt "@title"
 #~ msgid "Manage your disks, partitions and file systems"

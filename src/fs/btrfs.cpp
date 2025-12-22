@@ -130,7 +130,7 @@ qint64 btrfs::readUsedCapacity(const QString& deviceNode) const
 
 bool btrfs::check(Report& report, const QString& deviceNode) const
 {
-    ExternalCommand cmd(report, QStringLiteral("btrfs"), { QStringLiteral("check"), QStringLiteral("--repair"), deviceNode });
+    ExternalCommand cmd(report, QStringLiteral("btrfs"), { QStringLiteral("check"), deviceNode });
     return cmd.run(-1) && cmd.exitCode() == 0;
 }
 
@@ -141,14 +141,14 @@ bool btrfs::create(Report& report, const QString& deviceNode)
     if (!this->features().isEmpty()) {
         QStringList feature_list = QStringList();
         for (const auto& k : this->features().keys()) {
-	    const auto& v = this->features().value(k);
-            if (v.type() == QVariant::Type::Bool) {
+            const auto& v = this->features().value(k);
+            if (v.typeId() == QMetaType::Type::Bool) {
                 if (v.toBool())
                     feature_list << k;
-		else
+                else
                     feature_list << (QStringLiteral("^") +  k);
             } else {
-                qWarning() << "Ignoring feature" << k << "of type" << v.type() << "; requires type QVariant::bool.";
+                qWarning() << "Ignoring feature" << k << "of type" << v.typeId() << "; requires type QMetaType::Type::Bool.";
             }
         }
         args << QStringLiteral("--features") << feature_list.join(QStringLiteral(","));
@@ -185,7 +185,8 @@ bool btrfs::resize(Report& report, const QString& deviceNode, qint64 length) con
 
         if (!unmountCmd.run(-1) && unmountCmd.exitCode() == 0)
             report.line() << xi18nc("@info:progress", "<warning>Resizing Btrfs file system on partition <filename>%1</filename>: Unmount failed.</warning>", deviceNode);
-    } else
+    }
+    else
         report.line() << xi18nc("@info:progress", "Resizing Btrfs file system on partition <filename>%1</filename> failed: Initial mount failed.", deviceNode);
 
     return rval;

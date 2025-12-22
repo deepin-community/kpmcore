@@ -361,10 +361,6 @@ QVariantMap ExternalCommandHelper::RunCommand(const QString& command, const QStr
         return {};
     }
 
-#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
-    QTextCodec::setCodecForLocale(QTextCodec::codecForName("UTF-8"));
-#endif
-
     QVariantMap reply;
     reply[QStringLiteral("success")] = false;
 
@@ -482,3 +478,5 @@ int main(int argc, char ** argv)
     ExternalCommandHelper helper;
     app.exec();
 }
+
+#include "moc_externalcommandhelper.cpp"
